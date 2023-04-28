@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify geo local changes is not applicable for digital / pre sale / special items</description>
+   <name>TC_GeoLocal_43</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f2e36a8-4488-4529-bfcf-9091775f8d4b</testCaseGuid>
+</TestCaseEntity>

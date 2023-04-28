@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>figcaption_Set Exfoliante de Arroz y Orqude_debd94</name>
+   <tag></tag>
+   <elementGuidId>f70acbf2-d0b3-422d-948d-68a8cd2d58d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div[4]/main/div[2]/div/div/ul/li[2]/a/div/figure/figcaption</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>figcaption</value>
+      <webElementGuid>fb81e862-89d0-4cd6-bf3b-2b39a7339388</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-figureCard__figcaption card-body d-flex flex-column align-items-start a-plp-product-info</value>
+      <webElementGuid>1a86c533-31ed-4917-888e-727e028582da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Set Exfoliante de Arroz y Orquídeas Blancas Schätz &amp; Cattani 250 ml</value>
+      <webElementGuid>402860c3-0f17-4f7a-8626-9e25f3c5c81a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;min-vh-100&quot;]/div[@class=&quot;container-fluid o-main-container p-0 o-plp-secondaryContainer&quot;]/div[@class=&quot;container o-container__secondary search---&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/main[@class=&quot;col-lg-9 m-column_mainContent&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 p-2 p-lg-1&quot;]/div[@class=&quot;o-listing__products&quot;]/ul[@class=&quot;m-product__listingPlp&quot;]/li[@class=&quot;m-product__card card-masonry a&quot;]/a[1]/div[@class=&quot;m-plp-card-container&quot;]/figure[@class=&quot;m-figureCard__figure card m-plp-product-card m-card&quot;]/figcaption[@class=&quot;m-figureCard__figcaption card-body d-flex flex-column align-items-start a-plp-product-info&quot;]</value>
+      <webElementGuid>4f425861-d982-4b28-b55e-55e77e51694c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div[4]/main/div[2]/div/div/ul/li[2]/a/div/figure/figcaption</value>
+      <webElementGuid>6c95982e-ef8a-4192-a11e-9963ec5af8f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comparar'])[1]/following::figcaption[1]</value>
+      <webElementGuid>07afb666-279e-4db5-81e6-5d5dac15e416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Crema de Verbena Unisex L', &quot;'&quot;, 'Occitane')])[1]/following::figcaption[1]</value>
+      <webElementGuid>cdd16eeb-f608-452b-988e-ee3d7d696c15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comparar'])[2]/preceding::figcaption[1]</value>
+      <webElementGuid>9800e460-a108-401c-8ba4-d892984648fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/div/figure/figcaption</value>
+      <webElementGuid>8d59a4d3-50c1-4cc4-b31d-640d24ba63c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//figcaption[(text() = 'Set Exfoliante de Arroz y Orquídeas Blancas Schätz &amp; Cattani 250 ml' or . = 'Set Exfoliante de Arroz y Orquídeas Blancas Schätz &amp; Cattani 250 ml')]</value>
+      <webElementGuid>2ea84e2b-c37b-49db-886c-19f9d35ae36c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

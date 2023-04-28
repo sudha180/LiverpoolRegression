@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the functionality “Ver Detalle” button for the softline item with the “Regalo ” flag in PLP.</description>
+   <name>TC_BS_072_gwp</name>
+   <tag>gwp</tag>
+   <comment></comment>
+   <testCaseGuid>ddfabae2-a60c-4759-b2cf-475a81f6b9e0</testCaseGuid>
+</TestCaseEntity>

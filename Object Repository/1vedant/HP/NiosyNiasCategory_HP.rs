@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NiosyNiasCategory_HP</name>
+   <tag></tag>
+   <elementGuidId>42462344-c0e7-4d86-a7f9-389be68c0669</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='col-lg-10']/span[contains(text(),'Niños y Niñas')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>cf916920-9b63-4f89-9924-82cdec845fef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1678034080072</value>
+      <webElementGuid>c6d1adf0-8a22-4682-bf2d-180dd040902f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that user is able to move the price slider Within MIN - MAX range</description>
+   <name>TC_BS_388</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a63c4f39-554a-465c-adb0-8c7e65ac2ed7</testCaseGuid>
+</TestCaseEntity>

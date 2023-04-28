@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Mis Compras_a-header__logo</name>
+   <tag></tag>
+   <elementGuidId>a092817e-1b3e-4375-b6a7-23ca76559c91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/header/div[3]/div/div/div/div/div[2]/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.a-header__logo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>0b356a71-348e-41ea-b78b-64e0b64d3f8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://assetspwa.liverpool.com.mx/assets/images/logos/liverpool-logo.svg</value>
+      <webElementGuid>fe18fe11-8cd4-4881-9392-978d515689e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-header__logo</value>
+      <webElementGuid>02ee91d3-5ff9-4b94-ba81-d4223485c0c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Liverpool Logo</value>
+      <webElementGuid>e34d884a-0b85-4da4-ade2-54f9235943d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Liverpool Logo</value>
+      <webElementGuid>cecbb604-f124-48e9-ae0a-4fdb42c22542</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/header[1]/div[@class=&quot;o-header noSearchBar d-flex align-items-center d-lg-block&quot;]/div[@class=&quot;o-container__fluid container-fluid&quot;]/div[@class=&quot;o-container container p-0&quot;]/div[@class=&quot;m-searchBar&quot;]/div[@class=&quot;o-checkout__header o-row row align-items-center no-gutters pt-2 pt-lg-2 pb-lg-2&quot;]/div[@class=&quot;o-col col-lg-auto col-6 order-2 order-lg-1 text-center min-width-logo&quot;]/a[1]/img[@class=&quot;a-header__logo&quot;]</value>
+      <webElementGuid>8edede63-528f-4953-a5a7-765641c7ca1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/header/div[3]/div/div/div/div/div[2]/a/img</value>
+      <webElementGuid>3bde7836-8abb-4c32-a7bc-280a8fcb8482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Liverpool Logo']</value>
+      <webElementGuid>9b159205-9eab-4242-abe4-eb76ddcfaad8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>9c636add-fabc-4ee1-8042-cb5a01e61718</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://assetspwa.liverpool.com.mx/assets/images/logos/liverpool-logo.svg' and @alt = 'Liverpool Logo' and @title = 'Liverpool Logo']</value>
+      <webElementGuid>9d583ac0-36cd-4bdd-85cf-a134520b5f92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify my direction tag with default address gets removed on selecting address from save address list in change direction popup</description>
+   <name>TC_GeoLocal_37</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1652047-9783-468d-9f30-218a5b3a5314</testCaseGuid>
+</TestCaseEntity>

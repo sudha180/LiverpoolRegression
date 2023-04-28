@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of &quot;Regalu/Regalo exclusivo online&quot; flag on PLP for a BT PARENT item which is eligible for a SL GIFT Item</description>
+   <name>TC_BS_082</name>
+   <tag>gwp</tag>
+   <comment></comment>
+   <testCaseGuid>9712a0f0-f652-48d1-b8d7-3abf504b48bc</testCaseGuid>
+</TestCaseEntity>

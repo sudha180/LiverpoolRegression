@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the other variants(size, Texture,  Material) are not selected on page load of PDP for the multiple variant products</description>
+   <name>TC_BS_412</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78b1522e-4a8a-4ee9-bca0-38d380ef191d</testCaseGuid>
+</TestCaseEntity>

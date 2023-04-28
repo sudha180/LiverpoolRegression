@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>aside_Recibe a domicilioIngresa tu cdigo po_f56e6b</name>
+   <tag></tag>
+   <elementGuidId>7a8d78c7-9162-491a-a601-dcc07927c7bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>aside.o-product__purchase.p-0.pt-lg-3.pr-lg-3.pl-lg-3.GeoTopMargin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/section/div/aside</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>aside</value>
+      <webElementGuid>d1054093-b5cc-4333-b616-c980bd864627</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-product__purchase p-0 pt-lg-3 pr-lg-3 pl-lg-3 GeoTopMargin</value>
+      <webElementGuid>30008a26-87b4-42f6-9da9-4bba43891c0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Recibe a domicilioIngresa tu código postal para conocer si este producto puede llegar el día de hoyComprar ahoraAgregar a mi bolsaGuardar en Wishlist</value>
+      <webElementGuid>74d935c5-31e6-49b7-accf-c22e58e17ea9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;min-vh-100&quot;]/section[@class=&quot;o-product__detail&quot;]/div[@class=&quot;container o-product__mainContainer&quot;]/aside[@class=&quot;o-product__purchase p-0 pt-lg-3 pr-lg-3 pl-lg-3 GeoTopMargin&quot;]</value>
+      <webElementGuid>7b0e2d68-1df1-4e2c-8110-5e38803573c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/section/div/aside</value>
+      <webElementGuid>c59aa9ef-78a9-4b6d-b5f1-ac90370f914f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compartir'])[1]/following::aside[1]</value>
+      <webElementGuid>079d0b77-7851-48de-8f7b-0fbdf204fe1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[3]/following::aside[1]</value>
+      <webElementGuid>1de1d709-ca6f-4e3f-b400-cf5ae1b7e8ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside</value>
+      <webElementGuid>211cb2cd-a1fd-4754-afe0-1f9088b125ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//aside[(text() = ' Recibe a domicilioIngresa tu código postal para conocer si este producto puede llegar el día de hoyComprar ahoraAgregar a mi bolsaGuardar en Wishlist' or . = ' Recibe a domicilioIngresa tu código postal para conocer si este producto puede llegar el día de hoyComprar ahoraAgregar a mi bolsaGuardar en Wishlist')]</value>
+      <webElementGuid>5f473c1b-6eae-4348-bee6-4ad187e8e55c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

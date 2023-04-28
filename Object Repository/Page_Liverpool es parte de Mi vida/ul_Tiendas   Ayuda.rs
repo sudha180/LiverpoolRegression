@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul_Tiendas   Ayuda</name>
+   <tag></tag>
+   <elementGuidId>50f68b97-dc18-4393-add2-8fdfc6727b6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.o-nav-desktop-menu > ul.m-navDesktop__menuList</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>e4bb1502-b029-4429-9afa-0fdba9124c26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-navDesktop__menuList</value>
+      <webElementGuid>7f77dccb-e5b6-4856-b7a1-00b9ea156dad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Tiendas   Ayuda </value>
+      <webElementGuid>79075879-8c6a-4c31-9852-bf42d4736b13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/header[1]/div[@class=&quot;o-header&quot;]/div[@class=&quot;o-container__fluid container-fluid wrap-megamenu d-none d-lg-block&quot;]/div[@class=&quot;o-container container p-0&quot;]/nav[@class=&quot;m-megamenu&quot;]/div[@class=&quot;o-row row align-items-center&quot;]/div[@class=&quot;o-col col-lg-10 col-xl-9 pr-0&quot;]/div[@class=&quot;o-row row&quot;]/div[@class=&quot;o-col col-lg order-lg-2 pt-3 pt-lg-0&quot;]/div[@class=&quot;o-row row&quot;]/div[@class=&quot;o-col text-right col-lg-7 col-xl-6 px-0&quot;]/div[@class=&quot;o-nav-desktop-menu&quot;]/ul[@class=&quot;m-navDesktop__menuList&quot;]</value>
+      <webElementGuid>cde9b40b-798f-4a00-b7c9-b059e64398d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul</value>
+      <webElementGuid>2dfb12e9-2c39-4243-a557-8221d1345981</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BYD'])[1]/following::ul[1]</value>
+      <webElementGuid>a43f51ce-006c-468f-8e8b-29f337d055e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sorteos y concursos'])[2]/following::ul[1]</value>
+      <webElementGuid>d831f562-8b2e-4809-9ff2-8569e3a809fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/ul</value>
+      <webElementGuid>a51d88e9-9410-4353-8da7-ded654455b51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = '  Tiendas   Ayuda ' or . = '  Tiendas   Ayuda ')]</value>
+      <webElementGuid>fa4045a9-035f-49e9-a3cd-b1de2a034e9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

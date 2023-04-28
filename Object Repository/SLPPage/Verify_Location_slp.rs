@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Location_slp</name>
+   <tag></tag>
+   <elementGuidId>b6b68633-5420-40fa-a1e3-ce913f173883</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div[2]/div/div/div/div/span/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.headerMyStoredesk</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a0cc7470-a2b4-4416-9dbd-f46951b5d3b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>headerMyStoredesk</value>
+      <webElementGuid>284f1e05-9b60-460b-b15f-2cc9a3e42b5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mi tienda - </value>
+      <webElementGuid>c1babf55-68ed-4836-85d0-b7e6a40a6de3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/header[1]/div[@class=&quot;o-header&quot;]/div[@class=&quot;o-container__fluid container-fluid wrap-megamenu d-none d-lg-block&quot;]/div[@class=&quot;o-container container p-0&quot;]/nav[@class=&quot;m-megamenu&quot;]/div[@class=&quot;o-row row align-items-center&quot;]/div[@class=&quot;o-col col-lg-2 col-xl-3&quot;]/div[@class=&quot;row select-favStore&quot;]/div[@class=&quot;d-none d-lg-block col-lg-12 pl-0 pt-1&quot;]/div[@class=&quot;o-nav-desktop-menu text-right&quot;]/div[@class=&quot;a-header__strongLink&quot;]/span[@class=&quot;m-navDesktop__selectstore&quot;]/span[@class=&quot;ml-1&quot;]/span[@class=&quot;headerMyStoredesk&quot;]</value>
+      <webElementGuid>87d02b9b-0098-4a7d-8742-23d83ee41bfb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div[2]/div/div/div/div/span/span/span</value>
+      <webElementGuid>6e364144-de62-4ea1-8cfc-d8ec01cb282c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ayuda'])[1]/following::span[3]</value>
+      <webElementGuid>cff7af70-b25d-43fc-aa18-c0ead6c82a0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiendas'])[1]/following::span[3]</value>
+      <webElementGuid>5030fa49-c111-4098-9229-62c059be9b8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liverpool Ags. Altaria'])[1]/preceding::span[1]</value>
+      <webElementGuid>f5991759-261c-4b67-9bb5-b993524832b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi tienda -'])[2]/preceding::span[2]</value>
+      <webElementGuid>3cea3942-ea4f-4df7-b7bd-8a0f7f26c725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mi tienda -']/parent::*</value>
+      <webElementGuid>0babfc16-d8da-4db6-9f28-d327e6dd4d64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span</value>
+      <webElementGuid>bf338dad-1dee-453a-88b7-a0017704bc67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Mi tienda - ' or . = 'Mi tienda - ')]</value>
+      <webElementGuid>b077b68a-80be-4f38-9032-8a4e089b81f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liverpool Colima'])[1]/preceding::span[1]</value>
+      <webElementGuid>72805ea5-cc85-406c-93a8-cefe81d38012</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

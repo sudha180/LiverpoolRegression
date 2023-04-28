@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul_Apple MacBook Air 13 pulgadas Full HD In_df6ea4</name>
+   <tag></tag>
+   <elementGuidId>7708bd5d-4b85-4009-8dda-fb692f1b54e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div[4]/main/div[2]/div/div/ul</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.m-product__listingPlp</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>1d5f2bdd-1802-4e8d-8c7a-04c1dc1ed64a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-product__listingPlp</value>
+      <webElementGuid>fd2049b6-be55-4d43-9daa-fc2f36d22bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Apple MacBook Air 13 pulgadas Full HD Intel HD Graphics 620 Intel Core i5 8 GB RAM 128 GB SSD$12,99900$8,99900      Apple MacBook Air 13 pulgadas HD M1 apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Eau de parfum MAC Club De Nuit para mujer$99900$89900      Base de maquillaje líquida M.A.C Studio Fix Fluid acabado mate$73900                  Apple Magic Keyboard para Mac sin teclado numérico$2,49900      Apple MacBook Pro 13.3 pulgadas WQXGA GPU de 10 núcleos M2 8 GB RAM 256 GB SSD$32,49900$29,24910                     (4)    Apple MacBook Air 13 pulgadas HD M1 apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Lipstick M.A.C Retro Matte$39900                     Labial M.A.C Locked Kiss Ink$54900                           (3)    Hidratante M.A.C Fix+$36900                     (3)    Apple MacBook Air 13 pulgadas Full HD Intel UHD Intel Core i5 8 GB RAM 256 GB SSD$18,69800$16,99900            Rubor M.A.C Extra Dimension Blush$74900                        Apple Magic Mouse Inalámbrico$1,99900      Pigmento para ojos M.A.C Little Pigment$28900 - $30900               Primer M.A.C Prep + Prime Fix + Mattifying Mist$70900   Apple MacBook Air 13 pulgadas HD M1 Apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Apple MacBook Air 13.6 pulgadas WQXGA M2 8 GB RAM 256 GB SSD$29,99900$26,99910      Polvo M.A.C Mineralize Skinfinish Natural$86900                        Galletas surtidas Mac'Ma$21900   Sombra para ojos M.A.C Eye Shadow x9$73900            Bálsamo para labios M.A.C Glow Play Lip$39900   Lipstick M.A.C Retro Matte Liquid Lipcolour$47900                        Base de maquillaje líquida M.A.C Studio Fix Fluid$73900         Base en polvo M.A.C Studio Fix Tech Cream to Powder Foundation acabado mate$73900                                       (1)    Maquillaje M.A.C Studio Fix Powder Plus Foundation$73900      Apple MacBook Air 13.6 pulgadas WQXGA GPU de 8 núcleos M2 8 GB RAM 256 GB SSD$29,99900$26,99910                     (1)    Lipgloss M.A.C Powder Kiss Liquid Lipcolour$50900                        Apple iMac 2021 24 pulgadas CPU de 8 Núcleos GPU de 7 Núcleos Chip M1 de Apple 256 GB SSD verde$31,99900                  (2)    Mouse Magic 2 Apple Inalámbrico$3,59900$3,19900      Labial M.A.C Project Wh$42900                           (1)    Apple iMac 2021 24 pulgadas retina 4.5K M1 8Gb 256 Gb SSD$31,99900                  (2)    Eau de parfum MAC Sweet Woman$68900$59900                     (3)    Apple MacBook Air 13.6 pulgadas WQXGA GPU de 8 núcleos M2 8 GB RAM 256 GB SSD$29,99900$26,99910      Lipstick M.A.C Matte$39900                        Apple MacBook Pro 13.3 pulgadas WQXGA GPU de 10 núcleos M2 8 GB RAM 512 GB SSD$37,99900                     (1)    Rubor M.A.C Mineralize$74900                        Polvo M.A.C Extra Dimension Skinfinish$86900                     (3)    Apple MacBook Pro 16 pulgadas UHD M1 PRO 16 GB RAM 512 GB SSD$61,00000                     (2)    Lipgloss M.A.C Powder Kiss Shade Ext$44900                                       (5)    Polvo M.A.C Mineralize Skinfinish Natural$86900         Eau de toilette MAC Classic para hombre$99900$64895                  (4)    Gel para cejas M.A.C Eye Brows Big Boost Fibre Gel$63900                     Galletas de crema Mac'Ma Gofrenata$5500Compra mínima 3 piezas   Apple MacBook Pro 14 pulgadas UHD M1 PRO 16 GB RAM 512 GB SSD$50,24900      Eau de parfum MAC Shadescents para mujer$83900      Sombra para ojos M.A.C Marvel Studios Black Panther Collection$87900                     (2)    Lipgloss M.A.C Mini Mac 2$31900                     Polvo compacto M·A·C New Year Shine$95900         Base de maquillaje en polvo M.A.C Bronzing Powder acabado mate$60900 - $72900                              (1)    Labial M.A.C Marvel Studios Black Panther Collection$54900                              (1)    Corrector M.A.C Studio Fix 24 Hour$55900                        Apple MacBook Pro 14 pulgadas UHD M1 PRO 16 GB RAM 1 TB SSD$63,74900                     (3)    Protector para MacBook Boba 13 Pulgadas$82900$66000                     (5)    Delineador para ojos M.A.C Fluidline Update$49900                  Apple Mac Mini (M1, 8 GB RAM, 512 GB SSD)$29,99900$27,59900      Sombra para ojos M.A.C Extra Dimension Eye Shadow$48900                      </value>
+      <webElementGuid>eeb57a9e-aaa6-4e74-9d51-d36a86fd69d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;min-vh-100&quot;]/div[@class=&quot;container-fluid o-main-container p-0 o-plp-secondaryContainer&quot;]/div[@class=&quot;container o-container__secondary search---&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/main[@class=&quot;col-lg-9 m-column_mainContent&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 p-2 p-lg-1&quot;]/div[@class=&quot;o-listing__products&quot;]/ul[@class=&quot;m-product__listingPlp&quot;]</value>
+      <webElementGuid>73c46d92-9d0e-466e-bfdb-a5309e67b3fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div[4]/main/div[2]/div/div/ul</value>
+      <webElementGuid>f34ab70e-3ed5-4421-a983-09646c5338eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calificaciones'])[2]/following::ul[1]</value>
+      <webElementGuid>57cf953f-2b71-4a7a-bbb0-addff945d67b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mayor precio'])[2]/following::ul[1]</value>
+      <webElementGuid>7f9247e9-5f6d-4b69-9280-d521f702bc3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div[2]/div/div/ul</value>
+      <webElementGuid>f14da52a-41fb-4af8-a895-7f59767213c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = concat(&quot;  Apple MacBook Air 13 pulgadas Full HD Intel HD Graphics 620 Intel Core i5 8 GB RAM 128 GB SSD$12,99900$8,99900      Apple MacBook Air 13 pulgadas HD M1 apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Eau de parfum MAC Club De Nuit para mujer$99900$89900      Base de maquillaje líquida M.A.C Studio Fix Fluid acabado mate$73900                  Apple Magic Keyboard para Mac sin teclado numérico$2,49900      Apple MacBook Pro 13.3 pulgadas WQXGA GPU de 10 núcleos M2 8 GB RAM 256 GB SSD$32,49900$29,24910                     (4)    Apple MacBook Air 13 pulgadas HD M1 apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Lipstick M.A.C Retro Matte$39900                     Labial M.A.C Locked Kiss Ink$54900                           (3)    Hidratante M.A.C Fix+$36900                     (3)    Apple MacBook Air 13 pulgadas Full HD Intel UHD Intel Core i5 8 GB RAM 256 GB SSD$18,69800$16,99900            Rubor M.A.C Extra Dimension Blush$74900                        Apple Magic Mouse Inalámbrico$1,99900      Pigmento para ojos M.A.C Little Pigment$28900 - $30900               Primer M.A.C Prep + Prime Fix + Mattifying Mist$70900   Apple MacBook Air 13 pulgadas HD M1 Apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Apple MacBook Air 13.6 pulgadas WQXGA M2 8 GB RAM 256 GB SSD$29,99900$26,99910      Polvo M.A.C Mineralize Skinfinish Natural$86900                        Galletas surtidas Mac&quot; , &quot;'&quot; , &quot;Ma$21900   Sombra para ojos M.A.C Eye Shadow x9$73900            Bálsamo para labios M.A.C Glow Play Lip$39900   Lipstick M.A.C Retro Matte Liquid Lipcolour$47900                        Base de maquillaje líquida M.A.C Studio Fix Fluid$73900         Base en polvo M.A.C Studio Fix Tech Cream to Powder Foundation acabado mate$73900                                       (1)    Maquillaje M.A.C Studio Fix Powder Plus Foundation$73900      Apple MacBook Air 13.6 pulgadas WQXGA GPU de 8 núcleos M2 8 GB RAM 256 GB SSD$29,99900$26,99910                     (1)    Lipgloss M.A.C Powder Kiss Liquid Lipcolour$50900                        Apple iMac 2021 24 pulgadas CPU de 8 Núcleos GPU de 7 Núcleos Chip M1 de Apple 256 GB SSD verde$31,99900                  (2)    Mouse Magic 2 Apple Inalámbrico$3,59900$3,19900      Labial M.A.C Project Wh$42900                           (1)    Apple iMac 2021 24 pulgadas retina 4.5K M1 8Gb 256 Gb SSD$31,99900                  (2)    Eau de parfum MAC Sweet Woman$68900$59900                     (3)    Apple MacBook Air 13.6 pulgadas WQXGA GPU de 8 núcleos M2 8 GB RAM 256 GB SSD$29,99900$26,99910      Lipstick M.A.C Matte$39900                        Apple MacBook Pro 13.3 pulgadas WQXGA GPU de 10 núcleos M2 8 GB RAM 512 GB SSD$37,99900                     (1)    Rubor M.A.C Mineralize$74900                        Polvo M.A.C Extra Dimension Skinfinish$86900                     (3)    Apple MacBook Pro 16 pulgadas UHD M1 PRO 16 GB RAM 512 GB SSD$61,00000                     (2)    Lipgloss M.A.C Powder Kiss Shade Ext$44900                                       (5)    Polvo M.A.C Mineralize Skinfinish Natural$86900         Eau de toilette MAC Classic para hombre$99900$64895                  (4)    Gel para cejas M.A.C Eye Brows Big Boost Fibre Gel$63900                     Galletas de crema Mac&quot; , &quot;'&quot; , &quot;Ma Gofrenata$5500Compra mínima 3 piezas   Apple MacBook Pro 14 pulgadas UHD M1 PRO 16 GB RAM 512 GB SSD$50,24900      Eau de parfum MAC Shadescents para mujer$83900      Sombra para ojos M.A.C Marvel Studios Black Panther Collection$87900                     (2)    Lipgloss M.A.C Mini Mac 2$31900                     Polvo compacto M·A·C New Year Shine$95900         Base de maquillaje en polvo M.A.C Bronzing Powder acabado mate$60900 - $72900                              (1)    Labial M.A.C Marvel Studios Black Panther Collection$54900                              (1)    Corrector M.A.C Studio Fix 24 Hour$55900                        Apple MacBook Pro 14 pulgadas UHD M1 PRO 16 GB RAM 1 TB SSD$63,74900                     (3)    Protector para MacBook Boba 13 Pulgadas$82900$66000                     (5)    Delineador para ojos M.A.C Fluidline Update$49900                  Apple Mac Mini (M1, 8 GB RAM, 512 GB SSD)$29,99900$27,59900      Sombra para ojos M.A.C Extra Dimension Eye Shadow$48900                      &quot;) or . = concat(&quot;  Apple MacBook Air 13 pulgadas Full HD Intel HD Graphics 620 Intel Core i5 8 GB RAM 128 GB SSD$12,99900$8,99900      Apple MacBook Air 13 pulgadas HD M1 apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Eau de parfum MAC Club De Nuit para mujer$99900$89900      Base de maquillaje líquida M.A.C Studio Fix Fluid acabado mate$73900                  Apple Magic Keyboard para Mac sin teclado numérico$2,49900      Apple MacBook Pro 13.3 pulgadas WQXGA GPU de 10 núcleos M2 8 GB RAM 256 GB SSD$32,49900$29,24910                     (4)    Apple MacBook Air 13 pulgadas HD M1 apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Lipstick M.A.C Retro Matte$39900                     Labial M.A.C Locked Kiss Ink$54900                           (3)    Hidratante M.A.C Fix+$36900                     (3)    Apple MacBook Air 13 pulgadas Full HD Intel UHD Intel Core i5 8 GB RAM 256 GB SSD$18,69800$16,99900            Rubor M.A.C Extra Dimension Blush$74900                        Apple Magic Mouse Inalámbrico$1,99900      Pigmento para ojos M.A.C Little Pigment$28900 - $30900               Primer M.A.C Prep + Prime Fix + Mattifying Mist$70900   Apple MacBook Air 13 pulgadas HD M1 Apple 8 GB RAM 256 GB SSD$25,99900$19,49925      Apple MacBook Air 13.6 pulgadas WQXGA M2 8 GB RAM 256 GB SSD$29,99900$26,99910      Polvo M.A.C Mineralize Skinfinish Natural$86900                        Galletas surtidas Mac&quot; , &quot;'&quot; , &quot;Ma$21900   Sombra para ojos M.A.C Eye Shadow x9$73900            Bálsamo para labios M.A.C Glow Play Lip$39900   Lipstick M.A.C Retro Matte Liquid Lipcolour$47900                        Base de maquillaje líquida M.A.C Studio Fix Fluid$73900         Base en polvo M.A.C Studio Fix Tech Cream to Powder Foundation acabado mate$73900                                       (1)    Maquillaje M.A.C Studio Fix Powder Plus Foundation$73900      Apple MacBook Air 13.6 pulgadas WQXGA GPU de 8 núcleos M2 8 GB RAM 256 GB SSD$29,99900$26,99910                     (1)    Lipgloss M.A.C Powder Kiss Liquid Lipcolour$50900                        Apple iMac 2021 24 pulgadas CPU de 8 Núcleos GPU de 7 Núcleos Chip M1 de Apple 256 GB SSD verde$31,99900                  (2)    Mouse Magic 2 Apple Inalámbrico$3,59900$3,19900      Labial M.A.C Project Wh$42900                           (1)    Apple iMac 2021 24 pulgadas retina 4.5K M1 8Gb 256 Gb SSD$31,99900                  (2)    Eau de parfum MAC Sweet Woman$68900$59900                     (3)    Apple MacBook Air 13.6 pulgadas WQXGA GPU de 8 núcleos M2 8 GB RAM 256 GB SSD$29,99900$26,99910      Lipstick M.A.C Matte$39900                        Apple MacBook Pro 13.3 pulgadas WQXGA GPU de 10 núcleos M2 8 GB RAM 512 GB SSD$37,99900                     (1)    Rubor M.A.C Mineralize$74900                        Polvo M.A.C Extra Dimension Skinfinish$86900                     (3)    Apple MacBook Pro 16 pulgadas UHD M1 PRO 16 GB RAM 512 GB SSD$61,00000                     (2)    Lipgloss M.A.C Powder Kiss Shade Ext$44900                                       (5)    Polvo M.A.C Mineralize Skinfinish Natural$86900         Eau de toilette MAC Classic para hombre$99900$64895                  (4)    Gel para cejas M.A.C Eye Brows Big Boost Fibre Gel$63900                     Galletas de crema Mac&quot; , &quot;'&quot; , &quot;Ma Gofrenata$5500Compra mínima 3 piezas   Apple MacBook Pro 14 pulgadas UHD M1 PRO 16 GB RAM 512 GB SSD$50,24900      Eau de parfum MAC Shadescents para mujer$83900      Sombra para ojos M.A.C Marvel Studios Black Panther Collection$87900                     (2)    Lipgloss M.A.C Mini Mac 2$31900                     Polvo compacto M·A·C New Year Shine$95900         Base de maquillaje en polvo M.A.C Bronzing Powder acabado mate$60900 - $72900                              (1)    Labial M.A.C Marvel Studios Black Panther Collection$54900                              (1)    Corrector M.A.C Studio Fix 24 Hour$55900                        Apple MacBook Pro 14 pulgadas UHD M1 PRO 16 GB RAM 1 TB SSD$63,74900                     (3)    Protector para MacBook Boba 13 Pulgadas$82900$66000                     (5)    Delineador para ojos M.A.C Fluidline Update$49900                  Apple Mac Mini (M1, 8 GB RAM, 512 GB SSD)$29,99900$27,59900      Sombra para ojos M.A.C Extra Dimension Eye Shadow$48900                      &quot;))]</value>
+      <webElementGuid>13cea1f4-ab61-43d2-8337-f66ad65d06fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

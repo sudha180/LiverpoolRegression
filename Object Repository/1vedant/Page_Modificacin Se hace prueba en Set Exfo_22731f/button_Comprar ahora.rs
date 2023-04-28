@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Comprar ahora</name>
+   <tag></tag>
+   <elementGuidId>e5965bf5-4efc-4704-bf9a-e708142f78be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#opc_pdp_buyNowButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='opc_pdp_buyNowButton']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b49091d2-d643-4d44-be3f-5c039df36287</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-btn a-btn--primary</value>
+      <webElementGuid>86919849-02ad-40a1-b3b0-db16947c0afc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>opc_pdp_buyNowButton</value>
+      <webElementGuid>7f7e621e-7c4d-4749-bb70-287c89e789d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Comprar ahora</value>
+      <webElementGuid>627770c1-e747-4703-9c10-ce0b2b27b369</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_pdp_buyNowButton&quot;)</value>
+      <webElementGuid>1bce450f-d337-4d86-9238-907b04dbb6ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='opc_pdp_buyNowButton']</value>
+      <webElementGuid>19177a4a-8173-4672-9e47-754da2cebabe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/section/div/aside/div/div/aside/div[2]/div/div/button</value>
+      <webElementGuid>b3362599-a091-4a26-82e6-b11df0c912d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingresa tu código postal'])[1]/following::button[1]</value>
+      <webElementGuid>80cc86b5-df08-4c07-9edb-4c32d989d66b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar a mi bolsa'])[2]/preceding::button[1]</value>
+      <webElementGuid>1b9db8ff-8547-427c-aab8-baff2f2a2021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detalle de producto'])[2]/preceding::button[2]</value>
+      <webElementGuid>1791f559-b8e8-4d58-9e9b-21e29ecea76a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button</value>
+      <webElementGuid>940ff263-dddf-4147-b0f3-5066da23ffc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'opc_pdp_buyNowButton' and (text() = 'Comprar ahora' or . = 'Comprar ahora')]</value>
+      <webElementGuid>ef325b73-f6cc-4a3c-a8a6-0e48423ab5f2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

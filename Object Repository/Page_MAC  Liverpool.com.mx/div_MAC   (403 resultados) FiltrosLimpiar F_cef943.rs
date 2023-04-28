@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_MAC   (403 resultados) FiltrosLimpiar F_cef943</name>
+   <tag></tag>
+   <elementGuidId>8e3d3662-79c2-48ba-8afb-2656a9b70166</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.o-aside.d-aside--margin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div[4]/aside/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>075e034b-4113-4481-97fc-f8bf1be38aa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-aside d-aside--margin</value>
+      <webElementGuid>08403434-7231-4983-87e7-483593820e91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> &quot;MAC&quot;   (403 resultados) FiltrosLimpiar Filtros$100.0 -$500.0Categorías  Belleza   MAC   Electrónica   Apple   Vinos y Gourmet   Hombre   Deportes   Regalos para el 14 de Febrero   Mujer   Hot Sale   Regreso a Clases   Microsoft   Muebles   Pottery Barn Kids   Regalos Navideños   Videojuegos Descuentos 40.0 % o más (3) 30.0 % o más (12) 20.0 % o más (23) 10.0 % o más (33)Marcas12 SOUTH (1)ALTERA (1)ANASTASIA BEVERLY HILLS (1)APPLE (27)BEHRINGER (1)BLUE MICROPHONES (1)Ver másTamaño6 ml  (1)13 pulgadas  (3)14 pulgadas  (1)15 ml  (1)16 pulgadas  (2)21 pulgadas  (1)24 pulgadas  (3)50 ml  (3)90 ml  (1)100 ml  (24)128 GB  (1)256 GB  (1)512 GB  (1)CH  (1)G  (1)Set  (1)SIN TALLA  (1)Sin tamaño  (3)Unitalla  (3)PreciosMenos de $100.0 (10)$100.0 -$500.0 (149)$500.0 -$1000.0 (184)$1000.0 -$2000.0 (26)$2000.0 -$5000.0 (8)Mas de $10000.0 (26)-Calificación 4 estrellas o más (132)Vendido PorLiverpool  (364)PZ&amp;CO  (21)Lovely Odorem  (6)GENENTECH  (3)CAZANOVA  (2)MATCOMPANY PARFUM  (2)PIAUS  (2)Sohrelia Perfumeria  (2)TecnoStore  (2)Bellaroma  (1)DINAMICA DIGITAL MX  (1)Eminoristas  (1)JP Computadoras SA  (1)MI PC COM  (1)Nifty Mexico  (1)ORDENAMTY  (1)Redlemon  (1)Sonoritmo  (1)TODOparaSMARTPHONES  (1)XtremeTecPC.com  (1)Ver másTipo de ProductoAdaptador  (1)Audífono in ear  (1)Computadora all in one  (4)Computadora creador contenido  (1)Computadora torre  (1)Crema  (1)Delineador  (26)Escritorio  (1)Funda con teclado  (3)Funda laptop  (1)Labial  (34)Laptop thin &amp; light  (16)Licencia office  (1)Limpiadores  (1)Mouse  (3)Pigmento  (5)Primer  (2)Repuesto  (4)Sombra  (27)Soporte para ordenador  (1)Ver másColorModelo del ProcesadorApple M1  (3)Apple M1 Pro  (1)Apple M2  (11)Intel Core i5  (1)M1 Apple  (2)M1 apple  (2)M1 MAX  (1)M1 PRO  (1)AcabadoBrillante  (13)Luminoso  (2)Mate  (29)Natural  (5)Memoria RAM8 GB  (19)16 GB  (2)32 GB  (1)Capacidad de Almacenamiento SSD256 GB SSD  (11)512 GB SSD  (11)GéneroHombre  (16)Mujer  (36)Unisex  (6)ProcesadorA16 bionic  (1)Intel Core i5 8va Gen  (1)M1 apple  (2)FormaAbanico  (1)Cuadrado  (3)Inclinado  (5)Ovalado  (6)Plano  (2)Punta  (11)Rectangular  (7)Recto  (2)Redondo  (18)Modelo Tarjeta GráficaIntegradas  (21)Tipo de PielSeca  (1)Todo tipo de piel  (21)Tecnología de la PantallaLiquid retina XDR  (2)Retina  (6)Sin pantalla  (1)Número de Entradas HDMI1  (6)No tiene  (14)Puertos USB2  (1)4  (3)No tiene  (3)</value>
+      <webElementGuid>e4fc9a32-c298-4500-8e18-ad081f1389b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;min-vh-100&quot;]/div[@class=&quot;container-fluid o-main-container p-0 o-plp-secondaryContainer&quot;]/div[@class=&quot;container o-container__secondary search---&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/aside[@class=&quot;col-lg-3 pr-4 m-aside__content&quot;]/div[@class=&quot;m-plp-cat-container d-none d-lg-block mb-5&quot;]/div[@class=&quot;o-aside d-aside--margin&quot;]</value>
+      <webElementGuid>64eafefd-b83b-4778-91ac-133b8f03555a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div[4]/aside/div/div</value>
+      <webElementGuid>a487509c-ab0d-4643-b570-91728c7ac16f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MAC'])[1]/following::div[6]</value>
+      <webElementGuid>a05d5883-e6f9-4fd2-9a58-e95413ac684a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::div[6]</value>
+      <webElementGuid>6516c994-51ad-4100-a7f3-ef905a333c6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div/div</value>
+      <webElementGuid>8af7401a-c9f9-4916-8e02-8933ba9e3b6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' &quot;MAC&quot;   (403 resultados) FiltrosLimpiar Filtros$100.0 -$500.0Categorías  Belleza   MAC   Electrónica   Apple   Vinos y Gourmet   Hombre   Deportes   Regalos para el 14 de Febrero   Mujer   Hot Sale   Regreso a Clases   Microsoft   Muebles   Pottery Barn Kids   Regalos Navideños   Videojuegos Descuentos 40.0 % o más (3) 30.0 % o más (12) 20.0 % o más (23) 10.0 % o más (33)Marcas12 SOUTH (1)ALTERA (1)ANASTASIA BEVERLY HILLS (1)APPLE (27)BEHRINGER (1)BLUE MICROPHONES (1)Ver másTamaño6 ml  (1)13 pulgadas  (3)14 pulgadas  (1)15 ml  (1)16 pulgadas  (2)21 pulgadas  (1)24 pulgadas  (3)50 ml  (3)90 ml  (1)100 ml  (24)128 GB  (1)256 GB  (1)512 GB  (1)CH  (1)G  (1)Set  (1)SIN TALLA  (1)Sin tamaño  (3)Unitalla  (3)PreciosMenos de $100.0 (10)$100.0 -$500.0 (149)$500.0 -$1000.0 (184)$1000.0 -$2000.0 (26)$2000.0 -$5000.0 (8)Mas de $10000.0 (26)-Calificación 4 estrellas o más (132)Vendido PorLiverpool  (364)PZ&amp;CO  (21)Lovely Odorem  (6)GENENTECH  (3)CAZANOVA  (2)MATCOMPANY PARFUM  (2)PIAUS  (2)Sohrelia Perfumeria  (2)TecnoStore  (2)Bellaroma  (1)DINAMICA DIGITAL MX  (1)Eminoristas  (1)JP Computadoras SA  (1)MI PC COM  (1)Nifty Mexico  (1)ORDENAMTY  (1)Redlemon  (1)Sonoritmo  (1)TODOparaSMARTPHONES  (1)XtremeTecPC.com  (1)Ver másTipo de ProductoAdaptador  (1)Audífono in ear  (1)Computadora all in one  (4)Computadora creador contenido  (1)Computadora torre  (1)Crema  (1)Delineador  (26)Escritorio  (1)Funda con teclado  (3)Funda laptop  (1)Labial  (34)Laptop thin &amp; light  (16)Licencia office  (1)Limpiadores  (1)Mouse  (3)Pigmento  (5)Primer  (2)Repuesto  (4)Sombra  (27)Soporte para ordenador  (1)Ver másColorModelo del ProcesadorApple M1  (3)Apple M1 Pro  (1)Apple M2  (11)Intel Core i5  (1)M1 Apple  (2)M1 apple  (2)M1 MAX  (1)M1 PRO  (1)AcabadoBrillante  (13)Luminoso  (2)Mate  (29)Natural  (5)Memoria RAM8 GB  (19)16 GB  (2)32 GB  (1)Capacidad de Almacenamiento SSD256 GB SSD  (11)512 GB SSD  (11)GéneroHombre  (16)Mujer  (36)Unisex  (6)ProcesadorA16 bionic  (1)Intel Core i5 8va Gen  (1)M1 apple  (2)FormaAbanico  (1)Cuadrado  (3)Inclinado  (5)Ovalado  (6)Plano  (2)Punta  (11)Rectangular  (7)Recto  (2)Redondo  (18)Modelo Tarjeta GráficaIntegradas  (21)Tipo de PielSeca  (1)Todo tipo de piel  (21)Tecnología de la PantallaLiquid retina XDR  (2)Retina  (6)Sin pantalla  (1)Número de Entradas HDMI1  (6)No tiene  (14)Puertos USB2  (1)4  (3)No tiene  (3)' or . = ' &quot;MAC&quot;   (403 resultados) FiltrosLimpiar Filtros$100.0 -$500.0Categorías  Belleza   MAC   Electrónica   Apple   Vinos y Gourmet   Hombre   Deportes   Regalos para el 14 de Febrero   Mujer   Hot Sale   Regreso a Clases   Microsoft   Muebles   Pottery Barn Kids   Regalos Navideños   Videojuegos Descuentos 40.0 % o más (3) 30.0 % o más (12) 20.0 % o más (23) 10.0 % o más (33)Marcas12 SOUTH (1)ALTERA (1)ANASTASIA BEVERLY HILLS (1)APPLE (27)BEHRINGER (1)BLUE MICROPHONES (1)Ver másTamaño6 ml  (1)13 pulgadas  (3)14 pulgadas  (1)15 ml  (1)16 pulgadas  (2)21 pulgadas  (1)24 pulgadas  (3)50 ml  (3)90 ml  (1)100 ml  (24)128 GB  (1)256 GB  (1)512 GB  (1)CH  (1)G  (1)Set  (1)SIN TALLA  (1)Sin tamaño  (3)Unitalla  (3)PreciosMenos de $100.0 (10)$100.0 -$500.0 (149)$500.0 -$1000.0 (184)$1000.0 -$2000.0 (26)$2000.0 -$5000.0 (8)Mas de $10000.0 (26)-Calificación 4 estrellas o más (132)Vendido PorLiverpool  (364)PZ&amp;CO  (21)Lovely Odorem  (6)GENENTECH  (3)CAZANOVA  (2)MATCOMPANY PARFUM  (2)PIAUS  (2)Sohrelia Perfumeria  (2)TecnoStore  (2)Bellaroma  (1)DINAMICA DIGITAL MX  (1)Eminoristas  (1)JP Computadoras SA  (1)MI PC COM  (1)Nifty Mexico  (1)ORDENAMTY  (1)Redlemon  (1)Sonoritmo  (1)TODOparaSMARTPHONES  (1)XtremeTecPC.com  (1)Ver másTipo de ProductoAdaptador  (1)Audífono in ear  (1)Computadora all in one  (4)Computadora creador contenido  (1)Computadora torre  (1)Crema  (1)Delineador  (26)Escritorio  (1)Funda con teclado  (3)Funda laptop  (1)Labial  (34)Laptop thin &amp; light  (16)Licencia office  (1)Limpiadores  (1)Mouse  (3)Pigmento  (5)Primer  (2)Repuesto  (4)Sombra  (27)Soporte para ordenador  (1)Ver másColorModelo del ProcesadorApple M1  (3)Apple M1 Pro  (1)Apple M2  (11)Intel Core i5  (1)M1 Apple  (2)M1 apple  (2)M1 MAX  (1)M1 PRO  (1)AcabadoBrillante  (13)Luminoso  (2)Mate  (29)Natural  (5)Memoria RAM8 GB  (19)16 GB  (2)32 GB  (1)Capacidad de Almacenamiento SSD256 GB SSD  (11)512 GB SSD  (11)GéneroHombre  (16)Mujer  (36)Unisex  (6)ProcesadorA16 bionic  (1)Intel Core i5 8va Gen  (1)M1 apple  (2)FormaAbanico  (1)Cuadrado  (3)Inclinado  (5)Ovalado  (6)Plano  (2)Punta  (11)Rectangular  (7)Recto  (2)Redondo  (18)Modelo Tarjeta GráficaIntegradas  (21)Tipo de PielSeca  (1)Todo tipo de piel  (21)Tecnología de la PantallaLiquid retina XDR  (2)Retina  (6)Sin pantalla  (1)Número de Entradas HDMI1  (6)No tiene  (14)Puertos USB2  (1)4  (3)No tiene  (3)')]</value>
+      <webElementGuid>2291d596-ef64-45d2-8103-d9d56543402b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

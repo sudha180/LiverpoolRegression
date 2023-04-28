@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the selection of all the variants for the  sku for the products having single variants</description>
+   <name>TC_BS_413</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>779cfbe5-2bea-41ea-a833-b8f3f6a90e54</testCaseGuid>
+</TestCaseEntity>
