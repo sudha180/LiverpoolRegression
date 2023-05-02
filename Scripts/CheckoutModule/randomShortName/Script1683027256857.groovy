@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CustomKeywords.'customkeywords.myKeywords.randomString'()
 
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('null'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('HomePage/SecondaryBanner1_hp'), 0)
-
-WebUI.closeBrowser()
+CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.getRandomText'('sudha')
 
