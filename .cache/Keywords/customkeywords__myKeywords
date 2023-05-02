@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "AD6ABDC23E88EA6FF228DA47D05AF4E6",
+  "keywordFileContentHash": "0D729CA8ADE4BF16A073E4A5FAD88265",
   "keywordClasses": [
     {
       "name": "customkeywords.myKeywords",
@@ -130,6 +130,11 @@
               }
             }
           ],
+          "javadoc": ""
+        },
+        {
+          "name": "randomString",
+          "parameters": [],
           "javadoc": ""
         }
       ]

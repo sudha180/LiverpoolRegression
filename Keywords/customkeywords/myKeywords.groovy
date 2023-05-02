@@ -1,5 +1,6 @@
 package customkeywords
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -42,6 +43,7 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.apache.commons.lang.RandomStringUtils
 
 
 
@@ -181,5 +183,11 @@ class myKeywords {
 			System.out.println("Element is not dispalyed");
 		}
 	}
-
+	@Keyword
+	def randomString() {
+		String charset = (('A'..'Z') + ('0'..'9')).join()
+		Integer length = 9
+		String randomString = RandomStringUtils.random(length, charset.toCharArray())
+		KeywordUtil.logInfo(randomString)
+	}
 }

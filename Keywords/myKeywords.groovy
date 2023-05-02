@@ -47,18 +47,18 @@
  * 
  * class myKeywords {
  *//**
-	 * Refresh browser
-	 */
+ * Refresh browser
+ */
 /*
  * @Keyword def refreshBrowser() { KeywordUtil.logInfo("Refreshing") WebDriver
  * webDriver = DriverFactory.getWebDriver() webDriver.navigate().refresh()
  * KeywordUtil.markPassed("Refresh successfully") }
  * 
  *//**
-	 * Click element
-	 * 
-	 * @param to Katalon test object
-	 */
+ * Click element
+ * 
+ * @param to Katalon test object
+ */
 /*
  * @Keyword def clickElement(TestObject to) {
  * 
@@ -102,62 +102,62 @@
  * "verifyElementPresent", to, timeOut) }
  * 
  *//**
-	 * Get all rows of HTML table
-	 * 
-	 * @param table        Katalon test object represent for HTML table
-	 * @param outerTagName outer tag name of TR tag, usually is TBODY
-	 * @return All rows inside HTML table
-	 *//*
-		 * @Keyword def List<WebElement> getHtmlTableRows(TestObject table, String
-		 * outerTagName) { WebElement mailList =
-		 * WebUiBuiltInKeywords.findWebElement(table) List<WebElement> selectedRows =
-		 * mailList.findElements(By.xpath("./" + outerTagName + "/tr")) return
-		 * selectedRows }
-		 * 
-		 * @Keyword def scrollWindow() { // softly scroll to the element group
-		 * JavascriptExecutor js = (JavascriptExecutor)DriverFactory.getWebDriver();
-		 * 
-		 * for (int i = 0; i < 5000; i += 7) { js.executeScript("window.scrollTo(0, " +
-		 * i + ")");
-		 * 
-		 * } }
-		 * 
-		 * //scroll to top of the page
-		 * 
-		 * @Keyword def scrollToTop() { JavascriptExecutor js =
-		 * (JavascriptExecutor)DriverFactory.getWebDriver();
-		 * js.executeScript("window.scrollTo(0,0)"); }
-		 * 
-		 * 
-		 * @Keyword def highlightElement1() { println ("hgfhj") }
-		 * 
-		 * @Keyword def highlightElement(TestObject objectto) {
-		 * 
-		 * WebElement element = WebUiCommonHelper.findWebElement(objectto, 20);
-		 * 
-		 * for (int i = 0; i < 5; i++) {
-		 * 
-		 * JavascriptExecutor js = (JavascriptExecutor)DriverFactory.getWebDriver();
-		 * 
-		 * js.
-		 * executeScript("arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');"
-		 * , element);
-		 * 
-		 * }
-		 * 
-		 * } //check if element visible
-		 * 
-		 * @Keyword def verifyElementPresentKeyword(TestObject to) { WebDriver driver;
-		 * WebElement element = WebUI.findWebElement(to); boolean t =
-		 * element.isDisplayed(); if(t) { JavascriptExecutor js =
-		 * (JavascriptExecutor)DriverFactory.getWebDriver();
-		 * 
-		 * js.
-		 * executeScript("arguments[0].setAttribute('style','background: white; border: 5px solid blue;');"
-		 * , element);
-		 * 
-		 * System.out.println("Element is dispalyed"); } else {
-		 * System.out.println("Element is not dispalyed"); } }
-		 * 
-		 * }
-		 */
+ * Get all rows of HTML table
+ * 
+ * @param table        Katalon test object represent for HTML table
+ * @param outerTagName outer tag name of TR tag, usually is TBODY
+ * @return All rows inside HTML table
+ *//*
+ * @Keyword def List<WebElement> getHtmlTableRows(TestObject table, String
+ * outerTagName) { WebElement mailList =
+ * WebUiBuiltInKeywords.findWebElement(table) List<WebElement> selectedRows =
+ * mailList.findElements(By.xpath("./" + outerTagName + "/tr")) return
+ * selectedRows }
+ * 
+ * @Keyword def scrollWindow() { // softly scroll to the element group
+ * JavascriptExecutor js = (JavascriptExecutor)DriverFactory.getWebDriver();
+ * 
+ * for (int i = 0; i < 5000; i += 7) { js.executeScript("window.scrollTo(0, " +
+ * i + ")");
+ * 
+ * } }
+ * 
+ * //scroll to top of the page
+ * 
+ * @Keyword def scrollToTop() { JavascriptExecutor js =
+ * (JavascriptExecutor)DriverFactory.getWebDriver();
+ * js.executeScript("window.scrollTo(0,0)"); }
+ * 
+ * 
+ * @Keyword def highlightElement1() { println ("hgfhj") }
+ * 
+ * @Keyword def highlightElement(TestObject objectto) {
+ * 
+ * WebElement element = WebUiCommonHelper.findWebElement(objectto, 20);
+ * 
+ * for (int i = 0; i < 5; i++) {
+ * 
+ * JavascriptExecutor js = (JavascriptExecutor)DriverFactory.getWebDriver();
+ * 
+ * js.
+ * executeScript("arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');"
+ * , element);
+ * 
+ * }
+ * 
+ * } //check if element visible
+ * 
+ * @Keyword def verifyElementPresentKeyword(TestObject to) { WebDriver driver;
+ * WebElement element = WebUI.findWebElement(to); boolean t =
+ * element.isDisplayed(); if(t) { JavascriptExecutor js =
+ * (JavascriptExecutor)DriverFactory.getWebDriver();
+ * 
+ * js.
+ * executeScript("arguments[0].setAttribute('style','background: white; border: 5px solid blue;');"
+ * , element);
+ * 
+ * System.out.println("Element is dispalyed"); } else {
+ * System.out.println("Element is not dispalyed"); } }
+ * 
+ * }
+ */
