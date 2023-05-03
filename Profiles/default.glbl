@@ -134,7 +134,7 @@
       <initValue>'https://odtaqab.liverpool.com.mx/tienda/home'</initValue>
       <name>LiverPoolURL</name>
    </GlobalVariableEntity>
-    <GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'Prueba'</initValue>
       <name>gwpSearchWord</name>
@@ -318,5 +318,50 @@
       <description></description>
       <initValue>'tenis\r\n'</initValue>
       <name>search2price</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test\r\n'</initValue>
+      <name>MotherName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12000\r\n'</initValue>
+      <name>PostalCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'san fransisco'</initValue>
+      <name>CityAddAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Regina Street'</initValue>
+      <name>StreetAddAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1231232342'</initValue>
+      <name>NoExtAddAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'878237582'</initValue>
+      <name>CellPhoneAddAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12'</initValue>
+      <name>LADAaddAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'982395892'</initValue>
+      <name>phoneAddAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://odtaqab.liverpool.com.mx/tienda/cart'</initValue>
+      <name>CartPageURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
