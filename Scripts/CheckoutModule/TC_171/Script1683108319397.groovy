@@ -53,3 +53,5 @@ WebUI.verifyElementPresent(findTestObject('Checkout/AlertMessage_Checkout'), 0)
 
 WebUI.closeBrowser()
 
+WebUI.verifyElementPresent(findTestObject(null), 0)
+

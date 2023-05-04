@@ -43,9 +43,11 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
 
-WebUI.click(findTestObject('HomePage/Select3DotAddress_hp'))
+WebUI.click(findTestObject('Checkout/SelectAddressRadioButton_Checkout'))
 
-WebUI.verifyElementPresent(findTestObject('Checkout/MakeAsDefault3DotDropDown_Checkout'), 0)
+WebUI.click(findTestObject('Checkout/ContinueButtonAddAddress_Checkout'))
+
+WebUI.verifyElementPresent(findTestObject('Checkout/VerifyAddressOPC_Checkout'), 0)
 
 WebUI.closeBrowser()
 

@@ -53,7 +53,12 @@ WebUI.navigateToUrl(GlobalVariable.CartPageURL)
 
 WebUI.click(findTestObject('CartPage/LatestLineBuyButton_Cart'))
 
-WebUI.verifyElementPresent(findTestObject('Checkout/VerifyAddressOPC_Checkout'), 0)
+ShortName = WebUI.getText(findTestObject('Checkout/ShortNameAddress_Checkout'), FailureHandling.STOP_ON_FAILURE)
+
+if(StoreValue == ShortName)
+{
+	println('Checked')
+}
 
 WebUI.closeBrowser()
 
