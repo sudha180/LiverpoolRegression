@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>A guest customer should be able to fill a shipping address in One Page checkout</description>
-   <name>TC_166</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>90352b3c-5f58-426d-b4c7-ce14aa1e7e7c</testCaseGuid>
-</TestCaseEntity>

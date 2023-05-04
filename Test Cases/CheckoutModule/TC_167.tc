@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>A guest customer should have a option to change a shipping method that One Page checkout shows for another new address</description>
-   <name>TC_167</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ccaacc73-3325-4eec-af99-7db8ef009690</testCaseGuid>
-</TestCaseEntity>

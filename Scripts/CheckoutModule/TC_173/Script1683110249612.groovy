@@ -49,5 +49,9 @@ StoreValue = CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.getRandomText
 
 WebUI.callTestCase(findTestCase('CommonMethods/addAddress_fillform_opc'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
+
+WebUI.verifyElementPresent(findTestObject('Checkout/FirstAddressDefault_Checkout'), 0)
+
 WebUI.closeBrowser()
 
