@@ -86,7 +86,6 @@ class GenerateRandomEmail {
 		int randomNo = (int)(Math.random() * 1000);
 		KeywordUtil.logInfo(shortName + randomNo)
 		return shortName + randomNo;
-		
 	}
 
 
@@ -101,6 +100,4 @@ class GenerateRandomEmail {
 		visaCard = (int)(Math.random());
 		return visacardStartingDigits + visaCard;
 	}
-	
-	
 }
