@@ -43,9 +43,7 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
 
-WebUI.verifyElementPresent(findTestObject('Checkout/ShippingAddress2_Checkout'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Checkout/ShippingAddress3_Checkout'), 0)
+WebUI.click(findTestObject('Checkout/3DotButton2_Checkout'))
 
 WebUI.closeBrowser()
 
