@@ -7,12 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='a-header__topLink popover-session']
-</value>
+         <value>//span[@class='a-header__topLink' and contains(text(),'Iniciar sesión')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
