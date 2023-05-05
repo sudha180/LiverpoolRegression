@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>username</name>
+   <name>cardExp_opc</name>
    <tag></tag>
-   <elementGuidId>7dcb5134-7554-40b0-89ab-fef35abcc55c</elementGuidId>
+   <elementGuidId>b547e1f3-0dc1-452b-9ab7-9b253ace0f2e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//div[3]/div[1]/div/div/div[1]/div/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

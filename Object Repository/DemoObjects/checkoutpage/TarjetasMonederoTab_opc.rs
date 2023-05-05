@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>username</name>
+   <name>TarjetasMonederoTab_opc</name>
    <tag></tag>
-   <elementGuidId>7dcb5134-7554-40b0-89ab-fef35abcc55c</elementGuidId>
+   <elementGuidId>16e8994b-71de-405a-893e-fdee4340a12d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//button[. = 'Tarjetas / Monedero']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

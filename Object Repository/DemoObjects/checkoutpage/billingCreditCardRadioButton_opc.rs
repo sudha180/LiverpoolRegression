@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>username</name>
+   <name>billingCreditCardRadioButton_opc</name>
    <tag></tag>
-   <elementGuidId>7dcb5134-7554-40b0-89ab-fef35abcc55c</elementGuidId>
+   <elementGuidId>45f5c30f-3918-41df-977d-f4604114d3d5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//input[@class='a-radio__input mdc-radio__native-control'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

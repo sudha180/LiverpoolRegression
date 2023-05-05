@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>username</name>
+   <name>cvvTextbox_opc</name>
    <tag></tag>
-   <elementGuidId>7dcb5134-7554-40b0-89ab-fef35abcc55c</elementGuidId>
+   <elementGuidId>01fac274-17b9-42b6-8801-3c425d983d55</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>#cvv</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

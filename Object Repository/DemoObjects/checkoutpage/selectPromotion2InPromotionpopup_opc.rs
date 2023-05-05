@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>username</name>
+   <name>selectPromotion2InPromotionpopup_opc</name>
    <tag></tag>
-   <elementGuidId>7dcb5134-7554-40b0-89ab-fef35abcc55c</elementGuidId>
+   <elementGuidId>914f9240-d84b-46aa-b2a7-b657a93d7116</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//li[@class='a-checkout_promoListElement']//span)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
