@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'celulares'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'celulares'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 

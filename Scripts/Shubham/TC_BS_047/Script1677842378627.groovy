@@ -24,8 +24,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('HomePage/Categoras_hp'))
 
 WebUI.mouseOver(findTestObject('HomePage/L1_hp'))
@@ -39,6 +37,4 @@ JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 for (int i = 0; i < 3500; i += 7) {
     js.executeScript(('window.scrollTo(0, ' + i) + ')')
 }
-
-WebUI.closeBrowser()
 

@@ -30,7 +30,7 @@ not_run: WebUI.click(findTestObject('HomePage/L1_hp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/Descuentos_plp'), 0)
 

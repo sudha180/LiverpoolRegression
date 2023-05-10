@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.callTestCase(findTestCase('null'), [('spanishTerm') : 'Niño'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('spanishTerm') : 'Niño'], FailureHandling.STOP_ON_FAILURE)
 
 productName_srp = WebUI.getText(findTestObject('SRP/productName_srp'))
 

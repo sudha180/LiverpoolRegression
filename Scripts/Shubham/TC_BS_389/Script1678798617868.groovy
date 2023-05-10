@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 not_run: WebUI.click(findTestObject('HomePage/MainSearchbar_hp'))
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.setText(findTestObject('HomePage/MainSearchbar_hp'), 'MAC')
 

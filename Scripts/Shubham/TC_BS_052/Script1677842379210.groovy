@@ -27,7 +27,7 @@ not_run: WebUI.click(findTestObject('HomePage/L1_hp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 
@@ -42,6 +42,8 @@ WebUI.click(findTestObject('Object Repository/pdp/Social_Media_pdp'))
 WebUI.switchToWindowTitle('Facebook')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/Social_Link_pdp'), 0)
+
+WebUI.switchToWindowTitle('')
 
 WebUI.closeBrowser()
 

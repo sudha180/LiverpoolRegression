@@ -6,11 +6,12 @@
    <elementGuidId>76b4f07f-6683-47c9-b544-f4fbb5cfe27f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//li[@id='0'])[1]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value> //div[2]/div/ul//a[. = 'Mi Cuenta']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

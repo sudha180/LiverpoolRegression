@@ -29,5 +29,7 @@ WebUI.selectOptionByValue(findTestObject('Shubham/TC_BS_057/select_AGUASCALIENTE
 WebUI.selectOptionByValue(findTestObject('Shubham/TC_BS_057/select_LiverpoolDuty FreeCentros Comerciales'), 'Liverpool', 
     true)
 
+WebUI.acceptAlert()
+
 WebUI.closeBrowser()
 

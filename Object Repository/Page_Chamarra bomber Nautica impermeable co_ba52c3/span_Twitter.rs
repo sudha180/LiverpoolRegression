@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Twitter</name>
+   <tag></tag>
+   <elementGuidId>f726746d-97f9-4cc9-9abf-b4b68d04add6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.SocialMediaShareButton.SocialMediaShareButton--twitter.custom-twitter-icon > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cc5d1485-743f-4d0e-8cbd-df2a45a501a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Twitter</value>
+      <webElementGuid>655b65be-f3db-4677-acda-4df30e92954d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;richContID&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;container p-0&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pr-lg-3 pl-lg-3&quot;]/div[@id=&quot;social-modal&quot;]/div[@class=&quot;modal-dialog modal-sm modal-dialog-centered modal-small&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/a[@class=&quot;a-modalShare__icon -twitter&quot;]/div[@class=&quot;SocialMediaShareButton SocialMediaShareButton--twitter custom-twitter-icon&quot;]/span[1]</value>
+      <webElementGuid>f3361433-b0aa-4fb7-95e6-092f0da4d52b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='social-modal']/div/div/div[2]/div[2]/div/a/div/span</value>
+      <webElementGuid>d098d979-7884-42a7-8093-2066f4f5eb47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/following::span[1]</value>
+      <webElementGuid>494de395-3363-441c-b8f8-d67ddfcf1946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compartir'])[2]/following::span[2]</value>
+      <webElementGuid>f99d2627-bdef-4281-9d9c-92013eabea9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::span[1]</value>
+      <webElementGuid>ed5d4f8e-7986-4376-ace0-7867bc06a0f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copiar'])[1]/preceding::span[2]</value>
+      <webElementGuid>fb31e4bc-2dd3-49c5-bd74-52d0e490630a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Twitter']/parent::*</value>
+      <webElementGuid>b434e307-b517-484c-bf46-c957b60f0e00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/span</value>
+      <webElementGuid>8abe36bf-b6a4-4a08-91ec-ad160ad8efe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Twitter' or . = 'Twitter')]</value>
+      <webElementGuid>c652b8b9-acd0-4b7d-b3be-295217462166</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

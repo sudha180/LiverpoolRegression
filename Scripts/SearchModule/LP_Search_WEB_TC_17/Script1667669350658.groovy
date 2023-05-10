@@ -35,7 +35,7 @@ WebUI.verifyElementPresent(findTestObject('HomePage/en_typeAhead'), 0)
 
 WebUI.click(findTestObject('HomePage/en_typeAhead'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/assertplp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
