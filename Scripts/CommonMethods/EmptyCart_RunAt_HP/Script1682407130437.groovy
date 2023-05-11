@@ -34,7 +34,7 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 //DriverFactory.changeWebDriver(driver)
 //List<WebElement>removeList = driver.findElements(By.xpath("//div[@class='t-myBag__productList']//div[@class='o-myBag o-myBag--giftTable sku_id_delivery_date']"));
 //List<WebElement> wes = WebUiCommonHelper.findWebElements(WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Product1_remove_cart')))
-WebUI.delay(5)
+WebUI.delay(3)
 
 List<WebElement> listElement = WebUI.findWebElements(findTestObject('1vedant/cart/Product1_remove_cart'), 2)
 
@@ -46,7 +46,7 @@ for (int i = 0; i < noOfProducts; i++) {
     // removeList.get(i).click(); 
     WebUI.click(findTestObject('1vedant/cart/Product1_remove_cart'))
 
-    WebUI.delay(6)
+    WebUI.delay(4)
 
     if (noOfProducts == 0) {
         break

@@ -29,9 +29,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], Failur
 
 WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'bag'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1vedant/PLP/product2_PLP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1024277450'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
 
@@ -43,11 +41,11 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_CO1'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('1vedant/Page_/select_vedaCARD_cardPopup'))
+WebUI.enhancedClick(findTestObject('1vedant/Page_/select_vedaCARD_cardPopup'))
 
 WebUI.setText(findTestObject('1vedant/Page_/card_expireDate_cardpopup'), '12/24')
 
@@ -56,7 +54,7 @@ WebUI.setText(findTestObject('1vedant/Page_/card_cvv_cardpopup'), '321')
 WebUI.click(findTestObject('1vedant/Page_/continueButton_cardPOPup_CO1'))
 
 'error come when incorrect cvv inentered'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/enterCardCVV_CO1'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardIncorrectCVV_erroe_OPC'), 0)
 
 WebUI.closeBrowser()
 

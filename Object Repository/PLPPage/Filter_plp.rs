@@ -6,11 +6,11 @@
    <elementGuidId>ecf9f969-8e94-4334-8fd4-4a469f529459</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>	(//div[@class='mdc-chip a-plp__filterSelection']/div[@class='mdc-chip__text'])[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>	(//div[@class='mdc-chip a-plp__filterSelection']/div[@class='mdc-chip__text'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

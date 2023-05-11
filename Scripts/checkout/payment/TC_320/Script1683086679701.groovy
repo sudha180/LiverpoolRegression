@@ -43,16 +43,16 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_CO1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'), FailureHandling.STOP_ON_FAILURE)
 
-CardToSelect = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/card8_Name_CO1'), FailureHandling.STOP_ON_FAILURE)
+CardToSelect = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/card8_Name_OPC'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/card8_Option_CO1'))
+WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/card8_Option_OPC'))
 
 'to set card as default card\r\n'
-WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/option1DropDown_setDefault_card_CO1'))
+WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/option1DropDown_setDefault_card_OPC'))
 
-CardAfterSelect = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/card5Name_CO1'), FailureHandling.STOP_ON_FAILURE)
+CardAfterSelect = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/card5Name_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 if (CardToSelect == CardAfterSelect) {
     System.out.println('checked that the card is set as default')

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('HomePage/MainSearchbar_hp'))
 
@@ -49,9 +49,9 @@ WebUI.verifyElementPresent(findTestObject('PLPPage/Price_1.3_plp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/Price_1.4_plp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/Price_1.5_plp'), 0)
+WebUI.verifyElementPresent(findTestObject('PLPPage/Price_1.5_plp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/Price_1.6_plp'), 0)
+WebUI.verifyElementPresent(findTestObject('PLPPage/Price_1.6_plp'), 0)
 
 WebUI.closeBrowser()
 

@@ -38,9 +38,9 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
 'would show if the login user has a default card'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardLast4Digit_CO'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardLast4Digit_OPC'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/card_pink_radiobutton_CO'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/card_pink_radiobutton_OPC'), 0)
 
 WebUI.closeBrowser()
 

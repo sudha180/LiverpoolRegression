@@ -29,7 +29,7 @@ not_run: WebUI.click(findTestObject('HomePage/L1_hp'))
 
 not_run: WebUI.click(findTestObject('HomePage/L3_clp'))
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 

@@ -41,17 +41,19 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/changeADDRESS_CO1'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/changeADDRESS_OPC'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/clickAndCollect_CO1'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/clickAndCollect_OPC'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/ClickAndCollect_option1_CO1'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/ClickAndCollect_option1_OPC'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/ClickAndCollect_option1_dropDown_CO1'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/ClickAndCollect_option1_dropDown_OPC'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/ClickAndCollect_option1_dropDown_mybirthday_CO1 - Copy'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/ClickAndCollect_option1_dropDown_mybirthday_OPC'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/saveChanges_CandC_CO1'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/saveChanges_CandC_OPC'))
+
+WebUI.verifyElementNotPresent(findTestObject('1vedant/CheckOut(CO)/billingAddress_OPC'), 0)
 
 WebUI.closeBrowser()
 
