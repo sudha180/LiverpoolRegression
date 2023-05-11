@@ -30,7 +30,7 @@ WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL_Product1], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
@@ -39,19 +39,23 @@ WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
 WebUI.click(findTestObject('HomePage/Cart_header'))
 
+WebUI.click(findTestObject('CartPage/BuyForGiftTable_Cart'))
+
+WebUI.click(findTestObject('CartPage/EnterEventNumber_Cart'))
+
+WebUI.setText(findTestObject('CartPage/EnterEventNumber_Cart'), GlobalVariable.EventNumber)
+
+WebUI.click(findTestObject('CartPage/FindTableButton_Cart'))
+
+WebUI.click(findTestObject('CartPage/SelectEvent_Cart'))
+
+WebUI.click(findTestObject('CartPage/SelectPartRadioButton_Cart'))
+
+WebUI.setText(findTestObject('CartPage/SetTextMessage_Cart'), 'Test123')
+
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
-WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
-
-WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
-
-StoreValue = CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.getRandomText'('Test')
-
-WebUI.callTestCase(findTestCase('CommonMethods/addAddress_fillform_opc'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
-
-WebUI.verifyElementPresent(findTestObject('Checkout/FirstAddressDefault_Checkout'), 0)
+WebUI.verifyElementPresent(findTestObject('Checkout/AddressButton_Checkout'), 0)
 
 WebUI.closeBrowser()
 

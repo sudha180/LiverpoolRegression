@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SelectAddressRadioButton_Checkout</name>
+   <name>EnterEventNumber_Cart</name>
    <tag></tag>
-   <elementGuidId>2fa373ec-03c3-4739-b267-891b186fec9c</elementGuidId>
+   <elementGuidId>3b3390e4-b01c-4a25-8649-506ef586555e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='deliveryAddressSelection'])[2]</value>
+         <value>(//input[@class='a-textField__input mdc-text-field__input'])[4]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SelectAddressRadioButton_Checkout</name>
+   <name>ToYourAddress_Checkout</name>
    <tag></tag>
-   <elementGuidId>2fa373ec-03c3-4739-b267-891b186fec9c</elementGuidId>
+   <elementGuidId>d7ae8aef-6568-4949-8f7d-71edadd01ba4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='deliveryAddressSelection'])[2]</value>
+         <value>//button[@id='opc_modal_addressButton']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

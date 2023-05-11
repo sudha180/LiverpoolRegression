@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SelectAddressRadioButton_Checkout</name>
+   <name>DeleteAddressPopup_Checkout</name>
    <tag></tag>
-   <elementGuidId>2fa373ec-03c3-4739-b267-891b186fec9c</elementGuidId>
+   <elementGuidId>ac73fa15-c42c-4e19-be90-7144db4b116b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='deliveryAddressSelection'])[2]</value>
+         <value>(//a[contains(text(), 'Eliminar')])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

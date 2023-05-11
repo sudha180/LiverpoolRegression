@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SelectAddressRadioButton_Checkout</name>
+   <name>DefaultAddressBlockContainer_Account</name>
    <tag></tag>
-   <elementGuidId>2fa373ec-03c3-4739-b267-891b186fec9c</elementGuidId>
+   <elementGuidId>9157063e-aec7-425e-b400-9540e994149c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='deliveryAddressSelection'])[2]</value>
+         <value>(//div[@class='m-cardBox addressBlock-container'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

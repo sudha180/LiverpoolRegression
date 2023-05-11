@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1031359461'</initValue>
+      <initValue>'1041992375'</initValue>
       <name>DigitalItem</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -363,5 +363,15 @@
       <description></description>
       <initValue>'https://odtaqab.liverpool.com.mx/tienda/cart'</initValue>
       <name>CartPageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NewTest12345'</initValue>
+      <name>ShortName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'56076023'</initValue>
+      <name>EventNumber</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

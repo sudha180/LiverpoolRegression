@@ -43,11 +43,11 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
 
-WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
+WebUI.click(findTestObject('Checkout/SelectAddressRadioButton_Checkout'))
 
-StoreValue = CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.getRandomText'('Test')
+WebUI.click(findTestObject('Checkout/ContinueButtonAddAddress_Checkout'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/addAddress_fillform_opc'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Checkout/VerifyAddressOPC_Checkout'), 0)
 
 WebUI.closeBrowser()
 

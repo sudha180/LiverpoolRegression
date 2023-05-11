@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-not_run: WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.DigitalItem], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('HomePage/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
-WebUI.verifyElementPresent(findTestObject('Checkout/VerifyAddressOPC_Checkout'), 0)
+WebUI.verifyElementPresent(findTestObject('Checkout/DigitalItemDevlieryAlert_Checkout'), 0)
 
 WebUI.closeBrowser()
 

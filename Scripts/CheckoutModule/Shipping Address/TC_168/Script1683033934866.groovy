@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-not_run: WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
@@ -29,6 +29,14 @@ WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('CLP/AfterLogin_hp'))
+
+WebUI.click(findTestObject('HomePage/myAccount_hp'))
+
+WebUI.click(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'))
+
+addressBlockContainer = WebUI.getText(findTestObject('AccountManagement/DefaultAddressBlockContainer_Account'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
@@ -43,11 +51,11 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
 
-WebUI.click(findTestObject('Checkout/SelectAddressRadioButton_Checkout'))
+DefaultAddress = WebUI.getText(findTestObject('Checkout/DefaultAddress_Checkout'))
 
-WebUI.click(findTestObject('Checkout/ContinueButtonAddAddress_Checkout'))
-
-WebUI.verifyElementPresent(findTestObject('Checkout/VerifyAddressOPC_Checkout'), 0)
+if (addressBlockContainer == DefaultAddress) {
+    println('checked')
+}
 
 WebUI.closeBrowser()
 
