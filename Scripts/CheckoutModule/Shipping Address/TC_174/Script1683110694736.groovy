@@ -17,3 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+
+not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+
+WebUI.click(findTestObject('HomePage/Cart_header'))
+
+WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
+
+WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
+
+WebUI.click(findTestObject('pdp/AddToCart_pdp'))
+
+WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
+
+StoreValue = CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.getRandomText'('Test')
+
+WebUI.callTestCase(findTestCase('CommonMethods/addAddress_fillform_opc'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Checkout/DigitalItemDevlieryAlert_Checkout'), 0)
+
+WebUI.closeBrowser()
+

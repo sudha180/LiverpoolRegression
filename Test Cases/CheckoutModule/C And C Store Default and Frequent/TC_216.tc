@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>For a login client, if a Click &amp; Collect store is configured in the profile as default, it must appear preselected in One Page checkout</description>
+   <name>TC_216</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>888d9734-f3c3-42e7-b30d-5843ec6b735d</testCaseGuid>
+</TestCaseEntity>

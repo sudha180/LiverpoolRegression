@@ -35,13 +35,13 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 
-WebUI.click(findTestObject('pdp/AddToCart_pdp'))
-
 WebUI.click(findTestObject('HomePage/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
+
+WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
 WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
 
@@ -53,9 +53,11 @@ WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
 
 WebUI.click(findTestObject('Checkout/3DotButton2_Checkout'))
 
-WebUI.click(findTestObject('Checkout/EditAddress_Checkout'))
+not_run: WebUI.click(findTestObject('Checkout/EditAddress_Checkout'))
 
-WebUI.verifyElementPresent(findTestObject('Checkout/CheckBoxAddAddressPopup_Checkout'), 0)
+WebUI.verifyElementPresent(findTestObject('Checkout/MakeAsDefault3DotDropDown_Checkout'), 0)
+
+not_run: WebUI.verifyElementPresent(findTestObject('Checkout/CheckBoxAddAddressPopup_Checkout'), 0)
 
 WebUI.closeBrowser()
 

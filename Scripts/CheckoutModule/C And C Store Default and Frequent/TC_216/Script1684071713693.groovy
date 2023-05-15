@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
-
-not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.liverPoolOdtaqab)
 
 WebUI.maximizeWindow()
 
@@ -36,7 +34,13 @@ WebUI.click(findTestObject('HomePage/myAccount_hp'))
 
 WebUI.click(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'))
 
-addressBlockContainer = WebUI.getText(findTestObject('AccountManagement/DefaultAddressBlockContainer_Account'))
+WebUI.click(findTestObject('AccountManagement/ClickAndCollectStores_accounts'))
+
+WebUI.click(findTestObject('Checkout/3DotButton_Checkout'))
+
+WebUI.click(findTestObject('AccountManagement/ClickNCollectionDefault_Account'))
+
+TitleAddress = WebUI.getText(findTestObject('AccountManagement/ClickNCollectionAddressTitle_Account'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
@@ -49,7 +53,11 @@ WebUI.click(findTestObject('HomePage/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
-WebUI.click(findTestObject('Checkout/DefaultAddressPage_Checkout'))
+DefaultAddress = WebUI.getText(findTestObject('Checkout/DefaultAddress_Checkout (1)'))
+
+if (TitleAddress == DefaultAddress) {
+    Println('Checked')
+}
 
 WebUI.closeBrowser()
 
