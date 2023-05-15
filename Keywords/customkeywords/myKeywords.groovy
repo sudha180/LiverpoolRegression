@@ -40,8 +40,8 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import org.openqa.selenium.JavascriptExecutor;
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.JavascriptExecutor;
+//import com.kms.katalon.core.webui.driver.DriverFactory
+//import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.apache.commons.lang.RandomStringUtils
 
@@ -190,4 +190,14 @@ class myKeywords {
 		String randomString = RandomStringUtils.random(length, charset.toCharArray())
 		KeywordUtil.logInfo(randomString)
 	}
+	@Keyword
+	def removeDollar(String withDollarprice) {
+		// withDollarprice = '$230'
+String priceWithoutDollar = withDollarprice.replace('$', '').replace(',', '').replace('.', '')
+KeywordUtil.logInfo(priceWithoutDollar)
+return priceWithoutDollar
+		}
+
+		//price = removeDollar('$2,3,0')
+	//	KeywordUtil.logInfo(price)
 }

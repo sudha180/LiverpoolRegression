@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DiscountPrice_opc</name>
+   <tag></tag>
+   <elementGuidId>e27fe803-98b3-4eeb-91b7-205a5769f8dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class='m-breakdownExpenses__column--priceContainer']//p)[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>967369db-5804-40bd-b92e-9b90f51ec0df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-inlineElement -enphasisDecimal -alignDecimal</value>
+      <webElementGuid>2f40bce7-cbdf-482a-bbc2-8c54dcb6f3ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$19.60</value>
+      <webElementGuid>6ee22afa-3ed7-4835-87d3-c1c79de6a2ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_buysummary&quot;)/div[@class=&quot;m-breakdownExpenses w-100 mt-0&quot;]/div[@class=&quot;m-breakdownExpenses__detail&quot;]/div[@class=&quot;m-breakdownExpenses__quantity&quot;]/div[@class=&quot;m-breakdownExpenses__column--priceContainer&quot;]/p[@class=&quot;a-inlineElement -enphasisDecimal -alignDecimal&quot;]</value>
+      <webElementGuid>565c7dda-1457-4891-8661-62bc06f13271</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opc_buysummary']/div[2]/div/div[2]/div[2]/p</value>
+      <webElementGuid>f447f826-51f1-49f4-90f2-bbaaba23536b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(2 disponibles)'])[1]/following::p[6]</value>
+      <webElementGuid>b8648a5e-b310-44e2-bd65-25f7beb21f7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cupones'])[1]/following::p[6]</value>
+      <webElementGuid>03ee6b8b-47cf-4c46-b8bb-4f618d6b0746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirma tu compra'])[2]/preceding::p[6]</value>
+      <webElementGuid>5f1a032c-b485-47e4-97b9-ee7e997f6388</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total:'])[1]/preceding::p[6]</value>
+      <webElementGuid>cb7bab25-f795-4c15-9515-da7931c84ac2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div[2]/p</value>
+      <webElementGuid>98318601-53bf-4ef5-83f2-3b41ec3627bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '$19.60' or . = '$19.60')]</value>
+      <webElementGuid>3bba8228-8fcd-4775-832e-041a324f3f51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

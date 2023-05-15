@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
@@ -6,3 +7,13 @@
    <comment></comment>
    <testCaseGuid>cc90e0a5-c0ad-45e3-9261-d4dc5046e405</testCaseGuid>
 </TestCaseEntity>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>clickaddAddressButton_opc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc90e0a5-c0ad-45e3-9261-d4dc5046e405</testCaseGuid>
+</TestCaseEntity>
+>>>>>>> 07062826da0be4c86207747f73c92c6bca55c901

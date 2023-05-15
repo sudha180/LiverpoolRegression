@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0D729CA8ADE4BF16A073E4A5FAD88265",
+  "keywordFileContentHash": "8B3D78287F8C19CEA7795AD3627B9972",
   "keywordClasses": [
     {
       "name": "customkeywords.myKeywords",
@@ -135,6 +135,25 @@
         {
           "name": "randomString",
           "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "removeDollar",
+          "parameters": [
+            {
+              "name": "withDollarprice",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
           "javadoc": ""
         }
       ]

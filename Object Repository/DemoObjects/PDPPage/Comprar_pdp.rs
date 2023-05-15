@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Comprar_pdp</name>
+   <tag></tag>
+   <elementGuidId>5a196f20-fee1-44c8-ba49-597b6b63cb18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>#opc_pdp_buyNowButton</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#opc_pdp_buyNowButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -21,11 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-not_run: WebUI.navigateToUrl('https://odtaqab.liverpool.com.mx/tienda/pdp/JeansslimGAPlavadoobscuroparania/1031371976?hs=true')
-
 WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -35,7 +31,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+WebUI.click(findTestObject('PLPPage/SecondProduct_plp'))
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
@@ -51,9 +47,11 @@ ActualJustifyContent = WebUI.getCSSValue(findTestObject('DemoObjects/checkoutpag
 
 Actualposition = WebUI.getCSSValue(findTestObject('DemoObjects/checkoutpage/purchaseSummary_opc'), 'position')
 
-def textalign = "left"
-def justifycontent = "flex-end"
-def position = "relative"
+def textalign = 'left'
+
+def justifycontent = 'flex-end'
+
+def position = 'relative'
 
 ActualTextAlign == textalign
 
