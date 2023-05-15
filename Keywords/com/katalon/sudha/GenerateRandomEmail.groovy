@@ -84,7 +84,6 @@ class GenerateRandomEmail {
 	@Keyword
 	public String getRandomText(String shortName) {
 		int randomNo = (int)(Math.random() * 1000);
-		KeywordUtil.logInfo(shortName + randomNo)
 		return shortName + randomNo;
 		
 	}

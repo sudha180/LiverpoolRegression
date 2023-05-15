@@ -27,11 +27,9 @@ not_run: WebUI.click(findTestObject('HomePage/L1_hp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Shubham/TC_BS_055/div_Descuentos_col-auto'))
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/Verify_Arrow_plp'), 0)
-
-WebUI.closeBrowser()
 

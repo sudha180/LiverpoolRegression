@@ -22,9 +22,9 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 if (true) {
-    WebUI.verifyElementPresent(findTestObject('null'), 0)
+    WebUI.verifyElementPresent(findTestObject('Object Repository/i_Ms informacin_icon-close close'), 0)
 
-    WebUI.click(findTestObject('null'))
+    WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
 WebUI.click(findTestObject('Object Repository/HomePage/a_Ayuda_footer'))

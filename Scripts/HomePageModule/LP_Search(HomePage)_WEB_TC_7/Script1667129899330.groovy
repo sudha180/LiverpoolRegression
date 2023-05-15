@@ -21,28 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('SRP/firstProductImage_srp'))
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('SRP/secondProductImage_srp'))
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('SRP/thirdProductImage_srp'))
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('SRP/fourthProductImage_srp'))
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
 productName_plp = WebUI.getText(findTestObject('SRP/fifthproductName'))
 
@@ -65,6 +65,6 @@ not_run: WebUI.verifyElementAttributeValue(findTestObject('HomePage/productInRec
 
 not_run: WebUI.verifyElementPresent(findTestObject('HomePage/productInRecentlyViewed_hp'), 0)
 
-not_run: WebUI.callTestCase(findTestCase('null'), [('searchTerm') : productNameActual_pdp], 
+not_run: WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : productNameActual_pdp], 
     FailureHandling.STOP_ON_FAILURE)
 

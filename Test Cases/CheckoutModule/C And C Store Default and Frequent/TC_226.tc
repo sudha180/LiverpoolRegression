@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A login customer should have the option to change their shipping method for a C&amp;C store that is stored as frequent in my profile.</description>
+   <name>TC_226</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdb95aca-11f1-465b-a2e2-25bd05e8ba99</testCaseGuid>
+</TestCaseEntity>

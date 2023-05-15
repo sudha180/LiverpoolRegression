@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/assertSearchTypeahead'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Liverpool es parte de Mi vida/assertListOfItemsInTypeahead_hp'), 0)
 
@@ -29,7 +29,7 @@ WebUI.verifyElementPresent(findTestObject('SRP/productImage_typeAhead'), 0)
 
 WebUI.click(findTestObject('SRP/productImage_typeAhead'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/assertProductDetails_pdp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
