@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ClickNCollectionSelectGift_Checkout</name>
+   <name>StateOptionClickNCollection_Account</name>
    <tag></tag>
-   <elementGuidId>051139f2-f8e9-4726-85da-16c595ba18d3</elementGuidId>
+   <elementGuidId>724c872c-c6a7-411a-895f-977ca38f0fd9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@class='mdc-select__native-control']</value>
+         <value>//option[@value=15]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='mt-lg-3 pl-lg-0 d-none d-lg-block opc_deliveryDateD product-extra-info']//div[contains(text(),'-')]</value>
+         <value>(//div[@class='opc_deliveryType'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

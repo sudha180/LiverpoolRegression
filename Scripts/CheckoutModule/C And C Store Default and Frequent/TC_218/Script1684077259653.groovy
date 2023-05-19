@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Checkout/AddressPopupCLickNCollect_Checkout'))
 
 WebUI.click(findTestObject('Checkout/3DotButton_Checkout'))
 
-WebUI.verifyElementPresent(findTestObject('Checkout/ClickNCollectionDefaultAddress_Checkout'), 0)
+WebUI.verifyElementClickable(findTestObject('Checkout/ClickNCollectionDefaultAddress_Checkout'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

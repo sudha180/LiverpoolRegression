@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//p[@class='opc_store-delivery__description'])[3]</value>
+         <value>(//div[@class='m-radioButton mdc-form-field'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

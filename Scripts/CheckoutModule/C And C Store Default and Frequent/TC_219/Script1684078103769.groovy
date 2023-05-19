@@ -39,19 +39,17 @@ WebUI.click(findTestObject('HomePage/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
+WebUI.verifyElementPresent(findTestObject('Checkout/DefaultAddress_Checkout'), 0)
+
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
 
 WebUI.click(findTestObject('Checkout/AddressPopupCLickNCollect_Checkout'))
 
 WebUI.click(findTestObject('Checkout/ClickNCollectionRadioButton_Checkout'))
 
-WebUI.click(findTestObject('Checkout/ClickNCollectionSelectGift_Checkout'))
+WebUI.click(findTestObject('Checkout/ClickNCollectionSelectEvent_Checkout'))
 
-WebUI.click(findTestObject('Checkout/OptionOfSelectGift_Checkout'))
-
-WebUI.click(findTestObject('Checkout/3DotButton_Checkout'))
-
-WebUI.click(findTestObject('Checkout/ClickNCollectionDefaultAddress_Checkout'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Checkout/OptionOfSelectEvent_Checkout'))
 
 WebUI.click(findTestObject('Checkout/ContinueButtonClickNCollectPopup_Checkout'))
 

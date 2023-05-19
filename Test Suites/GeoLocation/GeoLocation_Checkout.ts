@@ -50,7 +50,7 @@
       <guid>c393d593-0a5d-49cb-bdef-39f23a7680ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Geo Location/GeoLocation_Checkout/TC_GeoLocal_65</testCaseId>
+      <testCaseId>Test Cases/Geo Location/GeoLocation_Checkout/TC_GeoLocal_65_Update</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

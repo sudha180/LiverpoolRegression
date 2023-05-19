@@ -28,11 +28,11 @@ WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('CLP/AfterLogin_hp'))
-
-WebUI.click(findTestObject('HomePage/myAccount_hp'))
+WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'))
+
+WebUI.callTestCase(findTestCase('CommonMethods/ClickDelivery_MyAccount'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('AccountManagement/ClickAndCollectStores_accounts'))
 
@@ -58,6 +58,14 @@ DefaultAddress = WebUI.getText(findTestObject('Checkout/DefaultAddress_Checkout 
 if (TitleAddress == DefaultAddress) {
     Println('Checked')
 }
+
+WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
+
+WebUI.click(findTestObject('Checkout/AddressPopupCLickNCollect_Checkout'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Checkout/CheckAddressDefault_Checkout'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Checkout/ClickNCollectionRadioButton_Checkout'), 0)
 
 WebUI.closeBrowser()
 
