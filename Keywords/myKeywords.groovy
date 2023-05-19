@@ -48,8 +48,8 @@
  * class myKeywords {
  *//**
  * Refresh browser
- */
-/*
+ *//*
+
  * @Keyword def refreshBrowser() { KeywordUtil.logInfo("Refreshing") WebDriver
  * webDriver = DriverFactory.getWebDriver() webDriver.navigate().refresh()
  * KeywordUtil.markPassed("Refresh successfully") }
@@ -58,8 +58,8 @@
  * Click element
  * 
  * @param to Katalon test object
- */
-/*
+ *//*
+
  * @Keyword def clickElement(TestObject to) {
  * 
  * try { WebElement element = WebUI.findWebElement(to);

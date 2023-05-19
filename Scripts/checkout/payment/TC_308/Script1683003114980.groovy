@@ -42,12 +42,12 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
 'would show if the login user has a default card'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardLast4Digit_OPC'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardLast4Digit_CO'), 0)
 
 'title of payment method\r\n'
-PaymentTitle = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/paymentMethod_title_OPC'), FailureHandling.STOP_ON_FAILURE)
+PaymentTitle = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/paymentMethod_title_CO1'), FailureHandling.STOP_ON_FAILURE)
 
-int PaymentTitleCSS = WebUI.getCSSValue(findTestObject('1vedant/CheckOut(CO)/paymentMethod_title_OPC'), 'font-weight')
+int PaymentTitleCSS = WebUI.getCSSValue(findTestObject('1vedant/CheckOut(CO)/paymentMethod_title_CO1'), 'font-weight')
 
 System.out.println(PaymentTitleCSS)
 

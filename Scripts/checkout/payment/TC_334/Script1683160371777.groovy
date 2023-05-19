@@ -40,13 +40,13 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
 'verify no delivery adress is present '
-WebUI.verifyElementNotPresent(findTestObject('1vedant/CheckOut(CO)/billingAddress_OPC'), 0)
+WebUI.verifyElementNotPresent(findTestObject('1vedant/CheckOut(CO)/billingAddress_CO1'), 0)
 
 'verify no delivery adress is present to change to '
-WebUI.verifyElementNotPresent(findTestObject('1vedant/CheckOut(CO)/changeADDRESS_OPC'), 0)
+WebUI.verifyElementNotPresent(findTestObject('1vedant/CheckOut(CO)/changeADDRESS_CO1'), 0)
 
 'only show when their is digital download only'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/digitalDownload_OPC'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/digitalDownload_CO1'), 0)
 
 WebUI.closeBrowser()
 

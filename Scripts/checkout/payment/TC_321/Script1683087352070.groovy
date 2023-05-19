@@ -43,15 +43,15 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_CO1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/card8_Option_OPC'))
+WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/card8_Option_CO1'))
 
 'to set card as default card\r\n'
-WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/option2DropDown_editos_card_OPC'))
+WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/option2DropDown_editos_card_CO1'))
 
 'section present to edit is address'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/AddressSection_card_popup_OPC'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/AddressSection_card_popup_CO1'), 0)
 
 WebUI.closeBrowser()
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
@@ -113,3 +114,120 @@
       <webElementGuid>f963368d-98cd-4846-b623-a6ab2c7105fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_AddAdress_opc</name>
+   <tag></tag>
+   <elementGuidId>69cd0943-d490-4934-9521-3d31d4180334</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='opc_selectAddressModal']/div[3]/div[2]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-btn.a-btn--tertiary.d-none.d-lg-block.font-weight-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>191a9284-4b12-48fc-8d72-d3ee9232df7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-btn a-btn--tertiary d-none d-lg-block font-weight-bold</value>
+      <webElementGuid>bb4c73f3-786c-42a4-86eb-99d23146a7f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Agregar Dirección</value>
+      <webElementGuid>3a5522f1-1ae1-4d99-b3b1-5f845e31aa1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_selectAddressModal&quot;)/div[@class=&quot;modal-body&quot;]/div[@class=&quot;row opc_addressContinueModal&quot;]/div[@class=&quot;col-sm-6 col-lg-2&quot;]/button[@class=&quot;a-btn a-btn--tertiary d-none d-lg-block font-weight-bold&quot;]</value>
+      <webElementGuid>a386322d-5bf3-46f2-a699-c848ec975158</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opc_selectAddressModal']/div[3]/div[2]/div/button</value>
+      <webElementGuid>24d62ae7-7f6d-43c0-8c21-4c060bd26f2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar otra dirección'])[1]/following::button[1]</value>
+      <webElementGuid>2af966cd-9457-4b85-8d5c-b974edd6300a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sadsf, 3333, BARRIO DE LA LUZ, 12000, sadsdsdfs, DISTRITO FEDERAL, México'])[1]/following::button[2]</value>
+      <webElementGuid>f616eaaa-0c05-427e-b863-326c10d948e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continuar'])[1]/preceding::button[1]</value>
+      <webElementGuid>e258db41-587b-4ef5-8482-e12f9978bab4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tienes un cupón disponible en tu bolsa'])[1]/preceding::button[2]</value>
+      <webElementGuid>c8adc626-ef50-4f48-b777-7f408910aa21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Agregar Dirección']/parent::*</value>
+      <webElementGuid>f4b062f4-859c-486c-ae4e-166a5f2db5f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>f27c854b-1afe-450c-a747-7f6044e0c0b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Agregar Dirección' or . = 'Agregar Dirección')]</value>
+      <webElementGuid>f963368d-98cd-4846-b623-a6ab2c7105fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
+>>>>>>> 07062826da0be4c86207747f73c92c6bca55c901

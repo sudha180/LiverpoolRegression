@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_CO1'))
 
 WebUI.click(findTestObject('1vedant/Page_/select_vedaCARD_cardPopup'))
 

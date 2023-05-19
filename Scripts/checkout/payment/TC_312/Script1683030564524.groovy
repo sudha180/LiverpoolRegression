@@ -42,25 +42,25 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
 'predefined payment method\r\n'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_OPC'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_CO'), 0)
 
 'predefined payment method\r\n'
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_CO'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option1_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option1_CO'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_CO)'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_CO)'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-selectOption = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_OPC'), FailureHandling.STOP_ON_FAILURE)
+selectOption = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_CO)'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-selectedOption = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_OPC'), FailureHandling.STOP_ON_FAILURE)
+selectedOption = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_CO'), FailureHandling.STOP_ON_FAILURE)
 
 if (selectOption == selectedOption)
 {

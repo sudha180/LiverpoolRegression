@@ -41,7 +41,7 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_CO1'))
 
 WebUI.closeBrowser()
 

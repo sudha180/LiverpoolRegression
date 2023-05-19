@@ -42,21 +42,21 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
 'would show if the login user has a default card'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardLast4Digit_OPC'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardLast4Digit_CO'), 0)
 
 'payment method button1'
-WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button1_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button1_CO1'), FailureHandling.STOP_ON_FAILURE)
 
 'payment method button2'
-WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button2_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button2_CO1'), FailureHandling.STOP_ON_FAILURE)
 
 'payment method button3'
-WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button3_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button3_CO1'), FailureHandling.STOP_ON_FAILURE)
 
 'payment method button1'
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button1_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button1_CO1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/add_A_Cart_payment_metod_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/add_A_Cart_payment_metod_CO1'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

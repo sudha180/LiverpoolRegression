@@ -41,9 +41,9 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/questionMark_OPC'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/questionMark_CO1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('1vedant/CheckOut(CO)/popUP_questionmark_OPC'), 'Son los tres números detrás de tu tarjeta')
+WebUI.verifyElementText(findTestObject('1vedant/CheckOut(CO)/popUP_questionmark'), 'Son los tres números detrás de tu tarjeta')
 
 WebUI.closeBrowser()
 

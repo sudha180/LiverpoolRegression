@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div//input[@id='username']</value>
+         <value>//input[@id='username']</value>
       </entry>
       <entry>
          <key>BASIC</key>
