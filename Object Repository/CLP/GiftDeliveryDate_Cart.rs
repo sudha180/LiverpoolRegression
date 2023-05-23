@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='delivery-pickup']</value>
+         <value>//div[@class='delivery-home']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

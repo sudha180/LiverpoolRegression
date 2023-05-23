@@ -27,29 +27,19 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
 
-WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.DigitalItem)
+not_run: WebUI.navigateToUrl(GlobalVariable.DigitalItem)
 
-not_run: WebUI.callTestCase(findTestCase('null'), [('searchTerm') : GlobalVariable.CollectionItem], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.DigitalItem], 
     FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('PLPPage/SoldByFilter_plp'), 0)
-
-WebUI.click(findTestObject('PLPPage/SoldBySellerName_plp'))
-
-WebUI.verifyElementPresent(findTestObject('PLPPage/Verify_Filter_plp'), 0)
-
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
 WebUI.click(findTestObject('HomePage/Cart_header'))
 
 WebUI.click(findTestObject('CLP/CheckoutButton_Cart'))
-
-WebUI.scrollToElement(findTestObject('Checkout/EDD_Checkout'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Checkout/EDD_Checkout'), 0)
 

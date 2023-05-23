@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a.     Mark as default. when the user clicks the system should save it as frequent and set it as default.</description>
+   <name>TC_286</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52bf3250-837d-442c-bfb5-a5b55952a645</testCaseGuid>
+</TestCaseEntity>
