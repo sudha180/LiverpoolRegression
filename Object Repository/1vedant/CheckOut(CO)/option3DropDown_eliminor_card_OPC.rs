@@ -6,12 +6,11 @@
    <elementGuidId>f775d455-ad0e-4a1e-82d5-edac679f83e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='dropdown-menu show']//a[@class='a-menuMotion__link dropdown-item ripple-motion ripple-one-line'])[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@class='dropdown-menu show']//a[@class='a-menuMotion__link dropdown-item ripple-motion ripple-one-line'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

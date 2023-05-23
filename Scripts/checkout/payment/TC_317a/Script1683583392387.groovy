@@ -39,13 +39,15 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
+
 WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardExpire_OPC'), '122456')
 
 MMAA = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/enterCardExpire_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardCVV_OPC'), '12345')
 
-WebUI.getText(findTestObject('1vedant/CheckOut(CO)/enterCardCVV_OPC'), FailureHandling.STOP_ON_FAILURE)
+cvv = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/enterCardCVV_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 if (MMAA == (12 / 24)) {
     System.out.println('only taken MM/AA = 12/24')

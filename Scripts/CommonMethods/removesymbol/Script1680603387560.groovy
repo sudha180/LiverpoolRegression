@@ -16,31 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+def removeDollar(String withDollarprice) {
+	//withDollarprice = '$230'
+	String priceWithoutDollar = withDollarprice.replace('$', '').replace(',', '')
+	KeywordUtil.logInfo(priceWithoutDollar)
+	return priceWithoutDollar
+}
 
-WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLpSlgift], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
-
-WebUI.scrollToPosition(19, 400)
-
-WebUI.enhancedClick(findTestObject('1vedant/PDP/StickyBar_Comprar_Ahora_PDP'))
-
-WebUI.delay(5)
-
-WebUI.callTestCase(findTestCase('CommonMethods/assert_OPC(CheckoutPage)'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
-
+price = removeDollar('$2,3,0')
+KeywordUtil.logInfo(price)

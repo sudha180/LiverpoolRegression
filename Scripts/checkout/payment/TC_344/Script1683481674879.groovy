@@ -37,19 +37,15 @@ WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
 
-WebUI.scrollToPosition(-500, 0)
+WebUI.scrollToPosition(0, 400)
 
 WebUI.click(findTestObject('1vedant/PDP/StickyBar_Comprar_Ahora_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
-
-WebUI.click(findTestObject('1vedant/cart/comprar'))
-
 WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('1vedant/Page_/select_vedaCARD_cardPopup'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/card3Name_OPC'))
 
 WebUI.setText(findTestObject('1vedant/Page_/card_expireDate_cardpopup'), '12/24')
 

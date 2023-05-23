@@ -6,12 +6,11 @@
    <elementGuidId>c42fb042-7851-499d-a641-4bdfee24d49b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='a-stickyBar__addButton sticky-btn-container bt-disabled-secondary'])</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@class='a-stickyBar__addButton sticky-btn-container bt-disabled-secondary']//button)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

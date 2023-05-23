@@ -6,11 +6,11 @@
    <elementGuidId>6b7cdf55-bd28-4a8c-a747-82108208810c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@class='a-textField__input mdc-text-field__input'])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//input[@id='cvv'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

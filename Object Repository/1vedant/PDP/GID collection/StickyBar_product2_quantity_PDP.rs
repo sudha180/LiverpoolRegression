@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>expire date of card</description>
-   <name>enterCardExpire_OPC</name>
+   <description></description>
+   <name>StickyBar_product2_quantity_PDP</name>
    <tag></tag>
-   <elementGuidId>84c7ec17-8d4c-4dca-b4fb-cb55048e2657</elementGuidId>
+   <elementGuidId>f1d0129b-f4eb-4d83-851b-6c879c2da8e9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@class='a-textField__input mdc-text-field__input'])[1]</value>
+         <value>(//p[@class='a-stickyBar__product__quantity'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

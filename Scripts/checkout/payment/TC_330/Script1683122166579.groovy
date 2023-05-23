@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.url3)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -27,7 +29,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], Failur
 
 WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'bag'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'nat'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/product3_PLP'), FailureHandling.STOP_ON_FAILURE)
 
@@ -41,23 +43,51 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_CO1'), FailureHandling.STOP_ON_FAILURE)
+'delete the present card to enter new card'
+WebUI.callTestCase(findTestCase('CommonMethods/deleteCARD_NEWCRETED'), [:], FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/selectCard1Option_cardpopup_CO1'), 0)
+/*	
+if (a==false )
+{
+	WebUI.click(findTestObject('1vedant/CheckOut(CO)/close_popup_OPC'))
+}
+*/
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'), FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/selectCardOption_default_cardpopup_CO1'), 0)
+'add new card'
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/addnewcard_Popup_OPC'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/selectCardOption_save_cardpopup_CO1'), 0)
+WebUI.setText(findTestObject('1vedant/CheckOut(CO)/newCardNumber_OPC'), '4343434311111111')
 
-'to set card as default card\r\n'
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/addnewcard_Popup_CO'))
+WebUI.setText(findTestObject('1vedant/CheckOut(CO)/newCard_alias_Addnew_cardPOPUP'), 'sharma')
 
-'section present to edit is address'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/AddressSection_card_popup_CO1'), 0)
+WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardName_OPC'), 'vedant')
 
-WebUI.setText(findTestObject('1vedant/CheckOut(CO)/newCardNumber_CO1'), '434343666')
+WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardExpire_OPC'), '12/24')
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/img_alias(visa)_CO1'), 0)
+WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardCVV_OPC'), '123')
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/selectCardOption_save_cardpopup_OPC'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/selectCardOption_save_cardpopup_OPC'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/close_popup_OPC'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/close_popup_OPC'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/card3_Option_OPC'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/selectCard1Option_cardpopup_OPC'), 0)
+
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/selectCardOption_default_cardpopup_OPC'), 0)
+
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/selectCardOption_save_cardpopup_OPC'), 0)
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/selectCard1Option_cardpopup_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

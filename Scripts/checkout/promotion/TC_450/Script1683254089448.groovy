@@ -53,7 +53,7 @@ if(WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo2
 if(WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo3_popup_OPC'), FailureHandling.OPTIONAL))
 {i++;
 }
-KeywordUtil.logInfo(i)
+
 System.out.println("number of promo combo are"+i)
 WebUI.closeBrowser()
 

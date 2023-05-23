@@ -39,15 +39,6 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
 class GenerateRandomEmail {
-	@Keyword
-	    def generateRandomEmail()
-	    {
-	        String firstName = "automation"
-	        String generatedstring=RandomStringUtils.randomAlphabetic(8);
-	        String Email = firstName+generatedstring+"@digisprint.com"
-	        KeywordUtil.logInfo(Email)
-	        return Email;
-	    }
 	/**
 	 * Refresh browser
 	 */
@@ -94,7 +85,6 @@ class GenerateRandomEmail {
 	public String getRandomText(String shortName) {
 		int randomNo = (int)(Math.random() * 1000);
 		return shortName + randomNo;
-		
 	}
 
 
@@ -109,6 +99,4 @@ class GenerateRandomEmail {
 		visaCard = (int)(Math.random());
 		return visacardStartingDigits + visaCard;
 	}
-	
-	
 }
