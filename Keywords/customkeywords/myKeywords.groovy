@@ -48,6 +48,14 @@ import org.apache.commons.lang.RandomStringUtils
 
 
 class myKeywords {
+	@Keyword
+	def generateRandomEmail() {
+		String firstName = 'automation'
+		String generatedstring=RandomStringUtils.randomAlphabetic(8);
+		String Email = firstName+generatedstring+'@digisprint.com'
+		KeywordUtil.logInfo(Email)
+		return Email
+	}
 	/**
 	 * Refresh browser
 	 */
@@ -193,11 +201,11 @@ class myKeywords {
 	@Keyword
 	def removeDollar(String withDollarprice) {
 		// withDollarprice = '$230'
-String priceWithoutDollar = withDollarprice.replace('$', '').replace(',', '').replace('.', '')
-KeywordUtil.logInfo(priceWithoutDollar)
-return priceWithoutDollar
-		}
+		String priceWithoutDollar = withDollarprice.replace('$', '').replace(',', '').replace('.', '')
+		KeywordUtil.logInfo(priceWithoutDollar)
+		return priceWithoutDollar
+	}
 
-		//price = removeDollar('$2,3,0')
+	//price = removeDollar('$2,3,0')
 	//	KeywordUtil.logInfo(price)
 }

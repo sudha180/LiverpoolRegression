@@ -244,4 +244,19 @@
       <initValue>'1031359461'</initValue>
       <name>DigitalItem</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Demo'</initValue>
+      <name>FirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test'</initValue>
+      <name>LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lavadoras'</initValue>
+      <name>SLProductNew</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,9 +1,14 @@
 {
-  "keywordFileContentHash": "4FC424F0172519F34A33F0A32E3D5ECD",
+  "keywordFileContentHash": "BC6ADB649A9F94F7C8344FCB1A34586E",
   "keywordClasses": [
     {
       "name": "customkeywords.myKeywords",
       "keywordMethods": [
+        {
+          "name": "generateRandomEmail",
+          "parameters": [],
+          "javadoc": ""
+        },
         {
           "name": "refreshBrowser",
           "parameters": [],
