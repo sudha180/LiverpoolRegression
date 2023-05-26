@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 not_run: WebUI.navigateToUrl(GlobalVariable.LiverpoolProduction)
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -31,7 +31,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.verifyElementPresent(findTestObject('pdp/ClickNCollect_pdp'), 0)
 

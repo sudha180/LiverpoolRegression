@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.collectionItemLink)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -38,7 +38,7 @@ WebUI.click(findTestObject('pdp/CollectionSelection_pdp'))
 
 WebUI.click(findTestObject('pdp/AddToMyBagSticky_pdp'))
 
-WebUI.click(findTestObject('HomePage/Cart_header'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.verifyElementPresent(findTestObject('CLP/EstimatedDelivery_Cart'), 0)
 

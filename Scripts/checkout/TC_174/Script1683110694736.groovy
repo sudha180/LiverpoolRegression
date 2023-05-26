@@ -25,7 +25,7 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -33,9 +33,9 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
-WebUI.click(findTestObject('HomePage/Cart_header'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 

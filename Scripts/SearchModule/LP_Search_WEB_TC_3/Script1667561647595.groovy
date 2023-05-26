@@ -23,17 +23,17 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_vaso en Liverpool/a_Ordenar por'))
+WebUI.click(findTestObject('Object Repository/1SRP page/a_Ordenar por'))
 
-WebUI.click(findTestObject('Object Repository/Page_vaso en Liverpool/button_Menor precio'))
+WebUI.click(findTestObject('Object Repository/1SRP page/button_Menor precio'))
 
-firstProductPrice = WebUI.getText(findTestObject('Page_vaso en Liverpool/firstProductPrice_srp'))
+firstProductPrice = WebUI.getText(findTestObject('1SRP page/firstProductPrice_srp'))
 
 firstProductPriceNew = firstProductPrice.replace('$', '')
 
 println('This is the output after price replacement = ' + firstProductPriceNew)
 
-secondProductPrice = WebUI.getText(findTestObject('Page_vaso en Liverpool/secondProductPrice_srp'))
+secondProductPrice = WebUI.getText(findTestObject('1SRP page/secondProductPrice_srp'))
 
 secondProductPriceNew = secondProductPrice.replace('$', '').replace('0', '').toInteger()
 
@@ -41,7 +41,7 @@ not_run: Integer a = firstProductPrice.substring(0, 4)
 
 not_run: Integer b = secondProductPrice.valueOf(secondProductPrice.substring(1, 4))
 
-not_run: secondProductPrice = WebUI.getText(findTestObject('Page_vaso en Liverpool/secondProductPrice_srp'))
+not_run: secondProductPrice = WebUI.getText(findTestObject('1SRP page/secondProductPrice_srp'))
 
 not_run: secondProductPrice = secondProductPrice.substring(1, 4)
 

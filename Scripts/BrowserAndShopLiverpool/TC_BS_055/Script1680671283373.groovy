@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-not_run: WebUI.click(findTestObject('HomePage/Categoras_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-not_run: WebUI.click(findTestObject('HomePage/L1_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 

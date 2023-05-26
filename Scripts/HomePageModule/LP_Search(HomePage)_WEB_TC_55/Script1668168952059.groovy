@@ -16,20 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.katalon.sudha.GenerateRandomEmail
+import com.katalon.sudha.GenerateRandomEmail as GenerateRandomEmail
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.click(findTestObject('Object Repository/AccountManagement/Iniciar sesin_hp'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Iniciar sesin en Liverpool/a_Crear cuenta'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/CreateAccount_Account'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
 String Mail = CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.getEmail'('testing', 'mailinator.com')
 
-WebUI.setText(findTestObject('Object Repository/AccountManagement/input_Correo electrnico_email_AM'), Mail)
+WebUI.setText(findTestObject('AccountManagement/input_Correo electrnico_email_AM'), Mail)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/AccountManagement/input_Contrasea_password_AM'), 'R2dZ4hvJ2ugmSF41W9Lwpw==')
 
@@ -41,14 +42,11 @@ WebUI.setText(findTestObject('Object Repository/AccountManagement/user_firstName
 
 WebUI.setText(findTestObject('Object Repository/AccountManagement/user_lastName_AM'), 'rani')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/AccountManagement/select_day_AM'), 
-    '15', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/AccountManagement/select_day_AM'), '15', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/AccountManagement/select_month_AM'), 
-    'Ago', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/AccountManagement/select_month_AM'), 'Ago', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/AccountManagement/select_year_AM'), 
-    '2004', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/AccountManagement/select_year_AM'), '2004', true)
 
 WebUI.click(findTestObject('Object Repository/AccountManagement/input_gender_AM'))
 

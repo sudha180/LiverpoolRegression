@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -38,7 +38,7 @@ not_run: WebUI.navigateToUrl(GlobalVariable.minimumPurchaseProdut)
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
-WebUI.click(findTestObject('HomePage/Cart_header'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.verifyElementPresent(findTestObject('CartPage/MinimumPurchase_Cart'), 0)
 

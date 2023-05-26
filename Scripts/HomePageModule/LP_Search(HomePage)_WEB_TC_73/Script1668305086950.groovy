@@ -30,5 +30,5 @@ WebUI.verifyElementPresent(findTestObject('Page_Liverpool es parte de Mi vida/sp
 
 not_run: WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/a_Actualizar Datos Personales'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/a_Actualizar Datos Personales'))
 

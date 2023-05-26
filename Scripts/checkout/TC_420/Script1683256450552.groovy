@@ -35,7 +35,7 @@ WebUI.click(findTestObject('PLPPage/SecondProduct_plp'))
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.click(findTestObject('HomePage/Cart_header'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'), FailureHandling.STOP_ON_FAILURE)
 

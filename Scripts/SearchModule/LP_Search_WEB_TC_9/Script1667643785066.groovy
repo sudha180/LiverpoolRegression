@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('HomePage/Buscar1'))
+WebUI.click(findTestObject('HomePageShubhum/Buscar1'))
 
-WebUI.setText(findTestObject('HomePage/Buscar1'), 'vaso')
+WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), 'vaso')
 
-WebUI.verifyElementPresent(findTestObject('HomePage/typeAheadLeftNav_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/typeAheadLeftNav_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/assertListOfItemsInTypeahead_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/assertListOfItemsInTypeahead_hp'), 0)
 
 WebUI.closeBrowser()
 

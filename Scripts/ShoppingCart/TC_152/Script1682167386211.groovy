@@ -25,7 +25,7 @@ not_run: WebUI.navigateToUrl('https://odtaqab.liverpool.com.mx/tienda/pdp/Jeanss
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -33,7 +33,7 @@ WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username
 WebUI.callTestCase(findTestCase('null'), [('searchTerm') : GlobalVariable.minimumPurchaseProdut], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 PDPQuntity = WebUI.getText(findTestObject('pdp/MinimumQuntity_Pdp'), FailureHandling.STOP_ON_FAILURE)
 

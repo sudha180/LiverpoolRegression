@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('SRP/gridViewSelected_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/gridViewSelected_srp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SRP/listViewNotSelected_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/listViewNotSelected_srp'), 0)
 
 WebUI.closeBrowser()
 

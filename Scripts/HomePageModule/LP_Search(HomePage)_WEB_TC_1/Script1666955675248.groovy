@@ -26,19 +26,19 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('HomePage/primaryBanner_hp'), 0)
+WebUI.waitForElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/primaryBanner_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/SecondaryBanner1_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/SecondaryBanner1_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/catridgeA_hp (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/catridgeA_hp (1)'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/catridgeB_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/catridgeB_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/recentlyViewed_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/recentlyViewed_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Levis Liverpool'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Levis Liverpool'), 0)
 
 WebUI.closeBrowser()
 

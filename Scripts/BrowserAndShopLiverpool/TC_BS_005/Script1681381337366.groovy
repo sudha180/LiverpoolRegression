@@ -23,11 +23,11 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('1vedant/HP/CategorasDropDown_HP'))
+WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-L1 = WebUI.getText(findTestObject('1vedant/HP/L1_Category2_HP'))
+L1 = WebUI.getText(findTestObject('1HomePage/L1_Category2_HP'))
 
-WebUI.click(findTestObject('1vedant/HP/L1_Category2_HP'))
+WebUI.click(findTestObject('1HomePage/L1_Category2_HP'))
 
 subCategory = WebUI.getText(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
@@ -42,7 +42,7 @@ WebUI.verifyElementClickable(findTestObject('1vedant/CLP/Left_Current_Page_CLP')
 
 WebUI.verifyElementText(findTestObject('1vedant/CLP/L1_leftmenu_CLP'), L1)
 
-WebUI.verifyElementText(findTestObject('1vedant/HP/L2_leftmenu_HP'), subCategory)
+WebUI.verifyElementText(findTestObject('1HomePage/L2_leftmenu_HP'), subCategory)
 
 WebUI.closeBrowser()
 

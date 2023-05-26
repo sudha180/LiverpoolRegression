@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.mouseOver(findTestObject('Object Repository/HomePage/Departamentos'))
+WebUI.mouseOver(findTestObject('Object Repository/HomePageShubhum/Departamentos'))
 
-WebUI.mouseOver(findTestObject('Object Repository/HomePage/L1Category_HP'))
+WebUI.mouseOver(findTestObject('Object Repository/HomePageShubhum/L1Category_HP'))
 
-WebUI.mouseOver(findTestObject('Object Repository/HomePage/l3Category_Flyover_HP'))
+WebUI.mouseOver(findTestObject('Object Repository/HomePageShubhum/l3Category_Flyover_HP'))
 
-WebUI.click(findTestObject('Object Repository/HomePage/l3Category_Flyover_HP'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/l3Category_Flyover_HP'))
 
 WebUI.waitForPageLoad(5)
 

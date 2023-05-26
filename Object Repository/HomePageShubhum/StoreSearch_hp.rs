@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StoreSearch_hp</name>
+   <tag></tag>
+   <elementGuidId>44772038-4d43-49cf-ba2c-49cd17bcc0bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.m-header__searchBar.-storeLocator > div.input-group > div.input-group-append > button.input-group-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[2]/aside/div/div/div/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>176475f4-9dbd-4e30-8532-ae44eb143580</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-group-text</value>
+      <webElementGuid>d8c13506-6d41-4432-92fd-272dd92ceb21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;container p-0&quot;]/div[@class=&quot;row mt-lg-3 mb-lg-5 mb-0&quot;]/aside[@class=&quot;col-lg-4&quot;]/div[@class=&quot;o-storeLocator-aside d-none d-lg-block&quot;]/div[@class=&quot;m-header__searchBar -storeLocator&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;input-group-append&quot;]/button[@class=&quot;input-group-text&quot;]</value>
+      <webElementGuid>d0ceb711-aca8-497e-8b55-0e3e42e4f45a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[2]/aside/div/div/div/div/button</value>
+      <webElementGuid>fcdffe9c-ca9d-440a-b6a7-7e96d7245af1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Busca un Liverpool, Centro comercial o Dutty free'])[1]/following::button[1]</value>
+      <webElementGuid>93181284-ca15-4244-b41f-606eb834c8cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiendas'])[2]/following::button[1]</value>
+      <webElementGuid>5fe72585-8ed5-4aeb-b1a2-6823010cb711</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccione estado'])[1]/preceding::button[1]</value>
+      <webElementGuid>dfe2ffd8-c172-4afe-a869-629df44456fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtrar por tipo de tienda'])[1]/preceding::button[1]</value>
+      <webElementGuid>7dfec6ec-1197-4cc6-a811-63aa4c0e161d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div/div/div/div/button</value>
+      <webElementGuid>3aa5b80e-65f5-4147-a677-191b277077e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

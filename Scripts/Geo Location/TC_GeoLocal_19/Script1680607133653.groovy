@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -31,17 +31,17 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProductNew], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/SelectStore_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStore_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectStateLocationPoup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStateLocationPoup_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectState_popup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectState_popup_hp'))
 
-WebUI.click(findTestObject('HomePage/ChooseState_List_hp'))
+WebUI.click(findTestObject('HomePageShubhum/ChooseState_List_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectStoreByState_hp_'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStoreByState_hp_'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/FavStore_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/FavStore_hp'), 0)
 
 /*
  * if(WebUI.verifyElementPresent(findTestObject('PLPPage/ExpressDelivery_plp'),
@@ -54,13 +54,13 @@ WebUI.scrollToElement(findTestObject('PLPPage/PickupExpress_plp'), 0)
 
 WebUI.click(findTestObject('PLPPage/PickupExpress_plp'))
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
-WebUI.click(findTestObject('HomePage/myAccount_hp'))
+WebUI.click(findTestObject('HomePageShubhum/myAccount_hp'))
 
-WebUI.click(findTestObject('HomePage/DeliveryAddresses_User'))
+WebUI.click(findTestObject('HomePageShubhum/DeliveryAddresses_User'))
 
-WebUI.click(findTestObject('HomePage/Select3DotAddress_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Select3DotAddress_hp'))
 
 WebUI.click(findTestObject('AccountManagement/SelectDefaultAddress_accounta'))
 

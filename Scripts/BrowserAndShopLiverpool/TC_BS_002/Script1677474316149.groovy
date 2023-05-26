@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.click(findTestObject('1vedant/HP/CategorasDropDown_HP'))
+WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('HomePage/L1Category_HP'))
+WebUI.click(findTestObject('HomePageShubhum/L1Category_HP'))
 
 'this is category chosen from left menu'
 SubCategory = WebUI.getText(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))

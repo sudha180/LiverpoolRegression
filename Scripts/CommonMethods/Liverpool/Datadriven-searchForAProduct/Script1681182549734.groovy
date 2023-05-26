@@ -66,14 +66,14 @@ List<String> productNames = loginDetails.getAllData().stream().map({ def data ->
 
 for (def productNamesList : productNames) {
 
-    WebUI.click(findTestObject('HomePage/searchTextbox_hp'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('HomePageShubhum/searchTextbox_hp'), FailureHandling.STOP_ON_FAILURE)
 
  
 
-    WebUI.setText(findTestObject('HomePage/searchTextbox_hp'), productNamesList)
+    WebUI.setText(findTestObject('HomePageShubhum/searchTextbox_hp'), productNamesList)
 
  
 
-    WebUI.sendKeys(findTestObject('HomePage/searchTextbox_hp'), Keys.chord(Keys.ENTER))
+    WebUI.sendKeys(findTestObject('HomePageShubhum/searchTextbox_hp'), Keys.chord(Keys.ENTER))
 
 }

@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/SelectStore_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/SelectStore_hp'), 0)
 
-WebUI.click(findTestObject('HomePage/SelectStore_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStore_hp'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/SelectStorePopup_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/SelectStorePopup_hp'), 0)
 
-WebUI.click(findTestObject('HomePage/CurrentLocation_hp'))
+WebUI.click(findTestObject('HomePageShubhum/CurrentLocation_hp'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/AlertMessageCurrentLocation_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/AlertMessageCurrentLocation_hp'), 0)
 
 WebUI.closeBrowser()
 

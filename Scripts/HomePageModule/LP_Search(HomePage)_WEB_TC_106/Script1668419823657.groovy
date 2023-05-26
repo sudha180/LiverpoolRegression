@@ -28,7 +28,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/instagram_footer'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/instagram_footer'))
 
 instagramUrl = WebUI.getUrl()
 
@@ -38,5 +38,5 @@ if (instagramUrl.contains('https://www.instagram.com/liverpool_mexico/')) {
     KeywordUtil.markFailed('url is not correct')
 }
 
-WebUI.verifyElementPresent(findTestObject('HomePage/instagramLogo_instagramPage'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/instagramLogo_instagramPage'), 0)
 

@@ -26,13 +26,13 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('HomePage/Categoras_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-WebUI.mouseOver(findTestObject('HomePage/L1_hp'))
+WebUI.mouseOver(findTestObject('HomePageShubhum/L1_hp'))
 
-WebUI.click(findTestObject('HomePage/L3_hp'))
+WebUI.click(findTestObject('HomePageShubhum/L3_hp'))
 
-WebUI.verifyElementText(findTestObject('HomePage/L3_Verify_hp'), 'Lentes')
+WebUI.verifyElementText(findTestObject('HomePageShubhum/L3_Verify_hp'), 'Lentes')
 
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 

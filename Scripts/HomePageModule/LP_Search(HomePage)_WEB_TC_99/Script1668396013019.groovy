@@ -29,7 +29,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Concursos y promociones_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Concursos y promociones_hp'))
 
 WebUI.waitForPageLoad(5)
 
@@ -41,5 +41,5 @@ if (promotionsUrl.contains('promotions')) {
     KeywordUtil.markFailed('url is not correct')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/a_Promociones_breadCrumb'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/a_Promociones_breadCrumb'), 0)
 

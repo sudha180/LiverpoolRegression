@@ -23,15 +23,15 @@ WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
-not_run: WebUI.click(findTestObject('HomePage/Categoras_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-not_run: WebUI.click(findTestObject('HomePage/L1_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
 
-not_run: WebUI.click(findTestObject('HomePage/L3_clp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/L3_clp'))
 
 WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.verifyElementPresent(findTestObject('pdp/Alternate_Img_pdp'), 0)
 

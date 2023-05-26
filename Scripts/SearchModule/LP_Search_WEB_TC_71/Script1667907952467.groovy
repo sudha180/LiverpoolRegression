@@ -27,7 +27,7 @@ prodName_typeAhead = WebUI.getText(findTestObject('prodName_typeAhead'))
 
 'prodName_typeAhead'.contains(searchTerm)
 
-productName_srp = WebUI.getText(findTestObject('SRP/searchTermInCategory_typeahead'))
+productName_srp = WebUI.getText(findTestObject('1SRP page/searchTermInCategory_typeahead'))
 
 'duplicate'.contains(searchTerm)
 

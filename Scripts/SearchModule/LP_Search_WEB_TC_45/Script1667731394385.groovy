@@ -25,13 +25,13 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertSearchResults_srp'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SRP/variants-normalizedColor-Azul-Claro'))
+WebUI.click(findTestObject('1SRP page/variants-normalizedColor-Azul-Claro'))
 
-WebUI.click(findTestObject('SRP/variants-normalizedColor-Morado'))
+WebUI.click(findTestObject('1SRP page/variants-normalizedColor-Morado'))
 
-WebUI.verifyElementPresent(findTestObject('SRP/filter1_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/filter1_srp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SRP/filter2_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/filter2_srp'), 0)
 
 WebUI.closeBrowser()
 

@@ -23,11 +23,11 @@ WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'VASO'], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/MainSearchbar_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/MainSearchbar_hp'))
 
-not_run: WebUI.setText(findTestObject('HomePage/MainSearchbar_hp'), 'vaso')
+not_run: WebUI.setText(findTestObject('HomePageShubhum/MainSearchbar_hp'), 'vaso')
 
-not_run: WebUI.click(findTestObject('HomePage/SearchButton_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/SearchButton_hp'))
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/Verify_Breadcrumb'), 0)
 

@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.delay(5)
 
@@ -32,24 +32,24 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.click(findTestObject('CLP/AfterLogin_hp'))
 
-WebUI.click(findTestObject('HomePage/myAccount_hp'))
+WebUI.click(findTestObject('HomePageShubhum/myAccount_hp'))
 
-WebUI.click(findTestObject('HomePage/DeliveryAddresses_User'))
+WebUI.click(findTestObject('HomePageShubhum/DeliveryAddresses_User'))
 
 WebUI.click(findTestObject('AccountManagement/TiendasClickNCollect'))
 
-WebUI.click(findTestObject('HomePage/Select3DotAddress_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Select3DotAddress_hp'))
 
 WebUI.click(findTestObject('AccountManagement/SelectDefaultAddress_accounta'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.click(findTestObject('HomePage/Cart_header'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.click(findTestObject('CLP/MoreDeliveryLink_cart'))
 

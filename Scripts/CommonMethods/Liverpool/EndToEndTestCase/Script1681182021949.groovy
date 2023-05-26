@@ -26,71 +26,71 @@ WebUI.maximizeWindow()
 
 not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/Logo_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Logo_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/Logo_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/searchTextbox_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/searchTextbox_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/searchTextbox_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/a_Mis Compras_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/a_Mis Compras_hp'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Liverpool es parte de Mi vida/a_Mis Compras_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('1HomePage/a_Mis Compras_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/span_Iniciar sesin_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/span_Iniciar sesin_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/span_Iniciar sesin_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/bagIcon_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/bagIcon_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/bagIcon_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/multiSites_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/multiSites_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/multiSites_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/span_Categoras_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/span_Categoras_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/span_Categoras_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/primaryBanner_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/primaryBanner_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/secondaryBanner_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/secondaryBanner_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/secondaryBanner_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/carousel1_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/carousel1_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/carousel1_hp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/footer_hp'))
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/footer_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/footer_hp'), 0)
 
-not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePage/span_Iniciar sesin_hp'))
+not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePageShubhum/span_Iniciar sesin_hp'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/span_Iniciar sesin_hp'), 0)
 
 WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('HomePage/input_Correo electrnico_username_login'), 'sudha.addepalli6662@gmail.com')
+WebUI.setText(findTestObject('HomePageShubhum/input_Correo electrnico_username_login'), 'sudha.addepalli6662@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('HomePage/input_Contrasea_password_login'), 'R2dZ4hvJ2uivgdeNE3/vtQ==')
+WebUI.setEncryptedText(findTestObject('HomePageShubhum/input_Contrasea_password_login'), 'R2dZ4hvJ2uivgdeNE3/vtQ==')
 
-not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePage/button_Iniciar sesin_login'))
+not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePageShubhum/button_Iniciar sesin_login'))
 
 WebUI.click(findTestObject('DemoObjects/HomePage/button_Iniciar sesin_login'))
 
-not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePage/span_Categoras_hp'))
+not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePageShubhum/span_Categoras_hp'))
 
 WebUI.click(findTestObject('DemoObjects/HomePage/span_Categoras_hp'))
 
-not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePage/l1Category_hp'))
+not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePageShubhum/l1Category_hp'))
 
-WebUI.click(findTestObject('HomePage/L1Category_HP'))
+WebUI.click(findTestObject('HomePageShubhum/L1Category_HP'))
 
 WebUI.delay(3)
 
@@ -278,9 +278,9 @@ WebUI.click(findTestObject('PDPPage/button_Agregar a mi bolsa_pdp'))
 
 WebUI.delay(5)
 
-not_run: WebUI.click(findTestObject('HomePage/bagIcon_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/bagIcon_hp'))
 
-WebUI.click(findTestObject('HomePage/bagIcon_hp'))
+WebUI.click(findTestObject('HomePageShubhum/bagIcon_hp'))
 
 WebUI.delay(3)
 

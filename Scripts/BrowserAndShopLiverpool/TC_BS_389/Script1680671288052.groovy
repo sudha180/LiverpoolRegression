@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-not_run: WebUI.click(findTestObject('HomePage/MainSearchbar_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/MainSearchbar_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('HomePage/MainSearchbar_hp'), 'MAC')
+not_run: WebUI.setText(findTestObject('HomePageShubhum/MainSearchbar_hp'), 'MAC')
 
-not_run: WebUI.click(findTestObject('HomePage/SearchButton_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/SearchButton_hp'))
 
 WebUI.click(findTestObject('PLPPage/Price_Filter_min_plp'))
 

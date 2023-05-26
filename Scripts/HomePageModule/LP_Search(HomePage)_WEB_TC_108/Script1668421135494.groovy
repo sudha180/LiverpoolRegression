@@ -28,7 +28,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Trminos y condiciones_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Trminos y condiciones_hp'))
 
 WebUI.switchToWindowTitle('Ayuda Liverpool')
 
@@ -40,8 +40,8 @@ if (termsAndConditions.contains('liverpool.com.mx/ayuda/index.html')) {
 }
 
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/h3_Trminos y condiciones_tnc'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/h3_Trminos y condiciones_tnc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/div_Trminos y condiciones_tnc'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/div_Trminos y condiciones_tnc'), 
     0)
 

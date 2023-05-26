@@ -21,16 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.click(findTestObject('1vedant/HP/CategorasDropDown_HP'))
+WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-WebUI.mouseOver(findTestObject('1vedant/HP/L1_Category1_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/L1_Category1_HP'))
 
 WebUI.delay(3)
 
 'Direct click from category flyout menu\r\n'
-L3 = WebUI.getText(findTestObject('1vedant/HP/L3_categoryMenu_HP'))
+L3 = WebUI.getText(findTestObject('1HomePage/L3_categoryMenu_HP'))
 
-WebUI.enhancedClick(findTestObject('1vedant/HP/L3_categoryMenu_HP'))
+WebUI.enhancedClick(findTestObject('1HomePage/L3_categoryMenu_HP'))
 
 WebUI.verifyElementText(findTestObject('1vedant/PLP/BreadCrumbCurrentPage_PLP'), L3)
 

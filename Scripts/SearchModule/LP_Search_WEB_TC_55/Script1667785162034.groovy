@@ -28,13 +28,13 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertSearchTypeahead'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-categoryNameInTypeahead = WebUI.getText(findTestObject('SRP/categoryNameInTypeahead'))
+categoryNameInTypeahead = WebUI.getText(findTestObject('1SRP page/categoryNameInTypeahead'))
 
-WebUI.click(findTestObject('HomePage/Departamentos'))
+WebUI.click(findTestObject('HomePageShubhum/Departamentos'))
 
-not_run: categoryNameInDepatmentos_hp = WebUI.getText(findTestObject('HomePage/categoryNameInDepatmentos_hp'))
+not_run: categoryNameInDepatmentos_hp = WebUI.getText(findTestObject('HomePageShubhum/categoryNameInDepatmentos_hp'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/categoryNameInDepatmentos_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/categoryNameInDepatmentos_hp'), 0)
 
 not_run: categoryNameInDepatmentos_hp.equals(categoryNameInTypeahead)
 

@@ -38,7 +38,7 @@ WebUI.mouseOver(findTestObject('1vedant/PDP/mouseover3star_PDP'))
 
 WebUI.click(findTestObject('1vedant/PDP/mouseover3star_PDP'))
 
-WebUI.setText(findTestObject('1vedant/PDP/ratingView_PDP'), 'good product')
+WebUI.setText(findTestObject('1PDP page/ratingView_PDP'), 'good product')
 
 WebUI.setText(findTestObject('1vedant/PDP/ratingTextArea_PDP'), 'like the product money worth')
 

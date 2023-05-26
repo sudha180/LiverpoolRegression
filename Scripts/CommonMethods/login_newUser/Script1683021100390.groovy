@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('1vedant/HP/inciar'))
+WebUI.click(findTestObject('1HomePage/inciar'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('HomePage/username'))
+WebUI.click(findTestObject('HomePageShubhum/username'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('HomePage/username'), GlobalVariable.newuser)
+WebUI.setText(findTestObject('HomePageShubhum/username'), GlobalVariable.newuser)
 
-WebUI.click(findTestObject('HomePage/password'))
+WebUI.click(findTestObject('HomePageShubhum/password'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('HomePage/password'), GlobalVariable.newpassword)
+WebUI.setText(findTestObject('HomePageShubhum/password'), GlobalVariable.newpassword)
 
-WebUI.click(findTestObject('HomePage/action'))
+WebUI.click(findTestObject('HomePageShubhum/action'))
 

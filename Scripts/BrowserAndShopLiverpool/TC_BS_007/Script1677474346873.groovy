@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.mouseOver(findTestObject('1vedant/HP/CategorasDropDown_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-WebUI.mouseOver(findTestObject('1vedant/HP/MujerCategory_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/MujerCategory_HP'))
 
-L3 = WebUI.getText(findTestObject('1vedant/HP/L3_category_2_HP'))
+L3 = WebUI.getText(findTestObject('1HomePage/L3_category_2_HP'))
 
-WebUI.enhancedClick(findTestObject('1vedant/HP/L3_category_2_HP'))
+WebUI.enhancedClick(findTestObject('1HomePage/L3_category_2_HP'))
 
 'Check that landed to L3 from flyout menu\r\n'
 WebUI.verifyElementText(findTestObject('1vedant/PLP/BreadCrumbCurrentPage_PLP'), L3)

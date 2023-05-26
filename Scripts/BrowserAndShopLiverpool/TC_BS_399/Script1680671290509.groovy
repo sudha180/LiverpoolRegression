@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('Object Repository/HomePage/LoginButton_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/LoginButton_hp'))
 
-WebUI.setText(findTestObject('Object Repository/HomePage/EnterUsername_LP'), 'sudha.addepalli6662@gmail.com')
+WebUI.setText(findTestObject('Object Repository/HomePageShubhum/EnterUsername_LP'), 'sudha.addepalli6662@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/HomePage/EnterPassword_LP'), 'R2dZ4hvJ2uivgdeNE3/vtQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/HomePageShubhum/EnterPassword_LP'), 'R2dZ4hvJ2uivgdeNE3/vtQ==')
 
-WebUI.click(findTestObject('Object Repository/HomePage/LogoutButton_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/LogoutButton_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
 

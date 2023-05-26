@@ -27,7 +27,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Ayuda_footer'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Ayuda_footer'))
 
 WebUI.waitForPageLoad(0)
 

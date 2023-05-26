@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page_Iniciar sesin en Liverpool/a_Crear cuenta'), 0)
+WebUI.verifyElementPresent(findTestObject('AccountManagement/CreateAccount_Account'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Iniciar sesin en Liverpool/input_Correo electrnico_username'), 0)
+WebUI.verifyElementPresent(findTestObject('AccountManagement/input_Correo electrnico_email_AM'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Crear cuenta/input_Contrasea_password'), 0)
+WebUI.verifyElementPresent(findTestObject('AccountManagement/input_Contrasea_password_AM'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Crear cuenta/button_Crear cuenta'), 0)
+WebUI.verifyElementPresent(findTestObject('AccountManagement/CreateAccount_Account'), 0)
 

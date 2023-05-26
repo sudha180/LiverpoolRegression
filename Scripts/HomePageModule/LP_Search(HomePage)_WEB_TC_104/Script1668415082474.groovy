@@ -28,7 +28,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/facebook_footer'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/facebook_footer'))
 
 facebookUrl = WebUI.getUrl()
 
@@ -39,7 +39,7 @@ if (facebookUrl.contains('www.facebook.com/liverpoolmexico')) {
 }
 
 //www.facebook.com/liverpoolmexico = WebUI.getUrl()
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/div_Facebook'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/div_Facebook'), 0)
 
 WebUI.acceptAlert()
 

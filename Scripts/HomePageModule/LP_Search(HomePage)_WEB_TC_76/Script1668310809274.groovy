@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Mis Compras'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Mis Compras'))
 
 miscomprasUrl = WebUI.getUrl()
 miscomprasUrl.contains("miscompras")

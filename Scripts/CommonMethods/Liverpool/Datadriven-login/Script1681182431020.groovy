@@ -52,7 +52,7 @@ WebUI.maximizeWindow()
 
 /*
 
-* WebUI.setText(findTestObject('HomePage/input_Correo
+* WebUI.setText(findTestObject('HomePageShubhum/input_Correo
 
 * electrnico_username_login'), findTestData('Logincredentials').getValue( 1,
 
@@ -88,30 +88,30 @@ for (int i = 0; i < userNamesList.size(); i++) {
 
     //       for(def passwords: passwordsList)
 
-    WebUI.click(findTestObject('HomePage/span_Iniciar sesin_hp'))
+    WebUI.click(findTestObject('HomePageShubhum/span_Iniciar sesin_hp'))
 
  
 
-    WebUI.setText(findTestObject('HomePage/input_Correo electrnico_username_login'), userNamesList.get(i))
+    WebUI.setText(findTestObject('HomePageShubhum/input_Correo electrnico_username_login'), userNamesList.get(i))
 
  
 
-    WebUI.setText(findTestObject('HomePage/input_Contrasea_password_login'), passwordsList.get(i))
+    WebUI.setText(findTestObject('HomePageShubhum/input_Contrasea_password_login'), passwordsList.get(i))
 
  
 
-    WebUI.click(findTestObject('HomePage/button_Iniciar sesin_login'))
+    WebUI.click(findTestObject('HomePageShubhum/button_Iniciar sesin_login'))
 
  
 
-    WebUI.verifyElementPresent(findTestObject('HomePage/span_HolaUser_hp'), 0)
+    WebUI.verifyElementPresent(findTestObject('HomePageShubhum/span_HolaUser_hp'), 0)
 
  
 
-    WebUI.click(findTestObject('HomePage/i_accountDropdown_hp'))
+    WebUI.click(findTestObject('HomePageShubhum/i_accountDropdown_hp'))
 
  
 
-    WebUI.click(findTestObject('HomePage/a_Cerrar sesin_hp'))
+    WebUI.click(findTestObject('HomePageShubhum/a_Cerrar sesin_hp'))
 
 }

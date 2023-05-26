@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePage/Categoras_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-WebUI.click(findTestObject('HomePage/L1_hp'))
+WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
 
-WebUI.click(findTestObject('HomePage/L3_clp'))
+WebUI.click(findTestObject('HomePageShubhum/L3_clp'))
 

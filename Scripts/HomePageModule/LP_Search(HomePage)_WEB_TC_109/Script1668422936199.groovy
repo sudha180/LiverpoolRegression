@@ -28,7 +28,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Aviso de privacidad'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Aviso de privacidad'))
 
 WebUI.waitForPageLoad(0)
 
@@ -42,9 +42,9 @@ if (privacyNote.contains('liverpool.com.mx/ayuda/index.html')) {
 	KeywordUtil.markFailed('url is not correct')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/h3_Trminos y condiciones_tnc'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/h3_Trminos y condiciones_tnc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/div_Aviso de privacidad Integral Clientes_privacyNotePage'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/div_Aviso de privacidad Integral Clientes_privacyNotePage'), 0)
 
 
 

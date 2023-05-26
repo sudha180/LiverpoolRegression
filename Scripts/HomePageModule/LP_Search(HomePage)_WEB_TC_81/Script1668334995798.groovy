@@ -22,12 +22,12 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 if (true) {
-    WebUI.verifyElementPresent(findTestObject('HomePage/i_Ms informacin_icon-close close_hp'), 0)
+    WebUI.verifyElementPresent(findTestObject('HomePageShubhum/i_Ms informacin_icon-close close_hp'), 0)
 
-    WebUI.click(findTestObject('HomePage/i_Ms informacin_icon-close close_hp'))
+    WebUI.click(findTestObject('HomePageShubhum/i_Ms informacin_icon-close close_hp'))
 }
 
-WebUI.click(findTestObject('HomePage/a_Crdito_footer'))
+WebUI.click(findTestObject('HomePageShubhum/a_Crdito_footer'))
 
 WebUI.waitForPageLoad(5)
 
@@ -35,7 +35,7 @@ credioUrl = WebUI.getUrl()
 
 credioUrl.contains('mycredito')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/button_Ingresar a mi cuenta_creditPage'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Ingresar a mi cuenta_creditPage'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/button_Solicitar tarjeta_creditPage'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Solicitar tarjeta_creditPage'), 0)
 

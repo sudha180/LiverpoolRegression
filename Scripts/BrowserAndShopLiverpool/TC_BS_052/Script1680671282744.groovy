@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-not_run: WebUI.click(findTestObject('HomePage/Categoras_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-not_run: WebUI.click(findTestObject('HomePage/L1_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 

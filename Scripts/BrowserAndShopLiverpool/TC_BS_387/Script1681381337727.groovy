@@ -25,11 +25,11 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/MainSearchbar_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/MainSearchbar_hp'))
 
-not_run: WebUI.setText(findTestObject('HomePage/MainSearchbar_hp'), 'MAC')
+not_run: WebUI.setText(findTestObject('HomePageShubhum/MainSearchbar_hp'), 'MAC')
 
-not_run: WebUI.click(findTestObject('HomePage/SearchButton_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/SearchButton_hp'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_mac  Liverpool.com.mx/div_PreciosMenos de 100.0 (10)100.0 -500.0 _891425'), 
     0)

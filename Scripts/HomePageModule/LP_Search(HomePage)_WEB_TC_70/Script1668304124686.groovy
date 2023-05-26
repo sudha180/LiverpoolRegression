@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Tiendas_HP'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Tiendas_HP'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/div_Busca un Liverpool_slp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/div_Busca un Liverpool_slp'), 0)
 
 storelocatorUrl = WebUI.getUrl()
 
 storelocatorUrl.contains(' tienda/browse/storelocator')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/div_Usar mi ubicacin_slp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/div_Usar mi ubicacin_slp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/button_Map_slp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Map_slp'), 0)
 

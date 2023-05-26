@@ -26,15 +26,15 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/Buscar1'))
+WebUI.click(findTestObject('HomePageShubhum/Buscar1'))
 
-WebUI.setText(findTestObject('HomePage/Buscar1'), 'vaso')
+WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), 'vaso')
 
-WebUI.verifyElementPresent(findTestObject('HomePage/typeAheadLeftNav_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/typeAheadLeftNav_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/assertListOfItemsInTypeahead_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/assertListOfItemsInTypeahead_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Buscar en Categorías'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Buscar en Categorías'), 0)
 
 WebUI.closeBrowser()
 

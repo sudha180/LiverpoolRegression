@@ -23,15 +23,15 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'sofa'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/SRP/gridViewSelected_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1SRP page/gridViewSelected_srp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/SRP/listViewNotSelected_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1SRP page/listViewNotSelected_srp'), 0)
 
-WebUI.scrollToElement(findTestObject('SRP/page2_srp'), 0)
+WebUI.scrollToElement(findTestObject('1SRP page/page2_srp'), 0)
 
-WebUI.click(findTestObject('SRP/page2_srp'))
+WebUI.click(findTestObject('1SRP page/page2_srp'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/SRP/gridViewSelected_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1SRP page/gridViewSelected_srp'), 0)
 
 WebUI.closeBrowser()
 

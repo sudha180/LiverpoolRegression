@@ -23,13 +23,13 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('Object Repository/HomePage/Stores_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/Stores_hp'))
 
-WebUI.setText(findTestObject('Object Repository/HomePage/SerachBox_hp'), 'Liverpool')
+WebUI.setText(findTestObject('Object Repository/HomePageShubhum/SerachBox_hp'), 'Liverpool')
 
-WebUI.click(findTestObject('Object Repository/HomePage/StoreSearch_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/StoreSearch_hp'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/VerifyStore_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/VerifyStore_hp'), 0)
 
 WebUI.closeBrowser()
 

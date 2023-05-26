@@ -25,7 +25,7 @@ not_run: WebUI.navigateToUrl(GlobalVariable.LiverpoolProduction)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -33,17 +33,17 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProductNew], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.click(findTestObject('pdp/SeeAvailableStore_pdp'))
 
-WebUI.click(findTestObject('HomePage/SelectStateLocationPoup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStateLocationPoup_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectState_popup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectState_popup_hp'))
 
-WebUI.click(findTestObject('HomePage/ChooseState_List_hp'))
+WebUI.click(findTestObject('HomePageShubhum/ChooseState_List_hp'))
 
-WebUI.click(findTestObject('HomePage/SeeDetails_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SeeDetails_hp'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/VerifyStoreInfo_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/VerifyStoreInfo_hp'), 0)
 

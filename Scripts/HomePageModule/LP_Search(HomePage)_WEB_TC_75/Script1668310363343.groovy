@@ -28,5 +28,5 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickLogoutFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Page_Liverpool es parte de Mi vida/span_Iniciar sesin'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Page_Liverpool es parte de Mi vida/span_Iniciar sesin'), 0)
 

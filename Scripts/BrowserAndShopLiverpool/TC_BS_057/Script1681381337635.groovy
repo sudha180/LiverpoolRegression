@@ -23,7 +23,7 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('HomePage/Store_Location_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Store_Location_hp'))
 
 WebUI.selectOptionByValue(findTestObject('Shubham/TC_BS_057/select_AGUASCALIENTESBAJA CALIFORNIABAJA CA_5addf3'), 'MÉXICO', 
     true)

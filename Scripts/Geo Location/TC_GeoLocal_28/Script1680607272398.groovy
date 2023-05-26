@@ -27,7 +27,7 @@ not_run: WebUI.navigateToUrl(GlobalVariable.LiverpoolProduction)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.delay(5)
 
@@ -39,29 +39,29 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.delay(10)
 
-not_run: WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
-WebUI.click(findTestObject('HomePage/FavStore_hp'))
+WebUI.click(findTestObject('HomePageShubhum/FavStore_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectStateLocationPoup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStateLocationPoup_hp'))
 
 WebUI.click(findTestObject('pdp/SelectState_pdp'))
 
 WebUI.click(findTestObject('pdp/SelectStateFromList_pdp'))
 
-WebUI.click(findTestObject('HomePage/SelectStoreByState_hp_'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStoreByState_hp_'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/FavStore_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/FavStore_hp'), 0)
 
 not_run: WebUI.click(findTestObject('pdp/SelectStoreLink_pdp'))
 
-not_run: WebUI.click(findTestObject('HomePage/SelectStateLocationPoup_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/SelectStateLocationPoup_hp'))
 
 not_run: WebUI.click(findTestObject('pdp/SelectState_pdp'))
 
 not_run: WebUI.click(findTestObject('pdp/SelectStateFromList_pdp'))
 
-not_run: WebUI.click(findTestObject('HomePage/SelectStoreByState_hp_'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/SelectStoreByState_hp_'))
 
 WebUI.verifyElementPresent(findTestObject('pdp/ClickNCollect_pdp'), 0)
 

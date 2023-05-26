@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'laptop'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SRP/firstProductImage_srp'))
+WebUI.click(findTestObject('1SRP page/firstProductImage_srp'))
 
 WebUI.scrollToPosition(0, 900)
 

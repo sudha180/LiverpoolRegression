@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -33,7 +33,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.click(findTestObject('HomePage/Cart_header'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.verifyElementPresent(findTestObject('CLP/MoreDeliveryLink_cart'), 0)
 

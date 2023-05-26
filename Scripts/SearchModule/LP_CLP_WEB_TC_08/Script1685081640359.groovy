@@ -26,11 +26,11 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('1vedant/HP/CategorasDropDown_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-WebUI.mouseOver(findTestObject('1vedant/HP/L1_Category1_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/L1_Category1_HP'))
 
-WebUI.click(findTestObject('1vedant/HP/L1_Category1_HP'))
+WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
 
 'L2 category page'
 WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))

@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/SecondaryBanner1_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/SecondaryBanner1_hp'), 0)
 
 WebUI.closeBrowser()
 

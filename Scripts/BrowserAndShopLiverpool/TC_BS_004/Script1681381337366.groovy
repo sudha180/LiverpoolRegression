@@ -23,9 +23,9 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('HomePage/Categoras_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-WebUI.click(findTestObject('1vedant/HP/L1_Category1_HP'))
+WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
 
 'sub category left level menu (perfume) no L3 category \r\n'
 WebUI.click(findTestObject('1vedant/CLP/SubCategory6_leftmenu_CLP'))

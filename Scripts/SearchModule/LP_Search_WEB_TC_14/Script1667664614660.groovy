@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertSearchTypeahead'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-categoryNameInTypeahead = WebUI.getText(findTestObject('SRP/categoryNameInTypeahead'))
+categoryNameInTypeahead = WebUI.getText(findTestObject('1SRP page/categoryNameInTypeahead'))
 
 WebUI.closeBrowser()
 

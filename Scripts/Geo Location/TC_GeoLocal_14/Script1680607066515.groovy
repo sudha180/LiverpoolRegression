@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -33,15 +33,15 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('HomePage/FavStore_hp'))
+WebUI.click(findTestObject('HomePageShubhum/FavStore_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectStateLocationPoup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStateLocationPoup_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectState_popup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectState_popup_hp'))
 
-WebUI.click(findTestObject('HomePage/ChooseState_List_hp'))
+WebUI.click(findTestObject('HomePageShubhum/ChooseState_List_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectStoreByState_hp_'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStoreByState_hp_'))
 
 WebUI.delay(5)
 

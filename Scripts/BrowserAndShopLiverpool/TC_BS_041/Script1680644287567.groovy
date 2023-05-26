@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.mouseOver(findTestObject('1vedant/HP/CategorasDropDown_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-WebUI.mouseOver(findTestObject('1vedant/HP/L1_Category1_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/L1_Category1_HP'))
 
-WebUI.enhancedClick(findTestObject('1vedant/HP/L3_categoryMenu_HP'))
+WebUI.enhancedClick(findTestObject('1HomePage/L3_categoryMenu_HP'))
 
 'L4 category page\r\n'
 WebUI.getText(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))

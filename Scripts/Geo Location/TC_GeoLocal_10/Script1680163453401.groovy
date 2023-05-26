@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/SelectStore_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/SelectStore_hp'), 0)
 
-WebUI.click(findTestObject('HomePage/SelectStore_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStore_hp'))
 
-WebUI.click(findTestObject('HomePage/StoreOrZipCity_hp'))
+WebUI.click(findTestObject('HomePageShubhum/StoreOrZipCity_hp'))
 
-WebUI.setText(findTestObject('HomePage/StoreOrZipCity_hp'), 'La Pazu')
+WebUI.setText(findTestObject('HomePageShubhum/StoreOrZipCity_hp'), 'La Pazu')
 
-WebUI.verifyElementPresent(findTestObject('HomePage/AlertMessageCurrentLocation_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/AlertMessageCurrentLocation_hp'), 0)
 
 WebUI.closeBrowser()
 

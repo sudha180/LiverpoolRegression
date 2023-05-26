@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.verifyElementPresent(findTestObject('HomePage/SecondaryBanner1_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/SecondaryBanner1_hp'), 0)
 
-WebUI.scrollToElement(findTestObject('HomePage/SecondaryBanner1_hp'), 0)
+WebUI.scrollToElement(findTestObject('HomePageShubhum/SecondaryBanner1_hp'), 0)
 
-WebUI.click(findTestObject('HomePage/SecondaryBanner1_hp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePageShubhum/SecondaryBanner1_hp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 

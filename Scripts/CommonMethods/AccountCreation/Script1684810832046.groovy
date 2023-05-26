@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePage/LoginButton_hp'))
+WebUI.click(findTestObject('HomePageShubhum/LoginButton_hp'))
 
 WebUI.click(findTestObject('AccountManagement/CreateAccount_Account'))
 

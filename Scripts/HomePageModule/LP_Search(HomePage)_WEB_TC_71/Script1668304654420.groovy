@@ -21,10 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Ayuda_HP'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Ayuda_HP'))
 
 ayudaUrl = WebUI.getUrl()
 ayudaUrl.contains("assets")
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/img_Cmo podemos ayudarte_logoAyuda_helpPage'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_Cmo podemos ayudarte_logoAyuda_helpPage'), 0)
 

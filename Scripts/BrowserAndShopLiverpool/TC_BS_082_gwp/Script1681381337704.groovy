@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'VASO'], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/MainSearchbar_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/MainSearchbar_hp'))
 
-not_run: WebUI.setText(findTestObject('HomePage/MainSearchbar_hp'), 'vaso')
+not_run: WebUI.setText(findTestObject('HomePageShubhum/MainSearchbar_hp'), 'vaso')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_vaso  Liverpool.com.mx/span_Compra mnima 2 piezas'), 0)
 

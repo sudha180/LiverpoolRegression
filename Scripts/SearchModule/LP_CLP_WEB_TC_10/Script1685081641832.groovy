@@ -23,9 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('1vedant/HP/CategorasDropDown_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('1vedant/HP/L1_Category1_HP'))
+WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
 
 'check for L3 category'
 currentPage1 = WebUI.getText(findTestObject('1vedant/CLP/banner_1CLP'))

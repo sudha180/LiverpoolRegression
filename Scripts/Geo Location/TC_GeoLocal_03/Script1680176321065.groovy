@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.liverPoolURL_Odtaqad)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/SelectStore_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/SelectStore_hp'), 0)
 
-WebUI.click(findTestObject('HomePage/SelectStore_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStore_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectStateLocationPoup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStateLocationPoup_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectState_popup_hp'))
+WebUI.click(findTestObject('HomePageShubhum/SelectState_popup_hp'))
 
-WebUI.click(findTestObject('HomePage/ChooseState_List_hp'))
+WebUI.click(findTestObject('HomePageShubhum/ChooseState_List_hp'))
 
-WebUI.click(findTestObject('HomePage/SelectStoreByState_hp_'))
+WebUI.click(findTestObject('HomePageShubhum/SelectStoreByState_hp_'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/FavStore_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/FavStore_hp'), 0)
 
 WebUI.closeBrowser()
 

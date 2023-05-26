@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePage/Buscar1'))
+WebUI.click(findTestObject('HomePageShubhum/Buscar1'))
 
-WebUI.setText(findTestObject('HomePage/Buscar1'), searchTerm)
+WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), searchTerm)
 
-WebUI.verifyElementPresent(findTestObject('SRP/header__searchLinkResult'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/header__searchLinkResult'), 0)
 

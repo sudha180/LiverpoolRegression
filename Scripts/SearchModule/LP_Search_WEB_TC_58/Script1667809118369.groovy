@@ -26,19 +26,19 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/Buscar1'))
+WebUI.click(findTestObject('HomePageShubhum/Buscar1'))
 
-WebUI.setText(findTestObject('HomePage/Buscar1'), 'vaso')
+WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), 'vaso')
 
-not_run: WebUI.waitForElementPresent(findTestObject('HomePage/typeAheadLeftNav_hp'), 10)
+not_run: WebUI.waitForElementPresent(findTestObject('HomePageShubhum/typeAheadLeftNav_hp'), 10)
 
-WebUI.verifyElementPresent(findTestObject('Page_Liverpool es parte de Mi vida/typeAheadLeftNav_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('1HomePage/typeAheadLeftNav_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Buscar en Categorías'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Buscar en Categorías'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/en_typeAhead'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/en_typeAhead'), 0)
 
-WebUI.click(findTestObject('HomePage/en_typeAhead'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePageShubhum/en_typeAhead'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertplp'), [:], FailureHandling.STOP_ON_FAILURE)
 

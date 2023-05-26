@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePage/Buscar1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePageShubhum/Buscar1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('HomePage/Buscar1'), searchTerm)
+WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), searchTerm)
 
 WebUI.sendKeys(findTestObject('Object Repository/Shubham/TC_BS_071/Seach_TextBox_hp'), 
     Keys.chord(Keys.ENTER))

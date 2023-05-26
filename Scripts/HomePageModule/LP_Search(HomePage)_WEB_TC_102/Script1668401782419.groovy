@@ -28,7 +28,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Bolsa de trabajo_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Bolsa de trabajo_hp'))
 
 jobUrl = WebUI.getUrl()
 
@@ -38,8 +38,8 @@ if (jobUrl.contains('tucarrera-elpuertode')) {
     KeywordUtil.markFailed('url is not correct')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/img_elpuertode_jobPage'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_elpuertode_jobPage'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/img_trabajo_jobPage'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_trabajo_jobPage'), 
     0)
 

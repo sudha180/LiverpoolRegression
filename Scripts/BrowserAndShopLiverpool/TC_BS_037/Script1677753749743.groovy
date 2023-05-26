@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'laptop'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SRP/firstProductImage_srp'))
+WebUI.click(findTestObject('1SRP page/firstProductImage_srp'))
 
 WebUI.scrollToPosition(0, 900)
 

@@ -23,9 +23,9 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-not_run: WebUI.click(findTestObject('HomePage/Categoras_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-not_run: WebUI.click(findTestObject('HomePage/L1_hp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 

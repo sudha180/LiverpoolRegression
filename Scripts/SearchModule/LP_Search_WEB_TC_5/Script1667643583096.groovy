@@ -23,13 +23,13 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_vaso en Liverpool/a_Ordenar por'))
+WebUI.click(findTestObject('Object Repository/1SRP page/a_Ordenar por'))
 
-WebUI.click(findTestObject('Object Repository/Page_vaso en Liverpool/button_Calificaciones_srp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/1SRP page/button_Calificaciones_srp'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('SRP/ratingsOfFirstProduct_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/ratingsOfFirstProduct_srp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SRP/secondProductRatings_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/secondProductRatings_srp'), 0)
 
 WebUI.closeBrowser()
 

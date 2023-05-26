@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertSearchTypeahead'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('SRP/6Products_typeAhead'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/6Products_typeAhead'), 0)
 
 WebUI.closeBrowser()
 

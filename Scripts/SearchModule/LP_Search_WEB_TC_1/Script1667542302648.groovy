@@ -23,21 +23,21 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_vaso en Liverpool/a_Ordenar por'))
+WebUI.click(findTestObject('Object Repository/1SRP page/a_Ordenar por'))
 
-WebUI.verifyElementPresent(findTestObject('Page_vaso en Liverpool/button_Relevancia'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/button_Relevancia'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_vaso en Liverpool/button_Calificaciones_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1SRP page/button_Calificaciones_srp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_vaso en Liverpool/button_Ms vendido_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/button_Ms vendido_srp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_vaso en Liverpool/button_Lo Ms Nuevo_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/button_Lo Ms Nuevo_srp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_vaso en Liverpool/button_Mayor precio_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/button_Mayor precio_srp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_vaso en Liverpool/button_Menor precio'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/button_Menor precio'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_vaso en Liverpool/button_Ms visto_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/button_Ms visto_srp'), 0)
 
 WebUI.closeBrowser()
 

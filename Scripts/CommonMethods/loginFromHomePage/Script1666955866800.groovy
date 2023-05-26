@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePage/username'))
+WebUI.click(findTestObject('HomePageShubhum/username'))
 
-WebUI.setText(findTestObject('HomePage/username'), username)
+WebUI.setText(findTestObject('HomePageShubhum/username'), username)
 
-WebUI.click(findTestObject('HomePage/password'))
+WebUI.click(findTestObject('HomePageShubhum/password'))
 
-WebUI.setText(findTestObject('HomePage/password'), password)
+WebUI.setText(findTestObject('HomePageShubhum/password'), password)
 
-WebUI.click(findTestObject('HomePage/action'))
+WebUI.click(findTestObject('HomePageShubhum/action'))
 

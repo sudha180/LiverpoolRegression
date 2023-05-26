@@ -28,7 +28,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Ayuda'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Ayuda'))
 
 WebUI.waitForPageLoad(0)
 
@@ -41,5 +41,5 @@ if (ayudaUrl.contains('liverpool.com.mx/ayuda/index.html')) {
 }
 
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/img_Cmo podemos ayudarte_logoAyuda'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_Cmo podemos ayudarte_logoAyuda'), 0)
 

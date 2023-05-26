@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'Lentes'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/Breadcrum_pdp'), 0)
 

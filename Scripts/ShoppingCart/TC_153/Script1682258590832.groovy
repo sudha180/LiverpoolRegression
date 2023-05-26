@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -38,7 +38,7 @@ ExpectedDeliveryDate_pdp = WebUI.getText(findTestObject('pdp/ExpectedDeliveryDat
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.click(findTestObject('HomePage/Cart_header'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 EastimateDeliveryDate_Cart = WebUI.getText(findTestObject('CartPage/EastimateDeliveryDate_Cart'))
 

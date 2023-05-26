@@ -28,7 +28,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/twitter_footer'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/twitter_footer'))
 
 twitterUrl = WebUI.getUrl()
 
@@ -38,6 +38,6 @@ if (twitterUrl.contains('https://twitter.com/LiverpoolMexico')) {
     KeywordUtil.markFailed('url is not correct')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/a_twitterLogo_twitterPage'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/a_twitterLogo_twitterPage'), 
     0)
 

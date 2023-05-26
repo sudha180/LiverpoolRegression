@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'laptop'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SRP/firstProductImage_srp'))
+WebUI.click(findTestObject('1SRP page/firstProductImage_srp'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 0)
 

@@ -28,42 +28,42 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SRP/firstProductImage_srp'))
+WebUI.click(findTestObject('1SRP page/firstProductImage_srp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SRP/secondProductImage_srp'))
+WebUI.click(findTestObject('1SRP page/secondProductImage_srp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SRP/thirdProductImage_srp'))
+WebUI.click(findTestObject('1SRP page/thirdProductImage_srp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SRP/fourthProductImage_srp'))
+WebUI.click(findTestObject('1SRP page/fourthProductImage_srp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-productName_plp = WebUI.getText(findTestObject('SRP/fifthproductName'))
+productName_plp = WebUI.getText(findTestObject('1SRP page/fifthproductName'))
 
-WebUI.click(findTestObject('SRP/fifthProductImage_srp'))
+WebUI.click(findTestObject('1SRP page/fifthProductImage_srp'))
 
 productNameActual_pdp = WebUI.getText(findTestObject('pdp/productName_pdp'))
 
 productNameActual_pdp == productName_plp
 
-WebUI.click(findTestObject('HomePage/Liverpool Logo2'))
+WebUI.click(findTestObject('HomePageShubhum/Liverpool Logo2'))
 
-WebUI.scrollToElement(findTestObject('HomePage/catridgeAImage_hp'), 0)
+WebUI.scrollToElement(findTestObject('HomePageShubhum/catridgeAImage_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/catridgeAImage_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/catridgeAImage_hp'), 0)
 
 WebUI.verifyTextPresent(productNameActual_pdp, false)
 
-not_run: WebUI.verifyElementAttributeValue(findTestObject('HomePage/productInRecentlyViewed_hp'), productNameActual_pdp, 
+not_run: WebUI.verifyElementAttributeValue(findTestObject('HomePageShubhum/productInRecentlyViewed_hp'), productNameActual_pdp, 
     productName_plp, 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('HomePage/productInRecentlyViewed_hp'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/productInRecentlyViewed_hp'), 0)
 
 not_run: WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : productNameActual_pdp], 
     FailureHandling.STOP_ON_FAILURE)

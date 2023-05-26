@@ -21,12 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Mi crdito_HP'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Mi crdito_HP'))
 
 creditoUrl = WebUI.getUrl()
 creditoUrl.contains("micredito")
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/button_Ingresar a mi cuenta_creditPage'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Ingresar a mi cuenta_creditPage'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/button_Solicitar tarjeta_creditPage'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Solicitar tarjeta_creditPage'), 0)
 

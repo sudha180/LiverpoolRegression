@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -31,7 +31,7 @@ WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username
 WebUI.callTestCase(findTestCase('null'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WishListButtonChecked = WebUI.getText(findTestObject('pdp/WishListButtonChecked_Pdp'))
 
@@ -40,7 +40,7 @@ if (WishListButtonChecked == 'Guardado en Wishlist de SAMRAJ') {
 
     WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-    WebUI.click(findTestObject('HomePage/Cart_header'))
+    WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
     WebUI.verifyElementPresent(findTestObject('CartPage/ItemOnWishList_Cart'), 0)
 } else {
@@ -48,7 +48,7 @@ if (WishListButtonChecked == 'Guardado en Wishlist de SAMRAJ') {
 
     WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-    WebUI.click(findTestObject('HomePage/Cart_header'))
+    WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
     WebUI.verifyElementPresent(findTestObject('CartPage/ItemOnWishList_Cart'), 0)
 }

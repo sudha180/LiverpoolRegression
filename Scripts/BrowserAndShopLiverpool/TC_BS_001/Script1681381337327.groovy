@@ -23,11 +23,11 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('1vedant/HP/CategorasDropDown_HP'))
+WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-L1_category = WebUI.getText(findTestObject('HomePage/L1Category_HP'))
+L1_category = WebUI.getText(findTestObject('HomePageShubhum/L1Category_HP'))
 
-WebUI.click(findTestObject('HomePage/L1Category_HP'))
+WebUI.click(findTestObject('HomePageShubhum/L1Category_HP'))
 
 'this is only name of category we chose'
 FooterName = WebUI.getText(findTestObject('1vedant/CLP/footer_name_not.com_CLP'), FailureHandling.STOP_ON_FAILURE)

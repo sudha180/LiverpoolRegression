@@ -28,9 +28,9 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertSearchTypeahead'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page_Liverpool es parte de Mi vida/assertListOfItemsInTypeahead_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('1HomePage/assertListOfItemsInTypeahead_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SRP/productImage_typeAhead'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/productImage_typeAhead'), 0)
 
 WebUI.closeBrowser()
 

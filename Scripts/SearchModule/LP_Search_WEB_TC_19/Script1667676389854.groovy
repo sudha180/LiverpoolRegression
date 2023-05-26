@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertSearchTypeahead'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/brandInTypeahead_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/brandInTypeahead_hp'), 0)
 
-WebUI.click(findTestObject('HomePage/brandInTypeahead_hp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePageShubhum/brandInTypeahead_hp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertplp'), [:], FailureHandling.STOP_ON_FAILURE)
 

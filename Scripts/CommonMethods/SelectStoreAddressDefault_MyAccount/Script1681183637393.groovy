@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('AccountManagement/ClickNCollectStore'))
 
-WebUI.click(findTestObject('HomePage/Select3DotAddress_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Select3DotAddress_hp'))
 
 WebUI.click(findTestObject('AccountManagement/SelectDefaultAddress_accounta'))
 

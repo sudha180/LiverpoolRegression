@@ -28,7 +28,7 @@ if (true) {
     WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Suscrbete a nuestro Newsletter_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Suscrbete a nuestro Newsletter_hp'))
 
 WebUI.waitForPageLoad(0)
 
@@ -40,9 +40,9 @@ if (boletin.contains('tienda/paginas/Boletin/boletin')) {
     KeywordUtil.markFailed('url is not correct')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/input_Nombre(s)_nombre_newsletter'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/input_Nombre(s)_nombre_newsletter'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/input_Apellido paterno_apellidoP_newsletter'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/input_Apellido paterno_apellidoP_newsletter'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/input_Apellido materno_apellidoM_newsletter'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/input_Apellido materno_apellidoM_newsletter'), 0)
 

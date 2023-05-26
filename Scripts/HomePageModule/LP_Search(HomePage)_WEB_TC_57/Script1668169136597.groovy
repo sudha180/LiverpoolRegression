@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/Levis Liverpool'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/Levis Liverpool'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Liverpool es parte de Mi vida/h1_Levis'))
 

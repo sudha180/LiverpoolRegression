@@ -21,5 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/SelectStore_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/SelectStore_hp'), 0)
 

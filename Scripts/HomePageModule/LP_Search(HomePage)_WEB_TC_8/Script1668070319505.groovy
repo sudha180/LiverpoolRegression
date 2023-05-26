@@ -28,17 +28,17 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Liverpool es parte de Mi vida/img__mainBanner'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/catridgeA_hp (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/catridgeA_hp (1)'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/carousel1ProductName_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/carousel1ProductName_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/carousel1Price_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/carousel1Price_hp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/recomendaciones-dots-carousel'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/recomendaciones-dots-carousel'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/recomendaciones-prev-carousel'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/recomendaciones-prev-carousel'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/recomendaciones-next-carousel'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/recomendaciones-next-carousel'), 0)
 
 WebUI.closeBrowser()
 

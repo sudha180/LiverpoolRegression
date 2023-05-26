@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('Object Repository/HomePage/Page_Liverpool es parte de Mi vida/a_Mis Compras'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/Page_Liverpool es parte de Mi vida/a_Mis Compras'))
 
-WebUI.click(findTestObject('Object Repository/HomePage/Page_Iniciar sesin en Liverpool/img_Inicia sesin_header_logo liverpool'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/Page_Iniciar sesin en Liverpool/img_Inicia sesin_header_logo liverpool'))
 
 homeUrl = WebUI.getUrl()
 homeUrl.contains("/home")

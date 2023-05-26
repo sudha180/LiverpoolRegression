@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Relacin con inversionistas_hp'))
+WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Relacin con inversionistas_hp'))
 
 
 elpuertodeliverpool = WebUI.getUrl()
@@ -32,5 +32,5 @@ if (elpuertodeliverpool.contains('https://www.elpuertodeliverpool.mx/')) {
 	KeywordUtil.markFailed('url is not correct')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/img_elpuertodeliverpool'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_elpuertodeliverpool'), 0)
 

@@ -21,7 +21,7 @@ WebUI.verifyElementPresent(findTestObject('1vedant/CLP/Left_Current_Page_CLP'), 
 
 WebUI.verifyElementPresent(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SRP/breadcrumb_plp'), 0)
+WebUI.verifyElementPresent(findTestObject('1SRP page/breadcrumb_plp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('1vedant/CLP/category1img_L2_CLP'), 0)
 

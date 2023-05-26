@@ -25,7 +25,7 @@ not_run: WebUI.navigateToUrl(GlobalVariable.LiverpoolProduction)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePage/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -33,7 +33,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 if (WebUI.verifyElementPresent(findTestObject('pdp/EnterZipCode_pdp'), 0) == false) {
     WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -44,7 +44,7 @@ if (WebUI.verifyElementPresent(findTestObject('pdp/EnterZipCode_pdp'), 0) == fal
 
     WebUI.callTestCase(findTestCase('null'), [('searchTerm') : GlobalVariable.SLSearchTerm], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
+    WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
     WebUI.click(findTestObject('pdp/EnterZipCode_pdp'), FailureHandling.STOP_ON_FAILURE)
 

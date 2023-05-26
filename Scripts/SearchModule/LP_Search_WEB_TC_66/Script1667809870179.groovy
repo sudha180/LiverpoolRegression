@@ -23,13 +23,13 @@ WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('spanishTerm') : 'Niño'], FailureHandling.STOP_ON_FAILURE)
 
-productName_srp = WebUI.getText(findTestObject('SRP/productName_srp'))
+productName_srp = WebUI.getText(findTestObject('1SRP page/productName_srp'))
 
 'productName_srp'.contains('Niño')
 
-WebUI.click(findTestObject('HomePage/Buscar1'))
+WebUI.click(findTestObject('HomePageShubhum/Buscar1'))
 
-WebUI.setText(findTestObject('HomePage/Buscar1'), spanishTerm)
+WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), spanishTerm)
 
 prodName_typeAhead = WebUI.getText(findTestObject('prodName_typeAhead'))
 
