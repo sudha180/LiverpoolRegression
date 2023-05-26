@@ -21,13 +21,15 @@ WebUI.click(findTestObject('HomePage/LoginButton_hp'))
 
 WebUI.click(findTestObject('AccountManagement/CreateAccount_Account'))
 
-WebUI.click(findTestObject('AccountManagement/input_Correo electrnico_email_AM'))
+Email = CustomKeywords.'customkeywords.myKeywords.generateRandomEmail'()
 
-WebUI.click(findTestObject('AccountManagement/input_Contrasea_password_AM'))
+WebUI.setText(findTestObject('AccountManagement/input_Correo electrnico_email_AM'), Email)
+
+WebUI.setText(findTestObject('AccountManagement/input_Contrasea_password_AM'), 'test12345')
 
 WebUI.click(findTestObject('AccountManagement/CreateAccountMainPage_Account'))
 
-WebUI.setText(findTestObject('AccountManagement/NameField_CreateAccount'), '')
+WebUI.setText(findTestObject('AccountManagement/NameField_CreateAccount'), GlobalVariable.FirstName)
 
-WebUI.setText(findTestObject('AccountManagement/LastName_CreateAccount'), '')
+WebUI.setText(findTestObject('AccountManagement/LastName_CreateAccount'), GlobalVariable.LastName)
 
