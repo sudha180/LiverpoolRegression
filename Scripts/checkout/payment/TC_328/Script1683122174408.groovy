@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], Failur
 
 WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'bag'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'nat'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.STOP_ON_FAILURE)
 
@@ -41,17 +41,17 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_CO1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 'to set card as default card\r\n'
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/addnewcard_Popup_CO'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/addnewcard_Popup_OPC'))
 
 'section present to edit is address'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/AddressSection_card_popup_CO1'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/AddressSection_card_popup_OPC'), 0)
 
-WebUI.setText(findTestObject('1vedant/CheckOut(CO)/newCardNumber_CO1'), '434343666')
+WebUI.setText(findTestObject('1vedant/CheckOut(CO)/newCardNumber_OPC'), '434343666')
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/img_alias(visa)_CO1'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/img_alias(visa)_OPC'), 0)
 
 WebUI.closeBrowser()
 

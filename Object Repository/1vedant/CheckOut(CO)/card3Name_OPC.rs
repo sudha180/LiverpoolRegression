@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>expire date of card</description>
-   <name>enterCardExpire_OPC</name>
+   <description></description>
+   <name>card3Name_OPC</name>
    <tag></tag>
-   <elementGuidId>84c7ec17-8d4c-4dca-b4fb-cb55048e2657</elementGuidId>
+   <elementGuidId>5aef5301-25b7-484f-9518-f27b10943d8a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@class='a-textField__input mdc-text-field__input'])[1]</value>
+         <value>//div[@class='o-loggedUserCardInfo d-block']//label[3]//label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

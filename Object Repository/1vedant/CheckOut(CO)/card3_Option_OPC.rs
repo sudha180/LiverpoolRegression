@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>expire date of card</description>
-   <name>enterCardExpire_OPC</name>
+   <description>the option to select</description>
+   <name>card3_Option_OPC</name>
    <tag></tag>
-   <elementGuidId>84c7ec17-8d4c-4dca-b4fb-cb55048e2657</elementGuidId>
+   <elementGuidId>507f44e9-e93a-45db-b91c-64c4e74ef889</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@class='a-textField__input mdc-text-field__input'])[1]</value>
+         <value>//div[@class='o-loggedUserCardInfo d-block']//label[3]//a[@class='a-box__actionAddress dropdown-toggle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -33,7 +33,9 @@ WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product2_size1_P
 
 WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product2_selectButton_PDP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/popup_Agregaste_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/SoftLine_product1_quantity_PDP'), 0)
+
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/StickyBar_product2_quantity_PDP'), 0)
 
 WebUI.closeBrowser()
 

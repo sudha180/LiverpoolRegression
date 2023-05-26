@@ -6,12 +6,11 @@
    <elementGuidId>a50955ed-44d4-4770-95e7-f2a67221418a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='modal-btn--address--select -btnCheckout mb-lg-4 col-5']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@class='col-12 col-lg-6 text-center padded-tabs-mobile']//button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], Failur
 
 WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'bag'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'nat'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/product3_PLP'), FailureHandling.STOP_ON_FAILURE)
 
@@ -42,29 +42,29 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
 'predefined payment method\r\n'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_CO'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_OPC'), 0)
 
 'predefined payment method\r\n'
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_CO'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option1_CO'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option1_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_CO)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_CO)'), FailureHandling.STOP_ON_FAILURE)
+selectOption = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-selectOption = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_CO)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_option2_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 'predefined payment method\r\n'
-selectedOption = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_CO'), FailureHandling.STOP_ON_FAILURE)
+selectedOption = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_OPC'), FailureHandling.STOP_ON_FAILURE)
 
-if (selectOption == selectedOption)
-{
- System.out.println("checked option selected")
+if (selectOption == selectedOption) {
+    System.out.println('checked option selected')
 }
+
 WebUI.closeBrowser()
 

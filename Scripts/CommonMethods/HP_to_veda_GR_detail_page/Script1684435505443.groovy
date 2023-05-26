@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('1vedant/HP/Gift_table_button_HP'))
 
-WebUI.click(findTestObject('1vedant/GR list page/Find_gift_table_GR'))
+WebUI.enhancedClick(findTestObject('1vedant/GR list page/Find_gift_table_GR'))
 
 WebUI.setText(findTestObject('1vedant/GR list page/GR_SearchPage/Event_search_by_number_textArea_GR'), '56076579')
 

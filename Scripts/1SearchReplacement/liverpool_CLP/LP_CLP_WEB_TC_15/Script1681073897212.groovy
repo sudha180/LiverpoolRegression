@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.mouseOver(findTestObject('1vedant/HP/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('1vedant/HP/L1_Category5_HP'))
+WebUI.click(findTestObject('1vedant/HP/L1_Category2_HP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='m-cardInfoContainer col-11 justify-content-start']//label[contains(text(),'sharma')]</value>
+         <value>//div[@class='m-cardInfoContainer col-11 justify-content-start']//label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

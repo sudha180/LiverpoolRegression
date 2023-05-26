@@ -41,9 +41,9 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/paymentCard_aliasName_CO1'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/paymentCard_aliasName_OPC'), 0)
 
-aliasfontweight = WebUI.getCSSValue(findTestObject('1vedant/CheckOut(CO)/paymentCard_aliasName_CO1'), 'font-weight')
+aliasfontweight = WebUI.getCSSValue(findTestObject('1vedant/CheckOut(CO)/paymentCard_aliasName_OPC'), 'font-weight')
 
 afw = aliasfontweight.toBigInteger()
 
@@ -52,13 +52,13 @@ if (afw >= 200) {
 }
 
 'paypal\r\n'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/paymentCard_aliasName_CO1'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/paymentCard_aliasName_OPC'), 0)
 
 'Efectivo y Transferencias'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/paymentCard_CVV_CO1'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/paymentCard_CVV_OPC'), 0)
 
 'verify best promotion'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_CO'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/BestpromotionScrolldown_OPC'), 0)
 
 WebUI.closeBrowser()
 
