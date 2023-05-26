@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>In One Page checkout the client must  not be  edit a frequent stores</description>
-   <name>TC_230</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>40c4fe75-31b3-49c2-b786-5a62cdf9585a</testCaseGuid>
-</TestCaseEntity>

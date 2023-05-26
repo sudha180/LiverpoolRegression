@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To verify the display of the Google Map Slot in the Store Locator Page.</description>
-   <name>TC_BS_059</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2cee237e-ed29-490f-8fe9-0b53046ca4db</testCaseGuid>
-</TestCaseEntity>

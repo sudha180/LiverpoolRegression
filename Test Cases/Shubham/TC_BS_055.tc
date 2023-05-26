@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To verify that the user is able to select the facet on the Product List page  and to verify the display of the Hide arrows (v) Defect ID : 6953</description>
-   <name>TC_BS_055</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ae50771d-9fae-418d-919d-be643b712334</testCaseGuid>
-</TestCaseEntity>

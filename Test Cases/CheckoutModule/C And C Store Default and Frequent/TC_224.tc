@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>A customer must have the option to predeterminate a C&amp;C store in One Page checkout without previously being stored in my frequent stores, this action will save the store in My profile as a frequent store and will select that store as the shipping method for the current purchase.</description>
-   <name>TC_224</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>164beab7-239d-474a-b153-c8f2e660578c</testCaseGuid>
-</TestCaseEntity>

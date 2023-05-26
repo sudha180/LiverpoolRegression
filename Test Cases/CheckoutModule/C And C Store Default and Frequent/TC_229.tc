@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>When the client tries to save a C&amp;C store that he already has saved as frequent, an alert will appear indicating that this action is not possible because that store has already been saved as frequent and a store previously saved in my frequent stores, it should not be able to stored twice in the same profile.</description>
-   <name>TC_229</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fb7d011e-9365-47db-b147-09d05a5ab209</testCaseGuid>
-</TestCaseEntity>

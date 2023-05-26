@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>&quot;To verify the error message scenarios on PDP 
-To verify the error message scenarios on sticky banner&quot;</description>
-   <name>TC_BS_408</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c7269814-cba0-49c9-9d53-821b1f85eb6e</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>a.     Mark as default: clicking inside the modal in the frequent stores section will put the new default in 1st option.</description>
-   <name>TC_284</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d1398673-8fda-49ad-b93f-593b4329e5ca</testCaseGuid>
-</TestCaseEntity>

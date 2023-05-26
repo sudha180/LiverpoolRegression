@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>A customer should have the option of selecting a C&amp;C store as the shipping method without saving it in my account as frequent</description>
-   <name>TC_225</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5824705c-d498-4b32-a9fd-134b072a8e9c</testCaseGuid>
-</TestCaseEntity>

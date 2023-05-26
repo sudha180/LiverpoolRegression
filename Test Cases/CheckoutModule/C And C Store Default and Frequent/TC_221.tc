@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>From One Page checkout a login customer should have the option of predetermining a shipping address saved in my profile or a C&amp;C store saved as frequent.</description>
-   <name>TC_221</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e3675e70-c919-4b6a-8abe-07fe7e38bdf0</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To verify the Rating overlay when user mouse hover on Ratings in PDP for logged-in user</description>
-   <name>TC_BS_399</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>db6ad659-9544-4b36-b0d8-5efdd0035562</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To verify the functionality of &quot;ver mas&quot; link in left hand facets section.</description>
-   <name>TC_BS_390</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a4c0c006-e165-46f9-a9fb-273c79006da4</testCaseGuid>
-</TestCaseEntity>

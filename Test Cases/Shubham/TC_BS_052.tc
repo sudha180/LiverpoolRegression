@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To verify that the user is allowed to share products via social network links[FB, twitter, Pinterest, Google Plus] on PDP.</description>
-   <name>TC_BS_052</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>160b9404-b5a9-4ec1-8eb6-6a7d7412e504</testCaseGuid>
-</TestCaseEntity>

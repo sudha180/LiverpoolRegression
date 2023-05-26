@@ -119,4 +119,9 @@
       <initValue>'1031144554'</initValue>
       <name>digitalP</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'new@digisprint.com'</initValue>
+      <name>newuser</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

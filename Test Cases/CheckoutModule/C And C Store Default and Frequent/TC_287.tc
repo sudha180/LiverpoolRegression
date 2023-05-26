@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>b.     Add to my addresses: when the user clicks the system must save it as frequent in my profile and show it in the frequent stores in the modal.</description>
-   <name>TC_287</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ff6a1418-041a-4029-b9ad-6e82219bfc2c</testCaseGuid>
-</TestCaseEntity>

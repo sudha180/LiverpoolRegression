@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>If a customer has a DW (digital) product and a personal purchase product, the customer can see the shipping method as default; If he does not have one, he should have the option to enter a shipping method.</description>
-   <name>TC_245</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bb057abe-119b-49df-b3e8-f3285fcec2d6</testCaseGuid>
-</TestCaseEntity>

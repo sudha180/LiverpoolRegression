@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To verify that the user is able to navigate to the Contact Lenses Product  list page.</description>
-   <name>TC_BS_047</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>4757ddfb-0f7d-4fe1-a7c7-47e6f9e00bec</testCaseGuid>
-</TestCaseEntity>

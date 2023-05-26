@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>A login customer must have the option to default to a shipping address saved or a C&amp;C store saved as frequent from One Page checkout.</description>
-   <name>TC_222</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b9132af9-a880-415b-b6f1-0125c5ca8b2d</testCaseGuid>
-</TestCaseEntity>

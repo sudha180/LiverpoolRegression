@@ -25,7 +25,7 @@ WebUI.click(findTestObject('HomePage/username'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('HomePage/username'), GlobalVariable.newUser)
+WebUI.setText(findTestObject('HomePage/username'), GlobalVariable.newuser)
 
 WebUI.click(findTestObject('HomePage/password'))
 

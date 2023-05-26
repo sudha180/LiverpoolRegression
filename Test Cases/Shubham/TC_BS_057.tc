@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To verify that the user is able to navigate to the Store Locator Page by clicking on the store link</description>
-   <name>TC_BS_057</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>376223ac-53e9-4f25-bb76-52140d9c4b08</testCaseGuid>
-</TestCaseEntity>

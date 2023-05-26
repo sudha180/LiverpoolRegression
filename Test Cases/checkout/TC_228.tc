@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A C&amp;C store can be predetermined in the menu of stores in One Page checkout, this store will be assigned as the shipping method for the purchase and will be saved as frequent and default in My account; this action should not show update legend in One Page checkout.</description>
+   <name>TC_228</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6c46e63-93e2-4ad0-a358-1997bdd4896e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A customer will be able to select Drive Thru as the shipping method in One Page checkout and the order will be sent to the Drive Thru order monitor</description>
+   <name>TC_239</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e697b2f-e8c7-46f8-953f-142172d0c057</testCaseGuid>
+</TestCaseEntity>
