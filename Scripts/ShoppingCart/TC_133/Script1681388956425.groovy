@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+not_run: WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+
+WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : GlobalVariable.SLProduct], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))

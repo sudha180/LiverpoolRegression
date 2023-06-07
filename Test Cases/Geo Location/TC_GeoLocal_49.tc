@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify EDD gets display for the added MKP item in cart</description>
    <name>TC_GeoLocal_49</name>
    <tag></tag>
    <comment></comment>

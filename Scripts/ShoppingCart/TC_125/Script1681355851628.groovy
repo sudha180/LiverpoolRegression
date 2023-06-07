@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-not_run: WebUI.navigateToUrl('https://odtaqab.liverpool.com.mx/tienda/pdp/JeansslimGAPlavadoobscuroparania/1031371976?hs=true')
+not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
-WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : GlobalVariable.SLProduct], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
@@ -41,11 +41,11 @@ WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'), FailureHandling.STOP_ON_FAILURE)
 
-String expectedopcUrl = "tienda/oneCheckout"
+String expectedopcUrl = 'tienda/oneCheckout'
+
 actualopcUrl = WebUI.getUrl()
 
-
 actualopcUrl.contains(expectedopcUrl)
-WebUI.closeBrowser()
 
+WebUI.closeBrowser()
 

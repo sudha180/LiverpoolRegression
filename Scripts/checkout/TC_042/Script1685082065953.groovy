@@ -44,3 +44,5 @@ WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/card_pink_radiob
 
 WebUI.closeBrowser()
 
+WebUI.comment('')
+

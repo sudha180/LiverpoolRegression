@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify EDD not gets displayed for the added gift registry / Digital / Pre-sale / Special item in cart</description>
    <name>TC_GeoLocal_50_Gift</name>
    <tag></tag>
    <comment></comment>

@@ -28,6 +28,8 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProductNew], 
     FailureHandling.STOP_ON_FAILURE)
 

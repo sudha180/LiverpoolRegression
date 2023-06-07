@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify selected favorite store gets added once user creates new account</description>
    <name>TC_GeoLocal_12_otp_required</name>
    <tag></tag>
    <comment></comment>

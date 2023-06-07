@@ -25,13 +25,10 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
-WebUI.callTestCase(findTestCase('null'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('null'), [('searchKey') : GlobalVariable.SLProduct2Id], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : GlobalVariable.minimumPurchaseProdut], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.minimumPurchaseProdut], 
     FailureHandling.STOP_ON_FAILURE)
 
 ExpectedDeliveryDate_pdp = WebUI.getText(findTestObject('pdp/ExpectedDeliveryDate_pdp'))

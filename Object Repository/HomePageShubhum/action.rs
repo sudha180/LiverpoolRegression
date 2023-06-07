@@ -6,11 +6,11 @@
    <elementGuidId>8a440e92-8136-436f-a3e8-a4c3f068d1af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='submit'])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

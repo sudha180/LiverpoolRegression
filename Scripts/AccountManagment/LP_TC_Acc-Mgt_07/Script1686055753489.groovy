@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProductNew], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('pdp/AddToCart_pdp'))
+
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
+
+WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
+
+WebUI.click(findTestObject('CartPage/LoginButton_Cart'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.WrongUsername, ('password') : GlobalVariable.WrongPassword], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/WrongCredential_Account'), 0)
+
+WebUI.closeBrowser()
+

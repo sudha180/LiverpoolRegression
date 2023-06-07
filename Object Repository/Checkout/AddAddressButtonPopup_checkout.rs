@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(), 'Agregar Dirección')]</value>
+         <value>//button[contains(text(),'Agregar dirección')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

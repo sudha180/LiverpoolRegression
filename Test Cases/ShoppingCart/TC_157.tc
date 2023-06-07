@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>In all the places where it is enabled, the &quot;Buy now&quot; button will detonate the receipt of all the products in the bag, adding only the PDP product to the Express checkout until the process is complete. Once this process is finished, or abandoned the cart, the protected products will be returned to the bag.</description>
-   <name>TC_157</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2819ca72-f141-46ed-9958-d207f63294f7</testCaseGuid>
-</TestCaseEntity>

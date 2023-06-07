@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify default store gets added as favorite store if user doesn’t have favorite store</description>
    <name>TC_GeoLocal_13_otp_required</name>
    <tag></tag>
    <comment></comment>

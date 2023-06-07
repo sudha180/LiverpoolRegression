@@ -374,5 +374,19 @@
       <initValue>'https://odtaqab.liverpool.com.mx/tienda/home'</initValue>
       <name>LiverPoolURL</name>
    </GlobalVariableEntity>
-
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://odtaqab.liverpool.com.mx/tienda/cart'</initValue>
+      <name>CartPageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'shubhamjagtap21@gmail.com'</initValue>
+      <name>WrongUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test1234'</initValue>
+      <name>WrongPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
