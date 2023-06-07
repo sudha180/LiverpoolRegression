@@ -19,14 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpSearchWord], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('PLPPage/gwpRegaloFlag_plp'), 0)
+WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
-not_run: WebUI.verifyElementNotClickable(findTestObject('PLPPage/gwpRegaloFlag_plp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1031144554'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
+
+WebUI.scrollToPosition(0, 350)
+
+WebUI.click(findTestObject('1vedant/PDP/StickyBar_Comprar_Ahora_PDP'))
+
+WebUI.click(findTestObject('DemoObjects/CartPage/button_Comprarahora_cart'))
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/changeADDRESS_OPC'))
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/clickAndCollect_OPC'))
+
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/SeleccionUNA_Tienda(CNC)_OPC'), 0)
+
+WebUI.closeBrowser()
 

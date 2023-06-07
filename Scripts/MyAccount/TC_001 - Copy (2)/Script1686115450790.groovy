@@ -21,31 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
+WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
-WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1031144554'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
+WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
 
-'facet to check clicked\r\n'
-FacetClicked = WebUI.getText(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
+WebUI.scrollToPosition(0, 350)
 
-'clicked facet showing above'
-FacetClicked2 = WebUI.getText(findTestObject('1vedant/PLP/facetes/facet_selectedname_liverpool'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PDP/StickyBar_Comprar_Ahora_PDP'))
 
-if (FacetClicked == FacetClicked2) {
-    System.out.print('facet clicked is facet selected')
-}
+WebUI.click(findTestObject('DemoObjects/CartPage/button_Comprarahora_cart'))
 
-WebUI.click(findTestObject('1vedant/PLP/facetes/close_facet_liverpool_PLP'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/changeADDRESS_OPC'))
 
-WebUI.verifyElementNotPresent(findTestObject('1vedant/PLP/facetes/facet_selectedname_liverpool'), 0)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/clickAndCollect_OPC'))
+
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/SeleccionUNA_Tienda(CNC)_OPC'), 0)
 
 WebUI.closeBrowser()
 

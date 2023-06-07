@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify that the Recommended products slot displays 6 products at once in PLP as per HTML</description>
    <name>LP_PLP_WEB_TC__29</name>
    <tag></tag>
    <comment></comment>

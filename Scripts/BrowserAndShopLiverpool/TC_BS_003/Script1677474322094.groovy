@@ -21,8 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLwithVarient], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'nat'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
@@ -30,10 +29,10 @@ WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 WebUI.verifyElementText(findTestObject('1vedant/PDP/shopCart_HP'), '0')
 
 'first present colour of radio button'
-WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'))
+WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
 
 'first present size of box'
-WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'))
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
@@ -41,10 +40,10 @@ WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 WebUI.verifyElementText(findTestObject('1vedant/PDP/shopCart_HP'), '1')
 
 'second present colour of radio button'
-WebUI.click(findTestObject('1vedant/PDP/Colour2_PDP'))
+WebUI.click(findTestObject('1vedant/PDP/Colour2_PDP'), FailureHandling.OPTIONAL)
 
 'second present size of box'
-WebUI.click(findTestObject('1vedant/PDP/Size2_PDP'))
+WebUI.click(findTestObject('1vedant/PDP/Size2_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 

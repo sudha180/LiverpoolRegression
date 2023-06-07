@@ -26,7 +26,7 @@ WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
 
 'sub category left level menu (perfume) no L3 category \r\n'
-WebUI.click(findTestObject('1vedant/CLP/SubCategory6_leftmenu_CLP'))
+WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
 
 'top left bread crumb'
 WebUI.click(findTestObject('1vedant/PLP/BreadCrumb2Page_PLP'))

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the functionality of Product Image in Recommended products slot in PLP of selected category when user clicks on product image of any product</description>
    <name>LP_PLP_WEB_TC__26</name>
    <tag></tag>
    <comment></comment>

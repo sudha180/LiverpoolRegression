@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>If customer change the payment method the promotions should be updated for each product</description>
    <name>TC_456</name>
    <tag></tag>
    <comment></comment>

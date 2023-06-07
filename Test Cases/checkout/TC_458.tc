@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>The ítem prices should be update according to the promotion selected</description>
    <name>TC_458</name>
    <tag></tag>
    <comment></comment>

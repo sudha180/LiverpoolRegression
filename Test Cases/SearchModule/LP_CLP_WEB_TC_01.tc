@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the UI of Category Landing page of any selected Category</description>
    <name>LP_CLP_WEB_TC_01</name>
    <tag></tag>
    <comment></comment>

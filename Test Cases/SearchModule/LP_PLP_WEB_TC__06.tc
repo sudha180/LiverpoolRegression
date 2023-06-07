@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the functionality of Price(Low - High) sorting option in PLP</description>
    <name>LP_PLP_WEB_TC__06</name>
    <tag></tag>
    <comment></comment>
