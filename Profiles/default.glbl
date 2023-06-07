@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx'</initValue>
+      <initValue>'https://dtaqa.liverpool.com.mx'</initValue>
       <name>URL2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -193,11 +193,6 @@
       <description></description>
       <initValue>'65153475'</initValue>
       <name>BLpSLgift2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx'</initValue>
-      <name>URL2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>sl product with 3 colour and 3 size</description>
@@ -688,11 +683,6 @@
       <description></description>
       <initValue>'65153475'</initValue>
       <name>BLpSLgift2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx'</initValue>
-      <name>URL2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>sl product with 3 colour and 3 size</description>
