@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-not_run: WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BTItemsLink], 
+not_run: WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BTItemsLink], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.BTItemsLink)
@@ -41,7 +41,9 @@ WebUI.setText(findTestObject('pdp/QuantityTotal_pdp'), '999')
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
+WebUI.click(findTestObject('CartPage/CartHeaderLargeCount_CartPage'))
+
+not_run: WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/LatestLineBuyButton_Cart'))
 
