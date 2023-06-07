@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('HomePageShubhum/Buscar1'))
 
 WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), 'vaso')
+
+WebUI.click(findTestObject('1HomePage/searchButtton_HP'))
 
 WebUI.verifyElementPresent(findTestObject('HomePageShubhum/typeAheadLeftNav_hp'), 0)
 

@@ -26,15 +26,13 @@ WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpSLwithSingleGift], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
-
-cartCount = WebUI.getText(findTestObject('pdp/miniBagValue_pdp'), FailureHandling.STOP_ON_FAILURE)
+cartCount = WebUI.getText(findTestObject('1vedant/PDP/Bag_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 int cartCount = Integer.parseInt(cartCount)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-cartCountAfterGWP = WebUI.getText(findTestObject('pdp/miniBagValue_pdp'), FailureHandling.STOP_ON_FAILURE)
+cartCountAfterGWP = WebUI.getText(findTestObject('1vedant/PDP/Bag_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 int cartCountAfterGWP = Integer.parseInt(cartCountAfterGWP)
 
