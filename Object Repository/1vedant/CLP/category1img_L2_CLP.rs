@@ -6,12 +6,11 @@
    <elementGuidId>dc312ab3-c3ff-4a49-812e-fb6bbca51de9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//figure[@class='m-figureCard__figure card  m-card']//img)[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//section[@class='clp_body']//img)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
