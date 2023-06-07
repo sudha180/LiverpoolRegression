@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>If the buttón “Comprar ahora” is click form here will trigger the temporarily saved of all the others articles that the client has on his shopping bag when customer end the express checkout of the article the temporarily save articles returns to the shopping bag</description>
    <name>TC_098</name>
    <tag></tag>
    <comment></comment>

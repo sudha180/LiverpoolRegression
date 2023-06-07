@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the Product details of all products in Recommended products slot in PLP of selected category</description>
    <name>LP_PLP_WEB_TC__25</name>
    <tag></tag>
    <comment></comment>

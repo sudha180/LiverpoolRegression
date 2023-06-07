@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the format of URL when user sort the products using any of the sorting options</description>
    <name>LP_PLP_WEB_TC__39</name>
    <tag></tag>
    <comment></comment>

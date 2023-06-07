@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>If an One page checkout process is initiated without a payment method predefine it should be appear as predefine the best promotion that the product has showing the Liverpool but when the user select a payment method the promotion has to be recalculated</description>
    <name>TC_451</name>
    <tag></tag>
    <comment></comment>

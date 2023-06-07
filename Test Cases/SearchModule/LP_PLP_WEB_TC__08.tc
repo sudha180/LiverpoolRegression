@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the System displays the products in Descending  order of rating in PLP when user selects Rating sorting option</description>
    <name>LP_PLP_WEB_TC__08</name>
    <tag></tag>
    <comment></comment>

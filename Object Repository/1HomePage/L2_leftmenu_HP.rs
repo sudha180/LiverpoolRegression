@@ -6,11 +6,11 @@
    <elementGuidId>9b378b3e-6a23-407a-ab67-4d12c52b1cf3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//div[@class='m-leftMenu-wrapper plp-filter-options active']//a[@class='link-iconArrow'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='leftNav-searcher m-leftMenu-wrapper plp-filter-options active']//a[@class='link-iconArrow'])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

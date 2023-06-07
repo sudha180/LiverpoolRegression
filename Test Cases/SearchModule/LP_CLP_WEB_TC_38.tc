@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To Verify the functionality of the “Ver Mas” button in Cartridge A carousel in CLP</description>
    <name>LP_CLP_WEB_TC_38</name>
    <tag></tag>
    <comment></comment>

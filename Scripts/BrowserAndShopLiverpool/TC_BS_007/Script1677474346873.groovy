@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-WebUI.mouseOver(findTestObject('1HomePage/MujerCategory_HP'))
+WebUI.mouseOver(findTestObject('1HomePage/L1_Category1_HP'))
 
 L3 = WebUI.getText(findTestObject('1HomePage/L3_category_2_HP'))
 

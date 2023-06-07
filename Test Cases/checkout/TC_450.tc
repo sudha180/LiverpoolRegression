@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>When customer start the checkout process through the One page checkout,   at the product section and according to the predefined payment method  will be a combo where has to appear all the promotions that apply at that product</description>
    <name>TC_450</name>
    <tag></tag>
    <comment></comment>

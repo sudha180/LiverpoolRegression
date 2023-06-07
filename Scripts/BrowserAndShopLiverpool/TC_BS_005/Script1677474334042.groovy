@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
 
 L1 = WebUI.getText(findTestObject('1HomePage/L1_Category2_HP'))
@@ -31,14 +33,14 @@ subCategory = WebUI.getText(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CL
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
-WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
-
 'Product listing page\r\n'
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
+WebUI.callTestCase(findTestCase('CommonMethods/assert_L2_CLP'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementClickable(findTestObject('1vedant/CLP/Left_Current_Page_CLP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('1vedant/CLP/L1_leftmenu_CLP'), L1)
+WebUI.verifyElementPresent(findTestObject('1vedant/CLP/L1_leftmenu_CLP'), L1)
 
 WebUI.verifyElementText(findTestObject('1HomePage/L2_leftmenu_HP'), subCategory)
 

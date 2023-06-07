@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To Verify that the user is able to disable  “Ver Mas” button from Endeca in CLP</description>
    <name>LP_CLP_WEB_TC_34</name>
    <tag></tag>
    <comment></comment>

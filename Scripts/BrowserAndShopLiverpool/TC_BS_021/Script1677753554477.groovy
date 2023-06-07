@@ -25,16 +25,16 @@ WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
 
 WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
 
-WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
+WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
-WebUI.click(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
-
 'facet to check clicked\r\n'
 FacetClicked = WebUI.getText(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
+
+WebUI.click(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
 
 'clicked facet showing above'
 FacetClicked2 = WebUI.getText(findTestObject('1vedant/PLP/facetes/facet_selectedname_liverpool'), FailureHandling.STOP_ON_FAILURE)
