@@ -3,7 +3,7 @@
    <description></description>
    <name>Bowser And Shop</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
+   <delayBetweenInstances>1</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>5</maxConcurrentInstances>
    <testSuiteRunConfigurations>

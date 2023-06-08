@@ -30,6 +30,12 @@ WebUI.click(findTestObject('HomePageShubhum/L1Category_HP'))
 'this is only name of category we chose'
 FooterName = WebUI.getText(findTestObject('1vedant/CLP/footer_name_not.com_CLP'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('1vedant/CLP/Left_Current_Page_CLP'), 0)
+
+WebUI.verifyElementPresent(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'), 0)
+
+WebUI.verifyElementPresent(findTestObject('1SRP page/breadcrumb_plp'), 0)
+
 'this is complete text of footer '
 WebUI.verifyElementText(findTestObject('1vedant/CLP/footer_.com_CLP'), 'MUJER EN LIVERPOOL.COM.MX')
 
