@@ -20,7 +20,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 if (true) {
     WebUI.verifyElementPresent(findTestObject('Object Repository/i_Ms informacin_icon-close close'), 0)
@@ -40,6 +40,5 @@ if (jobUrl.contains('tucarrera-elpuertode')) {
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_elpuertode_jobPage'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_trabajo_jobPage'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_trabajo_jobPage'), 0)
 

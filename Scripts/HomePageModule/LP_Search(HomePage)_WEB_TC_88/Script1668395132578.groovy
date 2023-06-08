@@ -20,16 +20,16 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Relacin con inversionistas_hp'))
 
-
 elpuertodeliverpool = WebUI.getUrl()
+
 if (elpuertodeliverpool.contains('https://www.elpuertodeliverpool.mx/')) {
-	print('url is correct')
+    print('url is correct')
 } else {
-	KeywordUtil.markFailed('url is not correct')
+    KeywordUtil.markFailed('url is not correct')
 }
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_elpuertodeliverpool'), 0)

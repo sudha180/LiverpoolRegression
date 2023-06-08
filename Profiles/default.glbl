@@ -25,19 +25,9 @@
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://pwaqa.liverpool.com.mx/tienda/home'</initValue>
-      <name>URL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>pwaqa</description>
       <initValue>'https://pwaqa.liverpool.com.mx/tienda/group/elvis-set-sala-contempor%C3%A1nea-gris/100000000147?skuid=100000000147'</initValue>
       <name>GIDcollection</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>GWP BT with 2 gift</description>
-      <initValue>'https://odtaqab.liverpool.com.mx/tienda/pdp/bicicleta-de-monta%C3%B1a-adidas-rodada-28-para-mujer/1031371518?skuid=1031371518'</initValue>
-      <name>bt1gift2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

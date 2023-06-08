@@ -19,16 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Mesa de regalos_HP'))
 
 GRUrl = WebUI.getUrl()
-GRUrl.contains("mesaderegalos")
+
+GRUrl.contains('mesaderegalos')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/grImage_grPage'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Buscar una Mesa de Regalos_grHome'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Buscar una Mesa de Regalos_grHome'), 
+    0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Crear Mesa de Regalos_grHome'), 0)
 

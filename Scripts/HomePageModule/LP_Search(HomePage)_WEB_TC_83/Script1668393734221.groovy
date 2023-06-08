@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
+
 if (true) {
-	WebUI.verifyElementPresent(findTestObject('Object Repository/i_Ms informacin_icon-close close'), 0)
-	WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
+    WebUI.verifyElementPresent(findTestObject('Object Repository/i_Ms informacin_icon-close close'), 0)
+
+    WebUI.click(findTestObject('Object Repository/i_Ms informacin_icon-close close'))
 }
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Mis Compras_footer'))
@@ -35,10 +37,4 @@ WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Mis Compras_foot
 miscomprasUrl = WebUI.getUrl()
 
 miscomprasUrl.contains('miscompras')
-
-
-
-
-
-
 

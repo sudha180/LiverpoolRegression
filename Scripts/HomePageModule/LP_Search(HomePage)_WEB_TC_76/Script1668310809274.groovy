@@ -19,16 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Mis Compras'))
 
 miscomprasUrl = WebUI.getUrl()
-miscomprasUrl.contains("miscompras")
+
+miscomprasUrl.contains('miscompras')
+
 WebUI.verifyElementPresent(findTestObject('AccountManagement/aside_Mis Compras_leftnav_AM'), 0)
 
