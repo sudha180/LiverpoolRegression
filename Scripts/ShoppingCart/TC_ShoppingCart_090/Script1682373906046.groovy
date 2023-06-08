@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
+WebUI.delay(5)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BLpBLgift], 
     FailureHandling.STOP_ON_FAILURE)
 

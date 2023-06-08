@@ -36,9 +36,9 @@ WebUI.setText(findTestObject('pdp/QuantityTotal_pdp'), '999')
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.click(findTestObject('CartPage/CartHeaderLargeCount_CartPage'))
+not_run: WebUI.click(findTestObject('CartPage/CartHeaderLargeCount_CartPage'))
 
-not_run: WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.navigateToUrl(GlobalVariable.PreOrderProductLink)
 

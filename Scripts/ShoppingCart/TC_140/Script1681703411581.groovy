@@ -35,7 +35,7 @@ not_run: WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search
 
 WebUI.navigateToUrl(GlobalVariable.BTItemsLink)
 
-WebUI.click(findTestObject('pdp/QuantityTotal_pdp'))
+not_run: WebUI.click(findTestObject('pdp/QuantityTotal_pdp'))
 
 WebUI.setText(findTestObject('pdp/QuantityTotal_pdp'), '999')
 

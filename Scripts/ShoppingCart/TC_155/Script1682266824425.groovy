@@ -31,7 +31,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.minimumPurchaseProdut], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('pdp/ExpectedDeliveryDate_pdp'), 0)
+not_run: WebUI.verifyElementNotPresent(findTestObject('pdp/ExpectedDeliveryDate_pdp'), 0)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 

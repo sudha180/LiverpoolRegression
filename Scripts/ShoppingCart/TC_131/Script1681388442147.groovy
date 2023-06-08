@@ -39,8 +39,6 @@ WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/CartPage/button_Comprarahora_cart'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/CartPage/button_Comprarahora_cart'), 0)
-
 WebUI.click(findTestObject('DemoObjects/CartPage/button_Comprar_cart'))
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/productImage_opc'), 0)
