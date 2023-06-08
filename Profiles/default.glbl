@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx/tienda/home'</initValue>
+      <initValue>'https://dtaqa.liverpool.com.mx/tienda/home'</initValue>
       <name>LiverPoolURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -218,11 +218,6 @@
       <description></description>
       <initValue>'1024316790'</initValue>
       <name>exclusiveProductId</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx/tienda/home'</initValue>
-      <name>LiverPoolURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

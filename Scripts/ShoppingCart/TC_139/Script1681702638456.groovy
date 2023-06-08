@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-not_run: WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
@@ -45,11 +45,12 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
+WebUI.click(findTestObject('CartPage/CartHeaderLargeCount_CartPage'))
 
 not_run: WebUI.navigateToUrl(GlobalVariable.PreOrderProductLink)
 
-WebUI.callTestCase(findTestCase('null'), [('searchTerm') : GlobalVariable.SLProduct], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
