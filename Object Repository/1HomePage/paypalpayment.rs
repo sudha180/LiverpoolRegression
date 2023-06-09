@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>6Products_typeAhead</name>
+   <name>paypalpayment</name>
    <tag></tag>
-   <elementGuidId>5724fd20-cad0-4fc2-8153-9e4a4c59d469</elementGuidId>
+   <elementGuidId>bf713e88-21ce-46d6-966a-8dcb24f96683</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value> (//div[@class='m-search-suggestion-product mb-3'])</value>
+         <value>//div[@class='col-11 col-lg-6 text-center d-inline-flex']//button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

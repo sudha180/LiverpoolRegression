@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='o-col col-lg-2 col text-center pb-2 pb-lg-0']</value>
+         <value>//img[@class='a-header__logo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

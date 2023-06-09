@@ -23,7 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ban'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL_Product1], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/product2_PLP'), FailureHandling.STOP_ON_FAILURE)
 
@@ -33,9 +34,12 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
+WebUI.callTestCase(findTestCase('CommonMethods/cardSelect_card1_CO1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
+'would show if the login user has a default card'
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardLast4Digit_OPC'), 0)
+
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/card_pink_radiobutton_OPC'), 0)
 
 WebUI.closeBrowser()
 

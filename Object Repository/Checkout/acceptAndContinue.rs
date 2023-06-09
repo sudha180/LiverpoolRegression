@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>6Products_typeAhead</name>
+   <name>acceptAndContinue</name>
    <tag></tag>
-   <elementGuidId>5724fd20-cad0-4fc2-8153-9e4a4c59d469</elementGuidId>
+   <elementGuidId>c55af298-21ff-4d49-91c6-e15730b65512</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value> (//div[@class='m-search-suggestion-product mb-3'])</value>
+         <value>//button[@name='Agree and continue']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
