@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'nsamraj@palnyc.com', ('password') : 'test12345'], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Liverpool es parte de Mi vida/span_Hola SAMRAJ'), 0)

@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/Page_Liverpool es parte de Mi vida/a_Mis Compras'))
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/Page_Iniciar sesin en Liverpool/img_Inicia sesin_header_logo liverpool'))
 
 homeUrl = WebUI.getUrl()
-homeUrl.contains("/home")
 
+homeUrl.contains('/home')
 

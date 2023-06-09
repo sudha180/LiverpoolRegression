@@ -20,7 +20,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 if (true) {
     WebUI.verifyElementPresent(findTestObject('Object Repository/i_Ms informacin_icon-close close'), 0)
@@ -38,6 +38,5 @@ if (twitterUrl.contains('https://twitter.com/LiverpoolMexico')) {
     KeywordUtil.markFailed('url is not correct')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/a_twitterLogo_twitterPage'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/a_twitterLogo_twitterPage'), 0)
 

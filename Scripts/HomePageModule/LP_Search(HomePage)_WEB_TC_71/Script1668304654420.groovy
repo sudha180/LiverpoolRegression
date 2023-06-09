@@ -19,12 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Ayuda_HP'))
 
 ayudaUrl = WebUI.getUrl()
-ayudaUrl.contains("assets")
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_Cmo podemos ayudarte_logoAyuda_helpPage'), 0)
+ayudaUrl.contains('assets')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_Cmo podemos ayudarte_logoAyuda_helpPage'), 
+    0)
 

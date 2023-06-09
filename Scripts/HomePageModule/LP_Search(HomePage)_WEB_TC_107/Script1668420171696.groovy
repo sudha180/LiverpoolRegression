@@ -20,7 +20,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 if (true) {
     WebUI.verifyElementPresent(findTestObject('Object Repository/i_Ms informacin_icon-close close'), 0)
@@ -42,7 +42,9 @@ if (boletin.contains('tienda/paginas/Boletin/boletin')) {
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/input_Nombre(s)_nombre_newsletter'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/input_Apellido paterno_apellidoP_newsletter'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/input_Apellido paterno_apellidoP_newsletter'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/input_Apellido materno_apellidoM_newsletter'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/input_Apellido materno_apellidoM_newsletter'), 
+    0)
 

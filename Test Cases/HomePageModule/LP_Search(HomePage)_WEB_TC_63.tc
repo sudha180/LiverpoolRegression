@@ -5,6 +5,12 @@
    <tag>HP</tag>
    <comment></comment>
    <testCaseGuid>50d637f3-1e80-4326-9ae3-109179663543</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e02168f4-b655-4139-8909-2eff8390a1a2</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

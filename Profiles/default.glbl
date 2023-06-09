@@ -25,6 +25,11 @@
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>pwaqa</description>
+      <initValue>'https://pwaqa.liverpool.com.mx/tienda/group/elvis-set-sala-contempor%C3%A1nea-gris/100000000147?skuid=100000000147'</initValue>
+      <name>GIDcollection</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'https://odtaqab.liverpool.com.mx/tienda/home'</initValue>
       <name>url3</name>
@@ -61,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx/tienda/home'</initValue>
+      <initValue>'https://dtaqa.liverpool.com.mx/tienda/home'</initValue>
       <name>LiverPoolURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -316,7 +321,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx/tienda/home'</initValue>
+      <initValue>'https://dtaqa.liverpool.com.mx/tienda/home'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -433,10 +438,5 @@
       <description></description>
       <initValue>'56076023'</initValue>
       <name>EventNumber</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'vedant@digisprint.com'</initValue>
-      <name>dtqabUsernew</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

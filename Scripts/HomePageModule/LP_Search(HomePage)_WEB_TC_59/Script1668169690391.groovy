@@ -19,13 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.mouseOver(findTestObject('HomePageShubhum/Departamentos'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/1HomePage/L2CategoryInFlyout_HP'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1HomePage/L2CategoryInFlyout_HP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/1HomePage/L3CategoriesInFlyout_HP'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1HomePage/L3CategoriesInFlyout_HP'), 0)
 

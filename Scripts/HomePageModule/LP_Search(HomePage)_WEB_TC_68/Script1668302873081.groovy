@@ -19,12 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Mi crdito_HP'))
 
 creditoUrl = WebUI.getUrl()
-creditoUrl.contains("micredito")
+
+creditoUrl.contains('micredito')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/button_Ingresar a mi cuenta_creditPage'), 0)
 

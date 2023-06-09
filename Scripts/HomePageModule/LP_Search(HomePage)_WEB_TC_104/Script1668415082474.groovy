@@ -20,7 +20,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 if (true) {
     WebUI.verifyElementPresent(findTestObject('Object Repository/i_Ms informacin_icon-close close'), 0)
@@ -40,8 +40,4 @@ if (facebookUrl.contains('www.facebook.com/liverpoolmexico')) {
 
 //www.facebook.com/liverpoolmexico = WebUI.getUrl()
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/div_Facebook'), 0)
-
-WebUI.acceptAlert()
-
-CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.generatevisacard'(0)
 

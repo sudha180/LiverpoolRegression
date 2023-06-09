@@ -20,7 +20,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 if (true) {
     WebUI.verifyElementPresent(findTestObject('Object Repository/i_Ms informacin_icon-close close'), 0)
@@ -35,11 +35,10 @@ WebUI.waitForPageLoad(0)
 ayudaUrl = WebUI.getUrl()
 
 if (ayudaUrl.contains('liverpool.com.mx/ayuda/index.html')) {
-	print('url is correct')
+    print('url is correct')
 } else {
-	KeywordUtil.markFailed('url is not correct')
+    KeywordUtil.markFailed('url is not correct')
 }
-
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/img_Cmo podemos ayudarte_logoAyuda'), 0)
 

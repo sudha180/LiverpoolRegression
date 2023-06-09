@@ -20,7 +20,7 @@ import customkeywords.myKeywords as myKeywords
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda')
+WebUI.navigateToUrl('https://dtaqa.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
@@ -56,7 +56,7 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/span_Categoras_h
 
 not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'))
 
-WebUI.verifyElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'), 0)
 
 not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/secondaryBanner_hp'))
 
@@ -72,17 +72,18 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/footer_hp'), 0)
 
 not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePageShubhum/span_Iniciar sesin_hp'))
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/span_Iniciar sesin_hp'), 0)
+WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 
-WebUI.acceptAlert()
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('HomePageShubhum/input_Correo electrnico_username_login'), 'sudha.addepalli6662@gmail.com')
+not_run: WebUI.verifyElementPresent(findTestObject('1vedant/HP/Iniciar sesion'), 0)
 
-WebUI.setEncryptedText(findTestObject('HomePageShubhum/input_Contrasea_password_login'), 'R2dZ4hvJ2uivgdeNE3/vtQ==')
+not_run: WebUI.setText(findTestObject('HomePageShubhum/input_Correo electrnico_username_login'), 'hcheruvu29@digisprint.com')
 
-not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePageShubhum/button_Iniciar sesin_login'))
+not_run: WebUI.setEncryptedText(findTestObject('HomePageShubhum/input_Contrasea_password_login'), 'cvW8qx4B2o1gIDzvWT+0mQ==')
 
-WebUI.click(findTestObject('DemoObjects/HomePage/button_Iniciar sesin_login'))
+not_run: WebUI.click(findTestObject('DemoObjects/HomePage/button_Iniciar sesin_login'))
 
 not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePageShubhum/span_Categoras_hp'))
 
