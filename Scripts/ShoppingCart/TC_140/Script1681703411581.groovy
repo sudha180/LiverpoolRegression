@@ -30,12 +30,16 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BTItemsLink], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BigTicket], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.BTItemsLink)
+not_run: WebUI.navigateToUrl(GlobalVariable.BTItemsLink)
+
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 not_run: WebUI.click(findTestObject('pdp/QuantityTotal_pdp'))
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('pdp/QuantityTotal_pdp'), '999')
 

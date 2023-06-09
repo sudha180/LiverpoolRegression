@@ -33,6 +33,8 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
 WebUI.click(findTestObject('HomePageShubhum/Cart_header'))

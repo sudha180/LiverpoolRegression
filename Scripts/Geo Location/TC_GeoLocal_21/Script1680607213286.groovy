@@ -31,6 +31,8 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+
 WebUI.verifyElementPresent(findTestObject('pdp/ClickNCollect_pdp'), 0)
 
 not_run: WebUI.verifyElementPresent(findTestObject('pdp/ShipFreeTo_pdp'), 0)
