@@ -17,25 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('1vedant/HP/Iniciar sesion'))
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.click(findTestObject('HomePageShubhum/username'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('HomePageShubhum/username'), 'hcheruvu29@digisprint.com')
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ban'], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('1vedant/PLP/product2_PLP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePageShubhum/password'))
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.setText(findTestObject('HomePageShubhum/password'), 'Test@12345')
 
-WebUI.click(findTestObject('1vedant/cart/comprar'))
-
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('1HomePage/inciar'))
 

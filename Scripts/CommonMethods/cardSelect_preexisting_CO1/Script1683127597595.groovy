@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
 
-WebUI.click(findTestObject('1vedant/Page_/select_vedaCARD_cardPopup'))
+WebUI.click(findTestObject('1vedant/Page_/select_vedaCARD_cardPopup'), FailureHandling.OPTIONAL)
 
 WebUI.delay(1)
 

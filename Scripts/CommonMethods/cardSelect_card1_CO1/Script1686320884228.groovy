@@ -17,25 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL2)
-
-WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ban'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1vedant/PLP/product2_PLP'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
-
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
-
-WebUI.click(findTestObject('1vedant/cart/comprar'))
-
 WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/selectCard1Option_cardpopup_OPC'))
 
-WebUI.closeBrowser()
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardExpire_OPC'), '12/24')
+
+WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardCVV_OPC'), '123')
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/cardContinue_checkout_popUP'))
 
