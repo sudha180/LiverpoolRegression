@@ -26,6 +26,8 @@ WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(4)
+
 not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))

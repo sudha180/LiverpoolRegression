@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'bat'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vase'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/Sortby_PLP'))
 

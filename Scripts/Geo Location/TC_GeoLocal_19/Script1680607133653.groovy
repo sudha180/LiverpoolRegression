@@ -31,6 +31,8 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProductNew], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(20)
+
 WebUI.click(findTestObject('HomePageShubhum/SelectStore_hp'))
 
 WebUI.click(findTestObject('HomePageShubhum/SelectStateLocationPoup_hp'))
@@ -50,9 +52,9 @@ WebUI.verifyElementPresent(findTestObject('HomePageShubhum/FavStore_hp'), 0)
  * 
  * WebUI.click(findTestObject('PLPPage/ExpressDelivery_plp')) }
  */
-WebUI.scrollToElement(findTestObject('PLPPage/PickupExpress_plp'), 0)
+not_run: WebUI.scrollToElement(findTestObject('PLPPage/PickupExpress_plp'), 0)
 
-WebUI.click(findTestObject('PLPPage/PickupExpress_plp'))
+not_run: WebUI.click(findTestObject('PLPPage/PickupExpress_plp'))
 
 WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 

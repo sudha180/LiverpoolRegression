@@ -35,6 +35,8 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
+WebUI.delay(20)
+
 WebUI.click(findTestObject('HomePageShubhum/FavStore_hp'))
 
 WebUI.click(findTestObject('HomePageShubhum/SelectStateLocationPoup_hp'))

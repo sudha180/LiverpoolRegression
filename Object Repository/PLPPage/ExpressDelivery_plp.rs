@@ -6,12 +6,11 @@
    <elementGuidId>a6fabaa1-8e1e-44ad-8540-a22d28e8f943</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='geoStoreIds-81']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//label[@for='83']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

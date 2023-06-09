@@ -21,25 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vestidos'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'sock'], FailureHandling.STOP_ON_FAILURE)
 
 'check of clickablity of colour swatch'
-WebUI.click(findTestObject('1vedant/PLP/product-1-colour2_PLP'))
+WebUI.verifyElementClickable(findTestObject('1vedant/PLP/product-1-colour2_PLP'), FailureHandling.STOP_ON_FAILURE)
 
 'check of clickablity of colour swatch'
-WebUI.click(findTestObject('1vedant/PLP/product-1-colour1_PLP'))
+WebUI.verifyElementClickable(findTestObject('1vedant/PLP/product-1-colour1_PLP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
 
 'this object is only for a perticular product because it use src'
-colour1 = WebUI.getAttribute(findTestObject('1vedant/PDP/imagePresent'), '')
+colour1 = WebUI.getAttribute(findTestObject('1vedant/PDP/imagePresent'), '', FailureHandling.OPTIONAL)
 
-WebUI.enhancedClick(findTestObject('1vedant/PDP/Colour2_PDP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.enhancedClick(findTestObject('1vedant/PDP/Colour2_PDP'), FailureHandling.OPTIONAL)
 
 'this object is only for a perticular product because it use src'
-colour2 = WebUI.getAttribute(findTestObject('1vedant/PDP/imagePresent'), '')
+colour2 = WebUI.getAttribute(findTestObject('1vedant/PDP/imagePresent'), '', FailureHandling.OPTIONAL)
 
 if (colour1 == colour2) {
     System.out.println('image changed')

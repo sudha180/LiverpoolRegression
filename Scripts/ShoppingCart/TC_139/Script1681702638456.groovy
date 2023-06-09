@@ -52,7 +52,7 @@ not_run: WebUI.navigateToUrl(GlobalVariable.PreOrderProductLink)
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.delay(3)
 

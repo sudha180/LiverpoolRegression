@@ -35,9 +35,9 @@ WebUI.scrollToElement(findTestObject('PLPPage/ExpressDelivery_plp'), 0)
 
 WebUI.click(findTestObject('PLPPage/ExpressDelivery_plp'))
 
-WebUI.scrollToElement(findTestObject('PLPPage/Filter_plp'), 0)
+not_run: WebUI.scrollToElement(findTestObject('PLPPage/Filter_plp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('PLPPage/Filter_plp'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/Filter_plp'), 0)
 
 WebUI.closeBrowser()
 

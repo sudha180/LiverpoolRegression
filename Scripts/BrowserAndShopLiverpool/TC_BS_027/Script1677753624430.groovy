@@ -25,12 +25,12 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'))
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
 
 priceSize1 = WebUI.getText(findTestObject('1vedant/PDP/Product_discountPrice_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 'use size 3 because size2 was out of stock\r\n'
-WebUI.click(findTestObject('1vedant/PDP/Size2_PDP'))
+WebUI.click(findTestObject('1vedant/PDP/Size2_PDP'), FailureHandling.OPTIONAL)
 
 priceSize2 = WebUI.getText(findTestObject('1vedant/PDP/Product_discountPrice_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
 

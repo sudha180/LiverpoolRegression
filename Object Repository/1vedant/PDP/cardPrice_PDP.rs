@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='m-product__price--collection']//p[1]</value>
+         <value>//p[@class='a-product__paragraphRegularPrice m-0 d-inline']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

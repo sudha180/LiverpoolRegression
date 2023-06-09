@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='TTwriteReview TT4writeReviewBtn']</value>
+         <value>//div[@class='TTwriteReview']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
