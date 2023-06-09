@@ -23,11 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('1HomePage/L1_Category2_HP'))
+WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
 
-WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
-
-WebUI.scrollToElement(findTestObject('1vedant/PLP/footer_PLP'), 0)
+WebUI.scrollToPosition(0, 500)
 
 'most viewed(lo msa visto)'
 WebUI.verifyElementPresent(findTestObject('1vedant/CLP/L2_CLP/mostviewed_title_L2_CLP'), 0)

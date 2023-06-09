@@ -27,6 +27,8 @@ WebUI.click(findTestObject('1HomePage/L1_Category5_HP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
+WebUI.scrollToPosition(0, 500)
+
 'most viewed(lo msa visto)'
 WebUI.verifyElementPresent(findTestObject('1vedant/CLP/L2_CLP/mostviewed_title_L2_CLP'), 0)
 

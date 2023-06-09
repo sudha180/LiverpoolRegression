@@ -26,9 +26,9 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-WebUI.mouseOver(findTestObject('HomePageShubhum/L1_hp'))
+WebUI.mouseOver(findTestObject('1vedant/HP/L1_Category4_HP'))
 
-WebUI.click(findTestObject('HomePageShubhum/L3_hp'))
+WebUI.enhancedClick(findTestObject('1vedant/HP/L3_el_lentes_HP'))
 
 WebUI.verifyElementText(findTestObject('HomePageShubhum/L3_Verify_hp'), 'Lentes')
 

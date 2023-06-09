@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='o-col col-lg-auto col-6 order-2 order-lg-1 text-center min-width-logo']</value>
+         <value>//div[@class='o-col col-lg-2 col text-center pb-2 pb-lg-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -25,13 +25,11 @@ WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
 
 WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
 
-WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
+WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
 WebUI.scrollToElement(findTestObject('1vedant/PLP/footer_PLP'), 0)
-
-WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('1vedant/PLP/mostviewed_recommendsection_PLP'), 0)
 

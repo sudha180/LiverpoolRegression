@@ -33,7 +33,7 @@ WebUI.verifyElementText(findTestObject('1vedant/PDP/GID collection/SoftLine_prod
 
 WebUI.click(findTestObject('1vedant/PDP/GID collection/StickyBar_product1_close_PDP'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CLP/footer_.com_CLP'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/CLP/footer_.com_CLP(odtqab)'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('1vedant/PDP/GID collection/stickyBarProduct1_GID_PDP'), 0)
 

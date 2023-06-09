@@ -6,12 +6,11 @@
    <elementGuidId>0bf2485c-cc4b-4e7f-a3cc-db79e8f19492</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@class='o-carousel plpclp my-carousel']//h2</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h2[@class='ti-carousel' and contains(text(),'Lo más visto')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

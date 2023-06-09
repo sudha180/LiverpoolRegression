@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='m-alert__container mdc-snackbar    -success']//div[@class='m-mdc__snackbarLabel mdc-snackbar__label']</value>
+         <value>//div[@class='m-alert__container mdc-snackbar  -toTopSticky  -success mdc-snackbar--open']//div[@class='m-mdc__snackbarLabel mdc-snackbar__label']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

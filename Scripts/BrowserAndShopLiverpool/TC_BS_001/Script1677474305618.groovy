@@ -36,8 +36,10 @@ WebUI.verifyElementPresent(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP
 
 WebUI.verifyElementPresent(findTestObject('1SRP page/breadcrumb_plp'), 0)
 
+WebUI.scrollToElement(findTestObject('1vedant/CLP/footer_.com_CLP(dtqab)'), 0)
+
 'this is complete text of footer '
-WebUI.verifyElementText(findTestObject('1vedant/CLP/footer_.com_CLP'), 'MUJER EN LIVERPOOL.COM.MX')
+WebUI.verifyElementText(findTestObject('1vedant/CLP/footer_.com_CLP(dtqab)'), 'MUJER EN LIVERPOOL.COM.MX')
 
 if (L1_category == FooterName) {
     System.out.print('correct page')

@@ -29,6 +29,10 @@ not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
+
+WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
+
 WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/product_Link_plp'))

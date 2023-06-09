@@ -6,11 +6,11 @@
    <elementGuidId>a674da63-48cf-470c-b9ac-0dcdb5048170</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@class='m-product__listingPlp']/li[2]//p[@class='a-card-discount']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//ul[@class='m-product__listingPlp']/li[2]//p[@class='a-card-discount'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

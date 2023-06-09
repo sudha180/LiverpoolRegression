@@ -6,11 +6,11 @@
    <elementGuidId>c065eb3a-febc-4b5c-acbd-859eabf61266</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='o-product__description']//ul[@id='color-list-mobile']//li[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//ul[@id='color-list-mobile']//li[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

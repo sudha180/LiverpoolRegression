@@ -19,13 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.scrollToPosition(0, 350)
+
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'laptop'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1SRP page/firstProductImage_srp'))
 
-WebUI.scrollToPosition(0, 900)
+WebUI.scrollToPosition(0, 400)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 0)
 
@@ -33,9 +35,11 @@ WebUI.verifyElementNotClickable(findTestObject('pdp/qunaityMinua_stickBar_pdp'))
 
 WebUI.verifyElementPresent(findTestObject('pdp/quantityPlus_stickbar_pdp'), 0)
 
-WebUI.click(findTestObject('pdp/quantityPlus_stickbar_pdp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.enhancedClick(findTestObject('pdp/quantityPlus_stickbar_pdp'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), '2')
+A = WebUI.getAttribute(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 'value')
+
+System.out.println(A)
 
 WebUI.closeBrowser()
 

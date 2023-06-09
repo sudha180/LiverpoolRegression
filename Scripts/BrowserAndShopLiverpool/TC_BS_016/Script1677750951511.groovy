@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'laptop'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vase'], FailureHandling.STOP_ON_FAILURE)
 
 String discountpricePLP = WebUI.getText(findTestObject('1vedant/PLP/product-2-DiscountPrice_PLP'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -78,5 +78,7 @@ def removeDollar(String withDollarprice) {
     String priceWithoutDollar = withDollarprice.replace('$', '').replace(',', '').replace(' ', '')
 
     return priceWithoutDollar
+    
+    WebUI.closeBrowser()
 }
 

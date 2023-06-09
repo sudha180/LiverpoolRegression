@@ -29,6 +29,10 @@ not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
+
+WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
+
 WebUI.click(findTestObject('Shubham/TC_BS_055/div_Descuentos_col-auto'))
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/Verify_Arrow_plp'), 0)

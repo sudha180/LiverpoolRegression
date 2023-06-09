@@ -21,7 +21,7 @@ WebUI.click(findTestObject('1vedant/HP/Iniciar sesion'))
 
 WebUI.click(findTestObject('HomePageShubhum/username'))
 
-WebUI.setText(findTestObject('HomePageShubhum/username'), GlobalVariable.username)
+WebUI.setText(findTestObject('HomePageShubhum/username'), GlobalVariable.newuser)
 
 WebUI.delay(2)
 
@@ -29,7 +29,7 @@ WebUI.click(findTestObject('HomePageShubhum/password'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('HomePageShubhum/password'), GlobalVariable.password)
+WebUI.setText(findTestObject('HomePageShubhum/password'), GlobalVariable.newpassword)
 
 WebUI.click(findTestObject('1HomePage/inciar'))
 
