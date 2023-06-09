@@ -5,14 +5,14 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>6d560ecb-7251-4a73-ae9e-a0d3a48e553c</testSuiteGuid>
+   <testSuiteGuid>2c8e5d4e-e273-4976-8509-5f2ddf3dba4f</testSuiteGuid>
    <testCaseLink>
-      <guid>301c99f1-0f6a-4532-af97-2f4dbcc909aa</guid>
+      <guid>b88606f8-89b3-4f24-ad20-6e55f804ec30</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_125</testCaseId>
@@ -31,105 +31,105 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a2e76906-379c-4f65-85d0-3df4904dd471</guid>
+      <guid>b513805b-2b81-49e7-9e74-2e408894a4b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_126</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f3ab855b-88f5-4d7c-97fa-f9856c32f24c</guid>
+      <guid>d4c2aa74-5ebd-4070-8e7a-90e75d1c4d66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_131</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8919aea6-7838-4106-ad4c-687c262bcebe</guid>
+      <guid>1d631fbd-0567-49c7-a75b-5f531359e085</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_133</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dccc9e7f-9e52-4f66-87b5-dc802d2bb2bf</guid>
+      <guid>2f1dd08d-d566-46e9-8ebd-a4f7dadfedfb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_134</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b1f17d14-f189-4134-9d07-4bd2c38e52f7</guid>
+      <guid>a334d208-f2b6-4dfe-9aab-c9350567ed9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_136</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>86500502-d9aa-413a-b3d7-a19a93a977ec</guid>
+      <guid>c6a95066-ee98-4aa9-9063-e3bda8acfc83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_137</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b9214d31-3283-43f8-906b-cadbf4900435</guid>
+      <guid>cc65b80e-0156-45a8-ab78-86a667c34f01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_138</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ad103a7-a213-4b1f-805f-a7791f1e9e83</guid>
+      <guid>f2d74fbf-91da-4c74-ab83-c618a3f71a03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_139</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cbea752c-c078-48f0-9da2-81e4f90b2026</guid>
+      <guid>7767806d-4c56-402c-a49a-f8fb910fee50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_140</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>586bbfaf-46a6-4ed7-b114-b00d7c0d2564</guid>
+      <guid>f2725c64-2eb8-4e4e-9fb9-d5688386c288</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_141</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e798c9d-78b5-4218-ae59-f5c631a345fa</guid>
+      <guid>16f2f0b4-15e7-4d1c-b675-341051d51cfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_142</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8f637b79-01f1-4a1c-ab8e-73e53fdf9693</guid>
+      <guid>0f195568-618c-4969-b4b3-60ff67f03ce4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_143</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dbafc620-2aed-466f-ae9f-138624607ab5</guid>
+      <guid>b4165e5f-e240-4f38-a8ee-ff906a225964</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_144</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fa48baa0-4e01-4a7d-bf58-4166c51e64a5</guid>
+      <guid>f4a75a51-1413-4a69-9f38-a508c3c5f45b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_145</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5caa759f-4607-4d82-80de-354c8b8c2932</guid>
+      <guid>45f07645-1b5b-4947-8a70-e63882e6a345</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_146</testCaseId>
@@ -142,199 +142,262 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>646a744c-948d-4a22-b2a3-89a3a5ba3d7c</guid>
+      <guid>a72a7fea-4ece-4b63-840d-1c7f921462b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_147</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>11531033-6bc8-47fa-ae52-6108536795f2</guid>
+      <guid>033e1005-5f04-4e8b-b4f3-4a10d1c98e71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_148</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>eaf1d83e-0cbc-4774-a67a-c1b19093c835</guid>
+      <guid>265e6c6c-4e4f-40a4-8a94-2210010ae917</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_150</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0b715265-42a2-4ca7-965b-fda2e06d3ae8</guid>
+      <guid>6b2af7e7-2bf8-4a64-a6c3-75bf8521db71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_151</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63ae9ee6-0bcc-4a16-825b-d07503294488</guid>
+      <guid>aebfc5f6-1d0e-4fb3-8c6e-b23966205e54</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_152</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>70743e22-7d66-4ff0-b568-4df865910fb6</guid>
+      <guid>5c1357e0-b8d2-49e5-860d-7795dfddbbb4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_153</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>31ed8120-1960-470c-bca9-924992f44edc</guid>
+      <guid>c4fa5472-fcd4-4ee3-87e8-49ec2a8dd8a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_155</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0107ef9e-b47c-47af-99cc-def057c5262a</guid>
+      <guid>f33c9824-c0e7-4970-957f-d43585e354a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_158</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>96e5c1d2-e314-4f6f-a2ad-e7b37f20030c</guid>
+      <guid>8fed1ed3-1eec-4fce-8ccd-d1020f6c9733</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_159</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>34649f08-c28f-4ebc-beeb-7ac1bcf60e20</guid>
+      <guid>fb49bf6c-6158-4fb9-929a-a3ec0dd4824b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_007</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>756a5019-5526-406d-9906-e9639bca8f4f</guid>
+      <guid>de57787d-ce42-490d-80c8-d9c4421ee0f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_008</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fef3845a-e525-4c44-827a-27e232514a18</guid>
+      <guid>9fda1516-5dd2-46af-9f90-c9d97a6dfc0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_009</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1b0b9a67-b228-42e7-be74-35ae828117d6</guid>
+      <guid>c7be04ae-6203-47ac-b857-ea8e583bc6a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_010</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2eb09631-a036-4a2a-9b12-cb88722da20f</guid>
+      <guid>35f2b8b3-920f-4400-9fa8-0a34935d319b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_011</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>edf5f347-1076-47e2-bd0d-eb0dd0306438</guid>
+      <guid>d144a893-6731-45a2-a06a-78857ce7c30a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_012</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ffa60d25-c9c5-4f24-beda-7b7300079550</guid>
+      <guid>180c8196-db41-42cb-8c81-198f03d2b43b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_013</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e152d1cc-9975-4d4c-8475-70ca31e94456</guid>
+      <guid>939faa7c-d6f2-4e90-87f4-c3a09a6f8fc3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_014</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5965c65-3004-4d78-a763-e4d5aef7be85</guid>
+      <guid>9a965496-e2c3-4f5c-8031-bba82a3000bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_015</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e598315-520a-4467-b913-903b5f9d1f94</guid>
+      <guid>70b6c9a0-8ba4-4c01-8d26-85cb042c0623</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_016</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3dbcd131-551e-42bb-82ae-aad0a1b05c1e</guid>
+      <guid>888c5060-285c-4875-8331-c5a2595172a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_017</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae420590-482c-49ec-957d-7c7f4a90b19a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_024</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e1b23b5a-9062-4277-9550-064d38401371</guid>
+      <guid>459cdaa5-a15a-4990-8da0-07ff1e1bcce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_025</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8099a32f-d84e-4323-aeac-0799d0f03a49</guid>
+      <guid>98d59f33-3e69-4b02-957e-0c99b2aaa253</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_026</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ac1f7fd9-0308-4a4e-9ff6-a3a4e068c0c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_027</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0f437541-204a-4926-a2de-27461a488370</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_032</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b49fd28-793d-4634-888a-6932dab40c00</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_033</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>564612fe-5964-43c1-933a-30916b3c1ea9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_034</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e1d1914-1512-46fc-b01b-00e9bb0a52f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_035</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95196f3c-d73e-4278-9e61-4fbb226171fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_076</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4645510d-fd78-4e90-bcbe-93a728ab4347</guid>
+      <guid>d2bd98ff-fe00-46d9-a843-56a32ffd8fa4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_078</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>60fc9385-6c9e-4858-b4d3-87df1178d960</guid>
+      <guid>a703b781-dd22-4c51-a640-66d3948e45b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_079</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7dc79f65-8f9b-4f8b-992a-738b4c67dd08</guid>
+      <guid>4ec82b53-dc91-4601-9a92-91b711b9c5fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_081</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e1b991ab-a395-4985-90c8-f0a5e97a375e</guid>
+      <guid>95177e47-cf9b-4fde-8120-64a0bb3a7375</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_088</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b78397f2-0532-47e3-af68-f2bea732c11d</guid>
+      <guid>3cfa3759-c20a-4862-a087-66826b4ac373</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_089</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>07ad5ee7-02d4-4319-ad99-b6024f77a238</guid>
+      <guid>eeb67a98-d99f-41f5-a5e1-78e4af30f0e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_090</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>88c682fa-359e-476c-8287-347192a3de08</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_091</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b397d8a-ad10-4b63-bbf3-c91781cabdad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShoppingCart/TC_ShoppingCart_096</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
