@@ -41,7 +41,3 @@ if (facebookUrl.contains('www.facebook.com/liverpoolmexico')) {
 //www.facebook.com/liverpoolmexico = WebUI.getUrl()
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/div_Facebook'), 0)
 
-WebUI.acceptAlert()
-
-CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.generatevisacard'(0)
-

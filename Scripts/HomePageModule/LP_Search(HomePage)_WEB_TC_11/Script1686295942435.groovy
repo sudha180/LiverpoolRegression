@@ -21,11 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Object Repository/HomePageShubhum/Page_Liverpool es parte de Mi vida/a_Mis Compras'))
+WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/HomePageShubhum/Page_Iniciar sesin en Liverpool/img_Inicia sesin_header_logo liverpool'))
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
+    FailureHandling.STOP_ON_FAILURE)
 
-homeUrl = WebUI.getUrl()
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Liverpool es parte de Mi vida/img__mainBanner'), 0)
 
-homeUrl.contains('/home')
+WebUI.verifyElementPresent(findTestObject('HomePageShubhum/catridgeA_hp (1)'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/carousel1ProductName_hp'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/carousel1Price_hp'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/recomendaciones-dots-carousel'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/recomendaciones-prev-carousel'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/recomendaciones-next-carousel'), 0)
+
+WebUI.closeBrowser()
 
