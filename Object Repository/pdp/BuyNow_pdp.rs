@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(),'Comprar ahora')]</value>
+         <value>(//button[contains(text(),'Comprar ahora')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
