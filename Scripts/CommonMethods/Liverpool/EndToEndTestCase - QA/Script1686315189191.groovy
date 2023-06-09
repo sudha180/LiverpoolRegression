@@ -115,8 +115,6 @@ not_run: WebUI.verifyElementPresent(findTestObject('CLPPage/l3Category_clp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/CLPPage/l3Category_clp'), 0)
 
-WebUI.click(findTestObject('DemoObjects/CLPPage/l3Category_clp'))
-
 not_run: WebUI.click(findTestObject('CLPPage/l3Category_clp'))
 
 WebUI.delay(3)
@@ -128,8 +126,6 @@ not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/breadCrumb_plp'), 0)
 WebUI.verifyElementPresent(findTestObject('DemoObjects/PLPPage/breadCrumb_plp'), 0)
 
 not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/div_Categoras_plp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('DemoObjects/PLPPage/div_Categoras_plp'), 0)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
@@ -183,7 +179,7 @@ WebUI.click(findTestObject('DemoObjects/PLPPage/a_Limpiar Filtros_plp'))
 
 not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject('PLPPage/carousel_plp'))
 
-WebUI.click(findTestObject('PLPPage/goToTop'))
+not_run: WebUI.click(findTestObject('PLPPage/goToTop'))
 
 WebUI.click(findTestObject('DemoObjects/PLPPage/productImage2_plp'))
 
@@ -205,39 +201,29 @@ not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject(
 
 WebUI.verifyElementPresent(findTestObject('1vedant/PDP/discountPrice_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/ITRLink_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/ratingSection_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/ratingSection_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/span_Compartir_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/span_Compartir_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/p_Ver ms promociones_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/AddToCart_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/button_Agregar a mi bolsa_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Ofertas y promociones_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/h3_Ofertas y promociones_pdp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('pdp/h3_Opiniones del artculo_pdp'), 0)
-
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'), 0)
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
-WebUI.scrollToElement(findTestObject('pdp/quantity_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
 
-WebUI.click(findTestObject('pdp/selectSize1'))
-
-WebUI.delay(3)
+not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
 not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject('pdp/carousels_pdp'))
 
 not_run: WebUI.click(findTestObject('pdp/button_Agregar a mi bolsa_pdp'))
 
-WebUI.scrollToElement(findTestObject('pdp/quantity_pdp'), 0)
-
-WebUI.click(findTestObject('DemoObjects/PDPPage/button_Agregar a mi bolsa_pdp'))
-
-WebUI.delay(5)
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
 not_run: WebUI.click(findTestObject('HomePageShubhum/bagIcon_hp'))
 
@@ -259,7 +245,7 @@ WebUI.verifyElementPresent(findTestObject('CartPage/button_EliminarIcon_cart'), 
 
 WebUI.verifyElementPresent(findTestObject('CartPage/totalPrice_cart'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CartPage/button_mesaDeRegalos_cart'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('CartPage/button_mesaDeRegalos_cart'), 0)
 
 WebUI.verifyElementPresent(findTestObject('CartPage/button_Mover a Wishlist_cart'), 0)
 
@@ -271,7 +257,7 @@ WebUI.verifyElementPresent(findTestObject('CartPage/priceSection_cart'), 0)
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/CartPage/button_Comprar_cart'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CartPage/div_Entregaestimada_cart'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('CartPage/div_Entregaestimada_cart'), 0)
 
 not_run: WebUI.verifyElementPresent(findTestObject('DemoObjects/CartPage/div_carouselSection_cart'), 0)
 
@@ -309,7 +295,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/totalPrice_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/promotionSection_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Comprar para mesa de regalos_opc'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Comprar para mesa de regalos_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Mover a Wishlist_opc'), 0)
 

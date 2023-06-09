@@ -6,12 +6,12 @@
    <elementGuidId>58533704-06ed-42c4-a833-e36b52fe040e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[(text() = 'Comprar' or . = 'Comprar')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.a-btn.a-btn--primary.a-product__buttonBuy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[(text() = 'Comprar' or . = 'Comprar')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ae4e654c-bc58-48bc-8bde-5ad44e3215d7</webElementGuid>
+      <webElementGuid>72795590-4b67-40a2-ad3b-ed174fdbf88e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-btn a-btn--primary a-product__buttonBuy</value>
-      <webElementGuid>7ec2cc6b-44e0-4add-97a6-55bc01340bf7</webElementGuid>
+      <webElementGuid>62977222-0729-481e-9dc7-bc815688a1da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Comprar</value>
-      <webElementGuid>a7e598a2-b715-4e4a-a5e0-a13bb4caa35b</webElementGuid>
+      <webElementGuid>46781134-7a13-4a3d-aa8c-a29faf432ae5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;cart-alert-top&quot;]/section[@class=&quot;container-fluid&quot;]/div[@class=&quot;rowE&quot;]/div[@class=&quot;t_myBag_cards-right col-xl-4 col-sm-4 col-md-4 col-lg-4false&quot;]/div[@class=&quot;rowE&quot;]/div[@class=&quot;t-myBag__breakdownExpenses col-xl-12 col-sm-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;t-myBag__rigthTab&quot;]/div[@class=&quot;t-myBag__toBuy&quot;]/button[@class=&quot;a-btn a-btn--primary a-product__buttonBuy&quot;]</value>
-      <webElementGuid>94477f67-8d84-4e2b-b00d-722ef228c851</webElementGuid>
+      <webElementGuid>939a9e9a-bcff-4f2a-a803-473057e7806e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/section/div[2]/div[2]/div/div/div[3]/div/button</value>
-      <webElementGuid>96342b81-bd7c-4f5d-bb97-1f9787d4585e</webElementGuid>
+      <webElementGuid>2a92e296-ad4f-4041-ae7e-8540e69a522b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Eliminar'])[2]/following::button[1]</value>
-      <webElementGuid>3a69986f-b85d-447f-a2d6-2a45c3673ffd</webElementGuid>
+      <webElementGuid>483f7509-44d1-4977-b72a-8327107afce8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mover a Wishlist'])[2]/following::button[1]</value>
-      <webElementGuid>692b97cd-8e29-4a5a-af80-78255a5a7a5a</webElementGuid>
+      <webElementGuid>69c5e93e-dc2e-4555-9ec4-4a2d57b6c8a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Complementa tu compra'])[1]/preceding::button[1]</value>
-      <webElementGuid>6613d400-9cad-4143-9f34-15d283589441</webElementGuid>
+      <webElementGuid>3823b01f-a943-4063-bbd5-c796b8f7f6f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguir Comprando'])[1]/preceding::button[4]</value>
-      <webElementGuid>0f9ed183-116d-422a-b7a6-d6c3be06ba5b</webElementGuid>
+      <webElementGuid>2ff8921b-c90c-4de3-becf-7f6c0d76d937</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Comprar']/parent::*</value>
-      <webElementGuid>487221d6-2ed8-477d-bf47-384726e66b7b</webElementGuid>
+      <webElementGuid>08370f19-f736-4fa9-a910-96b2265dd15e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>22f3d5b2-9839-46e5-bfa7-68d83918a4c3</webElementGuid>
+      <webElementGuid>fd3dcc8e-756a-48ef-a0e1-5ea731dae278</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Comprar' or . = 'Comprar')]</value>
-      <webElementGuid>33d4e242-7ce4-4324-99c8-19293bef5ff5</webElementGuid>
+      <webElementGuid>c94b3d66-594c-4e62-a0ac-ae5a7838d068</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
