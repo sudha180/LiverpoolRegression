@@ -41,7 +41,7 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/CartPage/button_Comprarah
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('DemoObjects/CartPage/button_Comprar_cart'))
+WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.delay(2)
 

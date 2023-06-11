@@ -205,19 +205,19 @@ not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject(
 
 WebUI.verifyElementPresent(findTestObject('1vedant/PDP/discountPrice_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/ITRLink_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/ratingSection_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/ratingSection_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/span_Compartir_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/span_Compartir_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/p_Ver ms promociones_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/p_Ver ms promociones_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/button_Agregar a mi bolsa_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/PDPPage/button_Agregar a mi bolsa_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/h3_Ofertas y promociones_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Ofertas y promociones_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/h3_Opiniones del artculo_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'), 0)
 
 WebUI.delay(3)
 
@@ -225,7 +225,7 @@ not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
 WebUI.scrollToElement(findTestObject('pdp/quantity_pdp'), 0)
 
-WebUI.click(findTestObject('pdp/selectSize1'))
+WebUI.click(findTestObject('PDPPage/selectSize1'))
 
 WebUI.delay(3)
 

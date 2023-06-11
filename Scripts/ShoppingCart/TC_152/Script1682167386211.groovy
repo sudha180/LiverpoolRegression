@@ -37,6 +37,10 @@ not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 PDPQuntity = WebUI.getText(findTestObject('pdp/MinimumQuntity_Pdp'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('pdp/AddToCart_pdp'))
+
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
+
 WebUI.click(findTestObject('pdp/BuyNow_pdp'))
 
 CheckoutQuntity = WebUI.getText(findTestObject('CartPage/MinimumQuntity_Cart'), FailureHandling.STOP_ON_FAILURE)

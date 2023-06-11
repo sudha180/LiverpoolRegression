@@ -35,7 +35,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 not_run: WebUI.navigateToUrl(GlobalVariable.BTItemsLink)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 not_run: WebUI.click(findTestObject('pdp/QuantityTotal_pdp'))
 
@@ -45,9 +45,9 @@ WebUI.setText(findTestObject('pdp/QuantityTotal_pdp'), '999')
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.click(findTestObject('CartPage/CartHeaderLargeCount_CartPage'))
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
-not_run: WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
+not_run: WebUI.click(findTestObject('CartPage/CartHeaderLargeCount_CartPage'))
 
 WebUI.click(findTestObject('CartPage/LatestLineBuyButton_Cart'))
 

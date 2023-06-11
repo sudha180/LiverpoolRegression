@@ -6,12 +6,11 @@
    <elementGuidId>6ed204eb-f30a-4137-a06e-61d2079b4271</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@class='a-ProductQty__input' and @value='2'])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//input[@class='a-ProductQty__input' and @value='2'>1])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
