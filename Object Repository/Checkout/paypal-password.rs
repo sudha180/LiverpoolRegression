@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>6Products_typeAhead</name>
+   <name>paypal-password</name>
    <tag></tag>
-   <elementGuidId>5724fd20-cad0-4fc2-8153-9e4a4c59d469</elementGuidId>
+   <elementGuidId>6eeb6be8-8850-4748-8720-f9c921879de9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value> (//div[@class='m-search-suggestion-product mb-3'])</value>
+         <value>(//div[@id='login_passworddiv'])//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

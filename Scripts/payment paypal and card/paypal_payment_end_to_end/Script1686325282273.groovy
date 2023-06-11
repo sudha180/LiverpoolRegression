@@ -37,5 +37,8 @@ WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'verify selection of paypal\r\n'
+WebUI.verifyElementPresent(findTestObject('Checkout/paypal_image_checkout'), 0)
+
 WebUI.closeBrowser()
 

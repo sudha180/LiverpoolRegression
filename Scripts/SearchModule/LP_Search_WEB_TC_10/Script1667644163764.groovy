@@ -25,13 +25,13 @@ WebUI.click(findTestObject('HomePageShubhum/Buscar1'))
 
 WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), 'vaso')
 
+WebUI.verifyElementPresent(findTestObject('1SRP page/6Products_typeAhead'), 0)
+
+WebUI.verifyElementPresent(findTestObject('1SRP page/categoryNameInTypeahead'), 0)
+
+WebUI.verifyElementPresent(findTestObject('1SRP page/searchTerm2_TypeAhead'), 0)
+
 WebUI.click(findTestObject('1HomePage/searchButtton_HP'))
-
-WebUI.verifyElementPresent(findTestObject('HomePageShubhum/typeAheadLeftNav_hp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('HomePageShubhum/assertListOfItemsInTypeahead_hp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Buscar en Categorías'), 0)
 
 WebUI.closeBrowser()
 

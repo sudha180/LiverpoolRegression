@@ -17,25 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('1HomePage/paypalpayment'))
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.click(findTestObject('DemoObjects/checkoutpage/button_Continuar_payment_opc'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.switchToWindowTitle('Log in to your PayPal account')
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ban'], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Checkout/paypal_inputID_checkout'))
 
-WebUI.click(findTestObject('1vedant/PLP/product2_PLP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Checkout/paypal_inputID_checkout'), 'liverpool@paypal.com')
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('Checkout/paypal_next_button_popup'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('Checkout/paypal-password'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/cart/comprar'))
+WebUI.setText(findTestObject('Checkout/paypal-password'), 'cordoba213VKY', FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
+WebUI.click(findTestObject('Checkout/loginbutton_paypal_cop'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Checkout/acceptAndContinue'))
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>6Products_typeAhead</name>
+   <name>cardContinue_checkout_popUP</name>
    <tag></tag>
-   <elementGuidId>5724fd20-cad0-4fc2-8153-9e4a4c59d469</elementGuidId>
+   <elementGuidId>05567eb9-49c7-424d-942d-33e1cac336f9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value> (//div[@class='m-search-suggestion-product mb-3'])</value>
+         <value>//div[@class='opc_continuarModalloggedInCC isAndroid']//button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
