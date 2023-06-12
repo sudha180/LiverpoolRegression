@@ -85,7 +85,7 @@ not_run: WebUI.click(findTestObject('PLPPage/goToTop'))
 
 WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 

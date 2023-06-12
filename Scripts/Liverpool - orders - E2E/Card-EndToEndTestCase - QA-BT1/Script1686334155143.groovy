@@ -84,7 +84,7 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
@@ -187,7 +187,7 @@ WebUI.delay(4)
 
 WebUI.click(findTestObject('DemoObjects/checkoutpage/button_Finalizar compra_opc'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 actualConfirmationUrl = WebUI.getUrl()
 

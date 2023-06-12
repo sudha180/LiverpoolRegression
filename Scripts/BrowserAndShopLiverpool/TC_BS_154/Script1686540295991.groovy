@@ -17,13 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePageShubhum/Buscar1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), searchTerm)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.sendKeys(findTestObject('Object Repository/Shubham/TC_BS_071/Seach_TextBox_hp'), Keys.chord(Keys.ENTER))
+WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.refresh()
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpSLwithSingleGift], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
 

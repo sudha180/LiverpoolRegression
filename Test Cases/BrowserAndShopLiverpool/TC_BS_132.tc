@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>To verify the display of &quot;Ver Disponsibilidad en tienda” link in PDP for Bigticket Item</description>
-   <name>TC_BS_118</name>
+   <name>TC_BS_132</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6dd0e526-169d-4840-a519-3e6e1e1884f5</testCaseGuid>
+   <testCaseGuid>55880022-44f9-4c73-bbf1-c3c789edb5ab</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>45fd4cf5-0e0b-4992-9bc0-bdc222079d38</variableId>
+      <variableId>b6c564af-88ce-4501-a448-00857275e856</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>801d1a84-a20a-4607-a941-407cbd793d31</variableId>
+      <variableId>13f127da-d8d5-4967-9c40-ad5391457427</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>45fd4cf5-0e0b-4992-9bc0-bdc222079d38</id>
+      <id>b6c564af-88ce-4501-a448-00857275e856</id>
       <masked>false</masked>
       <name>NoOfPiecesInStore1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>801d1a84-a20a-4607-a941-407cbd793d31</id>
+      <id>13f127da-d8d5-4967-9c40-ad5391457427</id>
       <masked>false</masked>
       <name>NoOfPiecesInStore2</name>
    </variable>
