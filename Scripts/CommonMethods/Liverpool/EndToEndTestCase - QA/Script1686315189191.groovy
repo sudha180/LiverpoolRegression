@@ -207,17 +207,35 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/ratingSection_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/span_Compartir_pdp'), 0)
 
+<<<<<<< HEAD
 WebUI.verifyElementPresent(findTestObject('1vedant/PDP/AddToCart_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Ofertas y promociones_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'), 0)
+=======
+WebUI.verifyElementPresent(findTestObject('PDPPage/p_Ver ms promociones_pdp'), 0)
+
+WebUI.verifyElementPresent(findTestObject('DemoObjects/PDPPage/button_Agregar a mi bolsa_pdp'), 0)
+
+WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Ofertas y promociones_pdp'), 0)
+
+WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'), 0)
+
+WebUI.delay(3)
+>>>>>>> c5118e61b2b767707a82ef53c8b9cfcf8096a13a
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
 WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
 
+<<<<<<< HEAD
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
+=======
+WebUI.click(findTestObject('PDPPage/selectSize1'))
+
+WebUI.delay(3)
+>>>>>>> c5118e61b2b767707a82ef53c8b9cfcf8096a13a
 
 not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject('pdp/carousels_pdp'))
 

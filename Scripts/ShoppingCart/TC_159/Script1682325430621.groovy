@@ -35,7 +35,7 @@ not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.click(findTestObject('pdp/ReceiveAtHomeBuyButton'))
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.verifyElementPresent(findTestObject('CartPage/GiftTableDetails_Cart'), 0)
 

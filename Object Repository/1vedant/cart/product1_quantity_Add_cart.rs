@@ -6,11 +6,11 @@
    <elementGuidId>2799a28f-a3b0-4571-922c-6c5b331a29b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@class='a-btn a-btn--qty-OCP btn-qty -add'])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@class='a-btn a-btn--qty-OCP btn-qty -add  '])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -42,7 +42,7 @@ WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.navigateToUrl(GlobalVariable.PreOrderProductLink)
 
-WebUI.click(findTestObject('pdp/QuantityTotal_pdp'))
+not_run: WebUI.click(findTestObject('pdp/QuantityTotal_pdp'))
 
 WebUI.setText(findTestObject('pdp/QuantityTotal_pdp'), '20')
 
