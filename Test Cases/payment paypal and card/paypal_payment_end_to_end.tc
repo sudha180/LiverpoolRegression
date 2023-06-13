@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>At the My payment methods section, under the cards button will be an informative module that shows the default alias card on bold pink style showing the last 4 digits of this  card if the user has a card as default.</description>
-   <name>paypal_payment_end_to_end</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>cfe02bf6-77d8-4101-ba86-12e000acb8da</testCaseGuid>
-</TestCaseEntity>

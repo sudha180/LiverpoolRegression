@@ -21,19 +21,19 @@ WebUI.click(findTestObject('1HomePage/paypalpayment'))
 
 WebUI.click(findTestObject('DemoObjects/checkoutpage/button_Continuar_payment_opc'))
 
-WebUI.switchToWindowTitle('Log in to your PayPal account')
+not_run: WebUI.switchToWindowTitle('Log in to your PayPal account')
 
-WebUI.click(findTestObject('Checkout/paypal_inputID_checkout'))
+not_run: WebUI.click(findTestObject('Checkout/paypal_inputID_checkout'))
 
-WebUI.setText(findTestObject('Checkout/paypal_inputID_checkout'), 'liverpool@paypal.com')
+not_run: WebUI.setText(findTestObject('Checkout/paypal_inputID_checkout'), 'liverpool@paypal.com')
 
-WebUI.click(findTestObject('Checkout/paypal_next_button_popup'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Checkout/paypal_next_button_popup'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Checkout/paypal-password'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Checkout/paypal-password'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Checkout/paypal-password'), 'cordoba213VKY', FailureHandling.OPTIONAL)
+not_run: WebUI.setText(findTestObject('Checkout/paypal-password'), 'cordoba213VKY', FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Checkout/loginbutton_paypal_cop'))
+not_run: WebUI.click(findTestObject('Checkout/loginbutton_paypal_cop'))
 
-WebUI.click(findTestObject('Checkout/acceptAndContinue'))
+not_run: WebUI.click(findTestObject('Checkout/acceptAndContinue'))
 

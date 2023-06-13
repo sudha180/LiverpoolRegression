@@ -439,4 +439,19 @@
       <initValue>'56076023'</initValue>
       <name>EventNumber</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Refridgerator'</initValue>
+      <name>BigTicketWord</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'vaso'</initValue>
+      <name>SoftlineWord</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>bundleItem</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
