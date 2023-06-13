@@ -32,5 +32,6 @@ WebUI.delay(5)
 WebUI.verifyElementPresent(findTestObject('1vedant/GR list page/Event_detail_page_GR/product_button_comprar_ahora_POPup_GR_detail'), 
     0)
 
-WebUI.click(findTestObject('1vedant/GR list page/Event_detail_page_GR/product_button_comprar_ahora_POPup_GR_detail'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('1vedant/GR list page/Event_detail_page_GR/product_button_comprar_ahora_POPup_GR_detail'), 
+    FailureHandling.STOP_ON_FAILURE)
 

@@ -21,14 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.maximizeWindow()
+
 WebUI.delay(5)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+not_run: WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BTItemsLink], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BigTicket], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+not_run: WebUI.scrollToElement(findTestObject('1vedant/PDP/Colour1_PDP'), 0)
 
 WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'))
 
@@ -36,7 +42,7 @@ productName1 = WebUI.getText(findTestObject('1vedant/PDP/ProductName_PDP'), Fail
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
 
 WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 

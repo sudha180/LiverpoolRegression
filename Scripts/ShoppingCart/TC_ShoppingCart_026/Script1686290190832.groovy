@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.maximizeWindow()
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BTItemsLink], 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -29,6 +31,10 @@ WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'))
 productName1 = WebUI.getText(findTestObject('1vedant/PDP/ProductName_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+
+WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
+
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.softline3], 
     FailureHandling.STOP_ON_FAILURE)

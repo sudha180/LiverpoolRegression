@@ -37,6 +37,8 @@ not_run: WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
+WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
+
 WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'), FailureHandling.STOP_ON_FAILURE)

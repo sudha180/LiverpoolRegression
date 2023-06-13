@@ -21,14 +21,22 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.maximizeWindow()
+
 WebUI.delay(5)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BigTicket], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('1vedant/PDP/Colour1_PDP'), 0)
+
 WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'))
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+
+WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
 
 WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 

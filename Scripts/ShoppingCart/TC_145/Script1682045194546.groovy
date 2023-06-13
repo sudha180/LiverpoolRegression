@@ -28,6 +28,8 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+
 WebUI.navigateToUrl(GlobalVariable.PreOrderProductLink)
 
 not_run: WebUI.click(findTestObject('pdp/QuantityTotal_pdp'))

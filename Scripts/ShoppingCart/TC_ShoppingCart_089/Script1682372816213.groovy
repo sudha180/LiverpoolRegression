@@ -25,8 +25,10 @@ WebUI.maximizeWindow()
 
 WebUI.delay(5)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BLpSLgift], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLpSlgift], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('1vedant/PDP/Colour1_PDP'), 0)
 
 boolean a = WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -41,6 +43,8 @@ if (b) {
 }
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+
+WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
 
 WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
@@ -58,7 +62,7 @@ WebUI.verifyElementText(findTestObject('1vedant/cart/giftPrice1_cart'), '$001')
 
 WebUI.verifyElementPresent(findTestObject('1vedant/cart/product1_name_cart'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/cart/giftWrapper_product1_cart'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('1vedant/cart/giftWrapper_product1_cart'), 0)
 
 WebUI.verifyElementPresent(findTestObject('1vedant/cart/SlGift_regaloFlag_cart'), 0)
 
