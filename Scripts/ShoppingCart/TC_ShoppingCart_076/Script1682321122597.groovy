@@ -29,7 +29,7 @@ WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'))
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
-WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
+not_run: WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
 
 WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 

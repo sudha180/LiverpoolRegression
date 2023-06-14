@@ -35,7 +35,7 @@ productName1 = WebUI.getText(findTestObject('1vedant/PDP/ProductName_PDP'), Fail
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
-WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
+not_run: WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
 
 WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
