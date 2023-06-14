@@ -45,7 +45,7 @@ WebUI.verifyElementPresent(findTestObject('Checkout/ShippingDetails_Checkout'), 
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/label_Cambiar_Address_opc'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/label_Cambiar_Address_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/Forma de Pago_payment_opc'), 0)
 

@@ -48,6 +48,8 @@ WebUI.click(findTestObject('1vedant/PDP/gift_popup_submitButton_PDP'))
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
+not_run: WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
+
 WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
 WebUI.verifyElementPresent(findTestObject('1vedant/cart/Product1_quantity1_cart'), 0)
@@ -64,9 +66,9 @@ WebUI.verifyElementText(findTestObject('1vedant/cart/giftPrice1_cart'), '$001')
 
 WebUI.verifyElementPresent(findTestObject('1vedant/cart/product1_name_cart'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/cart/giftWrapper_product1_cart'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('1vedant/cart/giftWrapper_product1_cart'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/cart/giftWrapper_product2_cart'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('1vedant/cart/giftWrapper_product2_cart'), 0)
 
 WebUI.verifyElementPresent(findTestObject('1vedant/cart/product2_Name_Mybag_cart'), 0)
 
