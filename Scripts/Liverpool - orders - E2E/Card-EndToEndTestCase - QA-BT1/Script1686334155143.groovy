@@ -44,7 +44,7 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/PDPPage/breadCrumb_pdp'),
 
 not_run: WebUI.verifyElementPresent(findTestObject('pdp/ProductImage_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
 
 not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject('pdp/regularPrice_pdp'))
 

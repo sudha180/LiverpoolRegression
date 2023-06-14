@@ -21,30 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
-    FailureHandling.STOP_ON_FAILURE)
-
-'TC_BS_152,To verify the  Real time inventory check link is not displayed for the Pre order products in PDP'
+'TC_BS_190,To verify the  Real time inventory check link is not displayed for the Pre order products in PDP'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.PreorderItem], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
 
-'TC_BS_153,To verify the display of “preorder” product flag for preorder products'
+'TC_BS_191,To verify the display of “Pre-order”  flag for  Pre order products'
 WebUI.verifyElementPresent(findTestObject('PDPPage/preOrderFlag_pdp'), 0)
 
-'TC_BS_149,To verify the  Real time inventory check link is not displayed for the Online Exclusive products in PDP'
+'TC_BS_187,To verify the  Real time inventory check link is not displayed for the Online Exclusive products in PDP'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.exclusiveProductId], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
 
-'TC_BS_150,To verify the display of “Exclusivo” product flag for Online Exclusive products'
+'TC_BS_188,To verify the display of “Exclusivo” product flag for Online Exclusive products'
 WebUI.verifyElementPresent(findTestObject('PDPPage/exclusiveProductFlag'), 0)
 
-'TC_BS_151,To verify the  Real time inventory check link is not displayed for the Bundle products in PDP'
+'TC_BS_189,To verify the  Real time inventory check link is not displayed for the Bundle products in PDP'
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.bundleItem], 
     FailureHandling.STOP_ON_FAILURE)
 
