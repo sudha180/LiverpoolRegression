@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='m-radioButton mdc-form-field'])</value>
+         <value>(//div[@class='m-radioButton mdc-form-field'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

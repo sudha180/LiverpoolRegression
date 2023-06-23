@@ -99,19 +99,19 @@ CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/h4_Confirma tu compra_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/deliveryAddressHeading_address_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/label_Cambiar_Address_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/label_Cambiar_Address_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/Forma de Pago_payment_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/Forma de Pago_payment_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/paymentSection_payment_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/paymentSection_payment_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/label_Cambiar_payment_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/label_Cambiar_payment_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/productSection_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/productImage_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/productImage_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/productName_opc'), 0)
 
@@ -119,7 +119,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/productprice_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/totalPrice_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/promotionSection_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0)
 
 not_run: WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Comprar para mesa de regalos_opc'), 0)
 
@@ -129,7 +129,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Eliminar_opc'), 0
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Cupones_opc'), 0)
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/label_Cambiar_payment_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/label_Cambiar_payment_opc'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -140,7 +140,7 @@ WebUI.verifyElementPresent(findTestObject('Checkout/paypal_label_checkout'), 0)
 
 WebUI.click(findTestObject('Checkout/TerminarComparar_Checkout'))
 
-not_run: WebUI.click(findTestObject('DemoObjects/checkoutpage/button_Continuar_payment_opc'))
+not_run: WebUI.click(findTestObject('DemoObjects/checkoutpage1/button_Continuar_payment_opc'))
 
 WebUI.delay(3)
 

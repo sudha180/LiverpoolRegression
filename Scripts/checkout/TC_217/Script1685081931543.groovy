@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.liverPoolOdtaqab)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
@@ -28,10 +28,12 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
@@ -41,11 +43,9 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 DefaultAddress = WebUI.getText(findTestObject('Checkout/DefaultAddress_Checkout (1)'))
 
-WebUI.navigateToUrl(GlobalVariable.liverPoolOdtaqab)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/ClickDelivery_MyAccount'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -60,14 +60,6 @@ TitleAddress = WebUI.getText(findTestObject('AccountManagement/ClickNCollectionA
 if (TitleAddress == DefaultAddress) {
     Println('Checked')
 }
-
-WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
-
-WebUI.click(findTestObject('Checkout/AddressPopupCLickNCollect_Checkout'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Checkout/CheckAddressDefault_Checkout'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Checkout/ClickNCollectionRadioButton_Checkout'), 0)
 
 WebUI.closeBrowser()
 

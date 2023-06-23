@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url3)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -42,18 +42,23 @@ WebUI.click(findTestObject('1vedant/cart/comprar'))
 WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/product1_promotionDropDown_OPC'), 0)
 
 WebUI.click(findTestObject('1vedant/CheckOut(CO)/product1_promotionDropDown_OPC'))
-int i;
-if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo1_popup_OPC'), FailureHandling.OPTIONAL)==true) {
-	i++;
+
+int i
+
+if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo1_popup_OPC'), FailureHandling.OPTIONAL) == 
+true) {
+    i++
 }
 
-if(WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo2_popup_OPC'), FailureHandling.OPTIONAL))
-{i++;
-}
-if(WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo3_popup_OPC'), FailureHandling.OPTIONAL))
-{i++;
+if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo2_popup_OPC'), FailureHandling.OPTIONAL)) {
+    i++
 }
 
-System.out.println("number of promo combo are"+i)
+if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo3_popup_OPC'), FailureHandling.OPTIONAL)) {
+    i++
+}
+
+System.out.println('number of promo combo are' + i)
+
 WebUI.closeBrowser()
 

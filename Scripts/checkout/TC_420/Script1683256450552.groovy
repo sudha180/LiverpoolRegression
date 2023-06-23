@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
@@ -41,11 +41,11 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'), FailureHandling.STOP_ON_F
 
 WebUI.delay(4)
 
-ActualTextAlign = WebUI.getCSSValue(findTestObject('DemoObjects/checkoutpage/purchaseSummary_opc'), 'text-align')
+ActualTextAlign = WebUI.getCSSValue(findTestObject('DemoObjects/checkoutpage1/purchaseSummary_opc'), 'text-align')
 
-ActualJustifyContent = WebUI.getCSSValue(findTestObject('DemoObjects/checkoutpage/purchaseSummary_opc'), 'justify-content')
+ActualJustifyContent = WebUI.getCSSValue(findTestObject('DemoObjects/checkoutpage1/purchaseSummary_opc'), 'justify-content')
 
-Actualposition = WebUI.getCSSValue(findTestObject('DemoObjects/checkoutpage/purchaseSummary_opc'), 'position')
+Actualposition = WebUI.getCSSValue(findTestObject('DemoObjects/checkoutpage1/purchaseSummary_opc'), 'position')
 
 def textalign = 'left'
 

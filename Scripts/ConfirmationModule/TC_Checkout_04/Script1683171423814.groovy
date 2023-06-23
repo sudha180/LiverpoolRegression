@@ -49,7 +49,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickChangepayment_opc'), [:], Fa
 
 WebUI.callTestCase(findTestCase('CommonMethods/selectCIEPayment_opc'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/button_Finalizar compra_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/button_Finalizar compra_opc'))
 
 WebUI.delay(3)
 

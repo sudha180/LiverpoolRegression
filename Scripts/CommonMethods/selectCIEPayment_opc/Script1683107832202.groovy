@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/button_Efectivo y Transferencias_payment_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/button_Efectivo y Transferencias_payment_opc'))
 
 not_run: WebUI.click(findTestObject('checkoutpage/button_Continuar_payment_opc'))
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/button_Continuar_payment_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/button_Continuar_payment_opc'))
 
 WebUI.delay(4)
 

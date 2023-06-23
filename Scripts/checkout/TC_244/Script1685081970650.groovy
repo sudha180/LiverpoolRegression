@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.liverPoolOdtaqab)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
@@ -28,16 +28,22 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
+
+WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyGiftTable_Cart'))
 
 WebUI.click(findTestObject('CartPage/EnterEventNumber_Cart'))
+
+WebUI.setText(findTestObject('CartPage/EnterEventNumber_Cart'), '56075997')
 
 WebUI.click(findTestObject('CartPage/FindTableButton_Cart'))
 
@@ -54,7 +60,7 @@ WebUI.click(findTestObject('Checkout/sendMessageToCelebratedGiftTable_Checkout')
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 

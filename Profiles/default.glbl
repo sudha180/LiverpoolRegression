@@ -454,4 +454,14 @@
       <initValue>''</initValue>
       <name>bundleItem</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'nsamraj@palnyc.com'</initValue>
+      <name>GRuser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test12345'</initValue>
+      <name>GRpassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

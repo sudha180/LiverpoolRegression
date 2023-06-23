@@ -6,12 +6,11 @@
    <elementGuidId>fd95ff2a-8e23-43a7-bb04-1b4c5ffb2f19</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='m-cardBox addressBlock-container'])[62]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@class='m-cardBox addressBlock-container'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

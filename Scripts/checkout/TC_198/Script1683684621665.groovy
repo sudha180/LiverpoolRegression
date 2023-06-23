@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
@@ -30,10 +30,13 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.DigitalItem], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ps5'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 

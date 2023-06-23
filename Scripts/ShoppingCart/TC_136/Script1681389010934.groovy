@@ -43,15 +43,15 @@ WebUI.click(findTestObject('pdp/BuyNow_pdp'))
 
 WebUI.verifyElementPresent(findTestObject('Checkout/ShippingDetails_Checkout'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/deliveryAddressHeading_address_opc'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/label_Cambiar_Address_opc'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/label_Cambiar_Address_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/Forma de Pago_payment_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/Forma de Pago_payment_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/paymentSection_payment_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/paymentSection_payment_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/label_Cambiar_payment_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/label_Cambiar_payment_opc'), 0)
 
 WebUI.closeBrowser()
 

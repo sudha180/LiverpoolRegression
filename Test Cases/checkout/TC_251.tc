@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>If a customer updates the shipping store and this is different from the default store, a checkbox should appear that indicates if the user wants to default. In case of selecting, the data used in that purchase will become predetermined, until this action will be carried out until clicking on finish the purchase (successful or failed).</description>
-   <name>TC_251</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ef458b92-3743-41e9-a96a-3c8744b02432</testCaseGuid>
-</TestCaseEntity>

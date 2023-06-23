@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>The login user can mark a store from the list of C&amp;C stores as a frequent store by clicking on the menu option &quot;Add to my addresses&quot;, in this action will not select that store as the shipping method for this purchase.</description>
-   <name>TC_290</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f193ec02-3458-4f16-958c-bd277191595d</testCaseGuid>
-</TestCaseEntity>

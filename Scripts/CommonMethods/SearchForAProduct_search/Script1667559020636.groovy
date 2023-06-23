@@ -23,7 +23,5 @@ WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), searchTerm)
 
 WebUI.sendKeys(findTestObject('Object Repository/Shubham/TC_BS_071/Seach_TextBox_hp'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(10)
-
-WebUI.refresh()
+WebUI.delay(3)
 

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
@@ -32,12 +32,14 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.mouseOver(findTestObject('HomePageShubhum/LoginButton_hp'))
 
-WebUI.click(findTestObject('HomePageShubhum/myAccount_hp'))
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
@@ -51,17 +53,17 @@ WebUI.click(findTestObject('Checkout/3DotButton2_Checkout'))
 
 WebUI.click(findTestObject('Checkout/EditAddress_Checkout'))
 
-WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/shortName_addAddress_opc'), GlobalVariable.ShortName)
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage1/shortName_addAddress_opc'), GlobalVariable.ShortName)
 
 WebUI.click(findTestObject('Checkout/ContinueButtonAddAddress_Checkout'))
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.mouseOver(findTestObject('CLP/AfterLogin_hp'))
 
 WebUI.click(findTestObject('HomePageShubhum/myAccount_hp'))
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/deliveryAddressHeading_address_opc'))
 
 addressBlockContainer = WebUI.getText(findTestObject('AccountManagement/addressBlockContainer_Account'))
 

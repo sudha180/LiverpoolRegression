@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
@@ -55,9 +55,8 @@ WebUI.click(findTestObject('CartPage/LatestLineBuyButton_Cart'))
 
 ShortName = WebUI.getText(findTestObject('Checkout/ShortNameAddress_Checkout'), FailureHandling.STOP_ON_FAILURE)
 
-if(StoreValue == ShortName)
-{
-	println('Checked')
+if (StoreValue == ShortName) {
+    println('Checked')
 }
 
 WebUI.closeBrowser()

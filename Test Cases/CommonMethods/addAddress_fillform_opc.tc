@@ -1,32 +1,8 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
    <name>addAddress_fillform_opc</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>55464ffb-a4ac-49b4-9e47-2b152c9f8ea7</testCaseGuid>
+   <testCaseGuid>18266317-3b1e-4953-8daa-dba15c43cbd0</testCaseGuid>
 </TestCaseEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>addAddress_fillform_opc</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>55464ffb-a4ac-49b4-9e47-2b152c9f8ea7</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>37d51d97-e880-4223-bb58-533dc8e4c138</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>37d51d97-e880-4223-bb58-533dc8e4c138</id>
-      <masked>false</masked>
-      <name>StoreValue</name>
-   </variable>
-</TestCaseEntity>
->>>>>>> 07062826da0be4c86207747f73c92c6bca55c901

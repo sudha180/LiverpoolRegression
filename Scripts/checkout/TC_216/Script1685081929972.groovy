@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.liverPoolOdtaqab)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
@@ -30,7 +30,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/deliveryAddressHeading_address_opc'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/ClickDelivery_MyAccount'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -42,10 +42,12 @@ WebUI.click(findTestObject('AccountManagement/ClickNCollectionDefault_Account'))
 
 TitleAddress = WebUI.getText(findTestObject('AccountManagement/ClickNCollectionAddressTitle_Account'))
 
+WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
@@ -58,6 +60,8 @@ DefaultAddress = WebUI.getText(findTestObject('Checkout/DefaultAddress_Checkout 
 if (TitleAddress == DefaultAddress) {
     Println('Checked')
 }
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/changeADDRESS_OPC'))
 
 WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
 

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
@@ -30,20 +30,22 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/deliveryAddressHeading_address_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/deliveryAddressHeading_address_opc'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/ClickDelivery_MyAccount'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('DemoObjects/PDPPage/Comprar_pdp'))
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/label_Cambiar_Address_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/label_Cambiar_Address_opc'))
 
 WebUI.click(findTestObject('Checkout/AddAddressButtonPopup_checkout'))
 
@@ -51,11 +53,10 @@ WebUI.click(findTestObject('Checkout/AddressPopupCLickNCollect_Checkout'), Failu
 
 WebUI.click(findTestObject('Checkout/ClickNCollectionRadioButton_Checkout'))
 
-WebUI.click(findTestObject('Checkout/ClickNCollectionSelectEvent_Checkout'))
-
-WebUI.click(findTestObject('Checkout/OptionOfSelectEvent_Checkout'))
-
+// WebUI.click(findTestObject('Checkout/OptionOfSelectEvent_Checkout'))
 WebUI.click(findTestObject('Checkout/ContinueButtonClickNCollectPopup_Checkout'))
+
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/label_Cambiar_Address_opc'))
 
 WebUI.verifyElementPresent(findTestObject('Checkout/DefaultAddress_Checkout'), 0)
 

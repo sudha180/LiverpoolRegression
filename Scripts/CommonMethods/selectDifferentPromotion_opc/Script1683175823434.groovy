@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/promotionSection_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'))
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/selectPromotion2InPromotionpopup_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/selectPromotion2InPromotionpopup_opc'))
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/promotionUpdatedMessage_afterCardSelection'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionUpdatedMessage_afterCardSelection'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/promotionUpdatedtoMonederoDigitalmessage_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionUpdatedtoMonederoDigitalmessage_opc'), 0)
 

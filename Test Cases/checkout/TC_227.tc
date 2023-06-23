@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>A customer login must have the option in One Page checkout a C&amp;C store as frequent, this action will be replicated in My account and the system will select that store as the shipping method for that purchase without predetermining it as the shipping method.</description>
-   <name>TC_227</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>da089d13-f88c-4d51-9786-c2684cfa2f1a</testCaseGuid>
-</TestCaseEntity>

@@ -47,7 +47,7 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage/productImage_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/productImage_opc'), 0)
 
 WebUI.closeBrowser()
 

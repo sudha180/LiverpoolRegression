@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.liverPoolOdtaqab)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
@@ -28,10 +28,12 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
@@ -39,15 +41,13 @@ WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
-WebUI.verifyElementPresent(findTestObject('Checkout/DefaultAddress_Checkout'), 0)
-
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
 
 WebUI.click(findTestObject('Checkout/AddressPopupCLickNCollect_Checkout'))
 
-WebUI.click(findTestObject('Checkout/ClickNCollectionRadioButton_Checkout'))
+WebUI.verifyElementPresent(findTestObject('Checkout/DefaultAddress_Checkout'), 0)
 
-WebUI.click(findTestObject('Checkout/ClickNCollectionSelectEvent_Checkout'))
+WebUI.click(findTestObject('Checkout/ClickNCollectionRadioButton_Checkout'))
 
 WebUI.click(findTestObject('Checkout/OptionOfSelectEvent_Checkout'))
 

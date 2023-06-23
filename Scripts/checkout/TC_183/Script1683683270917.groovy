@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
@@ -30,6 +30,8 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+
 WebUI.mouseOver(findTestObject('HomePageShubhum/LoginButton_hp'))
 
 WebUI.click(findTestObject('HomePageShubhum/myAccount_hp'))
@@ -37,7 +39,7 @@ WebUI.click(findTestObject('HomePageShubhum/myAccount_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
@@ -47,7 +49,7 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
 
-WebUI.click(findTestObject('Checkout/SelectAddressRadioButton_Checkout'))
+WebUI.click(findTestObject('Checkout/SelectAddress2RadioButton_Checkout'))
 
 WebUI.verifyElementPresent(findTestObject('Checkout/AddressStatusPopup_Checkout'), 0)
 

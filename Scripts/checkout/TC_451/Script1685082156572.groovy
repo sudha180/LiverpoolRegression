@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url3)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
@@ -59,7 +59,7 @@ WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/product1_promoti
 
 WebUI.click(findTestObject('1vedant/CheckOut(CO)/product1_promotionDropDown_OPC'))
 
-int i=0;
+int i = 0
 
 if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo1_popup_OPC'), FailureHandling.OPTIONAL) == 
 true) {
@@ -97,7 +97,7 @@ WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/product1_promoti
 
 WebUI.click(findTestObject('1vedant/CheckOut(CO)/product1_promotionDropDown_OPC'))
 
-int j=0;
+int j = 0
 
 if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo1_popup_OPC'), FailureHandling.OPTIONAL) == 
 true) {

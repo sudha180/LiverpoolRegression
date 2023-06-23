@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url3)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
@@ -63,15 +63,16 @@ int i = 0
 
 def notchanged
 
-if (WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/promoCombo1_popup_OPC'), FailureHandling.OPTIONAL) == true) {
+if (WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/promoCombo1_popup_OPC'), FailureHandling.OPTIONAL) == 
+true) {
     i++
 
     notchanged = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/promoCombo1_popup_OPC'), FailureHandling.OPTIONAL)
 
-	def a = notchanged.replaceAll('[^0-9]', '')
-	
-		def a1 = a.toInteger()
-	
+    def a = notchanged.replaceAll('[^0-9]', '')
+
+    def a1 = a.toInteger()
+
     System.out.println('number of promo combo for external card ' + a1)
 }
 

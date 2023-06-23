@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url3)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -40,10 +40,10 @@ WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 
 def price = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/discountPriceP1_OPC'), '')
+
 def a = price.replaceAll('[^0-9]', '')
 
-	def p = a.toInteger()
-
+def p = a.toInteger()
 
 WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/product1_promotionDropDown_OPC'), 0)
 
@@ -54,43 +54,45 @@ int i
 if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo1_popup_OPC'), FailureHandling.OPTIONAL) == 
 true) {
     i++
-	price = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/discountPriceP1_OPC'), '')
-	 a1 = price.replaceAll('[^0-9]', '');
-	
-		def p1 = a1.toInteger();
-		if(p!=p1)
-			{
-				System.out.println('price changed')
-				
-			}
+
+    price = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/discountPriceP1_OPC'), '')
+
+    a1 = price.replaceAll('[^0-9]', '')
+
+    def p1 = a1.toInteger()
+
+    if (p != p1) {
+        System.out.println('price changed')
+    }
 }
 
 if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo2_popup_OPC'), FailureHandling.OPTIONAL)) {
     i++
-	price = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/discountPriceP1_OPC'), '')
-	a2 = price.replaceAll('[^0-9]', '')
-	
-		def p1 = a2.toInteger()
-		if(p!=p1)
-			{
-				System.out.println('price changed')
-				
-			}
+
+    price = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/discountPriceP1_OPC'), '')
+
+    a2 = price.replaceAll('[^0-9]', '')
+
+    def p1 = a2.toInteger()
+
+    if (p != p1) {
+        System.out.println('price changed')
+    }
 }
 
 if (WebUI.verifyElementClickable(findTestObject('1vedant/CheckOut(CO)/promoCombo3_popup_OPC'), FailureHandling.OPTIONAL)) {
     i++
-	price = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/discountPriceP1_OPC'), '')
-	a3 = price.replaceAll('[^0-9]', '')
-	
-		def p1 = a3.toInteger()
-		if(p!=p1)
-			{
-				System.out.println('price changed')
-				
-			}
-}
 
+    price = WebUI.getText(findTestObject('1vedant/CheckOut(CO)/discountPriceP1_OPC'), '')
+
+    a3 = price.replaceAll('[^0-9]', '')
+
+    def p1 = a3.toInteger()
+
+    if (p != p1) {
+        System.out.println('price changed')
+    }
+}
 
 System.out.println('number of promo combo are' + i)
 

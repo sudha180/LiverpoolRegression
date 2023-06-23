@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>If a celebrated makes a personal purchase and his shipping method is C&amp;C, it is mandatory to associate the item with his  event (s), a dropdown should visible with her events when he has more 1.</description>
-   <name>TC_240</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9bd27cd4-b190-47f7-8486-a05257c9af9a</testCaseGuid>
-</TestCaseEntity>

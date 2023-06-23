@@ -43,7 +43,7 @@ WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.click(findTestObject('Checkout/ChangeAddress_Checkout'))
 
-WebUI.click(findTestObject('Checkout/SelectAddressRadioButton_Checkout'))
+WebUI.click(findTestObject('Checkout/SelectAddress2RadioButton_Checkout'))
 
 WebUI.click(findTestObject('Checkout/ContinueButtonAddAddress_Checkout'))
 

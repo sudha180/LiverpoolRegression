@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('1HomePage/paypalpayment'))
 
-WebUI.click(findTestObject('DemoObjects/checkoutpage/button_Continuar_payment_opc'))
+WebUI.click(findTestObject('DemoObjects/checkoutpage1/button_Continuar_payment_opc'))
 
 not_run: WebUI.switchToWindowTitle('Log in to your PayPal account')
 
