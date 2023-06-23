@@ -6,11 +6,11 @@
    <elementGuidId>b5b54632-ef0f-4962-9f63-647303791961</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d1a92290-0fb2-473b-bfe4-6b2c794d317b</webElementGuid>
+      <webElementGuid>2003a814-9fb8-47ac-9392-297ba78e25d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mdc-tab__ripple mdc-ripple-upgraded</value>
-      <webElementGuid>de773835-7ff4-4879-a070-81ae6f65a4ed</webElementGuid>
+      <webElementGuid>dd1adf25-7308-43e4-bc92-6b5a7c5f5fa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;o-product__productSpecsDetails&quot;)/div[1]/div[@class=&quot;col-7&quot;]/div[@class=&quot;mdc-tab-bar&quot;]/div[@class=&quot;mdc-tab-scroller&quot;]/div[@class=&quot;mdc-tab-scroller__scroll-area mdc-tab-scroller__scroll-area--scroll&quot;]/div[@class=&quot;mdc-tab-scroller__scroll-content tabsOverFlow&quot;]/button[@id=&quot;mdc-tab-3&quot;]/span[@class=&quot;mdc-tab__ripple mdc-ripple-upgraded&quot;]</value>
-      <webElementGuid>dc529fc2-3ee5-4f4c-b005-aaa5fee6556a</webElementGuid>
+      <webElementGuid>f57b0008-63f1-40da-a656-dc1792dcaa75</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//button[@id='mdc-tab-3']/span[3])[2]</value>
-      <webElementGuid>ab09cf4f-34a0-4ccb-87dd-9e332938235c</webElementGuid>
+      <webElementGuid>7ff14b14-958d-4e5e-81e1-5749c6321307</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,6 +53,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span[3]</value>
-      <webElementGuid>2b34f4cb-6d09-4ac0-882f-6895b89162ba</webElementGuid>
+      <webElementGuid>46860ab6-19f1-4b4e-83be-ddbdf8a72599</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

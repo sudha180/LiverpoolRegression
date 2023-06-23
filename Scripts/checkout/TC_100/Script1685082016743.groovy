@@ -33,7 +33,7 @@ WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
 
-WebUI.scrollToPosition(0, 350)
+WebUI.scrollToPosition(0, 400)
 
 WebUI.click(findTestObject('1vedant/PDP/StickyBar_Comprar_Ahora_PDP'))
 

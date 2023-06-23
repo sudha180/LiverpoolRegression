@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-not_run: WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
+WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
 
-not_run: WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
+WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
 
 not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
@@ -46,8 +46,6 @@ WebUI.click(findTestObject('Object Repository/pdp/Social_Media_pdp'))
 WebUI.switchToWindowTitle('Facebook')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/Social_Link_pdp'), 0)
-
-WebUI.switchToWindowTitle('')
 
 WebUI.closeBrowser()
 

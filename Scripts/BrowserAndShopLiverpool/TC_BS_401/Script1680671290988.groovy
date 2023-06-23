@@ -22,19 +22,17 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'Pantallas'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PLPPage/product_Link_plp'))
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+WebUI.delay(5)
 
-for (int i = 0; i < 1000; i += 7) {
-    js.executeScript(('window.scrollTo(0, ' + i) + ')')
-}
+WebUI.scrollToPosition(0, 400)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductImg_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/stickyBar_img_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductName_pdp'), 0)
 

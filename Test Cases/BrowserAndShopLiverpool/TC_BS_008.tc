@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the display of PLP if L4 category doesnot have the child categories under it.</description>
    <name>TC_BS_008</name>
    <tag></tag>
    <comment></comment>

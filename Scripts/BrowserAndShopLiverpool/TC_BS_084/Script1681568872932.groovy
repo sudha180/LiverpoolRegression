@@ -23,8 +23,10 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpBTParentSLGifts2], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpWithSingleVariantWith2Gifts], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
@@ -32,11 +34,11 @@ WebUI.verifyElementPresent(findTestObject('pdp/gwpGiftDropdown_pdp'), 0)
 
 WebUI.click(findTestObject('pdp/gwpGiftDropdown_pdp'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('pdp/gwpGiftPopup_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/gift_popup_submitButton_PDP'), 0)
 
-WebUI.click(findTestObject('pdp/secondGiftRadioButton_gwpPopup_pdp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PDP/gift_option2_giftdropdown_PDP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('pdp/button_Aceptar_gwpPopup_pdp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PDP/gift_popup_submitButton_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('pdp/giftImageInGiftDropdown_pdp'), 0)
 

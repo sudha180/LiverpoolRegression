@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='a-btn-myBag--elements a-btn--elementsMyBags a_myBag__btnElements--desktop'])[1]</value>
+         <value>(//button[@class='a-inlineElement a-inlineElement--giftTableActions' and contains(text(),'Editar mensaje')])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

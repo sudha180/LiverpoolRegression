@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify that the user can browse products or category and add items to cart.</description>
    <name>TC_BS_041</name>
    <tag></tag>
    <comment></comment>

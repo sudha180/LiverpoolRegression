@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[@class='text-shutdown-card cambiarLabelTxt text-size-card']</value>
+         <value>//button[@class='a-btn a-btn--onePageCheckout--deliveryAddress d-inline ']//div[@class='a-box__accordionIcon float-right']//label</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

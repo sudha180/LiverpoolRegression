@@ -36,7 +36,7 @@ cartCountAfterGWP = WebUI.getText(findTestObject('1vedant/PDP/Bag_PDP'), Failure
 
 int cartCountAfterGWP = Integer.parseInt(cartCountAfterGWP)
 
-WebUI.verifyElementPresent(findTestObject('pdp/addedProductSuccessMessage_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/AddedToCart_alert_message_PDP'), 0)
 
 if ((cartCount + 2) == cartCountAfterGWP) {
     System.out.println('gwp product is added')

@@ -26,6 +26,8 @@ WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpParentBTGiftBT], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.OPTIONAL)
+
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('pdp/colorSelectedOnLoad_pdp'), 0)
@@ -35,6 +37,8 @@ WebUI.verifyElementNotPresent(findTestObject('1vedant/PDP/Size2_PDP'), 0)
 WebUI.verifyElementPresent(findTestObject('pdp/gwpGiftDropdown_pdp'), 0)
 
 WebUI.click(findTestObject('pdp/gwpGiftDropdown_pdp'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(0)
 
 WebUI.verifyElementPresent(findTestObject('pdp/SelectGiftPurchaseRadioButton_pdp'), 0)
 
