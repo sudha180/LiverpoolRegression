@@ -21,11 +21,21 @@ WebUI.click(findTestObject('1HomePage/paypalpayment'))
 
 WebUI.click(findTestObject('DemoObjects/checkoutpage1/button_Continuar_payment_opc'))
 
+<<<<<<< Updated upstream
 not_run: WebUI.switchToWindowTitle('Log in to your PayPal account')
 
 not_run: WebUI.click(findTestObject('Checkout/paypal_inputID_checkout'))
 
 not_run: WebUI.setText(findTestObject('Checkout/paypal_inputID_checkout'), 'liverpool@paypal.com')
+=======
+WebUI.delay(5)
+
+WebUI.switchToWindowTitle('Log in to your PayPal account', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Checkout/paypal_inputID_checkout'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('Checkout/paypal_inputID_checkout'), 'liverpool@paypal.com', FailureHandling.OPTIONAL)
+>>>>>>> Stashed changes
 
 not_run: WebUI.click(findTestObject('Checkout/paypal_next_button_popup'), FailureHandling.OPTIONAL)
 
@@ -33,7 +43,13 @@ not_run: WebUI.click(findTestObject('Checkout/paypal-password'), FailureHandling
 
 not_run: WebUI.setText(findTestObject('Checkout/paypal-password'), 'cordoba213VKY', FailureHandling.OPTIONAL)
 
+<<<<<<< Updated upstream
 not_run: WebUI.click(findTestObject('Checkout/loginbutton_paypal_cop'))
 
 not_run: WebUI.click(findTestObject('Checkout/acceptAndContinue'))
+=======
+WebUI.click(findTestObject('Checkout/loginbutton_paypal_cop'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Checkout/acceptAndContinue'), FailureHandling.OPTIONAL)
+>>>>>>> Stashed changes
 

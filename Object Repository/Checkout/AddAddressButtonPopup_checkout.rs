@@ -6,11 +6,16 @@
    <elementGuidId>bad1f465-6891-45fd-abf0-070ef85205ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[contains(text(),'Agregar Dirección')]</value>
       </entry>
       <entry>
+<<<<<<< Updated upstream
          <key>XPATH</key>
          <value>(//button[@class='a-btn a-btn--primary'])[1]</value>
+=======
+         <key>BASIC</key>
+>>>>>>> Stashed changes
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
