@@ -10,8 +10,12 @@
          <value>//button[@class='btnPrimary btnExtraLarge']</value>
       </entry>
       <entry>
+<<<<<<< Updated upstream
          <key>XPATH</key>
          <value>(//button[@class='btnPrimary btnExtraLarge'])[1]</value>
+=======
+         <key>BASIC</key>
+>>>>>>> Stashed changes
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
