@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'sock'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'blusa'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 

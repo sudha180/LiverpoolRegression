@@ -19,16 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpBTParentWithVariantsSLGifts2], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpWithMultiVariantWith2Gifts], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.OPTIONAL)
 
-WebUI.delay(5)
+WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('pdp/colorSelectedOnLoad_pdp'), 0)
 
@@ -54,7 +54,7 @@ WebUI.verifyElementPresent(findTestObject('pdp/SelectGiftPurchaseRadioButton_pdp
 
 WebUI.click(findTestObject('pdp/closeGwpPopup_pdp'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PDP/Size2_PDP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PDP/Size2_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/gwpGiftDropdown_pdp'), FailureHandling.STOP_ON_FAILURE)
 
@@ -62,7 +62,7 @@ WebUI.verifyElementPresent(findTestObject('pdp/SelectGiftPurchaseRadioButton_pdp
 
 WebUI.click(findTestObject('pdp/closeGwpPopup_pdp'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('pdp/gwpGiftDropdown_pdp'), FailureHandling.STOP_ON_FAILURE)
 

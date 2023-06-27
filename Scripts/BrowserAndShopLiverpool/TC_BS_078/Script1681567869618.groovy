@@ -21,16 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.maximizeWindow()
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpSLwithSingleGift], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
-WebUI.clearText(findTestObject('pdp/quantityBox_pdp'))
-
-WebUI.sendKeys(findTestObject('pdp/quantityBox_pdp'), '999')
+WebUI.setText(findTestObject('pdp/quantityBox_pdp'), '999')
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.STOP_ON_FAILURE)
 

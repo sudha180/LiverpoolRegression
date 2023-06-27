@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify that the breadcrumb is clickable in Category landing page</description>
    <name>TC_BS_004</name>
    <tag></tag>
    <comment></comment>

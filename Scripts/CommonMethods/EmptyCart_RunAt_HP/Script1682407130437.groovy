@@ -27,14 +27,14 @@ import java.util.jar.JavaUtilJarAccessImpl as JavaUtilJarAccessImpl
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'), FailureHandling.OPTIONAL)
-
 //ChromeOptions chromeOptions = new ChromeOptions();
 //WebDriver driver = new ChromeDriver(chromeOptions); 
 //DriverFactory.changeWebDriver(driver)
 //List<WebElement>removeList = driver.findElements(By.xpath("//div[@class='t-myBag__productList']//div[@class='o-myBag o-myBag--giftTable sku_id_delivery_date']"));
 //List<WebElement> wes = WebUiCommonHelper.findWebElements(WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Product1_remove_cart')))
 WebUI.delay(2, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'), FailureHandling.OPTIONAL)
 
 List<WebElement> listElement = WebUI.findWebElements(findTestObject('1vedant/cart/Product1_remove_cart'), 2)
 

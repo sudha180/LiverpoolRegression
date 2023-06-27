@@ -23,9 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/1SRP page/a_Ordenar por'))
+WebUI.click(findTestObject('1vedant/PLP/Sortby_PLP'))
 
-WebUI.click(findTestObject('1SRP page/button_Ms visto_srp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PLP/Newest_SortBy_PLP'), FailureHandling.STOP_ON_FAILURE)
 
 mostViewedUrl = WebUI.getUrl()
 

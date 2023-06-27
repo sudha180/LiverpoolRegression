@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='opc_pdp_addCartButton']</value>
+         <value>(//button[@id='opc_pdp_addCartButton'])</value>
       </entry>
       <entry>
          <key>BASIC</key>

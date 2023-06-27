@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='o-product__description']//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']</value>
+         <value>//div[@class='o-product__description liverpool']//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

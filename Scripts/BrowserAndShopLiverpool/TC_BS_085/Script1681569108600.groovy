@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpBTParentSLGifts2], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpWithSingleVariantWith2Gifts], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)

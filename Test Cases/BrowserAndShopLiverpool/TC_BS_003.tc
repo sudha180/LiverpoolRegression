@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify that the user is able to add the products to the cart, which contains variants from the Product Details list page.</description>
    <name>TC_BS_003</name>
    <tag></tag>
    <comment></comment>

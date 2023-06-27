@@ -3,14 +3,14 @@
    <description>Eliminar button for product</description>
    <name>Product1_remove_cart</name>
    <tag></tag>
-   <elementGuidId>995295ab-154d-484a-a1fa-9b03b0a9853a</elementGuidId>
+   <elementGuidId>79c89038-10a1-4d90-83be-b3cef9454cc7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='o-myBag o-myBag--giftTable sku_id_delivery_date undefined'][1]//button[contains(text(),'Eliminar')]</value>
+         <value>(//button[@class='a-btn-myBag--elements a-btn--elementsMyBags a_myBag__btnElements--desktop ' and contains(text(),'Eliminar')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

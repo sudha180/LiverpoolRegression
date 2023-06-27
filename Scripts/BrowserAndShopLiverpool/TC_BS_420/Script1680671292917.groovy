@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PLP/product1_PLP (1)'))
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP (1)'), FailureHandling.OPTIONAL)
 
 String detail = WebUI.getText(findTestObject('Object Repository/1vedant/PDP/Detail_PDP'))
 

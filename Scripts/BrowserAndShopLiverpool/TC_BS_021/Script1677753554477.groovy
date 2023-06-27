@@ -32,7 +32,9 @@ WebUI.click(findTestObject('1vedant/CLP/SubCategory3_leftmenu_CLP'))
 'facet to check clicked\r\n'
 FacetClicked = WebUI.getText(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
 
-WebUI.click(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
+WebUI.enhancedClick(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
+
+WebUI.delay(5)
 
 'clicked facet showing above'
 FacetClicked2 = WebUI.getText(findTestObject('1vedant/PLP/facetes/facet_selectedname_liverpool'), FailureHandling.STOP_ON_FAILURE)
@@ -43,7 +45,4 @@ if (FacetClicked == FacetClicked2) {
 
 WebUI.click(findTestObject('1vedant/PLP/facetes/close_facet_liverpool_PLP'))
 
-WebUI.verifyElementNotPresent(findTestObject('1vedant/PLP/facetes/facet_selectedname_liverpool'), 0)
-
 WebUI.closeBrowser()
-

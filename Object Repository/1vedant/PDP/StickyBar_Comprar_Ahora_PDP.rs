@@ -6,11 +6,11 @@
    <elementGuidId>c42fb042-7851-499d-a641-4bdfee24d49b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@id='sticky__button-addToExpressCart'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='a-stickyBar__addButton sticky-btn-container bt-disabled-secondary']//button)</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

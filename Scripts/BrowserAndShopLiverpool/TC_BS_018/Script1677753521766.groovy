@@ -27,7 +27,7 @@ WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
-WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
+WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
 WebUI.verifyElementPresent(findTestObject('1vedant/PLP/facetes/CategoríasTitleFacet_PLP'), 0)
 

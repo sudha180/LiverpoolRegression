@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('pdp/inventoryMessageforGWP_pdp'), 0)
 

@@ -28,11 +28,19 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
-WebUI.clearText(findTestObject('pdp/quantityBox_pdp'))
+WebUI.sendKeys(findTestObject('1vedant/PDP/quantity_value_PDP'), '999')
 
-WebUI.sendKeys(findTestObject('pdp/quantityBox_pdp'), '999')
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
 WebUI.verifyElementPresent(findTestObject('pdp/inventoryMessageforGWP_pdp'), 0)
 

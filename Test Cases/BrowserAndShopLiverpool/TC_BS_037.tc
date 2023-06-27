@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify that system allows the user to change the quantity</description>
    <name>TC_BS_037</name>
    <tag></tag>
    <comment></comment>

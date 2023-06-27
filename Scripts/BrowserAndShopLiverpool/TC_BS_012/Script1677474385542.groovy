@@ -21,7 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Softline], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.softline2], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
