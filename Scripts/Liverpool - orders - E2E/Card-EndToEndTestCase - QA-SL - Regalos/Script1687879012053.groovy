@@ -20,7 +20,7 @@ import customkeywords.myKeywords as myKeywords
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://odtaqab.suburbia.com.mx/tienda/home')
+WebUI.navigateToUrl('https://dtaqa.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
@@ -50,7 +50,7 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/footer_hp'), 0)
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'hcheruvu29@digisprint.com', ('password') : 'Test@12345'], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'UN85@digisprint.com', ('password') : 'Un85@12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('DemoObjects/HomePage/span_Categoras_hp'))
