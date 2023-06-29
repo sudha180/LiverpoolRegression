@@ -5,11 +5,19 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
+<<<<<<< HEAD
    <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
+=======
+   <numberOfRerun>2</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
    <testSuiteGuid>77390a1c-38ec-4b47-9377-45aef2f299ca</testSuiteGuid>
    <testCaseLink>
       <guid>6f8bb331-9967-4d6a-bd2d-1722c694cd4a</guid>

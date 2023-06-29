@@ -12,6 +12,23 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d9088194-8475-45ab-b674-0a735a52c1a6</testSuiteGuid>
    <testCaseLink>
+<<<<<<< HEAD
+=======
+      <guid>00439a3f-87d8-4544-a44a-2140ec9676b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AccountManagment/new</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e66fbc73-f87d-42b4-b14f-e0a8f3073e05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_042 - Copy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
       <guid>8523050c-49b9-4672-8fac-f5a78d3e06fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -257,6 +274,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
+=======
+      <guid>68f79988-bc2c-43b2-a7e9-556e08f5195f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_224</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
       <guid>024e0f6a-1b36-4446-82ce-462ea9114b86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -271,6 +298,23 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
+=======
+      <guid>16180f21-c4eb-4387-845f-b48435eb0a4e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_227</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c675233c-e7df-470f-9dda-45b42a07e2e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_228</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
       <guid>578ed0ee-6fda-4391-977b-dc3a57796f85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -320,6 +364,23 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
+=======
+      <guid>f1cb1a32-fccb-4163-bee6-3334acf1be73</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_239</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c40452d-fc33-4525-919f-75c41e390233</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_240</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
       <guid>6d7a2660-3159-47fc-947d-3c1f4e7f973d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -383,6 +444,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
+=======
+      <guid>175cbbeb-8638-404f-8148-6cb441acb533</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_251</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
       <guid>d8372056-77df-4b67-bcc6-511e3c084a5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -425,6 +496,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
+=======
+      <guid>7b8acc18-51a7-4fd1-82c8-36cd7c28cb4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_290</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
       <guid>28e61eca-266d-4048-91b8-d8c2b3717163</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -607,6 +688,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
+=======
+      <guid>cf6a2830-5b8c-4869-810b-43f22f37993d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_339 - Copy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
       <guid>f7d38fed-8c5e-4df2-b05f-de3b055f6a06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -710,6 +801,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
+=======
+      <guid>f8b659ea-4a9a-4264-a904-4d7e514f52cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/checkout/TC_451 - Copy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
       <guid>799589d0-8e26-495f-b5d6-efa027af675b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

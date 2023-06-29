@@ -21,9 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
+<<<<<<< HEAD
 WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
 
 WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
+=======
+WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
+
+WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
+
+not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
+
+not_run: WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
