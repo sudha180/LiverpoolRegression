@@ -33,13 +33,13 @@ secondProductPrice_srp = WebUI.getText(findTestObject('Object Repository/1SRP pa
 
 'secondProductPrice_srp' >= 'firstProductPrice_srp'
 
-WebUI.click(findTestObject('Object Repository/1SRP page/a_Menor precio'))
+WebUI.click(findTestObject('1vedant/PLP/Sortby_PLP'))
 
-WebUI.click(findTestObject('Object Repository/1SRP page/button_Mayor precio'))
+WebUI.click(findTestObject('1vedant/PLP/HighToLowPriceSortby_PLP'))
 
-firstProductPrice_srp = WebUI.getText(findTestObject('Object Repository/1SRP page/firstProductPrice_srp'))
+firstProductPrice_srp = WebUI.getText(findTestObject('1vedant/PLP/product1_cardPrice_PLP'))
 
-secondProductPrice_srp = WebUI.getText(findTestObject('Object Repository/1SRP page/secondProductPrice_srp'))
+secondProductPrice_srp = WebUI.getText(findTestObject('1vedant/PLP/product2_cardPrice_PLP'))
 
 'secondProductPrice_srp' <= 'firstProductPrice_srp'
 

@@ -23,8 +23,6 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'nat'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
 'cart/bag present at top right corner'

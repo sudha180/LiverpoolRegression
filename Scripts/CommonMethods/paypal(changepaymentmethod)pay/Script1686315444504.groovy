@@ -36,4 +36,3 @@ not_run: WebUI.setText(findTestObject('Checkout/paypal-password'), 'cordoba213VK
 not_run: WebUI.click(findTestObject('Checkout/loginbutton_paypal_cop'))
 
 not_run: WebUI.click(findTestObject('Checkout/acceptAndContinue'))
-

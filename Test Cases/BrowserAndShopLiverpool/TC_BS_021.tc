@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the functionality of Remove filter button on the PLP</description>
    <name>TC_BS_021</name>
    <tag></tag>
    <comment></comment>

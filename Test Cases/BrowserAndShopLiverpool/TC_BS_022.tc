@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify that the system sorts the products based on promo price upon selecting  low to high option from the sort dropdown</description>
    <name>TC_BS_022</name>
    <tag></tag>
    <comment></comment>

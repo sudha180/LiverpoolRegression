@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d20916ee-3e90-4fc4-bd4e-916e90996a43</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/checkout/TC_042 - Copy</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>66b995fb-99a5-40a8-80ed-4526520e6168</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

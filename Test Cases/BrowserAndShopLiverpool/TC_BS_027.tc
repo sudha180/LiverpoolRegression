@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify that the price changes on changing all the variants in PDP</description>
    <name>TC_BS_027</name>
    <tag></tag>
    <comment></comment>

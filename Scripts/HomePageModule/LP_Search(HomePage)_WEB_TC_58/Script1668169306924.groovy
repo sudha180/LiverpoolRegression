@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/Page_Liverpool es parte de Mi vida/a_Mis Compras'))
 

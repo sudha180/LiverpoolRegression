@@ -6,11 +6,11 @@
    <elementGuidId>f79ad1bd-3806-4d8b-8c9e-2256bf32eec5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='a-header__bag']//span</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@class='a-header__bag']//span)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

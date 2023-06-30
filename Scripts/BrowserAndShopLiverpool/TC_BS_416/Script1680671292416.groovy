@@ -25,8 +25,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1SRP page/firstProductImage_srp'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 0)
 
 WebUI.scrollToPosition(0, 900)
 
@@ -36,7 +35,9 @@ WebUI.verifyElementPresent(findTestObject('pdp/quantityPlus_stickbar_pdp'), 0)
 
 WebUI.click(findTestObject('pdp/quantityPlus_stickbar_pdp'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('1vedant/PDP/stickybarQuantity_PDP'), '2')
+WebUI.scrollToPosition(0, 400)
+
+WebUI.verifyElementAttributeValue(findTestObject('pdp/StickyQuntity_pdp'), 'value', '2', 0)
 
 WebUI.closeBrowser()
 

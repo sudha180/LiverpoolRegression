@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>issue with verify not present</description>
+   <description>To verify the display of  any product does not have a promo price forhigh to Low  it considers as the list price</description>
    <name>TC_BS_024</name>
    <tag></tag>
    <comment></comment>

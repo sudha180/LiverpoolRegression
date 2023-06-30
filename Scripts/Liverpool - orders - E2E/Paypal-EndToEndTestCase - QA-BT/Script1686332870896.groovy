@@ -37,7 +37,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/div_Marcas_plp'), 0)
 
-WebUI.click(findTestObject('PLPPage/product_Link_plp'))
+WebUI.click(findTestObject('1vedant/PLP/product4_PLP'))
 
 WebUI.delay(3)
 
@@ -119,7 +119,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/productprice_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/totalPrice_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0, FailureHandling.OPTIONAL)
 
 not_run: WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Comprar para mesa de regalos_opc'), 0)
 

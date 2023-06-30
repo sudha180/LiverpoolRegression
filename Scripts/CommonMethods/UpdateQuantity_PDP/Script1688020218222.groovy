@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+A = WebUI.getAttribute(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 'value')
+
+WebUI.verifyElementNotClickable(findTestObject('pdp/qunaityMinua_stickBar_pdp'))
+
+WebUI.verifyElementPresent(findTestObject('pdp/quantityPlus_stickbar_pdp'), 0)
+
+WebUI.enhancedClick(findTestObject('pdp/quantityPlus_stickbar_pdp'), FailureHandling.STOP_ON_FAILURE)
+
+B = WebUI.getAttribute(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 'value')
+
+System.out.print(A)
+
+System.out.print(B)
+
+assert A < B
+

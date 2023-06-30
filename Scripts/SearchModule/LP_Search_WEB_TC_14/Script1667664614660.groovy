@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertSearchTypeahead'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-categoryNameInTypeahead = WebUI.getText(findTestObject('1SRP page/categoryNameInTypeahead'))
+categoryNameInTypeahead = WebUI.getText(findTestObject('prodName_typeAhead'))
 
 WebUI.closeBrowser()
 

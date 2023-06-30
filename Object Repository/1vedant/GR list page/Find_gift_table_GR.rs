@@ -6,7 +6,8 @@
    <elementGuidId>98cb5d36-1fc9-4b51-b990-c726c3b9539b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@class='btnPrimary btnExtraLarge']</value>
       </entry>
       <entry>
          <key>XPATH</key>

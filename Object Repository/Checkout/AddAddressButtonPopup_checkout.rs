@@ -6,11 +6,10 @@
    <elementGuidId>bad1f465-6891-45fd-abf0-070ef85205ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//button[@class='a-btn a-btn--primary'])[1]</value>
+         <value> (//button[@class='a-btn a-btn--primary'])[1]
+         </value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

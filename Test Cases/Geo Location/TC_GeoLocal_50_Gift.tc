@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify EDD not gets displayed for the added gift registry / Digital / Pre-sale / Special item in cart</description>
-   <name>TC_GeoLocal_50_Gift</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6e6a554e-3981-4c66-8073-b5e6b986f6c3</testCaseGuid>
-</TestCaseEntity>

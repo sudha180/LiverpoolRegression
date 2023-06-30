@@ -42,7 +42,7 @@ WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('1vedant/PDP/popup_AddToCart_PDP'), 'Agregaste un producto a tu bolsa')
+WebUI.verifyElementText(findTestObject('1vedant/PDP/AddedToCart_alert_message_PDP'), 'Agregaste un producto a tu bolsa')
 
 WebUI.closeBrowser()
 

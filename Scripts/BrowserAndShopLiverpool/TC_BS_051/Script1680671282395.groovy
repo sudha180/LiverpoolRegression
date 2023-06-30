@@ -21,13 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
-
-WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'sofa'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 

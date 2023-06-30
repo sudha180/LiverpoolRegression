@@ -25,19 +25,15 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('Object Repository/1SRP page/a_Ordenar por'))
 
-WebUI.verifyElementPresent(findTestObject('1SRP page/button_Relevancia'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PLP/relevance_SortBy_PLP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/1SRP page/button_Calificaciones_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PLP/HighToLowPriceSortby_PLP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1SRP page/button_Ms vendido_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PLP/LowPricetoHighSortBy_PLP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1SRP page/button_Lo Ms Nuevo_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PLP/Newest_SortBy_PLP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1SRP page/button_Mayor precio_srp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('1SRP page/button_Menor precio'), 0)
-
-WebUI.verifyElementPresent(findTestObject('1SRP page/button_Ms visto_srp'), 0)
+WebUI.verifyElementPresent(findTestObject('1vedant/PLP/Rating_SortBy_PLP'), 0)
 
 WebUI.closeBrowser()
 

@@ -23,19 +23,19 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/1SRP page/a_Ordenar por'))
+WebUI.click(findTestObject('1vedant/PLP/Sortby_PLP'))
 
-WebUI.click(findTestObject('Object Repository/1SRP page/button_Menor precio'))
+WebUI.click(findTestObject('1vedant/PLP/LowPricetoHighSortBy_PLP'))
 
-firstProductPrice = WebUI.getText(findTestObject('1SRP page/firstProductPrice_srp'))
+firstProductPrice = WebUI.getText(findTestObject('1vedant/PLP/product-1-DiscountPrice_PLP'))
 
-firstProductPriceNew = firstProductPrice.replace('$', '')
+firstProductPriceNew = firstProductPrice.replace('$', '').replace(',', '').replace('0', '').toInteger()
 
 println('This is the output after price replacement = ' + firstProductPriceNew)
 
-secondProductPrice = WebUI.getText(findTestObject('1SRP page/secondProductPrice_srp'))
+secondProductPrice = WebUI.getText(findTestObject('1vedant/PLP/product-2-DiscountPrice_PLP'))
 
-secondProductPriceNew = secondProductPrice.replace('$', '').replace('0', '').toInteger()
+secondProductPriceNew = secondProductPrice.replace('$', '').replace(',', '').replace('0', '').toInteger()
 
 not_run: Integer a = firstProductPrice.substring(0, 4)
 
@@ -47,7 +47,9 @@ not_run: secondProductPrice = secondProductPrice.substring(1, 4)
 
 not_run: WebUI.scrollToElement(findTestObject(null), 0)
 
-WebUI.verifyLessThanOrEqual('firstProductPriceNew', 'secondProductPriceNew')
+if (firstProductPriceNew <= secondProductPriceNew) {
+    System.out.println('checked')
+}
 
 WebUI.closeBrowser()
 

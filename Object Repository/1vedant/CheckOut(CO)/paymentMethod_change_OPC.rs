@@ -6,12 +6,11 @@
    <elementGuidId>9467037b-9b0f-4be9-bedd-4cbfdb7115e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@class='text-shutdown-card cambiarLabelTxt text-size-card']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@class='opc_PayMethod_background']//div[@class='a-box__accordionIcon float-right']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

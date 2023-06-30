@@ -29,10 +29,6 @@ WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1031144511'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()

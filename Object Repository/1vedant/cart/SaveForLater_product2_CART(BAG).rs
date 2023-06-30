@@ -6,12 +6,11 @@
    <elementGuidId>b8ae31b1-66b8-4ef5-8b0e-a870e9821db6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='o-myBag o-myBag--giftTable sku_id_delivery_date']//button[@class='a-btn-myBag--elements a-btn--elementsMyBags a_myBag__btnElements--desktop'])[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[contains(text(),'Wishlist')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

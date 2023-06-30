@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'laptop'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'bag'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/Sortby_PLP'))
 
@@ -33,11 +33,11 @@ productDisprice2 = WebUI.getText(findTestObject('1vedant/PLP/product-2-DiscountP
 
 productDisprice3 = WebUI.getText(findTestObject('1vedant/PLP/product-3-DiscountPrice_PLP'))
 
-a = WebUI.verifyElementPresent(findTestObject('1vedant/PLP/product1_cardPrice_PLP'), 0, FailureHandling.OPTIONAL)
+boolean a = WebUI.verifyElementPresent(findTestObject('1vedant/PLP/product1_cardPrice_PLP'), 0, FailureHandling.OPTIONAL)
 
-b = WebUI.verifyElementPresent(findTestObject('1vedant/PLP/product2_cardPrice_PLP'), 0, FailureHandling.OPTIONAL)
+boolean b = WebUI.verifyElementPresent(findTestObject('1vedant/PLP/product2_cardPrice_PLP'), 0, FailureHandling.OPTIONAL)
 
-c = WebUI.verifyElementPresent(findTestObject('1vedant/PLP/product3_cardPrice_PLP'), 0, FailureHandling.OPTIONAL)
+boolean c = WebUI.verifyElementPresent(findTestObject('1vedant/PLP/product3_cardPrice_PLP'), 0, FailureHandling.OPTIONAL)
 
 if (productDisprice1 >= productDisprice2) {
     println('checked1')
@@ -51,12 +51,12 @@ if (productDisprice2 >= productDisprice3) {
     WebUI.closeBrowser()
 }
 
-if (((a == true) && (b == true)) && (c == true)) {
-    productsellprice1 = WebUI.getText(findTestObject('1vedant/PLP/product1_cardPrice_PLP'), 0)
+if (((a = true) && (b = true)) && (c = true)) {
+    productsellprice1 = WebUI.getText(findTestObject('1vedant/PLP/product1_cardPrice_PLP'))
 
-    productsellprice2 = WebUI.getText(findTestObject('1vedant/PLP/product2_cardPrice_PLP'), 0)
+    productsellprice2 = WebUI.getText(findTestObject('1vedant/PLP/product2_cardPrice_PLP'))
 
-    productsellprice3 = WebUI.getText(findTestObject('1vedant/PLP/product3_cardPrice_PLP'), 0)
+    productsellprice3 = WebUI.getText(findTestObject('1vedant/PLP/product3_cardPrice_PLP'))
 
     if (productsellprice1 >= productsellprice2) {
         println('checked1')

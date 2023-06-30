@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the display of the price range for a product with variants on the PLP</description>
    <name>TC_BS_017</name>
    <tag></tag>
    <comment></comment>

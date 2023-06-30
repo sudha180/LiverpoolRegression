@@ -6,11 +6,11 @@
    <elementGuidId>c722bc14-785f-4205-bf6d-b88cd99b046d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//ul[@class='a-plp-color']//li/a)[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div/div/div[4]/main/div[2]/div/div/ul/li[2]/figure/div/div/div/ul/li[3]/img</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>a66e8b70-fc09-4d81-a36d-409905959e88</webElementGuid>
+      <webElementGuid>95aa715e-6663-43ba-97cf-583746fa71eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://ss701.liverpool.com.mx/sh/1021509082.jpg</value>
-      <webElementGuid>a0a6693a-9f76-4638-ad71-ab22eb3bcfcb</webElementGuid>
+      <webElementGuid>0b1d85af-f885-4629-a653-9d1cb452d47d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>atom-color</value>
-      <webElementGuid>62362739-304b-4675-9d58-89119d49306a</webElementGuid>
+      <webElementGuid>cfbfea3f-3add-4ed9-9690-fe393f65f8e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;min-vh-100&quot;]/div[@class=&quot;container-fluid o-main-container p-0 o-plp-secondaryContainer&quot;]/div[@class=&quot;container o-container__secondary search---&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/main[@class=&quot;col-lg-9 m-column_mainContent&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 p-2 p-lg-1&quot;]/div[@class=&quot;o-listing__products&quot;]/ul[@class=&quot;m-product__listingPlp&quot;]/li[@class=&quot;m-product__card card-masonry a&quot;]/figure[@class=&quot;m-figureCard__figure card m-plp-product-card m-card&quot;]/div[@class=&quot;o-card__image__container&quot;]/div[1]/div[@class=&quot;a-plp-color&quot;]/ul[1]/li[@class=&quot;a-productColor__item a-product__color&quot;]/img[@class=&quot;atom-color&quot;]</value>
-      <webElementGuid>62875392-577a-49dc-aaaf-b082f812fbb9</webElementGuid>
+      <webElementGuid>094887ee-ce1e-4e3a-9672-52318a85eb9f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div[4]/main/div[2]/div/div/ul/li[2]/figure/div/div/div/ul/li[3]/img</value>
-      <webElementGuid>17c46193-f9d5-4f48-aef6-5b257141cf23</webElementGuid>
+      <webElementGuid>258527fe-40f8-4fcc-bec3-c3e0bd36519f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'https://ss701.liverpool.com.mx/sh/1021509082.jpg')]</value>
-      <webElementGuid>6195fd41-8f8b-448c-96dc-fd079836d499</webElementGuid>
+      <webElementGuid>52104265-d44e-46b9-b72a-d9c69610549c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/img</value>
-      <webElementGuid>c43d3a0f-ac50-40cd-b425-30c933ab3afe</webElementGuid>
+      <webElementGuid>96c5bb07-7405-459e-ae13-d6e64c334fc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://ss701.liverpool.com.mx/sh/1021509082.jpg']</value>
-      <webElementGuid>31fcade7-b1a0-4c00-9f44-ea937da26bad</webElementGuid>
+      <webElementGuid>d663a491-bdc4-4272-8d81-3fe02c359d34</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

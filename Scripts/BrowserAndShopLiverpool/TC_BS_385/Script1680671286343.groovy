@@ -61,11 +61,11 @@ WebUI.verifyElementPresent(findTestObject('PLPPage/Verify_Img_1_plp'), 0)
 
 WebUI.click(findTestObject('PLPPage/Swatche_Colour_1.2_plp'))
 
-WebUI.verifyElementPresent(findTestObject('PLPPage/Verify_Img_2_plp'), 0)
+WebUI.verifyElementNotPresent(findTestObject('PLPPage/Verify_Img_1_plp'), 0)
 
 WebUI.click(findTestObject('PLPPage/Swatche_Colour_1.3_plp'))
 
-WebUI.verifyElementPresent(findTestObject('PLPPage/Verify_Img_3_plp'), 0)
+WebUI.verifyElementNotPresent(findTestObject('PLPPage/Verify_Img_1_plp'), 0)
 
 WebUI.closeBrowser()
 

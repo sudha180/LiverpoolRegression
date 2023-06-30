@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_button1_OPC'))
 
 WebUI.click(findTestObject('1vedant/CheckOut(CO)/selectCard1Option_cardpopup_OPC'))
 
@@ -27,5 +29,5 @@ WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardExpire_OPC'), '12/24
 
 WebUI.setText(findTestObject('1vedant/CheckOut(CO)/enterCardCVV_OPC'), '123')
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/cardContinue_checkout_popUP'))
+WebUI.enhancedClick(findTestObject('1vedant/CheckOut(CO)/cardContinue_checkout_popUP'))
 

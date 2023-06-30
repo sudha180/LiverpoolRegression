@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'Campana'], FailureHandling.STOP_ON_FAILURE)
 
@@ -29,8 +29,7 @@ WebUI.click(findTestObject('1vedant/PLP/product1_PLP (1)'))
 WebUI.click(findTestObject('Object Repository/1vedant/PDP/Polticas_PDP'))
 
 'check for user manual(politicas) present'
-WebUI.verifyElementPresent(findTestObject('Object Repository/1vedant/PDP/politicas_detail_PDP'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1vedant/PDP/politicas_detail_PDP'), 0)
 
 WebUI.closeBrowser()
 
