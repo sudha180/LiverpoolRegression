@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;To verify system throws error message when user enters invalid card number' while adding Visa card to the account
+
+&quot;</description>
+   <name>LP_TC_Acc-Mgt_20</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09ec5b66-15a4-450b-9227-a424b814190e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;To verify system throws error message when user leaves blank in 'short name' field while adding Visa card to the account
+
+&quot;</description>
+   <name>LP_TC_Acc-Mgt_21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d41c2d5f-0175-47ee-85c1-87a1a39ce4ec</testCaseGuid>
+</TestCaseEntity>
