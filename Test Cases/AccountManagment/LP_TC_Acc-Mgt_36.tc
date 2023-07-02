@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify User is able to remove the address from the account except the default address</description>
+   <name>LP_TC_Acc-Mgt_36</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6b517f2-718a-4dff-8637-ff2de1107dc2</testCaseGuid>
+</TestCaseEntity>

@@ -17,18 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.click(findTestObject('Checkout/DeleteAddressPopup_Checkout'))
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.verifyElementPresent(findTestObject('CLP/AfterLogin_hp'), 0)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('AccountManagement/acceptDeleteAddress_AM'))
 

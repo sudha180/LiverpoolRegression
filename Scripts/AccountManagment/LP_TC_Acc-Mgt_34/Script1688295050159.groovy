@@ -21,14 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('CLP/AfterLogin_hp'), 0)
+WebUI.callTestCase(findTestCase('CommonMethods/ClickDelivery_MyAccount'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('CommonMethods/SelectEditAddress_AM'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+editAddressUrl = WebUI.getUrl(FailureHandling.STOP_ON_FAILURE)
+
+assert editAddressUrl.contains('editAddress')
+
+shortNameValue = WebUI.getAttribute(findTestObject('checkoutpage/shortName_addAddress_opc'), 'value', FailureHandling.STOP_ON_FAILURE)
+
+assert shortNameValue.length() > 0
 

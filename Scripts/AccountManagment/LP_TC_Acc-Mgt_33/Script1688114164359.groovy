@@ -21,14 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('CommonMethods/clickMyTarjetasFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('CLP/AfterLogin_hp'), 0)
+not_run: WebUI.click(findTestObject('AccountManagement/MyCardFromDropdown_Account'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('AccountManagement/AddCardButton_Account'))
 

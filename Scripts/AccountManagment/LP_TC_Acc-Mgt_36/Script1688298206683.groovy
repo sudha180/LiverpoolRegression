@@ -14,6 +14,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import common.AssertionFailed as AssertionFailed
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -21,14 +23,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/ClickDelivery_MyAccount'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('CLP/AfterLogin_hp'), 0)
+address2Name = WebUI.getText(findTestObject('AccountManagement/AddressTitleSecound_Account'))
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('CommonMethods/deleteSecondAddress_AM'), [:], FailureHandling.STOP_ON_FAILURE)
+
+address2NameAfterDelete = WebUI.getText(findTestObject('AccountManagement/AddressTitleSecound_Account'))
+
+if (address2Name.contentEquals(address2NameAfterDelete)) {
+    KeywordUtil.markFailed('notDeleted')
+} else {
+    KeywordUtil.markPassed('Deleted')
+}
 
