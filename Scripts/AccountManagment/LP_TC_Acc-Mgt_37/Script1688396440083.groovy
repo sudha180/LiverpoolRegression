@@ -17,11 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/AccountManagement/span_Hola header_HP'))
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/AccountManagement/a_Mi Cuenta'), FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.delay(3)
+WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/AccountManagement/aside_Mi Cuenta_leftnav_AM'), 0)
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('HomePageShubhum/a_Actualizar Datos Personales'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/updateEmail_AM'), 0)
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/updateName_AM'), 0)
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/updateFatherName_AM'), 0)
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/updateMotherName_AM'), 0)
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/updateDate_AM'), 0)
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/updateGender_AM'), 0)
 
