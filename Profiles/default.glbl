@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dtaqa.liverpool.com.mx'</initValue>
+      <initValue>'https://www.liverpool.com.mx/tienda/home'</initValue>
       <name>URL2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
