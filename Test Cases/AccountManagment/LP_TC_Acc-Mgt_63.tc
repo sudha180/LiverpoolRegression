@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;To verify User is able to generate temporary password to set new password when user forgets the password/ user account is locked
+
+To verify system behavior when User  enters all the details and clicks on the the “Enviar” button.
+
+2.To verify the system behaviour when user account is locked and clicked on forgot password link&quot;</description>
+   <name>LP_TC_Acc-Mgt_63</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72039460-ceef-43a6-97e8-1c0d708e4d5e</testCaseGuid>
+</TestCaseEntity>

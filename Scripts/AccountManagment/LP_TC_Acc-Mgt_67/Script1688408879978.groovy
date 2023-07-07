@@ -17,21 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
-
-WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('AccountManagement/CreateAccount_Account'))
-
-email = CustomKeywords.'customkeywords.myKeywords.generateRandomEmail'()
-
-WebUI.sendKeys(findTestObject('AccountManagement/input_Correo electrnico_email_AM'), email)
-
-WebUI.sendKeys(findTestObject('AccountManagement/input_Contrasea_password_AM'), 'Indian143.')
-
-WebUI.click(findTestObject('AccountManagement/CreateAccountMainPage_Account'))
-

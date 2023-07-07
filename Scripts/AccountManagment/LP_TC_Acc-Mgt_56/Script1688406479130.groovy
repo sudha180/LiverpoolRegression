@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('AccountManagement/CreateAccount_Account'))
 
 email = CustomKeywords.'customkeywords.myKeywords.generateRandomEmail'()

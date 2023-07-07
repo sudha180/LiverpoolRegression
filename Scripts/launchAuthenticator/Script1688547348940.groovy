@@ -17,21 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Windows.startApplicationWithTitle('C:\\Program Files\\BlueStacks_nxt\\HD-Player.exe', '')
 
-WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
+WebUI.delay(10)
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
+Windows.click(findWindowsObject('Object Repository/Salesforce/Pane'))
 
-WebUI.delay(5)
+not_run: Windows.click(findWindowsObject('Object Repository/Salesforce/Window'))
 
-WebUI.click(findTestObject('AccountManagement/CreateAccount_Account'))
+WebUI.delay(10)
 
-email = CustomKeywords.'customkeywords.myKeywords.generateRandomEmail'()
-
-WebUI.sendKeys(findTestObject('AccountManagement/input_Correo electrnico_email_AM'), email)
-
-WebUI.sendKeys(findTestObject('AccountManagement/input_Contrasea_password_AM'), 'Indian143.')
-
-WebUI.click(findTestObject('AccountManagement/CreateAccountMainPage_Account'))
+Windows.closeApplication()
 
