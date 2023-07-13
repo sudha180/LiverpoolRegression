@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value> (//div[@class=&quot;o-card__image__container&quot;])[1]</value>
+         <value> (//div[@class=&quot;m-search-suggestion-product mb-3&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

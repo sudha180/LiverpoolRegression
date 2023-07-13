@@ -19,19 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'tenis'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 
-JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+WebUI.scrollToPosition(0, 350)
 
-for (int i = 0; i < 1000; i += 7) {
-    js.executeScript(('window.scrollTo(0, ' + i) + ')')
-}
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductImg_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('pdp/StickyProductColour_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductName_pdp'), 0)
 

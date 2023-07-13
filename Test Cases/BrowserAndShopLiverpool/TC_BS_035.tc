@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify the display and functionality of the ratings description on the PDP</description>
    <name>TC_BS_035</name>
    <tag></tag>
    <comment></comment>

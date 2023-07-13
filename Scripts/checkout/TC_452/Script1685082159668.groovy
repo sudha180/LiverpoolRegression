@@ -33,13 +33,13 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('0PDPPage/Colour1_PDP'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('0PDPPage/Size1_PDP'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 

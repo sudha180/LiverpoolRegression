@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the details of “DETALLES DEL PEDIDO”  (Order details page) page when Logged in user placed order with Softline item/Bigticket+Home delivery/Click &amp; Collect option+Visa/CC/Paypal payment method.</description>
+   <name>LP_TC_Acc-Mgt_67</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee230373-e96b-4d03-a422-cc964c20d645</testCaseGuid>
+</TestCaseEntity>

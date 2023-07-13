@@ -54,13 +54,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>554df149-53d4-44ab-aaf0-dcd47c253964</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BrowserAndShopLiverpool/TC_BS_082</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5de0e3aa-f1a3-4bc2-b5e3-2c2e0204b064</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

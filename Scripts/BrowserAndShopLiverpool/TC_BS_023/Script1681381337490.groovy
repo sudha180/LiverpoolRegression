@@ -23,9 +23,9 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.setText(findTestObject('1HomePage/MainSearchbar_HP'), 'bat')
+WebUI.setText(findTestObject('01HomePage/MainSearchbar_HP'), 'bat')
 
-WebUI.click(findTestObject('1HomePage/searchButtton_HP'))
+WebUI.click(findTestObject('01HomePage/searchButtton_HP'))
 
 WebUI.click(findTestObject('1vedant/PLP/Sortby_PLP'))
 

@@ -29,15 +29,15 @@ not_run: WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Softline], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'))
+WebUI.click(findTestObject('0PDPPage/Colour1_PDP'))
 
-productName1 = WebUI.getText(findTestObject('1vedant/PDP/ProductName_PDP'), FailureHandling.STOP_ON_FAILURE)
+productName1 = WebUI.getText(findTestObject('0PDPPage/ProductName_PDP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
 not_run: WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
 WebUI.verifyElementText(findTestObject('1vedant/cart/product1_Name_Mybag_cart'), productName1)
 

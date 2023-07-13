@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -56,7 +56,7 @@ not_run: WebUI.scrollToElement(findTestObject('PLPPage/PickupExpress_plp'), 0)
 
 not_run: WebUI.click(findTestObject('PLPPage/PickupExpress_plp'))
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'))
 
 WebUI.click(findTestObject('HomePageShubhum/myAccount_hp'))
 

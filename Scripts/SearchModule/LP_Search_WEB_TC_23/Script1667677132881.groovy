@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/assertSearchTypeahead'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/1HomePage/assertListOfItemsInTypeahead_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/01HomePage/assertListOfItemsInTypeahead_hp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('1SRP page/productImage_typeAhead'), 0)
 

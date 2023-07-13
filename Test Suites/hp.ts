@@ -327,13 +327,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9088833a-f053-442a-bb40-49ecec58dc6e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/HomePageModule/LP_Search(HomePage)_WEB_TC_9</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>28f5734b-f10e-4b32-95b4-f2accc2a6044</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

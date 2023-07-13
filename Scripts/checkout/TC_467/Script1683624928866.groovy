@@ -29,42 +29,57 @@ WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], Failur
 
 WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ban'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'sofa'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1vedant/PLP/product4_PLP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ban'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'bat'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/PLP/product3_PLP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+<<<<<<< HEAD
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
-WebUI.refresh()
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
+boolean a = WebUI.verifyElementClickable(findTestObject('1vedant/cart/SaveForLater_product1_CART(BAG)'))
+
+=======
 WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
 
 WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
 
-if (WebUI.verifyElementClickable(findTestObject('1vedant/cart/SaveForLater_product1_CART(BAG)')) == true) {
+boolean a = WebUI.verifyElementClickable(findTestObject('1vedant/cart/SaveForLater_product1_CART(BAG)'))
+
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+if (a == true) {
     WebUI.click(findTestObject('1vedant/cart/SaveForLater_product1_CART(BAG)'))
 
-    WebUI.click(findTestObject('1vedant/cart/WishList4_cart_POPUP'))
+    WebUI.click(findTestObject('1vedant/CheckOut(CO)/add_to_wishlist1_OPC1'))
 
     System.out.println('can be added to whishlist')
+} else {
+    System.out.println('save for later product 1 not present')
 }
 
-if (WebUI.verifyElementClickable(findTestObject('1vedant/cart/SaveForLater_product2_CART(BAG)')) == true) {
+boolean b = WebUI.verifyElementClickable(findTestObject('1vedant/cart/SaveForLater_product2_CART(BAG)'))
+
+if (b == true) {
     WebUI.click(findTestObject('1vedant/cart/SaveForLater_product2_CART(BAG)'))
 
-    WebUI.click(findTestObject('1vedant/cart/WishList4_cart_POPUP'))
+    WebUI.click(findTestObject('1vedant/CheckOut(CO)/add_to_wishlist1_OPC1'))
 
     System.out.println('can be added to whishlist')
+} else {
+    System.out.println('save for later product 2 not present')
 }
 
 WebUI.closeBrowser()

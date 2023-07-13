@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/CreateAccount_Account'), 0)
 

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/Levis Liverpool'), 0)
 

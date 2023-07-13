@@ -36,7 +36,7 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/searchTextbox_hp
 
 not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/a_Mis Compras_hp'))
 
-WebUI.verifyElementPresent(findTestObject('1HomePage/a_Mis Compras_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('01HomePage/a_Mis Compras_hp'), 0)
 
 not_run: WebUI.verifyElementPresent(findTestObject('HomePageShubhum/span_Iniciar sesin_hp'))
 
@@ -72,7 +72,7 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/footer_hp'), 0)
 
 not_run: CustomKeywords.'customkeywords.myKeywords.clickElementWithoutScroll'(findTestObject('HomePageShubhum/span_Iniciar sesin_hp'))
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)

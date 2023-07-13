@@ -6,12 +6,11 @@
    <elementGuidId>eafdc2e5-fb45-4a7c-8130-d577f10be0e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li[3]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[@class='a-header__strongLink m-ipadRightLink pl-3'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>15de63ac-68d3-4766-a8c0-5d43f11419d0</webElementGuid>
+      <webElementGuid>7958984d-03dc-44de-83ab-abeee8358c84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-header__strongLink m-ipadRightLink pl-3</value>
-      <webElementGuid>c912df30-74fe-49b6-9894-a6b8fca478f8</webElementGuid>
+      <webElementGuid>259d35c8-d65b-4c2e-ac4d-7d9436228941</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/tienda/browse/storelocator</value>
-      <webElementGuid>2829e107-146e-4571-ae9d-bbcc17c12266</webElementGuid>
+      <webElementGuid>52585e66-fe11-4a25-9e47-b56888c2485f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tiendas</value>
-      <webElementGuid>fa704be2-b009-4f7d-9849-b767a8e9f1d5</webElementGuid>
+      <webElementGuid>c7f3fcdb-8504-4fe6-b8b8-013fa1152352</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/header[1]/div[@class=&quot;o-header&quot;]/div[@class=&quot;o-container__fluid container-fluid wrap-megamenu d-none d-lg-block&quot;]/div[@class=&quot;o-container container p-0&quot;]/nav[@class=&quot;m-megamenu&quot;]/div[@class=&quot;o-row row align-items-center&quot;]/div[@class=&quot;o-col col-lg-10 col-xl-9 pr-0&quot;]/div[@class=&quot;o-row row&quot;]/div[@class=&quot;o-col col-lg order-lg-2 pt-3 pt-lg-0&quot;]/div[@class=&quot;o-row row&quot;]/div[@class=&quot;o-col text-right col-lg-7 col-xl-6 px-0&quot;]/div[@class=&quot;o-nav-desktop-menu&quot;]/ul[@class=&quot;m-navDesktop__menuList&quot;]/li[@class=&quot;m-navDesktop__section pt-2 pb-2&quot;]/a[@class=&quot;a-header__strongLink m-ipadRightLink pl-3&quot;]</value>
-      <webElementGuid>d016850c-69a6-4e26-86af-f2206e336444</webElementGuid>
+      <webElementGuid>0c863a34-5554-45f6-8a12-fdf802686712</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li[3]/a</value>
-      <webElementGuid>63eb68c1-cc1e-4160-8b0a-7fedb7071e19</webElementGuid>
+      <webElementGuid>79cc87e8-74d4-423e-81ac-5a9beeb0592e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Tiendas')]</value>
-      <webElementGuid>c56ecea1-1992-4e36-84de-b75e79f92ea6</webElementGuid>
+      <webElementGuid>f2499f18-7854-472b-adf2-ca5215c1388e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ayuda'])[1]/following::a[1]</value>
-      <webElementGuid>d5b63fb3-2564-4c23-9a90-f639c7cbb8c2</webElementGuid>
+      <webElementGuid>fe496d12-40c8-4a0c-9318-040bc8e982e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sorteos y Concursos'])[1]/following::a[2]</value>
-      <webElementGuid>75f076a9-3200-4996-921f-b8dbe877cdab</webElementGuid>
+      <webElementGuid>99081657-34fe-4ed9-ba09-76c95d58a07b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Citas en tienda'])[1]/preceding::a[1]</value>
-      <webElementGuid>d7cc0559-e137-4752-878e-6e220abb4211</webElementGuid>
+      <webElementGuid>93046c8f-42b2-4657-bac4-d6f1ba2e834b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecciona tu tienda'])[1]/preceding::a[2]</value>
-      <webElementGuid>1bf93b13-c590-4c8c-914b-085023451ce9</webElementGuid>
+      <webElementGuid>ba9a16fd-3085-4185-858e-3d608df0bfd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tiendas']/parent::*</value>
-      <webElementGuid>8db05d66-8932-430e-90ce-47e711068ce8</webElementGuid>
+      <webElementGuid>2159ba5c-2f77-41db-b9aa-3e461565b847</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/tienda/browse/storelocator')]</value>
-      <webElementGuid>1fa4c03d-b74e-46ae-9414-c86f9872e59e</webElementGuid>
+      <webElementGuid>717e6ea6-9e3d-43cc-b8a4-33ad50c63875</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/ul/li[3]/a</value>
-      <webElementGuid>61d09e3f-9a87-4af7-a9a3-222f5499ee4d</webElementGuid>
+      <webElementGuid>49ef46b5-1d03-429d-b1ff-71440303c837</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/tienda/browse/storelocator' and (text() = 'Tiendas' or . = 'Tiendas')]</value>
-      <webElementGuid>e18a9cb6-89a6-41a1-af73-30395cff3521</webElementGuid>
+      <webElementGuid>79aeede5-9b76-4375-a04a-2e6002aa4ca0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -28,25 +28,25 @@ WebUI.delay(5)
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLpSlgift], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('1vedant/PDP/Colour1_PDP'), 0)
+WebUI.scrollToElement(findTestObject('0PDPPage/Colour1_PDP'), 0)
 
-boolean a = WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
+boolean a = WebUI.verifyElementPresent(findTestObject('0PDPPage/Colour1_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
 
 if (a) {
-    WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('0PDPPage/Colour1_PDP'), FailureHandling.STOP_ON_FAILURE)
 }
 
-boolean b = WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
+boolean b = WebUI.verifyElementPresent(findTestObject('0PDPPage/Size1_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
 
 if (b) {
-    WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('0PDPPage/Size1_PDP'), FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
 not_run: WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
 WebUI.verifyElementPresent(findTestObject('1vedant/cart/Product1_quantity1_cart'), 0)
 

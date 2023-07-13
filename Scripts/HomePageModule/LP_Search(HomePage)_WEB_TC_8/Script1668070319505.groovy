@@ -26,11 +26,11 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Liverpool es parte de Mi vida/img__mainBanner'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/secondaryBanner_hp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('HomePageShubhum/catridgeA_hp (1)'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/carousel1ProductName_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/HomePage/carousel1_hp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HomePageShubhum/carousel1Price_hp'), 0)
 

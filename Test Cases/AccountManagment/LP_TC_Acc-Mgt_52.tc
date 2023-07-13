@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify system allows user to register in the site only with unique Email ID and throws error message when Email ID is already registered in the LP User Database</description>
+   <name>LP_TC_Acc-Mgt_52</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee4b0051-7681-41c3-9008-071027bf1ca2</testCaseGuid>
+</TestCaseEntity>

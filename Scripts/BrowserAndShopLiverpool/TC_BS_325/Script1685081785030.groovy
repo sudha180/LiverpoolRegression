@@ -25,13 +25,13 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/Softline_product1_offeres_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/Softline_product1_offeres_PDP'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/offer_popUP_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/offer_popUP_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/liverpool_offer_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/liverpool_offer_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/external_offer_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/external_offer_PDP'), 0)
 
 WebUI.closeBrowser()
 

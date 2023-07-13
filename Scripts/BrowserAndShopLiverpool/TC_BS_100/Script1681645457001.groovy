@@ -30,7 +30,7 @@ WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('pdp/colorSelectedOnLoad_pdp'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('1vedant/PDP/Size2_PDP'), 0)
+WebUI.verifyElementNotPresent(findTestObject('0PDPPage/Size2_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpGiftDropdown_pdp'), 0)
 

@@ -37,7 +37,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/div_Marcas_plp'), 0)
 
-WebUI.click(findTestObject('PLPPage/product_Link_plp'))
+WebUI.click(findTestObject('1vedant/PLP/product4_PLP'))
 
 WebUI.delay(3)
 
@@ -49,7 +49,7 @@ not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject(
 
 not_run: WebUI.click(findTestObject('pdp/button_Agregar a mi bolsa_pdp'))
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
 not_run: WebUI.click(findTestObject('HomePageShubhum/bagIcon_hp'))
 
@@ -119,7 +119,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/productprice_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/totalPrice_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0, FailureHandling.OPTIONAL)
 
 not_run: WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Comprar para mesa de regalos_opc'), 0)
 

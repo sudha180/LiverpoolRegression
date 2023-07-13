@@ -32,19 +32,19 @@ WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'mac'], FailureHandli
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/ratingButton_PDP'))
+WebUI.click(findTestObject('0PDPPage/ratingButton_PDP'))
 
-WebUI.mouseOver(findTestObject('1vedant/PDP/mouseover3star_PDP'))
+WebUI.mouseOver(findTestObject('0PDPPage/mouseover3star_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/mouseover3star_PDP'))
+WebUI.click(findTestObject('0PDPPage/mouseover3star_PDP'))
 
-WebUI.setText(findTestObject('1PDP page/ratingView_PDP'), 'good product')
+WebUI.setText(findTestObject('0PDPPage/ratingView_PDP'), 'good product')
 
-WebUI.setText(findTestObject('1vedant/PDP/ratingTextArea_PDP'), 'like the product money worth')
+WebUI.setText(findTestObject('0PDPPage/ratingTextArea_PDP'), 'like the product money worth')
 
-WebUI.click(findTestObject('1vedant/PDP/SubmitReview_PDP'))
+WebUI.click(findTestObject('0PDPPage/SubmitReview_PDP'))
 
-WebUI.verifyElementText(findTestObject('1vedant/PDP/reviewSubmitedText_PDP'), 'Gracias por compartir tu opinión.')
+WebUI.verifyElementText(findTestObject('0PDPPage/reviewSubmitedText_PDP'), 'Gracias por compartir tu opinión.')
 
 WebUI.closeBrowser()
 

@@ -33,13 +33,13 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product2_PLP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('0PDPPage/Colour1_PDP'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('0PDPPage/Size1_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.scrollToPosition(0, 400)
 
-WebUI.click(findTestObject('1vedant/PDP/StickyBar_Comprar_Ahora_PDP'))
+WebUI.click(findTestObject('0PDPPage/StickyBar_Comprar_Ahora_PDP'))
 
 WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
 

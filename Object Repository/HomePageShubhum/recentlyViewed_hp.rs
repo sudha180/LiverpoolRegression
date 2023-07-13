@@ -6,12 +6,11 @@
    <elementGuidId>42fdb9f6-05b8-4bfd-825c-e304d0333977</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='carouselNo-1']​</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@class='container my-5 homepage']//a[contains(text(),'Recomendaciones')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

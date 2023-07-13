@@ -28,9 +28,9 @@ WebUI.delay(5)
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.softline3], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+not_run: WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
 WebUI.verifyElementPresent(findTestObject('1vedant/cart/product1_img_cart'), 0)
 

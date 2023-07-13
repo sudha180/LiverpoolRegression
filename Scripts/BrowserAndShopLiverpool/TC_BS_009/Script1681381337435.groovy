@@ -23,11 +23,11 @@ not_run: WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
+WebUI.mouseOver(findTestObject('01HomePage/CategorasDropDown_HP'))
 
-WebUI.mouseOver(findTestObject('1HomePage/L1_Category1_HP'))
+WebUI.mouseOver(findTestObject('01HomePage/L1_Category1_HP'))
 
-WebUI.enhancedClick(findTestObject('1HomePage/L3_categoryMenu_HP'))
+WebUI.enhancedClick(findTestObject('01HomePage/L3_categoryMenu_HP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 

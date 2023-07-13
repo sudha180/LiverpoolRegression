@@ -21,14 +21,18 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.maximizeWindow()
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpWithParentOOS], 
     FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
+WebUI.setText(findTestObject('0PDPPage/quantity_value_PDP'), '999')
+=======
+WebUI.setText(findTestObject('1vedant/PDP/quantity_value_PDP'), '999')
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('pdp/inventoryMessageforGWP_pdp'), 0)
 

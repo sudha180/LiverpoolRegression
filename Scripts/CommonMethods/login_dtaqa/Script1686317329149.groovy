@@ -31,5 +31,5 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('HomePageShubhum/password'), 'Test@12345')
 
-WebUI.click(findTestObject('1HomePage/inciar'))
+WebUI.click(findTestObject('01HomePage/inciar'))
 

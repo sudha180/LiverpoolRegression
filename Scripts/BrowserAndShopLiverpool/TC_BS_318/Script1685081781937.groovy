@@ -25,15 +25,15 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product3_Colour1_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product3_Colour1_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product3_size1_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product3_size1_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product3_selectButton_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product3_selectButton_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/AddToCartStickyBar_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/AddToCartStickyBar_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
 WebUI.verifyElementText(findTestObject('1vedant/cart/product_bought_1'), 'Blusa')
 

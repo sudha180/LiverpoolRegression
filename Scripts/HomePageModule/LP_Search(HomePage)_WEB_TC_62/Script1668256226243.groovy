@@ -27,11 +27,9 @@ L1CategoryName = WebUI.getText(findTestObject('Object Repository/HomePageShubhum
 
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/L1Category_HP'))
 
-WebUI.waitForPageLoad(10)
-
 CLPUrl = WebUI.getUrl()
 
 CLPUrl.contains('/cat')
 
-WebUI.verifyTextPresent(L1CategoryName, false)
+WebUI.verifyTextPresent(L1CategoryName, true)
 

@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.setText(findTestObject('1HomePage/MainSearchbar_HP'), 'vase')
+WebUI.setText(findTestObject('01HomePage/MainSearchbar_HP'), 'vase')
 
-WebUI.click(findTestObject('1HomePage/searchButtton_HP'))
+WebUI.click(findTestObject('01HomePage/searchButtton_HP'))
 
 WebUI.click(findTestObject('1vedant/PLP/Sortby_PLP'))
 

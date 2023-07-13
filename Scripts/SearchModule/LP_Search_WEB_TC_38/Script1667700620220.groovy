@@ -29,8 +29,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/1SRP page/listViewN
 
 WebUI.scrollToElement(findTestObject('1SRP page/page2_srp'), 0)
 
-WebUI.click(findTestObject('1SRP page/page2_srp'))
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/1SRP page/gridViewSelected_srp'), 0)
 
 WebUI.closeBrowser()

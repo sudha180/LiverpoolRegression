@@ -27,13 +27,13 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'))
+WebUI.click(findTestObject('0PDPPage/Colour1_PDP'))
 
 'this object is only for a perticular product because it use src'
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/productColour1Image_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/productColour1Image_PDP'), 0)
 
-WebUI.click(findTestObject('1vedant/PDP/Colour2_PDP'))
+WebUI.click(findTestObject('0PDPPage/Colour2_PDP'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/productColour2Image_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/productColour2Image_PDP'), 0)
 
 WebUI.closeBrowser()

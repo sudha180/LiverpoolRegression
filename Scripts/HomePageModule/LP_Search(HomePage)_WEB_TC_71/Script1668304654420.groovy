@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/HomePageShubhum/a_Ayuda_HP'))
 
 ayudaUrl = WebUI.getUrl()

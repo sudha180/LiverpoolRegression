@@ -33,7 +33,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'UN85@digisprint.com', ('password') : 'Un85@12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'jeans'], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/div_Marcas_plp'), 0)
 
@@ -83,6 +83,8 @@ WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('0PDPPage/Size1_PDP'), FailureHandling.OPTIONAL)
+
 not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 
 not_run: WebUI.verifyElementPresent(findTestObject('PDPPage/breadCrumb_pdp'), 0)
@@ -93,11 +95,11 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/PDPPage/alternateImages_p
 
 WebUI.verifyElementPresent(findTestObject('pdp/ProductImage_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/Quantity(plus)_PDP'), 0)
 
 not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject('pdp/regularPrice_pdp'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/discountPrice_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/discountPrice_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
 
@@ -105,7 +107,7 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/ratingSection_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/span_Compartir_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/AddToCart_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/AddToCart_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Ofertas y promociones_pdp'), 0)
 
@@ -113,7 +115,7 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/Quantity(plus)_PDP'), 0)
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
@@ -121,7 +123,7 @@ not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject(
 
 not_run: WebUI.click(findTestObject('pdp/button_Agregar a mi bolsa_pdp'))
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
 not_run: WebUI.click(findTestObject('HomePageShubhum/bagIcon_hp'))
 

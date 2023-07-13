@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'gem'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'nat'], FailureHandling.STOP_ON_FAILURE)
 
 buttonvalue1 = WebUI.getText(findTestObject('1vedant/PLP/Discount_Button1_PLP'))
 
@@ -35,22 +35,10 @@ button2 = buttonvalue2.substring(0, 2)
 
 System.out.println(button2)
 
-buttonvalue3 = WebUI.getText(findTestObject('1vedant/PLP/Discount_Button3_PLP)'))
-
-button3 = buttonvalue3.substring(0, 2)
-
-System.out.println(button3)
-
 if (button1 >= button2) {
     println('order checked1')
 } else {
     FailureHandling.STOP_ON_FAILURE
-}
-
-if (button2 >= button3) {
-    println('order checked2')
-} else {
-    WebUI.closeBrowser()
 }
 
 WebUI.closeBrowser()

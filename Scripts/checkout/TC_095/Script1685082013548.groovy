@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/HP_to_veda_GR_detail_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1vedant/GR list page/Event_detail_page_GR/Event_Product1_GR_detail'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('1vedant/GR list page/Event_detail_page_GR/product_button_comprar_ahora_POPup_GR_detail'), 
     0)

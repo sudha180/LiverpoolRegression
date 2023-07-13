@@ -28,15 +28,15 @@ WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'mac'], FailureHandli
 WebUI.click(findTestObject('1vedant/PLP/product3_PLP (1)'))
 
 'complete detail at more information'
-String detail = WebUI.getText(findTestObject('1vedant/PDP/Detail_PDP'))
+String detail = WebUI.getText(findTestObject('0PDPPage/Detail_PDP'))
 
 if (detail.length() <= 250) {
-    WebUI.verifyElementNotPresent(findTestObject('1vedant/PDP/mas detalis(more detail)'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('0PDPPage/mas detalis(more detail)'), 0)
 
     System.out.print(a)
 } else if (detail.length() >= 250) {
-    WebUI.verifyElementPresent(findTestObject('1vedant/PDP/mas detalis(more detail)'), 0)
+    WebUI.verifyElementPresent(findTestObject('0PDPPage/mas detalis(more detail)'), 0)
 
-    WebUI.click(findTestObject('1vedant/PDP/mas detalis(more detail)'))
+    WebUI.click(findTestObject('0PDPPage/mas detalis(more detail)'))
 }
 

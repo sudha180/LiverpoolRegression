@@ -34,23 +34,23 @@ def cardpricePLP1 = removeDollar(cardpricePLP)
 
 WebUI.click(findTestObject('1vedant/PLP/product2_PLP'))
 
-String discountpricePDP = WebUI.getText(findTestObject('1vedant/PDP/discountPrice_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
+String discountpricePDP = WebUI.getText(findTestObject('0PDPPage/discountPrice_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
 
 def discountpricePDP1 = removeDollar(discountpricePDP)
 
-String cardpricePDP = WebUI.getText(findTestObject('1vedant/PDP/cardPrice_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
+String cardpricePDP = WebUI.getText(findTestObject('0PDPPage/cardPrice_PDP'), FailureHandling.CONTINUE_ON_FAILURE)
 
 def cardpricePDP1 = removeDollar(cardpricePDP)
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/shopCart_HP'))
+WebUI.click(findTestObject('0PDPPage/shopCart_HP'))
 
-String discountpricecart = WebUI.getText(findTestObject('1vedant/PDP/DiscountPriceInCart_PDP'), FailureHandling.STOP_ON_FAILURE)
+String discountpricecart = WebUI.getText(findTestObject('0PDPPage/DiscountPriceInCart_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 def discountpricecart1 = removeDollar(discountpricecart)
 
-String cardpricecart = WebUI.getText(findTestObject('1vedant/PDP/cardPriceInCart_PDP'), FailureHandling.STOP_ON_FAILURE)
+String cardpricecart = WebUI.getText(findTestObject('0PDPPage/cardPriceInCart_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 def cardpricecart1 = removeDollar(cardpricecart)
 

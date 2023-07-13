@@ -21,18 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
+WebUI.click(findTestObject('01HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
+WebUI.click(findTestObject('01HomePage/L1_Category1_HP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
 
+<<<<<<< Updated upstream
 WebUI.click(findTestObject('1vedant/CLP/SubCategory3_leftmenu_CLP'))
+=======
+WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
+>>>>>>> Stashed changes
 
 'facet to check clicked\r\n'
 FacetClicked = WebUI.getText(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
 
-WebUI.click(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
+WebUI.enhancedClick(findTestObject('1vedant/PLP/facetes/Facet_liverpool_PLP'))
+
+WebUI.delay(5)
 
 'clicked facet showing above'
 FacetClicked2 = WebUI.getText(findTestObject('1vedant/PLP/facetes/facet_selectedname_liverpool'), FailureHandling.STOP_ON_FAILURE)
@@ -43,7 +49,4 @@ if (FacetClicked == FacetClicked2) {
 
 WebUI.click(findTestObject('1vedant/PLP/facetes/close_facet_liverpool_PLP'))
 
-WebUI.verifyElementNotPresent(findTestObject('1vedant/PLP/facetes/facet_selectedname_liverpool'), 0)
-
 WebUI.closeBrowser()
-

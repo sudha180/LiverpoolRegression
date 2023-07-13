@@ -28,13 +28,13 @@ WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'laptop'], FailureHan
 'product without size or colour variant\r\n'
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
-WebUI.verifyElementText(findTestObject('1vedant/PDP/shopCart_HP'), '1')
+WebUI.verifyElementText(findTestObject('0PDPPage/shopCart_HP'), '1')
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
-WebUI.verifyElementText(findTestObject('1vedant/PDP/shopCart_HP'), '2')
+WebUI.verifyElementText(findTestObject('0PDPPage/shopCart_HP'), '2')
 
 WebUI.closeBrowser()
 

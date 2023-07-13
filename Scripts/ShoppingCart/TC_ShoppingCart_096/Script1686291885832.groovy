@@ -28,29 +28,29 @@ WebUI.delay(5)
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.BLpBLgift], 
     FailureHandling.STOP_ON_FAILURE)
 
-boolean a = WebUI.verifyElementClickable(findTestObject('1vedant/PDP/Colour1_PDP'))
+boolean a = WebUI.verifyElementClickable(findTestObject('0PDPPage/Colour1_PDP'))
 
 if (a) {
-    WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('0PDPPage/Colour1_PDP'), FailureHandling.STOP_ON_FAILURE)
 }
 
-boolean b = WebUI.verifyElementClickable(findTestObject('1vedant/PDP/Size2_PDP'))
+boolean b = WebUI.verifyElementClickable(findTestObject('0PDPPage/Size2_PDP'))
 
 if (b) {
-    WebUI.click(findTestObject('1vedant/PDP/Size2_PDP'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('0PDPPage/Size2_PDP'), FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.click(findTestObject('1vedant/PDP/gift_dropDown_PDP'))
+WebUI.click(findTestObject('0PDPPage/gift_dropDown_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/gift_option2_giftdropdown_PDP'))
+WebUI.click(findTestObject('0PDPPage/gift_option2_giftdropdown_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/gift_popup_submitButton_PDP'))
+WebUI.click(findTestObject('0PDPPage/gift_popup_submitButton_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
 not_run: WebUI.click(findTestObject('CartPage/ClosePopupButton_Cart'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
 WebUI.verifyElementPresent(findTestObject('1vedant/cart/Product1_quantity1_cart'), 0)
 

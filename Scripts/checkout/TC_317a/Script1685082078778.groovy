@@ -29,13 +29,13 @@ WebUI.click(findTestObject('1vedant/cart/home_button_(header_liverpool)'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1019655941'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('1vedant/PDP/Bag_PDP'), '0')
+WebUI.verifyElementText(findTestObject('0PDPPage/Bag_PDP'), '0')
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
-WebUI.verifyElementText(findTestObject('1vedant/PDP/Bag_PDP'), '1')
+WebUI.verifyElementText(findTestObject('0PDPPage/Bag_PDP'), '1')
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
 WebUI.click(findTestObject('1vedant/cart/comprar'))
 

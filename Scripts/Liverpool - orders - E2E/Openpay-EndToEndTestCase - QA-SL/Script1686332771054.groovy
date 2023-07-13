@@ -87,6 +87,12 @@ WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 
 WebUI.delay(5)
 
+<<<<<<< HEAD
+WebUI.click(findTestObject('0PDPPage/Size1_PDP'), FailureHandling.OPTIONAL)
+=======
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
 not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 
 not_run: WebUI.verifyElementPresent(findTestObject('PDPPage/breadCrumb_pdp'), 0)
@@ -97,11 +103,11 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/PDPPage/alternateImages_p
 
 WebUI.verifyElementPresent(findTestObject('pdp/ProductImage_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/Quantity(plus)_PDP'), 0)
 
 not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject('pdp/regularPrice_pdp'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/discountPrice_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/discountPrice_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
 
@@ -109,7 +115,7 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/ratingSection_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/span_Compartir_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/AddToCart_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/AddToCart_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Ofertas y promociones_pdp'), 0)
 
@@ -117,7 +123,7 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/Quantity(plus)_PDP'), 0)
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
@@ -125,7 +131,7 @@ not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject(
 
 not_run: WebUI.click(findTestObject('pdp/button_Agregar a mi bolsa_pdp'))
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
 
 WebUI.delay(3)
 

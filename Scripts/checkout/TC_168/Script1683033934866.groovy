@@ -19,22 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+<<<<<<< HEAD
+=======
 not_run: WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
+<<<<<<< HEAD
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+=======
+<<<<<<< HEAD
+
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+=======
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
+<<<<<<< HEAD
+=======
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.OPTIONAL)
 
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
 WebUI.click(findTestObject('HomePageShubhum/Cart_header'))

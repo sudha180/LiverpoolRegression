@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.GRuser, ('password') : GlobalVariable.GRpassword], 
     FailureHandling.STOP_ON_FAILURE)

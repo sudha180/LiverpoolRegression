@@ -19,11 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.mouseOver(findTestObject('HomePageShubhum/Departamentos'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/1HomePage/L2CategoryInFlyout_HP'), 0)
+<<<<<<< HEAD
+WebUI.mouseOver(findTestObject('01HomePage/L1_Category1_HP'))
+=======
+WebUI.mouseOver(findTestObject('1HomePage/L1_Category1_HP'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/1HomePage/L3CategoriesInFlyout_HP'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/1HomePage/L2CategoryInFlyout_HP'), 0)
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/01HomePage/L2CategoryInFlyout_HP'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/01HomePage/L3CategoriesInFlyout_HP'), 0)
 

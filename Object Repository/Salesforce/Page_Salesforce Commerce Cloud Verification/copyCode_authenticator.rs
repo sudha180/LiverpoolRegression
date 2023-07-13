@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>copyCode_authenticator</name>
+   <tag></tag>
+   <elementGuidId>331afed2-e93c-4300-a68a-8c43c3e77112</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/vaasdist-verify</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>vaasdist-verify</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>vaasdist-verify</value>
+      <webElementGuid>a0ea2d44-5a9b-4f9a-ad70-7a7ec33a7efb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify Your IdentityUse Salesforce Authenticator to approve the request.Verify the detailsDidn't receive a notification?</value>
+      <webElementGuid>eb79f6f3-7fe6-4a0e-9bff-0daca10a1231</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/vaasdist-verify[1]</value>
+      <webElementGuid>2bdfe137-bf59-43a2-b52d-b60fd7484695</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/vaasdist-verify</value>
+      <webElementGuid>467c98f8-2cf3-40c8-b317-3aa3ec4af223</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//vaasdist-verify</value>
+      <webElementGuid>704522cc-4cf8-4185-a280-cf57c342ca81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//vaasdist-verify[(text() = concat(&quot;Verify Your IdentityUse Salesforce Authenticator to approve the request.Verify the detailsDidn&quot; , &quot;'&quot; , &quot;t receive a notification?&quot;) or . = concat(&quot;Verify Your IdentityUse Salesforce Authenticator to approve the request.Verify the detailsDidn&quot; , &quot;'&quot; , &quot;t receive a notification?&quot;))]</value>
+      <webElementGuid>1f08344e-b492-4177-845a-42eaf3493a8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

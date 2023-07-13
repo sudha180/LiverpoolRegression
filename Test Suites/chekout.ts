@@ -5,13 +5,15 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>2</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
+   <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>30a6d20b-c31a-4c24-850f-24a9df70f62b</testSuiteGuid>
    <testCaseLink>
+<<<<<<< HEAD
+=======
       <guid>7fc51619-7b1e-4e80-911e-ffae0839243a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -19,13 +21,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d20916ee-3e90-4fc4-bd4e-916e90996a43</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/checkout/TC_042 - Copy</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
       <guid>66b995fb-99a5-40a8-80ed-4526520e6168</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

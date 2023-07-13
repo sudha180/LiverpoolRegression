@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='col-md-12 col-sm-12 listContainer'][1]//div[1]//div)</value>
+         <value>(//div[@class='col-md-2 col-sm-2 productContent'][1])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

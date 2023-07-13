@@ -27,7 +27,7 @@ not_run: WebUI.navigateToUrl(GlobalVariable.LiverpoolProduction)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'))
 
 WebUI.delay(5)
 

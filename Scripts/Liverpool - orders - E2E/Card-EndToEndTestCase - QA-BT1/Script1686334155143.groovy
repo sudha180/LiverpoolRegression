@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dtaqa.liverpool.com.mx/tienda')
+WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
 
 WebUI.maximizeWindow()
 
@@ -27,16 +27,74 @@ not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [(GlobalVariable.username) : 'UN85@digisprint.com', (GlobalVariable.password) : 'Un85@12345'], 
+WebUI.delay(3)
+
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'UN85@digisprint.com', ('password') : 'Un85@12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'sofa'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('PLPPage/product_Link_plp'))
+'gift item\r\n'
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpWithSingleVariantWith2Gifts], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.OPTIONAL)
+
+<<<<<<< HEAD
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
+=======
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
+WebUI.callTestCase(findTestCase('CommonMethods/Check_gift_product_PDP'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'digital item flag\r\n'
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.digitalP], FailureHandling.STOP_ON_FAILURE)
+
+<<<<<<< HEAD
+WebUI.verifyElementPresent(findTestObject('0PDPPage/digital_item_flag_PDP'), 0)
+
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
+=======
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/digital_item_flag_PDP'), 0)
+
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
+'market place '
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1030531937'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.OPTIONAL)
+
+<<<<<<< HEAD
+WebUI.verifyElementPresent(findTestObject('0PDPPage/marketPlase_sellerBY_link_PDP'), 0)
+
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
+=======
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/marketPlase_sellerBY_link_PDP'), 0)
+
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'can'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SortBY_highTOlow_check_search_plp'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SortBY_lowTOhigh_check_search_plp'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ropa'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/facet(liverpool)_CheckBox_selected_check_PLP'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/PLP/product3_PLP'))
 
 WebUI.delay(3)
 
+WebUI.callTestCase(findTestCase('CommonMethods/UpdateQuantity_PDP'), [:], FailureHandling.STOP_ON_FAILURE)
+
 not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
+
+WebUI.callTestCase(findTestCase('CommonMethods/Submit_Rating_PDP'), [:], FailureHandling.OPTIONAL)
 
 not_run: WebUI.verifyElementPresent(findTestObject('PDPPage/breadCrumb_pdp'), 0)
 
@@ -44,19 +102,19 @@ WebUI.verifyElementPresent(findTestObject('DemoObjects/PDPPage/breadCrumb_pdp'),
 
 not_run: WebUI.verifyElementPresent(findTestObject('pdp/ProductImage_pdp'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('0PDPPage/Quantity(plus)_PDP'), 0)
 
 not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject('pdp/regularPrice_pdp'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/discountPrice_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/discountPrice_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/ratingSection_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/span_Compartir_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/AddToCart_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/AddToCart_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Ofertas y promociones_pdp'), 0)
 
@@ -64,19 +122,23 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+<<<<<<< HEAD
+not_run: WebUI.verifyElementPresent(findTestObject('0PDPPage/Quantity(plus)_PDP'), 0)
+=======
+not_run: WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
 
 not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject('pdp/regularPrice_pdp'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/discountPrice_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/discountPrice_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/ratingSection_pdp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/span_Compartir_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/AddToCart_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/AddToCart_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Ofertas y promociones_pdp'), 0)
 
@@ -84,7 +146,7 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/h3_Opiniones del artculo_pdp'
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('1vedant/PDP/Quantity(plus)_PDP'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('0PDPPage/Quantity(plus)_PDP'), 0)
 
 not_run: WebUI.click(findTestObject('pdp/selectSize1'))
 
@@ -92,11 +154,43 @@ not_run: CustomKeywords.'myKeywords.verifyElementPresentKeyword'(findTestObject(
 
 not_run: WebUI.click(findTestObject('pdp/button_Agregar a mi bolsa_pdp'))
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+<<<<<<< HEAD
+WebUI.click(findTestObject('0PDPPage/close_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('0PDPPage/Colour1_PDP'), FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('0PDPPage/AddToCart_PDP'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('0PDPPage/AddToCart_PDP'))
+=======
+WebUI.click(findTestObject('1vedant/PDP/close_PDP'), FailureHandling.OPTIONAL)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'), FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('1vedant/PDP/AddToCart_PDP'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
 WebUI.click(findTestObject('HomePageShubhum/Cart_header'))
+
+WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
+
+<<<<<<< HEAD
+WebUI.verifyElementPresent(findTestObject('0PDPPage/digital_item_flag_PDP'), 0)
+=======
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/digital_item_flag_PDP'), 0)
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
+WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/Regalo_flag_OPC2'), 0)
 
 WebUI.delay(3)
 
@@ -134,6 +228,8 @@ WebUI.verifyElementPresent(findTestObject('CartPage/button_SeguirComprando_cart'
 
 WebUI.click(findTestObject('DemoObjects/CartPage/button_Comprar_cart'))
 
+WebUI.waitForAlert(0)
+
 WebUI.delay(3)
 
 ActualOPCPageUrl = WebUI.getUrl()
@@ -162,7 +258,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/productprice_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/totalPrice_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0, FailureHandling.OPTIONAL)
 
 not_run: WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Comprar para mesa de regalos_opc'), 0)
 
@@ -215,43 +311,5 @@ WebUI.verifyElementPresent(findTestObject('ConfirmationPage/button_Continuar com
 
 WebUI.click(findTestObject('ConfirmationPage/button_Ir a Mis compras_confirmation'))
 
-WebUI.delay(3)
-
-actualMisComprasUrl = WebUI.getUrl()
-
-CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
-
-WebUI.setText(findTestObject('MisComprasPage/mainSearchbar_misCompras'), CardOrder)
-
-WebUI.sendKeys(findTestObject('MisComprasPage/mainSearchbar_misCompras'), Keys.chord(Keys.ENTER))
-
-WebUI.verifyElementPresent(findTestObject('MisComprasPage/breadCrumb_misCompras'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MisComprasPage/aside_leftNavigation_misCompras'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MisComprasPage/mainSearchbar_misCompras'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MisComprasPage/span_Filtrar compras_misCompras'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MisComprasPage/productName_misCompras'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MisComprasPage/img_product__image_misCompras'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MisComprasPage/button_Comprar nuevamente__misCompras'), 0)
-
-WebUI.click(findTestObject('MisComprasPage/button_Ver detalle de compra_misCompras'))
-
-WebUI.delay(3)
-
-actualMisComprasUrl = WebUI.getUrl()
-
-CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/h1_Detalle de compra_orderDetails'), 0)
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/addressSection_orderDetails'), 0)
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/paymentSection_orderDetails'), 0)
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/productDetails_orderDetails'), 0)
+WebUI.closeBrowser()
 

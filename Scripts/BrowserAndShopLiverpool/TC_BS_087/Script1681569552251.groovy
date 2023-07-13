@@ -23,12 +23,22 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpBTParentSLGifts2], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpWithSingleVariantWith2Gifts], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
 WebUI.click(findTestObject('pdp/AddToCart_pdp'))
 
-WebUI.verifyElementPresent(findTestObject('pdp/addedProductSuccessMessage_pdp'), 0)
+WebUI.click(findTestObject('pdp/giftAddProduct_PDP'))
+
+WebUI.delay(5)
+
+<<<<<<< HEAD
+WebUI.verifyElementPresent(findTestObject('0PDPPage/AddedToCart_alert_message_PDP'), 0)
+=======
+WebUI.verifyElementPresent(findTestObject('1vedant/PDP/AddedToCart_alert_message_PDP'), 0)
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
 

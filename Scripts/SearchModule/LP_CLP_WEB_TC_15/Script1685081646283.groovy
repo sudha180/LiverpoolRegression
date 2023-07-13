@@ -21,9 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
+WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
+WebUI.mouseOver(findTestObject('01HomePage/CategorasDropDown_HP'))
+
+WebUI.click(findTestObject('01HomePage/L1_Category1_HP'))
 
 WebUI.scrollToPosition(0, 500)
 

@@ -28,9 +28,11 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('pdp/colorSelectedOnLoad_pdp'), 0)
-
+<<<<<<< HEAD
+WebUI.verifyElementNotPresent(findTestObject('0PDPPage/Size2_PDP'), 0)
+=======
 WebUI.verifyElementNotPresent(findTestObject('1vedant/PDP/Size2_PDP'), 0)
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
 
 WebUI.verifyElementPresent(findTestObject('pdp/gwpGiftDropdown_pdp'), 0)
 

@@ -21,13 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-not_run: WebUI.click(findTestObject('HomePageShubhum/Categoras_hp'))
+<<<<<<< HEAD
+WebUI.click(findTestObject('01HomePage/CategorasDropDown_HP'))
 
-not_run: WebUI.click(findTestObject('HomePageShubhum/L1_hp'))
+WebUI.click(findTestObject('01HomePage/L1_Category1_HP'))
+=======
+WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
 
-not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
@@ -35,9 +37,7 @@ WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 
 WebUI.click(findTestObject('HomePageShubhum/FirstProduct_plp'))
 
-not_run: WebUI.click(findTestObject('PLPPage/product_Link_plp'))
-
-WebUI.click(findTestObject('pdp/Share_pdp'))
+WebUI.enhancedClick(findTestObject('pdp/Share_pdp'))
 
 WebUI.click(findTestObject('PLPPage/Link_1'))
 
@@ -46,8 +46,6 @@ WebUI.click(findTestObject('Object Repository/pdp/Social_Media_pdp'))
 WebUI.switchToWindowTitle('Facebook')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/Social_Link_pdp'), 0)
-
-WebUI.switchToWindowTitle('')
 
 WebUI.closeBrowser()
 

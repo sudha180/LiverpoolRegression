@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/CreateAccount_Account'), 0)
 

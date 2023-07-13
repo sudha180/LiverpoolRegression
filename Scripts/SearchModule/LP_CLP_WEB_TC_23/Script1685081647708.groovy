@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
+WebUI.mouseOver(findTestObject('01HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('1HomePage/L1_Category5_HP'))
+WebUI.click(findTestObject('01HomePage/L1_Category5_HP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory1_leftmenu_CLP'))
 

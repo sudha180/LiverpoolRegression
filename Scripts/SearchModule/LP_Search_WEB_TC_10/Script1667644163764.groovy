@@ -31,7 +31,7 @@ WebUI.verifyElementPresent(findTestObject('1SRP page/categoryNameInTypeahead'), 
 
 WebUI.verifyElementPresent(findTestObject('1SRP page/searchTerm2_TypeAhead'), 0)
 
-WebUI.click(findTestObject('1HomePage/searchButtton_HP'))
+WebUI.click(findTestObject('01HomePage/searchButtton_HP'))
 
 WebUI.closeBrowser()
 

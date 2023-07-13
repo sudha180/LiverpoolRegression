@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('AccountManagement/ForgotPassword_Account'), FailureHandling.STOP_ON_FAILURE)
 

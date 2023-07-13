@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
+WebUI.mouseOver(findTestObject('01HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('1HomePage/L1_category_18_HP'))
+WebUI.click(findTestObject('01HomePage/L1_category_18_HP'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/assert_L1_CLP'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -31,5 +31,31 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.delay(5)
 
+<<<<<<< HEAD
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
+=======
+<<<<<<< Updated upstream:Scripts/BrowserAndShopLiverpool/TC_BS_154/Script1686540295991.groovy
 WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
+=======
+WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
+WebUI.click(findTestObject('1vedant/cart/comprar'))
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
+
+WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'verify selection of paypal\r\n'
+WebUI.verifyElementPresent(findTestObject('Checkout/paypal_image_checkout'), 0)
+
+WebUI.click(findTestObject('1vedant/CheckOut(CO)/final_confirm_order_button_OPC'))
+
+WebUI.verifyElementPresent(findTestObject('Confirmation_page/PayPal_img_confirm_page'), 0)
+
+WebUI.closeBrowser()
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes:Scripts/payment paypal and card/paypal_payment_end_to_end/Script1686325282273.groovy
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
 

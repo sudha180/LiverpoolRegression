@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'lentes'], FailureHandling.STOP_ON_FAILURE)
 
@@ -37,8 +37,7 @@ WebUI.click(findTestObject('pdp/QuntityPlusButton_pdp'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/Quntity_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyQuntity_pdp'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyQuntity_pdp'), 0)
 
 WebUI.closeBrowser()
 

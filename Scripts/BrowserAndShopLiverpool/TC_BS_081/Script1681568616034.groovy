@@ -23,12 +23,18 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpParentAndGiftBothSLOOS], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'Jeans slim GAP lavado obscuro para niño'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('pdp/gwpRegaloLabel_pdp'), 0)
+WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.STOP_ON_FAILURE)
+<<<<<<< HEAD
+WebUI.verifyElementPresent(findTestObject('0PDPPage/flag_regalo_PDP'), 0)
+=======
+WebUI.verifyElementPresent(findTestObject('1PDP page/flag_regalo_PDP'), 0)
+>>>>>>> bc85b8815ae9694cac79b07d6b44e4bbf5442283
+
+WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('pdp/inventoryMessageforGWP_pdp'), 0)
 

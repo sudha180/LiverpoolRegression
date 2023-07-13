@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>em_Verify the details</name>
+   <tag></tag>
+   <elementGuidId>ab79b8c5-1b2b-40d8-a455-0f824cd50320</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/vaasdist-verify/div/vaas-verify/div/vaas-sfa-check-verify/vaas-sfa-check/vaas-container/div/div/slot/div/vaas-sfa-waiting/div/div[3]/div/div/em</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>em</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>2c2ed080-07c6-48d6-9875-b9c31fc56100</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify the details</value>
+      <webElementGuid>9201008d-f759-4ed9-aa61-0848d766e90f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/vaasdist-verify[1]/div[@class=&quot;main&quot;]/vaas-verify[1]/div[1]/vaas-sfa-check-verify[1]/vaas-sfa-check[1]/vaas-container[1]/div[@class=&quot;slds-p-around_large container&quot;]/div[1]/slot[1]/div[@class=&quot;slds-box content&quot;]/vaas-sfa-waiting[1]/div[@class=&quot;slds-border_bottom container&quot;]/div[@class=&quot;side bottom slds-p-left_xx-small&quot;]/div[@class=&quot;transparent fade-in&quot;]/div[@class=&quot;slds-text-body_regular slds-m-left_large slds-m-bottom_xxx-small&quot;]/em[1]</value>
+      <webElementGuid>8f466c95-abf2-4b9a-876b-c0fc611b196d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/vaasdist-verify/div/vaas-verify/div/vaas-sfa-check-verify/vaas-sfa-check/vaas-container/div/div/slot/div/vaas-sfa-waiting/div/div[3]/div/div/em</value>
+      <webElementGuid>3152f0f8-8fbb-4d5f-bfa3-d9a94ca1dd58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify Your Identity'])[1]/following::em[1]</value>
+      <webElementGuid>49b92947-43fc-47cc-a0e4-08649b8b6f04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Didn', &quot;'&quot;, 't receive a notification?')])[1]/preceding::em[1]</value>
+      <webElementGuid>c3ef9004-da49-401e-b999-ca5a8656fe45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Verify the details']/parent::*</value>
+      <webElementGuid>6c4a81eb-8661-4bab-b290-57bc64035da9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//em</value>
+      <webElementGuid>ff8d5bd7-d130-49af-a566-9e60ee35c031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//em[(text() = 'Verify the details' or . = 'Verify the details')]</value>
+      <webElementGuid>3b5cd0ff-c9d1-4a5e-a68a-a47bf769dc0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

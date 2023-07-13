@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('1HomePage/paypalpayment'))
+WebUI.click(findTestObject('01HomePage/paypalpayment'))
 
 WebUI.click(findTestObject('DemoObjects/checkoutpage1/button_Continuar_payment_opc'))
 
@@ -36,4 +36,3 @@ not_run: WebUI.setText(findTestObject('Checkout/paypal-password'), 'cordoba213VK
 not_run: WebUI.click(findTestObject('Checkout/loginbutton_paypal_cop'))
 
 not_run: WebUI.click(findTestObject('Checkout/acceptAndContinue'))
-

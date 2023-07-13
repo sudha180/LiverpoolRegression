@@ -6,12 +6,12 @@
    <elementGuidId>687c5af2-14f4-4646-83e5-3ff567b7d132</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Ver más +')])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.a-desktop__subcategoryMore</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Ver más +')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4d44f05c-9f3e-4fdc-9925-a5b50e68557b</webElementGuid>
+      <webElementGuid>0b70c52d-efe2-48f7-8a7a-8e8a176d02dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-desktop__subcategoryMore</value>
-      <webElementGuid>acbf90a5-f180-46cf-b247-bc0a6cd68464</webElementGuid>
+      <webElementGuid>24860833-1aed-48df-87a5-2bc2ae9e08b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/tienda/home#!</value>
-      <webElementGuid>86cb7b24-ad52-4d6a-8079-670f2e382517</webElementGuid>
+      <webElementGuid>0691510d-679d-4cdf-aab4-0b8d15d3b044</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ver más +</value>
-      <webElementGuid>2b1f5076-c50e-45b9-869e-ad0fe2934133</webElementGuid>
+      <webElementGuid>39bceb67-8912-48c7-b996-206acc7a8230</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CAT610036&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row align-items-top&quot;]/div[@class=&quot;col-lg-8 category-menu&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4 pb-3&quot;]/ul[@class=&quot;m-desktop-subcategory-list&quot;]/li[5]/a[@class=&quot;a-desktop__subcategoryMore&quot;]</value>
-      <webElementGuid>fd622936-a7a0-4e82-b936-803dd4a3ef7e</webElementGuid>
+      <webElementGuid>6571c636-e5a6-47d7-ac33-a4b77887c4a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Ver más +')])[2]</value>
-      <webElementGuid>5f16afda-2cc7-4785-ac9f-479f2627a641</webElementGuid>
+      <webElementGuid>bebdaec8-e10a-4c06-be57-84275f7c458c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tallas Especiales'])[1]/following::a[1]</value>
-      <webElementGuid>5a99a1c9-1b4c-423f-8c8e-bb786b366ebb</webElementGuid>
+      <webElementGuid>86a44724-9517-46b6-bfe0-edda34726637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Blusas'])[1]/following::a[2]</value>
-      <webElementGuid>d0411c93-73dc-4639-9bf9-e379b8a93d9e</webElementGuid>
+      <webElementGuid>c78c6a82-2e4a-476a-b86e-03bb4f46a4a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bolsas &amp; Zapatos'])[1]/preceding::a[1]</value>
-      <webElementGuid>b8a17b79-ae5e-4db8-90d2-1ed51452d0ee</webElementGuid>
+      <webElementGuid>3328dcde-a4ee-4556-b0b3-dd677eec729a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bolsas'])[1]/preceding::a[2]</value>
-      <webElementGuid>4465ee06-2191-46b2-a6bb-43f04567e775</webElementGuid>
+      <webElementGuid>f78820d7-b589-4781-a0e2-eef696d9b637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ver más +']/parent::*</value>
-      <webElementGuid>a3a66e1f-24e1-4c93-809b-c8d1fdc63168</webElementGuid>
+      <webElementGuid>5d5a2867-41f3-4bc1-bbd2-e8345087ae7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/tienda/home#!')])[8]</value>
-      <webElementGuid>6804c7f5-5b1d-459d-bc57-ce235fa97acc</webElementGuid>
+      <webElementGuid>7af3d5a4-3235-439f-9e89-25219c89bf00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[5]/a</value>
-      <webElementGuid>559c037f-41d7-4616-90e5-c17e14156521</webElementGuid>
+      <webElementGuid>f6dba1f5-9ca4-4996-9416-062f21e93651</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/tienda/home#!' and (text() = 'Ver más +' or . = 'Ver más +')]</value>
-      <webElementGuid>ddc414c7-27bd-4788-9fa2-7a1c4a230d0b</webElementGuid>
+      <webElementGuid>7c31bf60-ed5b-41ba-bcef-df4ee358ba73</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

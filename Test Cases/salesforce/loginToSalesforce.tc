@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>loginToSalesforce</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c0560c8-cb36-4c22-9b0c-2fdaf9fbf801</testCaseGuid>
+</TestCaseEntity>

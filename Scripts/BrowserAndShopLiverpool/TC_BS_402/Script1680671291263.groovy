@@ -22,7 +22,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
 
@@ -31,26 +31,20 @@ WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
 for (int i = 0; i < 1000; i += 7) {
-	js.executeScript(('window.scrollTo(0, ' + i) + ')')
+    js.executeScript(('window.scrollTo(0, ' + i) + ')')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductImg_pdp'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductImg_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductName_pdp'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductName_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductPrice_pdp'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductPrice_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductColour_pdp'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductColour_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductPieces_pdp'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductPieces_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductQuantity_pdp'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/pdp/StickyProductQuantity_pdp'), 0)
 
 WebUI.closeBrowser()
 

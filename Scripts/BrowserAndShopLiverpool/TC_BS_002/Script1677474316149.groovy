@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.click(findTestObject('1HomePage/CategorasDropDown_HP'))
+WebUI.click(findTestObject('01HomePage/CategorasDropDown_HP'))
 
 WebUI.click(findTestObject('HomePageShubhum/L1Category_HP'))
 

@@ -23,17 +23,17 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'SCL428499'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product3_Colour1_PDP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product3_Colour1_PDP'), FailureHandling.OPTIONAL)
 
-productName = WebUI.getText(findTestObject('1vedant/PDP/GID collection/SoftLine_product3_title_PDP'))
+productName = WebUI.getText(findTestObject('0PDPPage/GID collection/SoftLine_product3_title_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product3_size1_PDP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product3_size1_PDP'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product3_selectButton_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product3_selectButton_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/AddToCartStickyBar_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/AddToCartStickyBar_PDP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('0PDPPage/Bag_PDP'))
 
 WebUI.verifyElementText(findTestObject('1vedant/cart/product1_name_cart'), productName)
 

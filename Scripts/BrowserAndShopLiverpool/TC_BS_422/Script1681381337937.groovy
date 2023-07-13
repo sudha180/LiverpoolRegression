@@ -28,10 +28,10 @@ WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'Campana'], FailureHa
 'item must have politicas'
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP (1)'))
 
-WebUI.click(findTestObject('Object Repository/1vedant/PDP/Polticas_PDP'))
+WebUI.click(findTestObject('Object Repository/0PDPPage/Polticas_PDP'))
 
 'check for user manual(politicas) present'
-WebUI.verifyElementPresent(findTestObject('Object Repository/1vedant/PDP/politicas_detail_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/0PDPPage/politicas_detail_PDP'), 0)
 
 WebUI.closeBrowser()
 

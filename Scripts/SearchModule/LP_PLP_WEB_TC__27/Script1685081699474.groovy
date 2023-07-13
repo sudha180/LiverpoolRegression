@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.mouseOver(findTestObject('1HomePage/CategorasDropDown_HP'))
+WebUI.mouseOver(findTestObject('01HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('1HomePage/L1_Category1_HP'))
+WebUI.click(findTestObject('01HomePage/L1_Category1_HP'))
 
 WebUI.click(findTestObject('1vedant/CLP/SubCategory2_leftmenu_CLP'))
 
@@ -39,7 +39,7 @@ productName = WebUI.getText(findTestObject('1vedant/PLP/MostViewed_visible_produ
 
 WebUI.click(findTestObject('1vedant/PLP/MostViewed_visible_product1_image_PLP'))
 
-WebUI.verifyElementText(findTestObject('1vedant/PDP/ProductName_PDP'), productName)
+WebUI.verifyElementText(findTestObject('0PDPPage/ProductName_PDP'), productName)
 
 WebUI.closeBrowser()
 

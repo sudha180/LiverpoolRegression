@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[contains(text(),'header__logo')]</value>
+         <value>//img[@class='a-header__logo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

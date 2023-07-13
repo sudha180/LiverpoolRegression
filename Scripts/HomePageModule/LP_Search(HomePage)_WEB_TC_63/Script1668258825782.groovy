@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.mouseOver(findTestObject('Object Repository/HomePageShubhum/Departamentos'))
 
@@ -27,7 +27,7 @@ WebUI.mouseOver(findTestObject('Object Repository/HomePageShubhum/L1Category_HP'
 
 WebUI.mouseOver(findTestObject('Object Repository/HomePageShubhum/l3Category_Flyover_HP'))
 
-WebUI.click(findTestObject('Object Repository/HomePageShubhum/l3Category_Flyover_HP'))
+WebUI.enhancedClick(findTestObject('Object Repository/HomePageShubhum/l3Category_Flyover_HP'))
 
 WebUI.waitForPageLoad(5)
 

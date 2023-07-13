@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('HomePageShubhum/Buscar1'), 'vaso')
 
 not_run: WebUI.waitForElementPresent(findTestObject('HomePageShubhum/typeAheadLeftNav_hp'), 10)
 
-WebUI.verifyElementPresent(findTestObject('1HomePage/typeAheadLeftNav_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('01HomePage/typeAheadLeftNav_hp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Buscar en Categorías'), 0)
 

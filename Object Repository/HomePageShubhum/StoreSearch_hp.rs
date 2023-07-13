@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/div/div[2]/aside/div/div/div/div/button</value>
+         <value>//i[@class='icon-ayuda-buscar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>176475f4-9dbd-4e30-8532-ae44eb143580</webElementGuid>
+      <webElementGuid>1d0deea4-f1ea-4af0-82de-fb870047cebd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-group-text</value>
-      <webElementGuid>d8c13506-6d41-4432-92fd-272dd92ceb21</webElementGuid>
+      <webElementGuid>a6a45607-307a-4f60-b262-b9b0d7bb637d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;container p-0&quot;]/div[@class=&quot;row mt-lg-3 mb-lg-5 mb-0&quot;]/aside[@class=&quot;col-lg-4&quot;]/div[@class=&quot;o-storeLocator-aside d-none d-lg-block&quot;]/div[@class=&quot;m-header__searchBar -storeLocator&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;input-group-append&quot;]/button[@class=&quot;input-group-text&quot;]</value>
-      <webElementGuid>d0ceb711-aca8-497e-8b55-0e3e42e4f45a</webElementGuid>
+      <webElementGuid>2e94ee34-0133-4af8-babb-eef632b69480</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div[2]/aside/div/div/div/div/button</value>
-      <webElementGuid>fcdffe9c-ca9d-440a-b6a7-7e96d7245af1</webElementGuid>
+      <webElementGuid>e631a83d-50da-44cb-bb8b-d890ee98ae73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Busca un Liverpool, Centro comercial o Dutty free'])[1]/following::button[1]</value>
-      <webElementGuid>93181284-ca15-4244-b41f-606eb834c8cb</webElementGuid>
+      <webElementGuid>56f8bc6a-c15c-4972-9632-b604b15520d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiendas'])[2]/following::button[1]</value>
-      <webElementGuid>5fe72585-8ed5-4aeb-b1a2-6823010cb711</webElementGuid>
+      <webElementGuid>3c884366-ab5e-4349-b440-4022e4f9cf05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccione estado'])[1]/preceding::button[1]</value>
-      <webElementGuid>dfe2ffd8-c172-4afe-a869-629df44456fb</webElementGuid>
+      <webElementGuid>11eb0bbd-113c-4030-8eab-a06c3e5fa722</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtrar por tipo de tienda'])[1]/preceding::button[1]</value>
-      <webElementGuid>7dfec6ec-1197-4cc6-a811-63aa4c0e161d</webElementGuid>
+      <webElementGuid>203b1d97-7c94-4889-9da8-0dea5baaff32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//aside/div/div/div/div/button</value>
-      <webElementGuid>3aa5b80e-65f5-4147-a677-191b277077e7</webElementGuid>
+      <webElementGuid>c4067acf-4fa5-467e-8e91-f9b6e3c73699</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

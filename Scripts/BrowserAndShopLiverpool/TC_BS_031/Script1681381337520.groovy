@@ -29,14 +29,14 @@ WebUI.callTestCase(findTestCase('null'), [('searchTerm') : 'vestidos'], FailureH
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/Colour1_PDP'))
+WebUI.click(findTestObject('0PDPPage/Colour1_PDP'))
 
 'this object is only for a perticular product because it use src'
-a = WebUI.getAttribute(findTestObject('1vedant/PDP/imagePresent'), '')
+a = WebUI.getAttribute(findTestObject('0PDPPage/imagePresent'), '')
 
-WebUI.click(findTestObject('1vedant/PDP/Colour2_PDP'))
+WebUI.click(findTestObject('0PDPPage/Colour2_PDP'))
 
-b = WebUI.getAttribute(findTestObject('1vedant/PDP/imagePresent'), '')
+b = WebUI.getAttribute(findTestObject('0PDPPage/imagePresent'), '')
 
 if (a == b) {
     System.out.println('image changed')

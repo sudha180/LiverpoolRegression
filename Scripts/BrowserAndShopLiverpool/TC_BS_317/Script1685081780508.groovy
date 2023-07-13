@@ -25,14 +25,14 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product1_selectButton_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product1_selectButton_PDP'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/SoftLine_product1_SelectionTick(Pink)_PDP - Copy'), 
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/SoftLine_product1_SelectionTick(Pink)_PDP - Copy'), 
     0)
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/StickyBar_product1_close_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/StickyBar_product1_close_PDP'))
 
-WebUI.verifyElementNotPresent(findTestObject('1vedant/PDP/GID collection/SoftLine_product1_SelectionTick(Pink)_PDP - Copy'), 
+WebUI.verifyElementNotPresent(findTestObject('0PDPPage/GID collection/SoftLine_product1_SelectionTick(Pink)_PDP - Copy'), 
     0)
 
 WebUI.closeBrowser()

@@ -21,9 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Iniciar sesión_hp'), 0)
+WebUI.verifyElementPresent(findTestObject('HOME_PAGE/Iniciarsesión_hp'), 0)
 
-WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HOME_PAGE/Iniciarsesión_hp'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('pdp/LoginPage_pdp'), 0)
 

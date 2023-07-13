@@ -25,15 +25,15 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product1_selectButton_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product1_selectButton_PDP'))
 
-price1product = WebUI.getText(findTestObject('1vedant/PDP/GID collection/stickyBarTotalPrice_GID_PDP'), FailureHandling.STOP_ON_FAILURE)
+price1product = WebUI.getText(findTestObject('0PDPPage/GID collection/stickyBarTotalPrice_GID_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 price1 = price1product.replace(',', '').replace('$', '')
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product1_selectButton_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product1_selectButton_PDP'))
 
-price2product = WebUI.getText(findTestObject('1vedant/PDP/GID collection/stickyBarTotalPrice_GID_PDP'), FailureHandling.STOP_ON_FAILURE)
+price2product = WebUI.getText(findTestObject('0PDPPage/GID collection/stickyBarTotalPrice_GID_PDP'), FailureHandling.STOP_ON_FAILURE)
 
 price2 = price2product.replace(',', '').replace('$', '')
 
@@ -41,9 +41,9 @@ if (price2 >= price1) {
     System.out.println('checked price')
 }
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/StickyBarProduct1title_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/StickyBarProduct1title_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/StickyBarProduct1colour_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/StickyBarProduct1colour_PDP'), 0)
 
 WebUI.closeBrowser()
 

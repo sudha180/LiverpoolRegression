@@ -25,15 +25,15 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('1vedant/PLP/product1_PLP'))
 
-WebUI.click(findTestObject('1vedant/PDP/GID collection/SoftLine_product1_selectButton_PDP'))
+WebUI.click(findTestObject('0PDPPage/GID collection/SoftLine_product1_selectButton_PDP'))
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/stickyBarProduct1_GID_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/stickyBarProduct1_GID_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/StickyBar1productQuantity_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/StickyBar1productQuantity_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/StickyBarProduct1title_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/StickyBarProduct1title_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('1vedant/PDP/GID collection/StickyBarProduct1colour_PDP'), 0)
+WebUI.verifyElementPresent(findTestObject('0PDPPage/GID collection/StickyBarProduct1colour_PDP'), 0)
 
 WebUI.closeBrowser()
 
