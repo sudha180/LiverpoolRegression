@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify Logged in User is able to change the password</description>
+   <name>LP_TC_Acc-Mgt_42</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7047174-31a5-42e2-aa04-0cc6d7c93d48</testCaseGuid>
+</TestCaseEntity>

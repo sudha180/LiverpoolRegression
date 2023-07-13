@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify User is able to add and edit the telephone number from my account page</description>
+   <name>LP_TC_Acc-Mgt_39-airtime</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd67d09e-af16-4eb2-9fbb-e2ed485ed16a</testCaseGuid>
+</TestCaseEntity>

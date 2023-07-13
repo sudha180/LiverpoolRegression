@@ -25,6 +25,8 @@ WebUI.verifyElementPresent(findTestObject('HomePageShubhum/Iniciar sesión_hp'),
 
 WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.verifyElementPresent(findTestObject('pdp/LoginPage_pdp'), 0)
 
 WebUI.closeBrowser()

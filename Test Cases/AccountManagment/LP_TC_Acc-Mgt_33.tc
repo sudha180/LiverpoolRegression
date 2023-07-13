@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;To verify the Nombre Corto field validation while adding credit card to the account.
+
+User is able to enter the unique short name in Nombre Corto field
+2. To verify user is able to edit card with same short name in different formats
+3. To verify user is able to enter special charecters in short name field&quot;</description>
+   <name>LP_TC_Acc-Mgt_33</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dce5427e-5af5-46c5-a946-3397716a4f7d</testCaseGuid>
+</TestCaseEntity>

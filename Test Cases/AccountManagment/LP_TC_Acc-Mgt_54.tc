@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify system navigation from the &quot; desco reciber ofertas y  promosions de liverpool &quot; link</description>
+   <name>LP_TC_Acc-Mgt_54</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d3f00e0-448f-423b-b8e2-c8306b8280da</testCaseGuid>
+</TestCaseEntity>

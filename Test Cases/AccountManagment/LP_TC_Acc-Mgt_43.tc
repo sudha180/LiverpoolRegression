@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify validation is happening for all the fields while user resets the password</description>
+   <name>LP_TC_Acc-Mgt_43</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9a2f2fb-39a3-4124-afe7-0fe6bf0f7a40</testCaseGuid>
+</TestCaseEntity>
