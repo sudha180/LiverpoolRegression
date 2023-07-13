@@ -19,36 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpSLwithSingleGift], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/clickMyTarjetasFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+not_run: WebUI.click(findTestObject('AccountManagement/MyCardFromDropdown_Account'))
 
-<<<<<<< Updated upstream:Scripts/BrowserAndShopLiverpool/TC_BS_154/Script1686540295991.groovy
-WebUI.verifyElementPresent(findTestObject('PDPPage/ITRLink_pdp'), 0)
-=======
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('AccountManagement/AddCardButton_Account'))
 
-WebUI.click(findTestObject('1vedant/cart/comprar'))
+WebUI.setText(findTestObject('AccountManagement/CardNickname_Account'), '')
 
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/paymentMethod_change_OPC'))
+WebUI.setText(findTestObject('AccountManagement/CartFullNameUser_Account'), 'test')
 
-WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'verify selection of paypal\r\n'
-WebUI.verifyElementPresent(findTestObject('Checkout/paypal_image_checkout'), 0)
-
-WebUI.click(findTestObject('1vedant/CheckOut(CO)/final_confirm_order_button_OPC'))
-
-WebUI.verifyElementPresent(findTestObject('Confirmation_page/PayPal_img_confirm_page'), 0)
-
-WebUI.closeBrowser()
->>>>>>> Stashed changes:Scripts/payment paypal and card/paypal_payment_end_to_end/Script1686325282273.groovy
+WebUI.verifyElementPresent(findTestObject('1HomePage/errorMessage_shortName_addCard_myAccount'), 0)
 

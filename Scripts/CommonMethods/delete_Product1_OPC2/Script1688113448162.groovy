@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+<<<<<<<< HEAD:Scripts/CommonMethods/delete_Product1_OPC2/Script1688113448162.groovy
 a = WebUI.getText(findTestObject('1vedant/op2/Product1_name_OPC2'))
 
 WebUI.enhancedClick(findTestObject('1vedant/op2/product1_remove_OPC2'), FailureHandling.STOP_ON_FAILURE)
@@ -24,4 +25,15 @@ WebUI.enhancedClick(findTestObject('1vedant/op2/product1_remove_OPC2'), FailureH
 b = WebUI.getText(findTestObject('1vedant/op2/Product1_name_OPC2'))
 
 assert a == b
+========
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL2)
+
+WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+>>>>>>>> 99c43ab47dd3b35d66d4d9694728f5f64d6b02e1:Scripts/checkout/empty/Script1687033550333.groovy
 

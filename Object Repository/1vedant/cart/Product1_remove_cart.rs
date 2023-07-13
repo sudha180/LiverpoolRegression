@@ -10,7 +10,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='a-btn-myBag--elements a-btn--elementsMyBags a_myBag__btnElements--desktop ' and contains(text(),'Eliminar')])[1]</value>
+         <value>(//div[@class='t-myBag__productList']//button[contains(text(),'Eliminar')])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Find_gift_table_GR</name>
+   <name>errorMessage_shortName_addCard_myAccount</name>
    <tag></tag>
-   <elementGuidId>98cb5d36-1fc9-4b51-b990-c726c3b9539b</elementGuidId>
+   <elementGuidId>1b11e1fa-3a59-45f1-b4f1-57e31f237dec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btnPrimary btnExtraLarge']</value>
+         <value>(//p[@class='a-intput-paragraph mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg mdc-text-field-helper-text--persistent'])[1]</value>
       </entry>
       <entry>
-<<<<<<< Updated upstream
-         <key>XPATH</key>
-         <value>(//button[@class='btnPrimary btnExtraLarge'])[1]</value>
-=======
          <key>BASIC</key>
->>>>>>> Stashed changes
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

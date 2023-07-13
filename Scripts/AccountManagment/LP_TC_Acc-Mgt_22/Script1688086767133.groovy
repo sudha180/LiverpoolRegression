@@ -19,27 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL_Product1], 
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PLP/product2_PLP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/clickMyTarjetasFromHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1vedant/PDP/AddToCart_PDP'))
+not_run: WebUI.click(findTestObject('AccountManagement/MyCardFromDropdown_Account'))
 
-WebUI.click(findTestObject('1vedant/PDP/Bag_PDP'))
+WebUI.click(findTestObject('AccountManagement/AddCardButton_Account'))
 
-WebUI.click(findTestObject('1vedant/cart/comprar'))
+WebUI.setText(findTestObject('AccountManagement/CardNickname_Account'), 'ShortName')
 
-WebUI.callTestCase(findTestCase('CommonMethods/cardSelect_card1_CO1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('AccountManagement/CartFullNameUser_Account'), 'test')
 
-'would show if the login user has a default card'
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/CardLast4Digit_OPC'), 0)
+WebUI.setText(findTestObject('AccountManagement/CartFullNameUser_Account'), 'test')
 
-WebUI.verifyElementPresent(findTestObject('1vedant/CheckOut(CO)/card_pink_radiobutton_OPC'), 0)
-
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('1HomePage/errorMessage_shortName_addCard_myAccount'), 0)
 
