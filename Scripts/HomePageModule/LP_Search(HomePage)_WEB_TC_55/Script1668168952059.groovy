@@ -20,7 +20,7 @@ import com.katalon.sudha.GenerateRandomEmail as GenerateRandomEmail
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opwaqab.liverpool.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.click(findTestObject('Object Repository/AccountManagement/Iniciar sesin_hp'), FailureHandling.STOP_ON_FAILURE)
 

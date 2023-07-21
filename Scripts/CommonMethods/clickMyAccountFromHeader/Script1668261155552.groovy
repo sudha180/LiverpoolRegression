@@ -21,5 +21,7 @@ WebUI.click(findTestObject('Object Repository/AccountManagement/span_Hola header
 
 WebUI.click(findTestObject('Object Repository/AccountManagement/a_Mi Cuenta'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/AccountManagement/aside_Mi Cuenta_leftnav_AM'), 0)
 

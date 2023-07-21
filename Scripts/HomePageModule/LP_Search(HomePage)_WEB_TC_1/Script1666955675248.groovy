@@ -19,16 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'), 0)
+WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('HomePageShubhum/primaryBanner_hp'), 0)
+
+WebUI.scrollToPosition(0, 300)
 
 WebUI.verifyElementPresent(findTestObject('HomePageShubhum/SecondaryBanner1_hp'), 0)
 

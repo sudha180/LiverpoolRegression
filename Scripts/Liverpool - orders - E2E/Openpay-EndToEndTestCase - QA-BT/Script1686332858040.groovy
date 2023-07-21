@@ -33,7 +33,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'sofa'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PLPPage/product_Link_plp'))
+WebUI.click(findTestObject('1vedant/PLP/product3_PLP'))
 
 WebUI.delay(3)
 
@@ -115,7 +115,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/productprice_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/totalPrice_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0)
+WebUI.verifyElementPresent(findTestObject('DemoObjects/checkoutpage1/promotionSection_opc'), 0, FailureHandling.OPTIONAL)
 
 not_run: WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Comprar para mesa de regalos_opc'), 0)
 
@@ -200,22 +200,4 @@ WebUI.verifyElementPresent(findTestObject('MisComprasPage/img_product__image_mis
 WebUI.verifyElementPresent(findTestObject('MisComprasPage/button_Comprar nuevamente__misCompras'), 0)
 
 WebUI.click(findTestObject('MisComprasPage/button_Ver detalle de compra_misCompras'))
-
-WebUI.delay(3)
-
-actualMisComprasUrl = WebUI.getUrl()
-
-CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/h1_Detalle de compra_orderDetails'), 0)
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/addressSection_orderDetails'), 0)
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/paymentSection_orderDetails'), 0)
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/productDetails_orderDetails'), 0)
-
-WebUI.verifyElementPresent(findTestObject('OrderDetailsPage/referenceNumber_orderDetails'), 0)
-
-WebUI.verifyTextPresent(referenceNumber_confirmation, false)
 

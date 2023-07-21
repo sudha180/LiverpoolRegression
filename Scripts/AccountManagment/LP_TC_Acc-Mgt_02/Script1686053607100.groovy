@@ -26,6 +26,8 @@ WebUI.click(findTestObject('HomePageShubhum/Iniciar sesión_hp'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.verifyElementPresent(findTestObject('CLP/AfterLogin_hp'), 0)
 
 WebUI.closeBrowser()

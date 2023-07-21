@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@class='a-ProductQty__input pdpDropdwonToClose'])[1]</value>
+         <value>(//input[@id='a-stickyBar__inputQty'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

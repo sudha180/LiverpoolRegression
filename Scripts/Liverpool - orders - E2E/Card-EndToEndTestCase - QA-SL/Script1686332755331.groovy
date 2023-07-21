@@ -79,7 +79,9 @@ not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/PLPPage/breadCrumb_plp'), 0)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'jeans'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('DemoObjects/PLPPage/div_Precios_plp'), 0)
 
@@ -126,6 +128,8 @@ not_run: WebUI.click(findTestObject('PLPPage/goToTop'))
 WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
 
 not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 

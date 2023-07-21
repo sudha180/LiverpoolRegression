@@ -4,14 +4,15 @@
    <description></description>
    <name>SelectAddress2RadioButton_Checkout</name>
    <tag></tag>
-   <elementGuidId>2fa373ec-03c3-4739-b267-891b186fec9c</elementGuidId>
+   <elementGuidId>2850759c-44f4-4087-8d39-db61b30c86f5</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//input[@name='deliveryAddressSelection'])[2]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

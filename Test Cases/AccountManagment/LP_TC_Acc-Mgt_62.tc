@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify system behavior when User clicks on the  “¿Olvidaste tu contraseña??” button  on the login popup.</description>
+   <name>LP_TC_Acc-Mgt_62</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>375274a2-3b20-46ef-91c8-7727f752319e</testCaseGuid>
+</TestCaseEntity>

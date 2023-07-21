@@ -87,6 +87,8 @@ WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
+
 not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 
 not_run: WebUI.verifyElementPresent(findTestObject('PDPPage/breadCrumb_pdp'), 0)

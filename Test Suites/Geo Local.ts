@@ -334,13 +334,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>39044e9d-fb8a-4294-a29a-9c3b44a50071</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Geo Location/TC_GeoLocal_50_Gift</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c57bfb24-45a2-401a-92fd-d8d152e65016</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

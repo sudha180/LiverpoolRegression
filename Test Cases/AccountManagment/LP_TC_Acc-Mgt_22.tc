@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;To verify system throws error message when user leaves blank in 'Fathers name' field while adding Visa card to the account
+
+&quot;</description>
+   <name>LP_TC_Acc-Mgt_22</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50e2dd7d-674a-4718-814d-1bc58ddd7bc9</testCaseGuid>
+</TestCaseEntity>

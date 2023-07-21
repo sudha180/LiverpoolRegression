@@ -33,7 +33,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/clickIniciarSession_Header'), [:]
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : 'UN85@digisprint.com', ('password') : 'Un85@12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'jeans'], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.verifyElementPresent(findTestObject('PLPPage/div_Marcas_plp'), 0)
 
@@ -82,6 +82,8 @@ not_run: WebUI.click(findTestObject('PLPPage/goToTop'))
 WebUI.click(findTestObject('PLPPage/product_Link_plp'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('1vedant/PDP/Size1_PDP'), FailureHandling.OPTIONAL)
 
 not_run: CustomKeywords.'customkeywords.myKeywords.scrollWindow'()
 

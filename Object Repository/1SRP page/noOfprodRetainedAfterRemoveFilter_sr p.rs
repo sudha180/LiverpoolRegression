@@ -6,11 +6,11 @@
    <elementGuidId>7c19467a-ebd4-4d03-96be-2954666c780f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//p[@class='a-plp-results-title']//span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//p[@class='a-plp-results-title']//span[contains(text(),'27')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

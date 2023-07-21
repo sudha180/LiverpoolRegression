@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='md-section-PayMethod']//button)[1]</value>
+         <value>(//div[@class=&quot;col-11 col-lg-6 text-center d-inline-flex&quot;]//button)[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

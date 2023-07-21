@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[@alt='Levis | Liverpool']</value>
+         <value>//img[@alt='Liverpool Logo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

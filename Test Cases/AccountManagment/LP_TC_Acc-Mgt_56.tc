@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify User is a able to edit the details associated with a credit card</description>
+   <name>LP_TC_Acc-Mgt_56</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>687b67c7-88a1-4444-9eec-20c60db99984</testCaseGuid>
+</TestCaseEntity>

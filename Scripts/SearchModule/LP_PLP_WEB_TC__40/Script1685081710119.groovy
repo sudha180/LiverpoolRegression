@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'jeans'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToPosition(0, 500)
+
 'next page (2)'
 WebUI.click(findTestObject('1vedant/PLP/pagenationClickable1_PLP'))
 

@@ -50,4 +50,3 @@ if (FacetClicked == FacetClicked2) {
 WebUI.click(findTestObject('1vedant/PLP/facetes/close_facet_liverpool_PLP'))
 
 WebUI.closeBrowser()
-

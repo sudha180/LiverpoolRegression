@@ -31,15 +31,19 @@ WebUI.scrollToPosition(0, 400)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 0)
 
+A = WebUI.getAttribute(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 'value')
+
 WebUI.verifyElementNotClickable(findTestObject('pdp/qunaityMinua_stickBar_pdp'))
 
 WebUI.verifyElementPresent(findTestObject('pdp/quantityPlus_stickbar_pdp'), 0)
 
 WebUI.enhancedClick(findTestObject('pdp/quantityPlus_stickbar_pdp'), FailureHandling.STOP_ON_FAILURE)
 
-A = WebUI.getAttribute(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 'value')
+B = WebUI.getAttribute(findTestObject('Object Repository/1vedant/PDP/quantity_value_PDP'), 'value')
+System.out.print(A)
+System.out.print(B)
 
-System.out.println(A)
+assert A < B
 
 WebUI.closeBrowser()
 

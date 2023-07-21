@@ -6,11 +6,11 @@
    <elementGuidId>ff2a4c84-d332-4abc-9dff-ba525b7e3826</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='carouselNo-2']​</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@id ='carouselNo-3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>vaasdist-verify_Verify Your IdentityEnter t_6a847d</name>
+   <tag></tag>
+   <elementGuidId>8395e488-7f7d-41a8-8b46-9be29f9ea48a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/vaasdist-verify</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>vaasdist-verify</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>vaasdist-verify</value>
+      <webElementGuid>47dd947e-b94d-47a9-aefe-ea7ef9b7ca5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify Your IdentityEnter the verification code displayed in Salesforce Authenticator.Copy codeAccountSudha RaniVerification CodeThat code is invalid or expired. Try another.CancelVerifyCancel Verification</value>
+      <webElementGuid>a564592a-d19e-42c5-8854-1ec76e3bb1a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/vaasdist-verify[1]</value>
+      <webElementGuid>4650709d-040f-4739-abdf-54208f40a412</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/vaasdist-verify</value>
+      <webElementGuid>87d71df1-8be0-476b-97ab-4fd4f67c15f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//vaasdist-verify</value>
+      <webElementGuid>da7ab1e6-1197-4420-a0c8-3be0a8196468</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//vaasdist-verify[(text() = 'Verify Your IdentityEnter the verification code displayed in Salesforce Authenticator.Copy codeAccountSudha RaniVerification CodeThat code is invalid or expired. Try another.CancelVerifyCancel Verification' or . = 'Verify Your IdentityEnter the verification code displayed in Salesforce Authenticator.Copy codeAccountSudha RaniVerification CodeThat code is invalid or expired. Try another.CancelVerifyCancel Verification')]</value>
+      <webElementGuid>153006bd-f817-4508-865c-87ee8691fde8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

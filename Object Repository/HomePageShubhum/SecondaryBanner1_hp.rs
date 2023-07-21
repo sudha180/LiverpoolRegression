@@ -6,11 +6,11 @@
    <elementGuidId>65f84ce3-8793-4e39-ab88-3497e8044c22</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@name='Secondary Banner 1']​</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@name='Secondary Banner 1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

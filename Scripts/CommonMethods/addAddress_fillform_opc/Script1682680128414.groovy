@@ -18,54 +18,40 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('checkoutpage/shortName_addAddress_opc'), 'sudha')
-
-WebUI.setText(findTestObject('checkoutpage/mothersLastName_addAddress_opc'), 'Test')
-
-WebUI.setText(findTestObject('checkoutpage/postalCode_addAddress_opc'), '12000')
-
-WebUI.setText(findTestObject('checkoutpage/city_addAddress_opc'), 'san fransisco')
+String StoreValue
 
 StoreValue = CustomKeywords.'com.katalon.sudha.GenerateRandomEmail.getRandomText'('Test')
 
-WebUI.setText(findTestObject('checkoutpage/shortName_addAddress_opc'), StoreValue)
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/shortName_addAddress_opc'), StoreValue)
 
-WebUI.setText(findTestObject('checkoutpage/mothersLastName_addAddress_opc'), GlobalVariable.MotherName)
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/mothersLastName_addAddress_opc'), GlobalVariable.MotherName)
 
-WebUI.setText(findTestObject('checkoutpage/postalCode_addAddress_opc'), GlobalVariable.PostalCode)
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/postalCode_addAddress_opc'), GlobalVariable.PostalCode)
 
-WebUI.setText(findTestObject('checkoutpage/city_addAddress_opc'), GlobalVariable.CityAddAddress)
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/city_addAddress_opc'), GlobalVariable.CityAddAddress)
 
-not_run: WebUI.click(findTestObject('checkoutpage/div_SeleccionarOTRA COLONIABARRIO DE LA LUZ_b7213d'))
+not_run: WebUI.click(findTestObject('Object Repository/DemoObjects/checkoutpage/div_SeleccionarOTRA COLONIABARRIO DE LA LUZ_b7213d'))
 
-WebUI.click(findTestObject('checkoutpage/street_addAddress_opc'))
+WebUI.click(findTestObject('Object Repository/DemoObjects/checkoutpage/street_addAddress_opc'))
 
-WebUI.setText(findTestObject('checkoutpage/street_addAddress_opc'), 'Regina Street')
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/street_addAddress_opc'), GlobalVariable.StreetAddAddress)
 
-WebUI.setText(findTestObject('checkoutpage/noExt_addAddress_opc'), '1231232342')
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/noExt_addAddress_opc'), GlobalVariable.NoExtAddAddress)
 
-WebUI.setText(findTestObject('checkoutpage/cellphone_addAddress_opc'), '2343234543')
+WebUI.setText(findTestObject('DemoObjects/checkoutpage/cellphone_addAddress_opc'), GlobalVariable.CellPhoneAddAddress)
 
-WebUI.setText(findTestObject('checkoutpage/LADA_addAddress_opc'), '12')
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/LADA_addAddress_opc'), GlobalVariable.LADAaddAddress)
 
-WebUI.setText(findTestObject('checkoutpage/phone_addAddress_opc'), '34324345')
+WebUI.setText(findTestObject('Object Repository/DemoObjects/checkoutpage/phone_addAddress_opc'), GlobalVariable.phoneAddAddress)
 
-WebUI.setText(findTestObject('checkoutpage/street_addAddress_opc'), GlobalVariable.StreetAddAddress)
-
-WebUI.setText(findTestObject('checkoutpage/noExt_addAddress_opc'), GlobalVariable.NoExtAddAddress)
-
-WebUI.setText(findTestObject('checkoutpage/cellphone_addAddress_opc'), GlobalVariable.CellPhoneAddAddress)
-
-WebUI.setText(findTestObject('checkoutpage/LADA_addAddress_opc'), GlobalVariable.LADAaddAddress)
-
-WebUI.setText(findTestObject('checkoutpage/phone_addAddress_opc'), GlobalVariable.phoneAddAddress)
-
-not_run: WebUI.selectOptionByValue(findTestObject('checkoutpage/select_SeleccionarOTRA COLONIABARRIO DE LA _f31717'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/DemoObjects/checkoutpage/select_SeleccionarOTRA COLONIABARRIO DE LA _f31717'), 
     '0000000000082', true)
 
 WebUI.click(findTestObject('Checkout/CheckBoxAddAddressPopup_Checkout'))
 
 WebUI.click(findTestObject('Checkout/ContinueButtonAddAddress_Checkout'))
+<<<<<<< HEAD
+=======
 
 =======
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -120,3 +106,4 @@ WebUI.click(findTestObject('Checkout/CheckBoxAddAddressPopup_Checkout'))
 
 WebUI.click(findTestObject('Checkout/ContinueButtonAddAddress_Checkout'))
 >>>>>>> Stashed changes
+>>>>>>> 646bb8d80debf91a2e2517ec5e7537844213c0b8

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify User is able to edit the address</description>
+   <name>LP_TC_Acc-Mgt_34</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0493c06-d066-4b12-b967-ae66e3dd4e37</testCaseGuid>
+</TestCaseEntity>
